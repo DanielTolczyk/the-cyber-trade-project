@@ -1,6 +1,6 @@
 # The Cybersecurity Trade Project
 
-> A community-driven framework to restructure cybersecurity into a recognized skilled trade through paid apprenticeships, standardized wage progressions, professional licensure, and underwriter-driven accountability.
+> A community-driven framework to restructure cybersecurity into a recognized skilled trade through paid apprenticeships, standardized wage floors, progressive rotations, professional licensure, and underwriter-driven accountability.
 
 ---
 
@@ -13,49 +13,33 @@ The cybersecurity industry faces an artificial talent crisis driven by broken en
 
 ---
 
-## The Core Pillars
+## The Six Core Pillars
 
-### 1. Standardized Pre-Apprenticeship
-* High-volume, low-cost talent filter embedded into community college IT programs and vocational institutions.
-* Standardized testing on core fundamentals (systems, networking, operating systems, scripting) before employer placement.
-
-### 2. Zero-Tuition, Earn-While-You-Learn Pipeline
-* Direct-hire apprenticeships at $0 tuition with day-one living wages.
-* Classroom instruction (RTI) funded through industry consortiums and recognized apprenticeship programs.
-
-### 3. Progressive Rotations & Enforced Ratios
-* Mandatory documented operational hours across distinct domains (IAM, SOC/IR, Network Defense, Application Security, GRC).
-* Legally enforced Journeyman-to-Apprentice supervision ratios to prevent junior exploitation and ensure senior development.
-
-### 4. Standardized Licensure & Revocation Boards
-* High-privilege production access anchored to verified milestones (repurposing rigorous 5-year peer-reviewed standards like the CISSP as the baseline Journeyman license).
-* Self-regulating professional boards empowered to investigate malpractice and revoke licenses for gross negligence.
-
-### 5. Individual Liability & Right of Refusal
-* Licensed practitioners carry personal professional liability insurance.
-* Legal authority for Master/Journeyman practitioners to formally refuse deployment of non-compliant or compromised systems without corporate retaliation.
-
-### 6. Insurer-Driven Market Adoption
-* Enforcement driven by cyber-insurance underwriting: insurers tie favorable premiums and claim coverage to verifiable licensed labor.
-* Employers benefit from predictable wage scales, steady retention, and federal/state training tax incentives.
+1. [**Pillar I: Standardized Pre-Apprenticeship**](pillars/01_pre-apprenticeship.md) — High-volume, low-cost talent filter embedded into community colleges.
+2. [**Pillar II: The Earn-While-You-Learn Pipeline**](pillars/02_earn-while-learning.md) — Zero-tuition direct employment with graduated living wages.
+3. [**Pillar III: Progressive Rotations & Enforced Ratios**](pillars/03_rotational-pipeline.md) — Mandatory cross-domain rotations and line-of-sight supervision.
+4. [**Pillar IV: Professional Licensure & Self-Regulating Boards**](pillars/04_licensure-and-board.md) — Production sign-offs anchored to gold standards (e.g., CISSP) with malpractice review.
+5. [**Pillar V: Personal Liability & The Right of Technical Refusal**](pillars/05_liability-insurance.md) — Individual liability insurance and statutory protection to refuse unsafe deployments.
+6. [**Pillar VI: The Insurance-Driven Market Catalyst**](pillars/06_insurance-catalyst.md) — Market enforcement driven by underwriting risk tiers and premium incentives.
 
 ---
 
-## Repository Structure
+## Operational Frameworks & Governance
 
-- `pillars/` — Deep-dives into each core pillar
-- `framework/` — Standardized hours, logbooks, and wage matrices
-- `governance/` — Licensure board, ethics code, and transition rules
-- `FAQ.md` — Addressing industry pushback and edge cases
-- `CONTRIBUTING.md` — Guidelines for community contributions
-- `README.md` — Project overview and executive manifesto
+### Framework Specifications
+* [**Wage Scales & Compensation Floors**](framework/wage-scales.md) — Base progression tiers and hazard/sector differentials.
+* [**Specialty Endorsements & Domain Tracks**](framework/specialty-endorsements.md) — MedTech, Cloud, OffSec, and GRC tracks.
+* [**Executive Leadership & The CISO Role**](framework/executive-and-ciso.md) — Distinguishing business management from statutory Master of Record sign-off.
+* [**Velocity, Cloud & Safe Harbor**](framework/velocity-and-cloud.md) — CI/CD pipeline certification, shared responsibility boundaries, and shadow IT protections.
+* [**Universal Logbook Standards**](framework/logbook-standards.md) — Immutable, portable hour logging schema.
+* [**Supervisory Ratios**](framework/supervisory-ratios.md) — On-shift headcount caps for enterprise and MSSP teams.
+* [**Code of Ethics & Refusal Protocols**](framework/ethics-and-refusal.md) — Formal risk non-concurrence and liability transfer mechanics.
 
----
-
-## Contributing
-This framework is an open-source, community-governed effort. We welcome contributions from practitioners, educators, underwriters, and enterprise leaders.
-
-Please review [CONTRIBUTING.md](CONTRIBUTING.md) to submit pull requests, propose domain standard updates, or participate in discussions.
+### Governance & Community
+* [**Industry Transition Plan (Experience Bridge)**](governance/transition-plan.md) — Grandfathering active practitioners and credit for adjacent technical experience.
+* [**National Governance Board Structure**](governance/board-structure.md) — Board composition and regulatory mandates.
+* [**Frequently Asked Questions (FAQ)**](FAQ.md) — Addressing corporate velocity, cloud providers, and small business concerns.
+* [**Contributing Guide**](CONTRIBUTING.md) — How to propose amendments, work-role hours, and new specialty branches.
 
 ---
 
