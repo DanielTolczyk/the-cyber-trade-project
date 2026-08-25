@@ -26,12 +26,12 @@ To eliminate the artificial entry-level talent shortage, eradicate predatory tra
 
 ## Strategic Roadmap & Phased Timeline
 
-| Phase | Horizon | Primary Driver | Key Milestone | Deliverable |
+| Phase | Horizon | Primary Driver | Governance Milestone | Key Deliverable |
 | :--- | :--- | :--- | :--- | :--- |
-| **Phase 0: Underwriting Alignment** | Months 0–6 | Insurers & Actuaries | Underwriter Working Group Formation | Actuarial risk matrix defining verified competencies eligible for premium credits. |
-| **Phase 1: The Pilot Triad** | Months 6–18 | Insurer + Enterprise + Guild | Cohort 0 Launch (10–25 Seats) | Supervised SOC/IR rotation seat time with zero-debt, living-wage step-ups. |
-| **Phase 2: Portability & Standard** | Months 18–36 | Regional Employers & JATCs | First Journeyman Cohort Completes | External hiring and direct hour portability across non-pilot enterprise sponsors. |
-| **Phase 3: National Scale & Compact** | Year 3+ | Multi-Sector Industry & Regulators | National Board & Interstate Compact | Universal multi-tier licensing and statutory safe harbor recognized across underwriters. |
+| **Phase 0: Foundation & Steering** | Months 0–6 | Insurers & Steering Committee | **Provisional Steering Committee Formed** | Actuarial risk matrix & draft trade competency standard. |
+| **Phase 1: Pilot Triad & Guild Charter** | Months 6–18 | Insurer + Enterprise + Guild | **Craft Guild Formally Chartered (Month 6)** | Cohort 0 launch (10–25 seats), pilot JATC training trust, & paid wage step-ups. |
+| **Phase 2: Formal Licensure Board** | Months 18–36 | Regional Employers & JATCs | **National Licensure Board Incorporated (Months 18–24)** | Independent practical challenge exams, digital registry launch, & 5-year legacy bridge. |
+| **Phase 3: National Scale & Compact** | Year 3+ | Multi-Sector Industry & Regulators | **Full Bilateral Governance & Interstate Compact** | Statutory safe harbor, universal reciprocity, and underwriter rate enforcement. |
 
 ---
 
