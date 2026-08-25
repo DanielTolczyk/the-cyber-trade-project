@@ -1,53 +1,65 @@
-# 5-Year Industry Transition Plan & Grandfathering Bridge
+# 10-Year Industry Transition Roadmap & Statutory Compact Horizon
 
-Transitioning cybersecurity from an unregulated commercial credential market into a formal skilled trade requires a stable, multi-year legacy bridge. This document defines the formal incubation timeline, grandfathering mechanisms, and Recognition of Prior Learning (RPL) pathways.
+To transform cybersecurity from an unregulated corporate cost center into a federally recognized skilled trade, the industry requires a realistic, phased transition strategy. 
 
----
-
-## 1. Phased Incubation Timeline & Governance Milestones
-
-| Phase | Horizon | Primary Driver | Governance Milestone | Deliverable |
-| :--- | :--- | :--- | :--- | :--- |
-| **Phase 0: Foundation & Steering** | Months 0–6 | Insurers & Steering Committee | **Provisional Steering Committee Formed** | Actuarial risk matrix & draft trade competency standard. |
-| **Phase 1: Pilot Triad & Guild Charter** | Months 6–18 | Insurer + Enterprise + Guild | **The Cybersecurity Craft Guild Chartered (Month 6)** | Cohort 0 launch (10–25 seats), pilot JATC training trust, & paid wage step-ups. |
-| **Phase 2: Formal Trade Board** | Months 18–36 | Regional Employers & JATCs | **National Cybersecurity Trade Board Incorporated (Months 18–24)** | Independent practical challenge exams, digital registry launch, & 5-year legacy bridge. |
-| **Phase 3: National Scale & Compact** | Year 3+ | Multi-Sector Industry & Regulators | **Full Bilateral Governance & Interstate Compact** | Statutory safe harbor, universal reciprocity, and underwriter rate enforcement. |
+Recognizing that statutory licensing compacts (analogous to the Interstate Medical Licensure Compact or NCEES Professional Engineering standard) require sustained multi-state legislative coordination, this roadmap separates **Voluntary Market Adoption (Years 0–5)** from **Statutory Interstate Codification (Years 5–10)**.
 
 ---
 
-## 2. The 5-Year Legacy Grandfathering Window
+## 1. Phased 10-Year Strategic Horizons
 
-The grandfathering window opens upon the formal incorporation of the **National Cybersecurity Trade Board** (Phase 2) and remains open for exactly **five (5) calendar years**.
-
-### Grandfathering Eligibility Tiers
-* **Journeyman Licensure:**
-  * **Option A (Experience Pathway):** Minimum of five (5) years (10,000 hours) of verified, full-time operational security experience validated via tax records (W-2/1099) or employer runtime attestations.
-  * **Option B (Credential Crosswalk):** Active, good-standing benchmark certification (e.g., CISSP or Board-recognized equivalent) plus three (3) years of verified full-time operational experience.
-* **Master Practitioner (Master of Record) Licensure:**
-  * Minimum of eight (8) years (16,000 hours) of verified senior architectural/operational engineering experience.
-  * Formal peer endorsements from two (2) active senior security leaders or recognized industry authorities.
-  * Clean disciplinary and legal compliance record.
+```
++─────────────────────────────────────────────────────────────────────────────+
+| Phase 1: Private Market Adoption & JATC Pilots (Years 0 – 2)                |
+| • Non-profit Board/Guild incorporation  • JATC pilot cohorts                |
+| • Insurer premium credits               • Grandfathering portfolio audits   |
++─────────────────────────────────────────────────────────────────────────────+
+                                       │
+                                       ▼
++─────────────────────────────────────────────────────────────────────────────+
+| Phase 2: Federal Procurement & Critical Infrastructure (Years 3 – 5)        |
+| • Defense/Federal contractor clauses    • Critical sector adoption (ICS/Med)|
+| • Actuarial loss data published         • Model state compact drafted       |
++─────────────────────────────────────────────────────────────────────────────+
+                                       │
+                                       ▼
++─────────────────────────────────────────────────────────────────────────────+
+| Phase 3: Interstate Compacts & Statutory Safe Harbors (Years 5 – 10)        |
+| • Model bill passed in pilot states     • Interstate compact reaches quorum |
+| • Mandatory sign-off for critical infra • Statutory safe harbor enacted     |
++─────────────────────────────────────────────────────────────────────────────+
+```
 
 ---
 
-## 3. Recognition of Prior Learning (RPL) for Adjacent Tech
+## 2. Phase Breakdown & Milestones
 
-To ensure systems administrators, network engineers, and software developers can transition into cybersecurity without starting from zero, the Board enforces standardized hour credits:
+### Phase 1: Voluntary Market Adoption & JATC Pilots (Years 0 – 2)
+* **Institutional Chartering:** Formal 501(c)(6) incorporation of the National Cybersecurity Trade Board and initial Craft Guild chapters.
+* **JATC Pilot Cohorts:** Launching DOL-registered apprenticeship cohorts in 3–5 regional tech/industrial hubs in partnership with community colleges and employer sponsors.
+* **Actuarial Risk Incentive Program:** Partnering with cyber liability underwriters to grant warranty extensions and premium credits for organizations maintaining compliant Journeyman-to-Apprentice ratios.
+* **Grandfathering Review Windows:** Opening the 24-month structured portfolio evaluation window for experienced practitioners to transition into Journeyman or Master Practitioner tiers.
 
-| Adjacent Role | Max Hour Credit | Applied Rotational Domains | Remaining Trade Requirement |
+### Phase 2: Critical Infrastructure & Procurement Standards (Years 3 – 5)
+* **Federal Procurement Integration:** Introducing preferential procurement scoring in federal defense contracts (FAR/DFARS) for suppliers employing licensed Master Practitioners and maintaining auditable apprentice ratios.
+* **Critical Sector Standardization:** High-reliability industries (ICS/SCADA, MedTech/IoMT, nuclear, defense industrial base) adopt trade sign-off standards into operational safety baselines.
+* **Actuarial Baseline Report:** Publishing the first comprehensive 5-year actuarial study comparing breach frequency and claim severity between trade-staffed vs. unstandardized organizations.
+* **Drafting the Model Compact Legislation:** Partnering with the Council of State Governments (CSG) to draft the **National Cybersecurity Trade Licensure Compact (NCTLC)**.
+
+### Phase 3: Statutory Interstate Compacts & Safe Harbor (Years 5 – 10)
+* **State Legislative Enactment:** Introducing and passing the NCTLC across state legislatures, beginning with a 5-to-10 state founding compact quorum.
+* **Mutual Reciprocity & Mobility:** Full digital multi-state licensure enabling seamless interstate physical and remote deployment of Journeymen and Masters.
+* **Mandatory Master of Record (MoR) Statutory Sign-Off:** Codifying statutory requirements for public utilities, municipal infrastructure, and healthcare networks to maintain a designated MoR.
+* **Affirmative Defense / Statutory Safe Harbor:** State laws establish a legal safe harbor against punitive data-breach damages for enterprises operating under trade compliance and respecting MoR safety sign-offs.
+
+---
+
+## 3. Grandfathering & Legacy Transition Windows
+
+To ensure immediate operational continuity without stranding existing senior professionals:
+
+| Tier | Eligibility Window | Experience Requirement | Evaluation Mechanism |
 | :--- | :--- | :--- | :--- |
-| **Systems Administrator** | **4,000 hrs** (50%) | Infrastructure Hardening & IAM | 4,000 hrs (Defensive Ops / GRC / Specialization) |
-| **Network Engineer** | **4,000 hrs** (50%) | Defensive Ops / Detection & Hardening | 4,000 hrs (IAM / GRC / Specialization) |
-| **DevOps / Software Engineer** | **4,000 hrs** (50%) | Systems Hardening / AppSec | 4,000 hrs (Defensive Ops / IAM / GRC) |
-| **IT Helpdesk / Field Tech** | **2,000 hrs** (25%) | Foundational IT Operations | 6,000 hrs (Core Security Rotations) |
-
----
-
-## 4. Credential Evaluation Clearinghouse
-
-The Board maintains an objective evaluation rubric for legacy commercial certifications to award Related Technical Instruction (RTI) classroom hours:
-
-* **Tier 1 — Comprehensive Operational Benchmarks (Direct Journeyman Credit):** CISSP, OSCP (Offensive Track), or multi-domain GSE.
-* **Tier 2 — Practical Domain Specialists (RTI Coursework Waiver):** CISA, CRISC, GCFA, GCIH, CCSP, AWS/Azure Security Specialists.
-* **Tier 3 — Foundational Knowledge (Pre-Apprenticeship / Year 1 Waiver):** Security+, CySA+, Network+, SSCP.
-* **Brain-Dump Filter:** Credentials consisting purely of unproctored multiple-choice exams without practical labs or verifiable identity proofing receive zero trade hour credit.
+| **Legacy Journeyman Transition** | Open during Years 0 – 3 | 5+ years operational defense (10,000+ verified hrs) | Portfolio review, verified incident history, and trade ethics exam. |
+| **Legacy Master Transition** | Open during Years 0 – 3 | 10+ years operational defense (20,000+ verified hrs) | Oral board defense, reference audits, and safety sign-off assessment. |
+| **Post-Transition Standard** | Year 4 onwards | Standard 8,000 / 12,000 hr trade tracks | Universal Logbook telemetry + Practical Challenge Examination. |

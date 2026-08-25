@@ -20,7 +20,26 @@ Apprentice compensation is tied directly to the **Regional Journeyman Prevailing
 
 ---
 
-## 2. Master Practitioner vs. Designated Master of Record (MoR)
+## 2. High-Risk Specialty Endorsement Differentials
+
+Practitioners holding accredited **Specialty Endorsements** operating in hazardous, high-liability, or mission-critical engineering domains receive mandatory hourly wage percentage adders above the baseline Journeyman/Master rate.
+
+These differentials reflect heightened technical complexity, regulatory scrutiny, and individual exposure:
+
+| Specialty Track | Code | Baseline Adder (% above RJPB) | Operational Justification & Risk Environment |
+| :--- | :--- | :--- | :--- |
+| **ICS / OT / SCADA Defense** | `SE-ICS` | **+20% to +25%** | Life-safety critical infrastructure, physical plant environments, NERC CIP, and industrial safety interlocks. |
+| **MedTech & Clinical IoMT** | `SE-MED` | **+20% to +25%** | FDA 524B compliance, connected patient-care devices, clinical networks, and direct patient safety risks. |
+| **Digital Forensics & Incident Response (DFIR)** | `SE-DFIR` | **+15% to +20%** | Chain of custody preservation, sworn expert testimony exposure, active threat containment, and high-stress surge response. |
+| **Offensive Security & Red Teaming** | `SE-OFF` | **+15% to +20%** | Live exploit simulation, zero-day research, safety-constrained adversary emulation, and high-privilege risk environments. |
+| **Cloud Architecture & IAM Hardening** | `SE-CLD` | **+10% to +15%** | Multi-cloud control-plane hardening, automated supply-chain governance, and hyper-scale blast radius mitigation. |
+| **AI / ML Security Assurance** | `SE-AIML` | **+15% to +20%** | Adversarial robustness testing, model inversion defense, prompt-injection guardrailing, and autonomous pipeline verification. |
+
+> **Stacking Rule:** When an active practitioner holds multiple active endorsements, primary domain adders apply at 100%, and secondary endorsements apply at 50% value (capped at a maximum combined specialty ceiling of +35% above the baseline RJPB).
+
+---
+
+## 3. Master Practitioner vs. Designated Master of Record (MoR)
 
 To maintain clarity between personal credentials and legal accountability:
 
@@ -29,7 +48,7 @@ To maintain clarity between personal credentials and legal accountability:
 
 ---
 
-## 3. Cost-of-Living Indexing (COLI) & Geographic Tiers
+## 4. Cost-of-Living Indexing (COLI) & Geographic Tiers
 
 The Regional Journeyman Prevailing Benchmark is calculated across localized economic zones to ensure real living wages:
 
@@ -39,7 +58,7 @@ The Regional Journeyman Prevailing Benchmark is calculated across localized econ
 
 ---
 
-## 4. Operational Hazard Differentials & On-Call Surge Pay
+## 5. Operational Hazard Differentials & On-Call Surge Pay
 
 Frontline defensive operations require round-the-clock uptime and intense cognitive focus. The trade enforces standard shift differentials and incident response surcharges:
 

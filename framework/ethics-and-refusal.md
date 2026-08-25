@@ -1,30 +1,76 @@
-# Code of Ethics & Formal Refusal Protocol
+# Ethical Canons, Technical Refusal & The Master of Record Liability Shield
 
-The trade framework empowers practitioners to prioritize public safety, data integrity, and statutory compliance over corporate expedience, providing clear legal protections when refusing to deploy substandard systems.
-
----
-
-## 1. Core Ethical Tenets
-1. **Protection of Public Trust & Life-Safety:** Prioritize the security, data privacy, and physical safety of users and critical infrastructure above commercial convenience.
-2. **Duty of Candor:** Provide complete, unvarnished risk assessments to leadership without obscuring known vulnerabilities or technical debt.
-3. **Refusal of Substandard Systems:** Refuse to deploy, certify, or sign off on systems known to violate baseline security standards or statutory mandates.
-4. **Continuous Competence:** Maintain active mastery of evolving threat landscapes, defensive engineering, and regulatory frameworks.
+Professional accountability requires that licensed practitioners possess both the ethical obligation and the legal protection to uphold system integrity. This standard establishes the **Right of Technical Refusal**, the execution parameters for a **Notice of Safety Non-Concurrence**, and the liability transfer mechanics that protect frontline engineering personnel.
 
 ---
 
-## 2. The Formal Refusal Workflow
+## 1. Ethical Canons of the Trade
 
-1. **Unsafe Directive Issued:** An instruction is received to bypass controls, push non-compliant architectures, or deploy unsafe infrastructure.
-2. **Informal Technical Consultation:** The practitioner presents a technical risk analysis and provides an alternative, compliant remediation path.
-3. **Formal Notice of Non-Concurrence:** If the unsafe directive stands, the licensed engineer files an official written Notice of Non-Concurrence. Copies are delivered to the Authorizing Officer, CISO, and Corporate Compliance, and permanently recorded in the enterprise risk register.
-4. **Resolution Paths:**
-   * **Remediation:** Leadership adopts the remediation path -> Sign-off proceeds normally.
-   * **Executive Risk Assumption:** An authorized corporate officer executes a formal, written Risk Acceptance -> Operational and regulatory liability shifts entirely from the technical practitioner to the signing officer.
+Every registered Apprentice, Journeyman, and Master Practitioner is bound by four foundational canons:
+
+1. **Primacy of Public Safety & System Integrity:** Safeguard human safety, critical infrastructure, and data integrity above commercial expedience or administrative convenience.
+2. **Objective Engineering Candor:** Provide unvarnished, mathematically sound, and auditable assessments of risk, vulnerabilities, and defensive readiness.
+3. **Guardianship of Competency & Truthful Telemetry:** Never falsify logbook hours, sign off on unverified operational artifacts, or practice beyond accredited domain competencies.
+4. **Protection of Whistleblowers & Ethical Defensibility:** Support peers and subordinates who invoke ethical escalation procedures in good faith.
 
 ---
 
-## 3. Whistleblower & Anti-Retaliation Protections
+## 2. Escalation Hierarchy: Exception Flags vs. Formal Non-Concurrence
 
-* **Statutory Safe Harbor:** A practitioner who files a good-faith Notice of Non-Concurrence is legally protected against termination, demotion, pay reduction, or retaliatory discipline.
-* **Guild Legal Defense Shield:** If an employer retaliates against a member for exercising a lawful refusal, the Craft Guild provides full legal representation and initiates binding arbitration or statutory whistleblower proceedings.
-* **Life-Safety Regulatory Escalation:** If an executive override directly threatens human life or national critical infrastructure (e.g., ICS/SCADA, medical devices, emergency services), the practitioner is legally shielded to escalate the non-concurrence directly to the National Cybersecurity Trade Board and the appropriate federal regulator (e.g., CISA, FDA, NERC).
+To prevent operational deadlocks in agile deployment pipelines while maintaining strict safety controls, the framework establishes a two-tiered escalation process:
+
+```
++─────────────────────────────────────────────────────────────+
+| Tier 1: Operational Exception Flag                          |
+| • Invoked by: Apprentices or Journeymen                     |
+| • Scope: Internal escalation of technical debt/risk         |
+| • Action: Triggers internal peer review; pipeline continues |
++─────────────────────────────────────────────────────────────+
+                              │
+                              ▼
++─────────────────────────────────────────────────────────────+
+| Tier 2: Notice of Safety Non-Concurrence                    |
+| • Invoked by: Master of Record (MoR) ONLY                   |
+| • Scope: Critical safety, statutory, or integrity violations|
+| • Action: Shifts legal liability to overriding executives   |
++─────────────────────────────────────────────────────────────+
+```
+
+### Tier 1: Operational Exception Flag (Apprentice & Journeyman Level)
+* Any practicing Journeyman or Apprentice may log an **Operational Exception Flag** within internal ticketing systems when software or infrastructure deployments violate trade baselines.
+* This flag serves as an internal dissent record and initiates mandatory review by the designated Master of Record. It does not halt business operations or pipeline execution.
+
+### Tier 2: Notice of Safety Non-Concurrence (Master of Record Exclusivity)
+* A formal **Notice of Safety Non-Concurrence** may be authored and filed **exclusively by a designated Master of Record (MoR)**.
+* The MoR files this instrument when a proposed executive directive, production release, or cost-cutting measure violates statutory minimum baselines, creates severe life-safety risks, or constitutes gross negligence.
+
+---
+
+## 3. The Liability Transfer Mechanism
+
+A Notice of Safety Non-Concurrence does not seize executive authority; rather, it establishes an immutable evidentiary record that **shifts statutory and financial liability**:
+
+1. **Evidentiary Filing:** The MoR submits the formal notice to the enterprise C-suite/Board of Directors and logs the cryptographic hash with the National Cybersecurity Trade Board clearinghouse.
+2. **Executive Risk Assumption:** Corporate executives retain the authority to proceed with the release or deployment, but doing so requires an explicit, signed **Executive Override & Risk Acceptance Form**.
+3. **Statutory Shield:** Once the override is executed, the Master of Record, Journeymen, and Apprentices are fully shielded from professional malpractice, license revocation, and personal liability in the event of a catastrophic failure or regulatory inquiry. Full accountability transfers to the overriding officers.
+
+---
+
+## 4. Tiered Applicability: Critical Infrastructure vs. Commercial Enterprise
+
+The enforcement thresholds for Technical Refusal reflect operational risk contexts:
+
+| Sector Tier | Operational Scope | Non-Concurrence Threshold & Impact |
+| :--- | :--- | :--- |
+| **Tier I: Critical Infrastructure & Life Safety** | ICS/SCADA, Power Grids (NERC CIP), Medical Devices (FDA 524B), Aviation, Defense Systems. | **Mandatory Pre-Deployment Sign-Off:** Releases cannot deploy to production environments without an active MoR sign-off or formal Executive Board Override. |
+| **Tier II: Regulated Enterprise & Financial** | Banking, Payment Processing, Critical PII/Health Repositories (HIPAA, GLBA). | **Advisory Liability Transfer:** Executive leadership may deploy at will; filing transfers direct regulatory reporting liability and invalidates standard insurer safe harbors. |
+| **Tier III: Commercial SaaS & General IT** | General business applications, internal productivity platforms. | **Internal Operational Exception:** Risk acceptance managed via internal governance; MoR filings reserved for deliberate concealment of critical vulnerabilities. |
+
+---
+
+## 5. Whistleblower Protections & Legal Defense
+
+Any licensed practitioner who invokes an Exception Flag or a Master of Record who issues a Notice of Safety Non-Concurrence receives comprehensive protection under trade bylaws:
+
+* **Guild Legal Defense Shield:** Immediate indemnification, specialized legal representation, and living stipends funded through the Craft Guild Defense Trust in the event of retaliatory termination or blacklisting.
+* **Statutory Retaliation Safe Harbor:** Under Model Trade Legislation, retaliating against a licensed practitioner for a good-faith safety refusal constitutes unlawful termination with mandatory punitive damages.

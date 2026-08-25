@@ -18,7 +18,17 @@ This document establishes the roadmap for chartering the Cybersecurity Craft Gui
 
 ---
 
-## 2. Phased Roadmap for Guild Formation
+## 2. Bilateral Joint Governance Accord
+
+To prevent structural gridlock between regulatory standard-setting and instructional delivery:
+
+* **Statutory Board Representation:** The Guild holds two mandatory voting trustee seats on the 11-member National Cybersecurity Trade Board.
+* **The 18-Month Curriculum Notice Rule:** Any change by the Board to practical exam rubrics or competency domains requires an 18-month advance notice window, protecting active apprentice cohorts from mid-stream syllabus invalidation.
+* **Joint Standards Review Committee:** A standing committee of equal Board Examiners and Guild JATC Directors oversees all exam updates before formal adoption.
+
+---
+
+## 3. Phased Roadmap for Guild Formation
 
 ### Phase 1: The Voluntary Professional Association (The Organizing Phase)
 * **Structure:** Formed as a non-profit 501(c)(6) professional craft association.
@@ -37,9 +47,9 @@ This document establishes the roadmap for chartering the Cybersecurity Craft Gui
 
 ---
 
-## 3. Core Governance Pillars of the Guild
+## 4. Core Governance Pillars of the Guild
 
 * **The Joint Apprenticeship & Training Committee (JATC):** Administers Related Technical Instruction (RTI) curricula, operates high-fidelity range simulation facilities, and dispatches vetted apprentices to employer sponsors.
-* **The Legal Defense Shield:** Fully capitalized via member dues and trust contributions. Automatically provides immediate legal counsel and indemnification to any licensed member facing corporate retaliation after filing a formal **Notice of Non-Concurrence**, and represents practitioners during Board malpractice inquiries.
+* **The Legal Defense Shield:** Fully capitalized via member dues and trust contributions. Automatically provides immediate legal counsel and indemnification to any licensed member facing corporate retaliation after filing a formal **Notice of Safety Non-Concurrence**, and represents practitioners during Board malpractice inquiries.
 * **The Portable Benefits Trust (Taft-Hartley):** Pools multi-employer contributions to guarantee comprehensive health insurance, disability coverage, parental leave, and retirement accounts that follow workers across employers without interruption.
 * **The Talent Clearinghouse & Incident Surge Hall:** Allows employers to source pre-vetted, logbook-audited Journeymen and Apprentices directly, eliminating third-party recruiter fees while providing an on-demand surge talent pool for emergency breach recovery.

@@ -1,69 +1,37 @@
-# National Cybersecurity Trade Board Governance Structure
+# National Cybersecurity Trade Board: Charter & Governance Structure
 
-The **National Cybersecurity Trade Board** is an independent, non-profit regulatory and standard-setting authority. Its primary mandate is to protect public safety, ensure engineering integrity across critical digital infrastructure, administer practical competency examinations, and maintain the public registry of licensed practitioners.
-
-> **Foundational Principle:** The National Cybersecurity Trade Board licenses the practitioner and protects public safety; the Craft Guild trains, protects, and represents the workforce.
+The **National Cybersecurity Trade Board** serves as the independent, vendor-neutral standard-setting and regulatory licensure authority for the cybersecurity trade. 
 
 ---
 
-## 1. Provisional Steering Committee (Phase 0–1 Incubation)
+## 1. Statutory Scope & Authority
 
-Prior to the formal incorporation of the independent Board, an interim **Provisional Steering Committee** governs the initial incubation period (Months 0–18).
+The Trade Board functions analogous to state boards of professional engineers, medical licensing bodies, and electrical regulatory commissions:
 
-### Composition & Mandate
-The Steering Committee consists of a balanced coalition of founding industry practitioners, insurance actuaries, vocational educators, and enterprise security leaders. Its core responsibilities include:
-* Facilitating the **Underwriter Working Group** to establish loss-prevention credit rubrics.
-* Approving foundational Related Technical Instruction (RTI) curricula and logbook rubrics for Cohort 0.
-* Drafting formal bylaws, governance charters, and practical examination criteria for the permanent Board.
-
-### Mandatory Sunset Clause
-The Provisional Steering Committee is strictly a transitional vehicle. Upon the formal incorporation of the **National Cybersecurity Trade Board** and launch of the digital registry (Months 18–24), the Steering Committee automatically dissolves, transferring all regulatory, examination, and disciplinary authority to the permanent Board.
+1. **Licensure & Registry:** Issues, audits, suspends, and revokes Apprentice, Journeyman, and Master Practitioner credentials.
+2. **Practical Examination Standards:** Develops, maintains, and scores objective, hands-on, multi-stage practical challenge examinations (eliminating multiple-choice memorization).
+3. **Malpractice Review & Ethics Enforcement:** Investigates ethical breaches, gross negligence, fraudulent logbook telemetry, and enforces disciplinary sanctions.
+4. **Specialty Endorsement Accreditation:** Accredits domain-specific modular tracks (e.g., Cloud, ICS/SCADA, MedTech).
 
 ---
 
-## 2. Permanent Board Composition & Representation
+## 2. Eleven-Member Balanced Board Composition
 
-To prevent commercial vendor capture, academic stagnation, or single-industry bias, the permanent Board operates under a strict multilateral seat distribution:
+To ensure no single special interest, commercial vendor, or corporate lobby captures the regulatory body, the Board maintains a strict 11-member voting quorum:
 
-| Representation Sector | Seat Allocation | Primary Responsibility |
-| :--- | :--- | :--- |
-| **Active Trade Practitioners** | 3 Seats | Master Practitioners representing operational defense, infrastructure, and engineering. |
-| **Enterprise & Critical Infrastructure** | 2 Seats | CISOs or technical leadership from energy, defense, healthcare, or financial sectors. |
-| **Cyber Insurance & Actuarial Risk** | 2 Seats | Underwriters and actuaries aligning trade standards with liability risk reduction. |
-| **Vocational Education & JATC Trusts** | 2 Seats | Curriculum developers and apprenticeship program directors. |
-| **Public Interest & Civil Liberties** | 1 Seat | Legal scholars or privacy advocates protecting public welfare and digital rights. |
-| **State Regulatory Liaisons** | 1 Seat (Ex-Officio) | Non-voting liaison coordinating interstate licensing compacts. |
+* **3 Seats — Active Master Practitioners:** Practicing engineers with 12,000+ verified runtime hours, elected by the licensed trade body.
+* **2 Seats — The Cybersecurity Craft Guild / JATC Trustees:** Designated representatives from vocational training trusts and labor advocacy bodies.
+* **2 Seats — Cyber Insurance Underwriters & Actuaries:** Actuarial and risk underwriting representatives tying safety rubrics to enterprise risk reduction.
+* **2 Seats — Enterprise & Critical Infrastructure CISOs:** Operational leadership managing enterprise defense and regulatory compliance.
+* **1 Seat — Public Safety & Consumer Protection Advocate:** Independent legal or consumer rights representative.
+* **1 Seat — Academic & NIST Standards Liaison:** Non-voting advisory liaison to national standards bodies (NIST NICE / CISA).
 
 ---
 
-## 3. Core Regulatory Authorities
+## 3. Bilateral Governance & The JATC Accord
 
-The Board exercises statutory authority over four primary pillars:
+To eliminate regulatory antagonism and prevent the Board from disrupting active vocational training pipelines:
 
-### 1. Licensure & Practical Examination
-* Administers rigorous, hands-on, multi-hour practical challenge exams for Journeyman and Master of Record credentials.
-* Audits universal digital logbooks and verifies verified on-the-job runtime hours.
-* Evaluates and updates domain rotation standards against evolving threat landscapes.
-
-### 2. The Universal Credential Clearinghouse
-* Maintains the objective evaluation matrix for legacy commercial certifications and adjacent IT experience (Recognition of Prior Learning).
-* Eliminates unproctored, multiple-choice testing as a substitute for verified runtime experience.
-
-### 3. Public Registry & Verification API
-* Operates the public cryptographic registry of all active, suspended, or revoked trade licenses.
-* Provides automated API endpoints for cyber insurance underwriters, enterprise employers, and regulatory bodies to verify staffing compliance.
-
-### 4. Professional Conduct & Malpractice Review
-* Enforces the Trade Code of Ethics.
-* Investigates formal allegations of gross technical negligence, falsification of logbooks, or unauthorized circumvention of security controls.
-* Implements graduated disciplinary actions (Mandatory Remedial Training, License Suspension, or Permanent Revocation).
-
----
-
-## 4. Separation of Powers & Anti-Capture Guardrails
-
-To maintain vendor neutrality and regulatory integrity, the Board adheres to strict structural firewalls:
-
-* **Separation from Training Delivery:** The Board sets examination rubrics and verifies runtime hours, but **never sells training courses, study guides, or preparatory bootcamps**. All training is delivered via independent community colleges, employers, and Guild JATC trusts.
-* **Separation from Collective Bargaining:** The Board maintains zero involvement in wage negotiations, strikes, labor agreements, or legal defense funds—responsibilities held exclusively by the **Cybersecurity Craft Guild**.
-* **Term Limits:** Voting members serve staggered 3-year terms with a maximum limit of two consecutive terms to ensure continuous leadership renewal.
+* **The 18-Month Curriculum Notice Rule:** Any structural change to practical exam rubrics, core domain weightings, or specialty requirements enacted by the Board mandates a minimum 18-month transition runway before taking effect. This guarantees Guild JATC programs can update Related Technical Instruction (RTI) without stranding active apprentice cohorts.
+* **Joint Standards Review Committee:** Exam revisions must pass through a joint standing committee composed equally of Board Examiners and Guild JATC Curriculum Directors before formal ratification.
+* **Appeals & Arbitration:** The Guild holds standing to petition the Board for administrative reviews regarding exam scoring variance, curriculum disputes, or unfair examination prerequisites.
