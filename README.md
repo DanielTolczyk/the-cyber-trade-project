@@ -47,9 +47,10 @@ The current industry model is broken across every tier:
 * [**Code of Ethics & Refusal Protocols**](framework/ethics-and-refusal.md) — Formal risk non-concurrence and liability transfer mechanics.
 
 ### Governance & Community
-* [**Glossary of Terms & Acronyms**](GLOSSARY.md) — Cross-functional definitions for tech, trade, and regulatory terms.
+* [**National Governance Board Structure**](governance/board-structure.md) — Regulatory board composition, exam oversight, and malpractice mandates.
+* [**Guild Formation & Labor Charter**](governance/guild-formation-and-charter.md) — Roadmap for chartering the craft guild, JATC trusts, and separation from the Board.
 * [**Industry Transition Plan (Experience Bridge)**](governance/transition-plan.md) — Grandfathering active practitioners and credit for adjacent technical experience.
-* [**National Governance Board Structure**](governance/board-structure.md) — Board composition and regulatory mandates.
+* [**Glossary of Terms & Acronyms**](GLOSSARY.md) — Cross-functional definitions for tech, trade, and regulatory terms.
 * [**Frequently Asked Questions (FAQ)**](FAQ.md) — Addressing corporate velocity, cloud providers, and small business concerns.
 * [**Contributing Guide**](CONTRIBUTING.md) — How to propose amendments, work-role hours, and new specialty branches.
 
