@@ -24,3 +24,5 @@ No. Licensure regulates administrative privilege and architectural sign-offs ove
 
 ### 8. Doesn't this require launching a dedicated degree or college program first?
 No. In traditional trades, the standard is not dictated by academia; it is dictated by industry safety standards, insurers, and the guild. Academic and vocational institutions serve as training providers for the classroom hours, but the credential itself is earned through verified on-the-job runtime and underwriter-aligned competencies. The demand and certification standards lead; the training providers follow.
+### 8. Doesn't this require launching a dedicated degree or college program first?
+No. In traditional trades, the standard is not dictated by academia; it is dictated by industry safety standards, insurers, and the guild. Academic and vocational institutions serve as training providers for the classroom hours, but the credential itself is earned through verified on-the-job runtime and underwriter-aligned competencies. The demand and certification standards lead; the training providers follow.

@@ -29,7 +29,7 @@
 Practical operational proficiency requires logged, audited hours in live environments—not standardized multiple-choice exams.
 
 ### Pillar 2: The Apprentice-to-Master Progression
-Clear, non-predatory career tiers (Apprentice $\rightarrow$ Journeyman $\rightarrow$ Master) anchored by transparent wage minimums and supervisor sign-offs.
+Clear, non-predatory career tiers (Apprentice → Journeyman → Master) anchored by transparent wage minimums and supervisor sign-offs.
 
 ### Pillar 3: Zero-Debt Vocational Pipelines
 Apprentices earn while they learn. Sponsoring organizations fund technical training as an operational overhead offset by insurance credits.
@@ -50,14 +50,7 @@ Underwriters establish the cyber trade credential as a risk-reduction benchmark,
 
 ## Frequently Asked Questions
 
-### 1. Is Pillar 6 basically a union?
-Pillar 6 establishes a professional guild and collective governance structure—drawing historical parallels to trade guilds, maritime certification boards, and traditional labor frameworks. The objective is standardizing portable credentials, setting verified safety and skill baselines, and establishing transparent wage progression tiers across the industry.
-
-### 2. Why would an enterprise adopt an apprenticeship model over traditional hiring?
-Beyond lowering recruitment churn and training debt, alignment with cyber risk underwriters introduces direct financial incentives (reduced policy premiums and lower liability deductibles) for maintaining a certified, guild-credentialed operational staff.
-
-### 3. Doesn't this require launching a dedicated degree or college program first?
-No. In traditional trades, the standard is not dictated by academia; it is dictated by industry safety standards, insurers, and the guild. Academic and vocational institutions serve as training providers for the classroom hours, but the credential itself is earned through verified on-the-job runtime and underwriter-aligned competencies. The demand and certification standards lead; the training providers follow.
+For detailed explanations regarding governance, economic incentives, operational mechanics, and legal frameworks, see the [Full FAQ](FAQ.md).
 
 ---
 
