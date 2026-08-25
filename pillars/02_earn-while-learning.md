@@ -1,22 +1,25 @@
 # Pillar II: The Earn-While-You-Learn Pipeline
 
-Cybersecurity is an applied engineering and operational trade. It cannot be mastered exclusively through passive classroom lectures or multiple-choice exams. Real-world competence requires immersion in live operating environments under structured mentorship.
+Cybersecurity is an applied engineering and operational discipline. It cannot be mastered exclusively through passive classroom lectures or multiple-choice exams. True operational competence requires immersion in live production environments under structured mentorship.
 
 ---
 
 ## 1. Zero-Tuition, Day-One Direct Employment
-* **$0 Out-of-Pocket Cost:** Once accepted into an employer's apprentice program, the worker pays zero tuition for their technical education.
-* **W-2 Direct Hire:** Apprentices are hired as permanent or term-contract direct employees earning a graduated, living wage from their first day on the job.
-* **No Unpaid Internships:** Unpaid internships and exploitative "free trial" labor are strictly prohibited under the trade standard.
+* **$0 Out-of-Pocket Cost:** Once accepted into an accredited apprenticeship, the worker pays zero tuition for their technical education and receives all necessary tooling, lab access, and study materials free of charge.
+* **W-2 Direct Employment:** Apprentices are hired as direct W-2 employees earning a graduated living wage from their first day on the job.
+* **Prohibition of Unpaid Labor:** Unpaid internships, uncompensated "shadowing," and exploitative trial periods are strictly banned under the trade framework.
+* **Ban on Training Repayment Agreement Provisions (TRAPs):** Employers may not impose debt obligations, tuition clawbacks, or exit penalty fees on apprentices who leave the organization, preserving true labor mobility.
 
 ---
 
-## 2. Related Technical Instruction (RTI)
-* **Structured Split Schedule:** Apprentices split their working hours between on-the-job operational production (typically 80% of time) and formal Related Technical Instruction (20% of time, ~1 day per week or equivalent block release).
-* **Consortium-Funded Education:** RTI is delivered by accredited educational partners (community colleges, technical institutes) and funded collectively through industry training trust funds and Department of Labor (DOL) registered apprenticeship tax credits.
+## 2. Related Technical Instruction (RTI) & Paid Education
+* **The 80/20 Operational Split:** Apprentices divide their time between on-the-job operational learning (80% / 32 hours per week) and formal Related Technical Instruction (20% / 8 hours per week or block releases).
+* **Fully Compensated Classroom Time:** All RTI classroom hours, lab modules, and practical exam sessions are classified as compensable working hours and paid at the apprentice's regular hourly rate.
+* **Consortium-Funded Education:** RTI is delivered by accredited community colleges and JATC training facilities, funded through multi-employer training trusts and registered apprenticeship workforce development subsidies.
 
 ---
 
-## 3. Predictable Economic Progression
-* Wage increases are legally scheduled and tied directly to verified operational hour milestones (every 2,000 hours) and practical competency evaluations.
-* This model provides employers with predictable multi-year labor forecasting and high retention, while guaranteeing workers an upward economic trajectory without predatory debt.
+## 3. Predictable Economic Progression & Retention
+* **Milestone Wage Escalation:** Wage increases are scheduled and enforced every 2,000 operational hours (equivalent to approximately one year of full-time work), progressing predictably from 50% to 85% of the Journeyman Base Floor.
+* **Employer ROI & Retention:** Structured earn-while-you-learn pipelines eliminate costly recruiting churn, allowing employers to build loyal, culturally integrated security talent with predictable multi-year labor forecasting.
+* **Layoff Safe Harbor & JATC Reassignment:** If an employer undergoes downsizing, corporate restructuring, or contract termination, the apprentice's logged hours remain fully preserved, and the JATC clearinghouse facilitates immediate reassignment to a participating partner employer to complete their training.

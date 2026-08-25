@@ -1,53 +1,62 @@
 # Glossary of Terms & Acronyms
 
-This glossary defines key cybersecurity, regulatory, and skilled trade terminology used across the framework to ensure accessibility for software engineers, IT professionals, educators, and enterprise leaders.
+This glossary defines key skilled trade, cybersecurity operational, and regulatory terminology used across the framework to ensure shared clarity among engineers, IT leaders, educators, underwriters, and policy makers.
 
 ---
 
-## 1. Skilled Trade & Labor Terms
+## 1. Skilled Trade, Labor & Governance Terms
 
-* **Apprentice:** An entry-level practitioner engaged in a formal, paid, zero-tuition training program combining on-the-job operational hours with structured classroom instruction.
-* **Craft Guild:** A professional trade association of skilled practitioners focused on training standards, safety enforcement, legal defense, and portable benefits—distinct from industrial factory unions.
-* **JATC (Joint Apprenticeship and Training Committee):** A joint labor-management committee that administers collective training funds, manages educational facilities, and certifies apprenticeship curricula.
-* **Journeyman:** A fully credentialed, licensed practitioner who has completed required field hours (e.g., 8,000 hours) and passed a recognized board examination, granting authority to work independently, sign off on production changes, and supervise apprentices.
-* **Master Practitioner (Master of Record):** A senior technical authority (12,000+ hours) holding statutory sign-off responsibility for architectural integrity, safety-critical systems, and regulatory filings.
-* **Notice of Safety Non-Concurrence:** A formal, auditable written refusal filed by a licensed practitioner against an unsafe directive, transferring civil and regulatory liability to the authorizing executive.
-* **RPL (Recognition of Prior Learning):** The formal mechanism for granting credit toward apprenticeship hours for verified prior experience in adjacent technical fields (e.g., SysAdmin, Software Engineering).
-* **RTI (Related Technical Instruction):** The formal classroom and lab coursework required alongside on-the-job field training in a registered apprenticeship.
-* **Supervisory Ratio:** The legally mandated maximum number of apprentices permitted to work under the direct oversight of a licensed Journeyman on a shift.
-* **Taft-Hartley Trust:** A multi-employer benefit and training trust (established under Section 302(c) of the Labor Management Relations Act) providing portable healthcare, pensions, and educational funding across multiple employers.
+* **Apprentice:** An entry-level practitioner engaged in a formal, paid, zero-tuition training program combining on-the-job operational hours (80%) with structured, paid classroom instruction (20%).
+* **Board (National Cybersecurity Trade Board):** An independent, multilateral regulatory body responsible for public safety, competency standards, practical challenge exams, and professional licensing—strictly separated from labor unions and individual employers.
+* **Craft Guild (Cybersecurity Craft Guild):** A professional association and labor trust focused on workforce training, JATC administration, legal defense, portable benefits, and collective bargaining—distinct from industrial factory-floor unions.
+* **Credential Evaluation Clearinghouse:** A statutory Board entity that audits commercial and academic certifications against open standards (NIST NICE) to award legitimate trade credits while filtering out low-rigor multiple-choice brain dumps.
+* **Dual-Layer Liability Architecture:** The legal framework where enterprise policies absorb corporate breach losses and business interruption, while individual Errors & Omissions (E&O) / malpractice defense protects practitioners during disciplinary inquiries and guarantees safe harbor for good-faith engineering.
+* **Fractional Master of Record:** An independent licensed Master Practitioner retained by small-to-medium businesses (SMBs) to inspect system architectures, review controls, and execute statutory compliance filings without requiring full-time executive payroll.
+* **Interstate Reciprocity Compact:** A multi-state digital compact modeled after professional licensing boards, ensuring trade licenses and logged hours remain fully portable across state borders for remote practitioners.
+* **JATC (Joint Apprenticeship and Training Committee):** A joint labor-management committee operating under Taft-Hartley trust rules that funds facilities, pays instructors, and administers Related Technical Instruction (RTI).
+* **Journeyman:** A fully licensed, independent practitioner who has completed 8,000 verified operational hours and passed a recognized Board benchmark exam, granting authority to deploy production changes, sign off on reviews, and mentor apprentices.
+* **Master Practitioner (Master of Record):** A senior technical and architectural authority (12,000+ verified hours) holding statutory sign-off responsibility for safety-critical systems, root cryptographic ceremonies, and regulatory filings.
+* **Notice of Safety Non-Concurrence:** A formal, timestamped written refusal filed by a licensed practitioner when ordered to execute an unsafe or non-compliant directive. When overridden by an executive in writing, civil, financial, and regulatory liability transfers entirely to the overriding officer.
+* **Pre-Apprenticeship:** An accredited, public vocational on-ramp (embedded in community colleges and high schools) providing zero-tuition foundational training and practical screening before paid dispatch.
+* **RPL (Recognition of Prior Learning):** The formal evaluation mechanism granting trade hour credits (up to 4,000 hours) for documented, prior professional experience in adjacent technical fields (SysAdmin, Network Engineering, DevOps).
+* **RTI (Related Technical Instruction):** The mandatory, paid 20% classroom, lab, and simulation instruction completed alongside on-the-job training.
+* **Safe Harbor:** Statutory and contractual immunity protecting practitioners from personal liability or employer retaliation when performing good-faith engineering, logging vulnerabilities, or exercising technical refusal.
+* **Supervisory Ratio:** The legally enforced ratio (maximum 2 Apprentices per 1 Journeyman on human-in-the-loop operational seats) ensuring line-of-sight mentorship and preventing entry-level labor exploitation.
+* **Taft-Hartley Trust:** A multi-employer trust established under Section 302(c) of the Labor Management Relations Act, pooling employer contributions to provide portable health insurance, pensions, and zero-tuition training funds.
 
 ---
 
 ## 2. Cybersecurity Operational Disciplines
 
-* **AppSec (Application Security):** The discipline of securing software through secure coding practices, vulnerability analysis, and automated code gating.
-* **CI/CD (Continuous Integration / Continuous Deployment):** Automated software delivery pipelines where code changes are tested and deployed automatically to staging and production environments.
-* **CTI (Cyber Threat Intelligence):** The collection, analysis, and dissemination of information regarding adversary tactics, motives, and technical indicators.
-* **DAST (Dynamic Application Security Testing):** Testing an application in its running state from the outside without access to underlying source code.
-* **DFIR (Digital Forensics & Incident Response):** The practice of investigating, containing, and remediating active breaches while legally preserving forensic evidence.
-* **GRC (Governance, Risk, & Compliance):** The umbrella discipline managing organizational cybersecurity risk, policy frameworks, and regulatory audits.
-* **HAZMAT (Hazardous Materials):** A skilled trade parallel used to describe high-consequence containment workflows during active, catastrophic enterprise breach response.
-* **IAM / ICAM (Identity, Credential, & Access Management):** Architectures and protocols managing digital identities, authentication, privileged credentials, and resource authorizations.
-* **IoMT (Internet of Medical Things):** Network-connected medical devices, clinical hardware, and embedded healthcare systems subject to life-safety regulations.
-* **MFA / PAM (Multi-Factor Authentication / Privileged Access Management):** Security mechanisms requiring multiple verification factors and secured vaulting for administrative credentials.
-* **MSSP (Managed Security Service Provider):** Third-party outsourced vendor providing outsourced security monitoring and operations.
-* **OT / ICS / SCADA (Operational Technology / Industrial Control Systems):** Hardware and software that monitor and control physical industrial equipment (e.g., electrical grids, water plants, manufacturing systems).
-* **PKI / HSM (Public Key Infrastructure / Hardware Security Module):** Systems governing digital certificates, cryptographic root authorities, and specialized tamper-proof hardware that protects encryption keys.
-* **SAST (Static Application Security Testing):** Automated analysis of application source code to identify vulnerabilities before compilation or runtime.
-* **SOC (Security Operations Center):** A centralized team and facility responsible for 24/7 monitoring, detection, and real-time response to security telemetry and alerts.
+* **AppSec (Application Security):** Engineering practices, secure design patterns, and automated testing tools that protect software from vulnerabilities across the SDLC.
+* **CI/CD (Continuous Integration / Continuous Deployment):** Automated software delivery pipelines. Under the trade model, automated pipelines and policy-as-code rules are certified by a Master of Record to allow unhindered developer deployment velocity.
+* **CTI (Cyber Threat Intelligence):** The collection, analysis, and dissemination of structured indicators, adversary motivations, and attack vectors (TTPs).
+* **DAST (Dynamic Application Security Testing):** Black-box security testing of running applications to discover real-time execution vulnerabilities.
+* **DFIR (Digital Forensics & Incident Response):** Technical containment, root-cause analysis, and forensic evidence preservation during and following an active breach.
+* **GRC (Governance, Risk, & Compliance):** Operational oversight aligning technical controls with legal statutes, regulatory baselines, and risk management frameworks.
+* **IAM / ICAM (Identity, Credential, & Access Management):** Protocols and systems managing identity lifecycle, authentication (SAML, OIDC, FIDO2), and role-based or attribute-based authorization.
+* **IoMT (Internet of Medical Things):** Connected clinical hardware and embedded medical devices operating under life-safety regulatory requirements.
+* **MFA / PAM (Multi-Factor Authentication / Privileged Access Management):** Controls enforcing multi-factor identity proofing and credential isolation for administrative access.
+* **MSSP (Managed Security Service Provider):** An outsourced operational provider delivering SOC monitoring and managed security services.
+* **OT / ICS / SCADA (Operational Technology / Industrial Control Systems):** Specialized computing hardware and telemetry networks that monitor and control physical industrial processes (power grids, water treatment, manufacturing).
+* **PKI / HSM (Public Key Infrastructure / Hardware Security Module):** Cryptographic root authority hierarchies and tamper-resistant physical appliances protecting enterprise encryption keys.
+* **SAST (Static Application Security Testing):** Automated static code analysis inspecting source repositories for security flaws prior to build execution.
+* **SOC (Security Operations Center):** The centralized operational unit handling 24/7 telemetry monitoring, triage, detection engineering, and incident response.
 
 ---
 
 ## 3. Standards, Certifications & Regulatory Frameworks
 
-* **CISM (Certified Information Security Manager):** An ISACA certification validating enterprise information security governance and risk management.
-* **CISSP (Certified Information Systems Security Professional):** An ISC2 certification requiring 5 years of cumulative experience and peer endorsement across 8 security domains, serving as the benchmark for the Journeyman License.
-* **CRISC (Certified in Risk and Information Systems Control):** An enterprise certification focused on identifying and managing operational and technical risks.
-* **FDA 524B:** Section of the Federal Food, Drug, and Cosmetic Act mandating rigorous cybersecurity lifecycle processes for connected medical devices.
-* **IEC 62443:** International series of standards addressing cybersecurity for operational technology and industrial automation.
-* **NERC-CIP (North American Electric Reliability Corporation - Critical Infrastructure Protection):** Mandatory cybersecurity standards for the North American bulk power grid.
-* **NIST NICE Framework (National Initiative for Cybersecurity Education):** A standardized taxonomy (NIST SP 800-181) mapping cybersecurity work roles, tasks, and knowledge areas.
-* **NIST RMF (Risk Management Framework):** A structured federal process (NIST SP 800-37) integrating security and risk management into system lifecycles.
-* **OSCP (Offensive Security Certified Professional):** A rigorous hands-on practical certification testing real-time penetration testing and exploit execution.
-* **STRIDE / PASTA:** Threat modeling methodologies used to identify potential security design flaws and calculate structural risk profiles.
+* **CISA KEV (Known Exploited Vulnerabilities):** The federal catalog of actively exploited vulnerabilities requiring prioritized remediation under binding operational directives.
+* **CISM (Certified Information Security Manager):** An ISACA credential evaluating enterprise information security governance and risk management.
+* **CISSP (Certified Information Systems Security Professional):** An ISC2 credential requiring 5 years of verified multi-domain experience, serving as the benchmark standard for Generalist Journeyman licensure.
+* **CRISC (Certified in Risk and Information Systems Control):** An ISACA credential focused on enterprise risk identification, assessment, and control design.
+* **FDA Section 524B:** Statutory requirement mandating cybersecurity design baselines and post-market lifecycle management for cyber device submissions.
+* **IEC 62443:** The foundational international consensus standard for cybersecurity across industrial automation and control systems (IACS).
+* **NERC-CIP:** Mandatory reliability and cybersecurity standards protecting North American bulk electric grid assets.
+* **NIST CSF 2.0:** The NIST Cybersecurity Framework organizing defensive practices across Govern, Identify, Protect, Detect, Respond, and Recover functions.
+* **NIST NICE Framework (NIST SP 800-181):** The national standard taxonomy defining cybersecurity work roles, knowledge, skills, and tasks.
+* **NIST RMF (NIST SP 800-37):** The Risk Management Framework guiding the categorization, selection, implementation, assessment, authorization, and monitoring of security controls.
+* **OSCP (Offensive Security Certified Professional):** A hands-on practical exam evaluating real-time network exploitation and penetration testing execution.
+* **STRIDE / PASTA:** Threat modeling frameworks used to categorize vulnerabilities (STRIDE) or align application risks with business objectives (PASTA).
+* **WIOA (Workforce Innovation and Opportunity Act):** Federal workforce development statute providing public grant funding for registered apprenticeships and vocational training.
