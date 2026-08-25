@@ -1,49 +1,48 @@
-# Standardized Wage Floors & Compensation Framework
+# Standardized Wage Scales & Compensation Floors
 
-The trade wage framework establishes a **guaranteed legal and operational compensation floor, not a ceiling**. It eliminates the exploitation of entry-level practitioners, ends arbitrary down-leveling, and sets transparent baseline minimums while preserving uncapped market upside, performance bonuses, equity grants, and over-scale compensation.
-
----
-
-## 1. Baseline Progression Scale (The Wage Floor)
-Percentages are anchored to the regional or national **Journeyman Prevailing Base Floor** (e.g., $110,000 – $130,000 baseline, adjusted for Cost of Living Index / COLI tiers).
-
-| Level | Milestone Requirements | Minimum Wage Floor (% of Journeyman Base) | Scope of Operational Authority |
-| :--- | :--- | :--- | :--- |
-| **Apprentice Tier 1** | Pre-Apprenticeship Exit / Onboarding | **50%** | Foundational triage, basic systems hygiene, supervised provisioning. |
-| **Apprentice Tier 2** | 2,000 Hours + 1st Core Domain Rotation | **65%** | Network defense, identity management, baseline vulnerability scanning. |
-| **Apprentice Tier 3** | 4,000 Hours + 2nd Core Domain Rotation | **75%** | Junior penetration testing, risk assessments, threat model drafting. |
-| **Apprentice Tier 4** | 6,000 Hours + Track Declaration | **85%** | Active incident handling, tool deployment, security control validation. |
-| **Journeyman** | 8,000 Hours + Board Benchmark / Exam | **100% (Baseline Floor)** | Independent production changes, peer sign-off, apprentice supervision. |
-| **Master / Principal**| 12,000+ Hours + Specialty Authority | **135% – 165%+ Floor** | Architectural baseline sign-off, regulatory filings, statutory liability authority. |
+To eradicate the exploitation of entry-level practitioners, eliminate predatory unpaid internships, and establish transparent career progression, the trade enforces a standardized, milestone-based compensation framework.
 
 ---
 
-## 2. Remote Work & Geographic Cost-of-Living (COLI) Standards
-To prevent predatory geographic wage deflation while maintaining economic fairness:
-* **National Base Anchor:** A unified National Base Wage Floor sets the absolute minimum baseline across all jurisdictions.
-* **Tiered COLI Adjustments:** Employers adjust base compensation according to regional metro tiers (e.g., Tier 1 Major Metros +15% to +25%, Tier 2 Mid Metros Base, Tier 3 Low-COLI Base Floor).
-* **Remote Worker Protection:** Remote practitioners are anchored to either their residence locality tier or the employer’s principal operating headquarters tier—whichever is higher.
+## 1. Regional Benchmark & Graduated Wage Steps
+
+Apprentice compensation is tied directly to the **Regional Journeyman Prevailing Benchmark (RJPB)**. As an apprentice accumulates verified on-the-job training (OJT) runtime hours and completes Related Technical Instruction (RTI) milestones, wages increase automatically.
+
+| Classification Tier | Runtime Hours | RTI Milestones | Minimum Wage Floor (% of RJPB) | Typical Scope & Responsibilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **Apprentice Tier 1** | 0 – 2,000 hrs | 144 hrs (Year 1) | **50% of RJPB** | Direct 1:1 supervision; foundational IAM, hygiene, and triage. |
+| **Apprentice Tier 2** | 2,001 – 4,000 hrs | 288 hrs (Year 2) | **60% of RJPB** | SOC Tier 1/2 triage, pipeline scanning, guided system hardening. |
+| **Apprentice Tier 3** | 4,001 – 6,000 hrs | 432 hrs (Year 3) | **70% of RJPB** | Threat hunting, automated response authoring, policy auditing. |
+| **Apprentice Tier 4** | 6,001 – 8,000 hrs | 576 hrs (Year 4) | **80% of RJPB** | Advanced systems hardening, architecture review, exam preparation. |
+| **Licensed Journeyman** | 8,000+ hrs | Trade Exam Passed | **100% of RJPB** | Independent operational execution; direct apprentice supervision (2:1 ratio). |
+| **Master Practitioner** | 12,000+ hrs | Master Portfolio | **135% – 150% of RJPB** | Multi-system architecture review, forensics, specialized defense engineering. |
+| **Designated Master of Record (MoR)** | 12,000+ hrs | Formal Statutory Filing | **150%+ of RJPB (+ Premium)** | Legal sign-off authority, regulatory filing, and individual liability exposure. |
 
 ---
 
-## 3. Sector & Hazard Differentials (High-Consequence Premiums)
-Specialized environments involving human life-safety, operational technology, or national infrastructure mandate percentage differentials above the base rate:
+## 2. Master Practitioner vs. Designated Master of Record (MoR)
 
-* **Life-Safety & Medical Devices (FDA / IoMT):** +20% to +35% minimum differential.
-* **Industrial Control Systems / OT (SCADA, NERC-CIP):** +20% to +30% minimum differential.
-* **National Security / Defense Systems (Clearance Required):** +25% to +35% minimum differential.
-* **Offensive Exploitation & Reverse Engineering:** +25% to +40% minimum differential.
+To maintain clarity between personal credentials and legal accountability:
 
----
-
-## 4. On-Call, Standby & Incident Response Surge Pay
-To combat burnout and ensure fair compensation for unscheduled operational strain:
-* **Standby Stipend:** Mandatory baseline stipend for scheduled on-call availability windows outside standard working hours.
-* **Incident Activation Surge:** Active after-hours triage, active breach response, or emergency break-glass response is compensated at a minimum **1.5x hourly rate equivalent** or compensatory rest time.
+* **Master Practitioner (Individual License Tier):** Represents the highest personal engineering credential in the trade, achieved after 12,000+ verified runtime hours, a clean ethical record, and peer-reviewed defense portfolio evaluation.
+* **Master of Record (Active Statutory Assignment):** The formal operational designation held by a Master Practitioner who serves as the designated technical authority for an enterprise, product line, or critical system. The Master of Record carries statutory sign-off responsibility and is compensated with a statutory responsibility premium to offset heightened personal liability and E&O exposures.
 
 ---
 
-## 5. Market Flexibility, Portability & Fast-Track Advancement
-* **Over-Scale Compensation:** Employers retain full flexibility to offer compensation, bonuses, commissions, and equity packages well above the minimum trade floors to compete for talent.
-* **Merit & Challenge Advancement:** Practitioners who pass Board-approved practical challenge exams advance immediately to the corresponding tier wage floor regardless of time-in-role.
-* **Absolute Wage Portability:** A practitioner’s logged hours and trade tier travel with them across employers, guaranteeing they cannot be down-leveled or paid below their earned trade tier during career transitions.
+## 3. Cost-of-Living Indexing (COLI) & Geographic Tiers
+
+The Regional Journeyman Prevailing Benchmark is calculated across localized economic zones to ensure real living wages:
+
+* **Tier A (High Cost of Living / Major Tech Hubs):** Indexed against metropolitan centers (e.g., SF Bay Area, NYC, Seattle).
+* **Tier B (Standard Metropolitan Areas):** Indexed against regional industrial and tech centers (e.g., Chicago, Austin, Atlanta, Denver).
+* **Tier C (General & Rural Economic Zones):** Standard baseline floor below which no registered trade sponsor may pay.
+
+---
+
+## 4. Operational Hazard Differentials & On-Call Surge Pay
+
+Frontline defensive operations require round-the-clock uptime and intense cognitive focus. The trade enforces standard shift differentials and incident response surcharges:
+
+* **Third-Shift / Overnight Differential:** Minimum +15% hourly premium for sustained nocturnal operations (e.g., 24/7 SOC rotations).
+* **Standby / On-Call Retainer:** Guaranteed base compensation (minimum 2 hours of straight-time pay per 24-hour on-call window) regardless of incident activation.
+* **Active Incident Surge (Major Incident Response):** 1.5× base rate for emergency incident response activations exceeding standard shift hours or scheduled rest windows.
