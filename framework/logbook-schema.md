@@ -8,9 +8,9 @@ To prevent subjective rubber-stamping, eliminate administrative friction, and en
 
 Unlike traditional physical crafts where work is visually inspected on a job site, virtualized cybersecurity operations require a dual-layer verification mechanism combining **objective digital artifacts** with **supervisory cryptographic attestation**.
 
-* **Layer 1: Objective Engineering Artifacts:** The apprentice logs runtime hours linked to verifiable, immutable, or auditable evidence from enterprise workflows or approved simulation lab telemetry.
+* **Layer 1: Objective Engineering Artifacts:** The apprentice logs runtime hours linked to verifiable, immutable, or auditable evidence from enterprise workflows, AI/ML pipelines, or approved simulation lab telemetry.
 * **Layer 2: Supervisory Attestation:** The supervising Journeyman (or Master Practitioner) audits the log entries, validates runtime execution against the trade rubric, and signs the batch submission using their cryptographic Trade Key.
-* **Layer 3: Clearinghouse Registry:** Verification proofs sync to the Universal Trade Clearinghouse and Public Registry API.
+* **Layer 3: Clearinghouse & Actuarial Feeds:** Verification proofs sync to the Universal Trade Clearinghouse for licensure tracking and provide zero-knowledge compliance attestations to insurance underwriters.
 
 ---
 
@@ -68,19 +68,56 @@ All trade logbook tooling and enterprise tracking interfaces must conform to the
 
 ## 3. Approved Telemetry & Artifact Verification Types
 
-To support operational defense across diverse enterprise configurations without violating proprietary non-disclosure agreements (NDAs) or leaking sensitive corporate intellectual property, the schema supports standardized artifact types:
+To support operational defense across traditional infrastructure, cloud control planes, and emerging AI/ML pipelines without violating non-disclosure agreements (NDAs), the schema supports standardized artifact types:
 
-| Artifact Type | Enterprise Production Evidence | Simulation / Cyber Range Evidence |
-| :--- | :--- | :--- |
-| `git_commit_hash` | SHA of merged security baseline, policy-as-code, or rule commit. | SHA of lab infrastructure-as-code repository. |
-| `pipeline_run_hash` | Immutable execution ID of security scanner or build pipeline. | Automated scoring run ID from range platform. |
-| `incident_record_id` | Sanitized ticket ID of triaged or remediated security incident. | Range scenario capture-the-flag (CTF) incident run. |
-| `change_ticket_id` | Enterprise Change Advisory Board (CAB) ticket identifier. | Lab exercise milestone sign-off token. |
-| `rule_hash` | Cryptographic hash of newly authored SIEM, Sigma, or YARA detection rule. | Evaluated detection artifact in isolated test harness. |
+| Artifact Type | Domain Focus | Enterprise Production Evidence | Simulation / Range Evidence |
+| :--- | :--- | :--- | :--- |
+| `git_commit_hash` | General / Cloud / GRC | SHA of merged security baseline, policy-as-code, or rule commit. | SHA of lab infrastructure-as-code repository. |
+| `pipeline_run_hash` | DevSecOps / AppSec | Immutable execution ID of security scanner or build pipeline. | Automated scoring run ID from range platform. |
+| `incident_record_id` | SOC / DFIR | Sanitized ticket ID of triaged or remediated security incident. | Range scenario capture-the-flag (CTF) incident run. |
+| `change_ticket_id` | Core Operations / IAM | Enterprise Change Advisory Board (CAB) ticket identifier. | Lab exercise milestone sign-off token. |
+| `rule_hash` | Threat Detection | Cryptographic hash of authored SIEM, Sigma, or YARA rule. | Evaluated detection artifact in isolated harness. |
+| `model_eval_hash` | AI/ML Security (`SE-AIML`) | Cryptographic hash of adversarial evaluation benchmark run or model card security review. | Evaluated red-team run against model harness. |
+| `guardrail_policy_hash` | AI/ML Security (`SE-AIML`) | SHA of committed prompt-defense, input-filtering, or model-inversion safeguard configuration. | Lab verification token for LLM/agent defense. |
+| `telemetry_export_token` | Data Pipelines (`SE-AIML`) | Hash of signed data sanitization/lineage manifest for fine-tuning pipelines. | Verified data-scrubbing benchmark output. |
 
 ---
 
-## 4. Privacy, NDAs, and Data Sanitization Guardrails
+## 4. Automated Actuarial Feed & Underwriter Attestation API
+
+To operationalize Pillar V and Pillar VII without exposing proprietary corporate data or creating manual audit overhead, the schema supports an automated, zero-knowledge **Actuarial Attestation Feed**:
+
+```json
+{
+  "$schema": "[https://cybertrade.org/schemas/v1/underwriter-attestation.json](https://cybertrade.org/schemas/v1/underwriter-attestation.json)",
+  "attestation_id": "urn:uuid:3c2b1a0e-9f4a-4c28-98e2-0d12e8b9f1a4",
+  "reporting_period": {
+    "start_date": "2026-01-01",
+    "end_date": "2026-06-30"
+  },
+  "organization_identifier": "anon_org_sha256:7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069",
+  "compliance_summary": {
+    "active_master_of_record": true,
+    "mor_trade_id_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "supervisory_ratio_compliance_score": 0.984,
+    "total_verified_ojt_hours": 12480.0,
+    "specialty_endorsements_active": ["SE-ICS", "SE-AIML", "SE-CLD"],
+    "unresolved_safety_non_concurrences": 0
+  },
+  "clearinghouse_signature": {
+    "issued_by": "National Cybersecurity Trade Board Clearinghouse",
+    "signature": "MEQCIG9X...[Clearinghouse Root Key Signature]...",
+    "issued_timestamp": "2026-07-01T00:00:00Z"
+  }
+}
+```
+
+* **Zero-Knowledge Privacy:** Underwriters receive verified cryptographic aggregates (ratio compliance rate, active MoR presence, total supervised hours) without seeing employee identities, raw incident logs, or internal network architecture.
+* **Continuous Rate Gating:** Sponsoring enterprises connect their trade registry instance to underwriter APIs to maintain real-time qualification for Tier A premium credits (25%–35% reductions).
+
+---
+
+## 5. Privacy, NDAs, and Data Sanitization Guardrails
 
 Under no circumstances are proprietary corporate logs, raw payload dumps, customer personally identifiable information (PII), or unredacted enterprise vulnerability findings submitted to the public registry.
 
