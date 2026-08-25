@@ -1,25 +1,31 @@
 ---
 name: Framework Proposal / Amendment
-about: Propose a change to apprentice hours, wage percentages, supervisory ratios, or governance rules.
-title: "[PROPOSAL] "
-labels: ["proposal"]
-assignees: ''
+about: Propose targeted adjustments to apprentice hours, wage progressions, supervisory ratios, or trade governance rules.
+title: "[PROPOSAL]: "
+labels: ["framework-amendment", "needs-triage"]
+assignees: ""
 ---
 
 ### Proposal Summary
-<!-- A concise description of the proposed change. -->
+<!-- A concise summary of the proposed modification or operational adjustment. -->
 
-### Affected Documents
-- [ ] `pillars/`
-- [ ] `framework/`
-- [ ] `governance/`
-- [ ] `README.md` / `glossary.md`
+### Affected Areas & Specifications
+- [ ] `pillars/` (Core Philosophical Pillars)
+- [ ] `framework/` (OJT Rotations, Wage Scales, Supervisory Ratios, Logbooks)
+- [ ] `governance/` (National Board, JATC Charters, Licensure Compacts)
+- [ ] `schema/` or `rfcs/` (JSON-LD Schemas, RFC Templates)
+- [ ] `glossary.md` / Documentation
 
-### Problem Statement & Operational Rationale
-<!-- Explain why the current standard requires adjustment based on real-world enterprise or trade realities. -->
+### Operational Rationale & Field Constraints
+<!-- Explain why the current specification requires adjustment based on real-world enterprise constraints, threat evolutions, or labor dynamics. -->
 
-### Proposed Wording / Changes
-<!-- Provide specific replacement text, formulas, or hour distributions. -->
+### Proposed Changes / Specification Diff
+<!-- Provide specific replacement text, mathematical formulas, wage percentages, or hour reallocations. -->
 
-### Impact on Underwriting, Labor, or Regulatory Standards
-<!-- How does this amendment affect insurer risk credit, JATC apprenticeship pipelines, or statutory safe harbor? -->
+### Actuarial, Labor & Statutory Impact
+<!-- How does this amendment affect underwriter premium discount tiers, JATC apprenticeship standards, apprentice safety ratios, or Master of Record liability? -->
+
+### Alignment with Core Principles
+- [ ] Preserves earn-while-you-learn / zero-tuition pipeline integrity
+- [ ] Maintains enforced line-of-sight supervision (no unsupervised apprentice production sign-offs)
+- [ ] Protects the statutory Notice of Safety Non-Concurrence

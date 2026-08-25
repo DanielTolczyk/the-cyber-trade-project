@@ -1,16 +1,19 @@
 ---
 name: Documentation & Clarification Fix
-about: Report a typo, broken link, ambiguous wording, or formatting bug.
-title: "[DOCS] "
-labels: ["documentation"]
-assignees: ''
+about: Report a typo, broken link, ambiguous wording, or formatting inconsistency.
+title: "[DOCS]: "
+labels: ["documentation", "triage"]
+assignees: ""
 ---
 
 ### Location
-<!-- Specify the file(s) and line number(s) or section. -->
+<!-- Specify the exact file path and section or line number (e.g., framework/rotations.md, Section 2.3). -->
 
 ### Description of Issue
-<!-- What is broken, misspelled, or confusing? -->
+<!-- What is broken, misspelled, ambiguous, or contradictory? -->
 
 ### Suggested Correction
-<!-- Provide the corrected text or link. -->
+<!-- Provide the proposed text replacement, corrected link, or Markdown snippet. -->
+
+### Context / Impact
+<!-- Why does this change improve clarity for apprentices, employers, or board auditors? -->
