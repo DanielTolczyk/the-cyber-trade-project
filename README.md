@@ -47,6 +47,7 @@ The current industry model is broken across every tier:
 * [**Code of Ethics & Refusal Protocols**](framework/ethics-and-refusal.md) — Formal risk non-concurrence and liability transfer mechanics.
 
 ### Governance & Community
+* [**Glossary of Terms & Acronyms**](GLOSSARY.md) — Cross-functional definitions for tech, trade, and regulatory terms.
 * [**Industry Transition Plan (Experience Bridge)**](governance/transition-plan.md) — Grandfathering active practitioners and credit for adjacent technical experience.
 * [**National Governance Board Structure**](governance/board-structure.md) — Board composition and regulatory mandates.
 * [**Frequently Asked Questions (FAQ)**](FAQ.md) — Addressing corporate velocity, cloud providers, and small business concerns.
