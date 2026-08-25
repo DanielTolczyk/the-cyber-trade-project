@@ -31,6 +31,17 @@ To resolve the artificial talent shortage, eliminate predatory bootcamps, and re
 
 ---
 
+## Strategic Roadmap & Phased Timeline
+
+| Phase | Horizon | Primary Driver | Key Milestone | Deliverable |
+| :--- | :--- | :--- | :--- | :--- |
+| **Phase 0: Underwriting Alignment** | Months 0–6 | Insurers & Reinsurers | Underwriter Advisory Working Group | Defined hands-on competencies eligible for premium credits. |
+| **Phase 1: The Pilot Triad** | Months 6–18 | 1 Insurer + 1 Enterprise + Guild | Cohort 0 Launch (5–10 Seats) | Supervised SOC/IR seat time with zero-debt wage step-ups. |
+| **Phase 2: Portability & Standard** | Months 18–36 | Regional Employers | First Journeyman Cohort Completes | External hiring of certified Journeymen across non-pilot enterprises. |
+| **Phase 3: National Scale** | Year 3+ | Multi-Sector Industry | National Guild Governance | Standardized multi-tier licensing recognized across major underwriters. |
+
+---
+
 ## The Problem
 The current industry model is broken across every tier:
 * **The Experience Paradox:** Entry-level postings routinely demand 3–5 years of experience or 4-year degrees, locking out qualified foundational talent.
