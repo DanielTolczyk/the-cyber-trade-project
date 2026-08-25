@@ -12,7 +12,7 @@ Cybersecurity is an applied engineering and operational trade—not an academic 
 
 To eliminate the artificial entry-level talent shortage, eradicate predatory training bootcamps, and restore engineering accountability, cybersecurity must adopt the proven architecture of the skilled trades: **institutional pre-apprenticeships, paid earn-while-you-learn pipelines, progressive domain rotations, personal professional licensure, craft guild protections, and insurance-underwritten standards.**
 
-> **Foundational Principle:** The National Licensure Board licenses the practitioner and protects public safety; the Craft Guild trains, protects, and represents the workforce.
+> **Foundational Principle:** The National Cybersecurity Trade Board licenses the practitioner and protects public safety; the Craft Guild trains, protects, and represents the workforce.
 
 ---
 
@@ -20,7 +20,7 @@ To eliminate the artificial entry-level talent shortage, eradicate predatory tra
 
 * **The Economic Lever:** Cyber liability insurance underwriters tie policy rates, deductibles, and exclusions to verified labor standards, offering preferred premium credits for certified Journeyman staffing ratios.
 * **The Enterprise ROI:** Sponsoring apprenticeship seats becomes cost-neutral or net-positive through insurance premium discounts, federal/state registered apprenticeship tax credits, and zero recruiter placement fees.
-* **The Regulatory Authority:** The National Licensure Board owns the credential standards, practical challenge exams, and malpractice inquiries. Academic institutions and JATC trusts serve as contracted training providers to open trade standards (NIST NICE), eliminating commercial vendor lock-in.
+* **The Regulatory Authority:** The National Cybersecurity Trade Board owns the credential standards, practical challenge exams, and malpractice inquiries. Academic institutions and JATC trusts serve as contracted training providers to open trade standards (NIST NICE), eliminating commercial vendor lock-in.
 
 ---
 
@@ -30,7 +30,7 @@ To eliminate the artificial entry-level talent shortage, eradicate predatory tra
 | :--- | :--- | :--- | :--- | :--- |
 | **Phase 0: Foundation & Steering** | Months 0–6 | Insurers & Steering Committee | **Provisional Steering Committee Formed** | Actuarial risk matrix & draft trade competency standard. |
 | **Phase 1: Pilot Triad & Guild Charter** | Months 6–18 | Insurer + Enterprise + Guild | **Craft Guild Formally Chartered (Month 6)** | Cohort 0 launch (10–25 seats), pilot JATC training trust, & paid wage step-ups. |
-| **Phase 2: Formal Licensure Board** | Months 18–36 | Regional Employers & JATCs | **National Licensure Board Incorporated (Months 18–24)** | Independent practical challenge exams, digital registry launch, & 5-year legacy bridge. |
+| **Phase 2: Formal Trade Board** | Months 18–36 | Regional Employers & JATCs | **National Cybersecurity Trade Board Incorporated (Months 18–24)** | Independent practical challenge exams, digital registry launch, & 5-year legacy bridge. |
 | **Phase 3: National Scale & Compact** | Year 3+ | Multi-Sector Industry & Regulators | **Full Bilateral Governance & Interstate Compact** | Statutory safe harbor, universal reciprocity, and underwriter rate enforcement. |
 
 ---
