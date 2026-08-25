@@ -2,7 +2,6 @@
 
 > Transforming cybersecurity workforce development from an academic-first model into a verified, guild-governed trade.
 
-![Cyber Trade Professional](hero-tradesman.jpg)
 
 ---
 
