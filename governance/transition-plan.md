@@ -1,29 +1,29 @@
 # Industry Transition Plan & Grandfathering Bridge
 
-The transition to a licensed trade must not invalidate active practitioners, disrupt ongoing enterprise operations, or punish self-taught talent. This document outlines the 5-year bridge model for grandfathering, credit for prior learning (RPL), and credential alignment.
+The transition to a licensed trade must not invalidate active practitioners, disrupt ongoing enterprise operations, or punish self-taught talent. This document outlines the 5-year bridge model for grandfathering, credit for prior learning (RPL), and credential evaluation.
 
 ---
 
 ## 1. The 5-Year Dual-Track Transition Timeline
 
-* **Years 1–2 (Voluntary Adoption & Alignment):** Pilot apprenticeship consortiums launch. The Board establishes the registry and begins auditing certifications and logging hours. Existing practitioners register their historical tenure.
+* **Years 1–2 (Voluntary Adoption & Alignment):** Pilot apprenticeship consortiums launch. The Board establishes the registry, initiates the formal evaluation of industry certifications, and begins logging hours. Existing practitioners register their historical tenure.
 * **Years 3–4 (Underwriter Risk Weighting):** Cyber-insurance underwriters begin offering preferential rate discounts for enterprises hitting minimum Journeyman staffing ratios.
 * **Year 5+ (Full Trade Enforcement):** Direct production sign-offs and root administrative controls on insured critical systems require licensed Journeyman supervision or Master of Record sign-off.
 
 ---
 
-## 2. Board Credential Mapping & RTI Credit
+## 2. Illustrative Credential Mapping & RTI Credit
 
-The Board audits established certifications and assigns formal credit toward Related Technical Instruction (RTI) hours and milestone exams:
+> **Important Notice:** The certifications listed in the table below are **strictly non-binding illustrative examples** to show how current industry credentials could align with trade tiers. The Trade Board holds sole statutory authority to conduct formal, rigorous evaluations of all commercial and academic credentials to determine their official tier placement, hour equivalencies, and validity.
 
-| Trade Level / Milestone | Examples of Approved Benchmark Credentials | Trade Credit Applied |
+| Trade Level / Milestone | Illustrative Example Credentials | Potential Trade Credit |
 | :--- | :--- | :--- |
-| **Pre-Apprenticeship / Tier 1** | Security+, Network+, CCNA, GSEC, eJPT | Waives foundational RTI classroom requirements. |
-| **Apprentice Tier 2–3** | CySA+, BTL1, SC-200, AWS/Azure Security Associate | Satisfies specific operational rotation classroom credits. |
-| **Journeyman License Benchmark** | CISSP, CISM, CASP+, or Board Practical Exam | Satisfies Generalist Journeyman educational and milestone requirements. |
-| **Specialty Endorsements** | OSCP/OSEP (OffSec), GCFA/GCFE (DFIR), GICSP (ICS/SCADA), CRISC (GRC) | Fulfills specialized domain endorsement requirements. |
+| **Pre-Apprenticeship / Tier 1** | *Examples: Security+, Network+, CCNA, GSEC, eJPT* | Waives foundational RTI classroom requirements. |
+| **Apprentice Tier 2–3** | *Examples: CySA+, BTL1, SC-200, Cloud Security Associates* | Satisfies specific operational rotation classroom credits. |
+| **Journeyman License Benchmark** | *Examples: CISSP, CISM, CASP+, or Board Practical Challenge Exam* | Satisfies Generalist Journeyman educational and milestone requirements. |
+| **Specialty Endorsements** | *Examples: OSCP/OSEP (OffSec), GCFA/GCFE (DFIR), GICSP (ICS/SCADA), CRISC (GRC)* | Fulfills specialized domain endorsement requirements. |
 
-*Note: Credentials must be active and in good standing with their issuing bodies at the time of trade registration.*
+*Formal evaluation criteria will assess hands-on practical lab rigor, psychometric validity, identity-verified proctoring standards, and ongoing maintenance requirements.*
 
 ---
 
@@ -31,7 +31,7 @@ The Board audits established certifications and assigns formal credit toward Rel
 
 Active security professionals are grandfathered into the system based on verified historical work experience:
 
-* **Direct Journeyman Grandfathering:** 5+ years of verified full-time cybersecurity experience OR holding an approved benchmark credential (e.g., CISSP) grants immediate Journeyman standing upon registration.
+* **Direct Journeyman Grandfathering:** 5+ years of verified full-time cybersecurity experience OR holding a Board-recognized benchmark credential grants immediate Journeyman standing upon registration.
 * **Master Practitioner Grandfathering:** 8+ years of cumulative senior technical/architectural experience with peer endorsement from two active senior practitioners.
 * **Recognition of Prior Learning (RPL) for Adjacent Tech:** System administrators, software engineers, and network engineers receive up to **4,000 hours (50%) credit** toward cybersecurity apprenticeship requirements based on verified past employment.
 
