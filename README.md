@@ -40,7 +40,6 @@ The current industry model is broken across every tier:
 ### Framework Specifications
 * [**Wage Scales & Compensation Floors**](framework/wage-scales.md) — Base progression tiers and hazard/sector differentials.
 * [**Specialty Endorsements & Domain Tracks**](framework/specialty-endorsements.md) — DFIR, ICS/SCADA, MedTech, Cloud, OffSec, ICAM, and GRC tracks.
-* [**Guilds, Labor Trusts & Collective Standards**](framework/guilds-and-collective-bargaining.md) — JATC training funds, legal defense shields, and portable benefits.
 * [**Executive Leadership & The CISO Role**](framework/executive-and-ciso.md) — Distinguishing business management from statutory Master of Record sign-off.
 * [**Velocity, Cloud & Safe Harbor**](framework/velocity-and-cloud.md) — CI/CD pipeline certification, shared responsibility boundaries, and shadow IT protections.
 * [**Universal Logbook Standards**](framework/logbook-standards.md) — Immutable, portable hour logging schema.
