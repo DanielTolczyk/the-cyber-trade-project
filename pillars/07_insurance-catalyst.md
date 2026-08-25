@@ -1,11 +1,11 @@
-# Pillar VI: The Insurance-Driven Market Catalyst
+# Pillar VII: The Insurance-Driven Market Catalyst
 
 Systemic transformation in the private sector cannot rely on slow, reactive government legislation. The trade model is enforced through the economic leverage of cyber-insurance underwriters.
 
 ---
 
 ## 1. Underwriting Risk Stratification
-Cyber-insurance carriers absorb hundreds of millions in breach claims annually due to preventable misconfigurations and untrained personnel. Insurers will enforce the trade framework by tying policy terms directly to labor standards:
+Cyber-insurance carriers absorb hundreds of millions in breach claims annually due to preventable misconfigurations and untrained personnel. Insurers enforce the trade framework by tying policy terms directly to labor standards:
 
 * **Preferred Risk Tier:** Enterprises whose production environments, IAM configurations, and critical infrastructure are managed exclusively by licensed Journeymen, supervised apprentices, and Master-certified architects receive lowest premiums, zero-deductible incentives, and full coverage limits.
 * **Unrated / High-Risk Tier:** Organizations utilizing unverified, unlicensed labor for critical systems face steep premium penalties, mandatory high deductibles, or strict exclusion clauses for claims caused by administrator negligence.
