@@ -1,12 +1,15 @@
-# Pillar IV: Professional Licensure & Self-Regulating Boards
+# Pillar IV: Professional Licensure & Eliminating the Certification Treadmill
 
-Critical digital infrastructure, medical technology, and financial systems carry societal risks equivalent to municipal water supplies, commercial power grids, and civil bridges. Administrative privilege and architectural sign-off over high-consequence systems must require a verified professional license.
+The modern cybersecurity certification market has devolved into an unregulated, commercial pay-to-play ecosystem. Practitioners are forced onto an endless treadmill of expensive multiple-choice exams and recurring annual fees, while newcomers waste thousands chasing ambiguous credentials that offer no guarantee of job readiness. 
+
+Critical digital infrastructure, medical technology, and financial networks require verified professional licensure governed by objective trade standards—not fragmented private vendor marketing.
 
 ---
 
-## 1. The Journeyman License Milestone
-* **The Benchmark:** Rather than creating a redundant bureaucratic credential, the trade standard repurposes rigorous, existing gold-standard evaluations—specifically anchoring to the **CISSP** (or equivalent board-approved examination requiring 5 years of verifiable multi-domain experience and peer endorsement).
-* **Statutory Requirement:** A Journeyman License is legally required to hold root administrative access over production commercial infrastructure, sign off on system readiness reviews, and supervise apprentices.
+## 1. Replacing the Cert Industrial Complex
+* **The Logbook Over Badges:** Instead of collecting dozens of competing commercial certificates, a practitioner's qualifications are proven through an audited digital logbook of verified operational hours under licensed supervision.
+* **Unified Practical Milestones:** Private vendor exams are replaced or standardized under objective, vendor-neutral practical board milestones administered by the Trade Board, eliminating recurring corporate subscription fees and pay-to-play gatekeeping.
+* **The Journeyman Benchmark:** For general licensure, the framework anchors to established, rigorous standards (such as the CISSP or equivalent comprehensive practical board examination requiring 5 years of verified multi-domain experience and peer endorsement).
 
 ---
 
