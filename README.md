@@ -18,20 +18,19 @@ To eliminate the artificial entry-level talent shortage, eradicate predatory tra
 
 ## The Model at a Glance
 
-* **The Economic Lever:** Cyber liability insurance underwriters tie policy rates, deductibles, and exclusions to verified labor standards, offering preferred premium credits for certified Journeyman staffing ratios.
+* **The Economic Lever:** Cyber liability insurance underwriters tie policy rates, deductibles, and exclusions to verified labor standards, offering preferred premium credits for certified Journeyman staffing ratios and active Master of Record sign-offs.
 * **The Enterprise ROI:** Sponsoring apprenticeship seats becomes cost-neutral or net-positive through insurance premium discounts, federal/state registered apprenticeship tax credits, and zero recruiter placement fees.
 * **The Regulatory Authority:** The National Cybersecurity Trade Board owns the credential standards, practical challenge exams, and malpractice inquiries. Academic institutions and JATC trusts serve as contracted training providers to open trade standards (NIST NICE), eliminating commercial vendor lock-in.
 
 ---
 
-## Strategic Roadmap & Phased Timeline
+## Strategic Roadmap & 10-Year Phased Horizon
 
 | Phase | Horizon | Primary Driver | Governance Milestone | Key Deliverable |
 | :--- | :--- | :--- | :--- | :--- |
-| **Phase 0: Foundation & Steering** | Months 0–6 | Insurers & Steering Committee | **Provisional Steering Committee Formed** | Actuarial risk matrix & draft trade competency standard. |
-| **Phase 1: Pilot Triad & Guild Charter** | Months 6–18 | Insurer + Enterprise + Guild | **Craft Guild Formally Chartered (Month 6)** | Cohort 0 launch (10–25 seats), pilot JATC training trust, & paid wage step-ups. |
-| **Phase 2: Formal Trade Board** | Months 18–36 | Regional Employers & JATCs | **National Cybersecurity Trade Board Incorporated (Months 18–24)** | Independent practical challenge exams, digital registry launch, & 5-year legacy bridge. |
-| **Phase 3: National Scale & Compact** | Year 3+ | Multi-Sector Industry & Regulators | **Full Bilateral Governance & Interstate Compact** | Statutory safe harbor, universal reciprocity, and underwriter rate enforcement. |
+| **Phase 1: Market Adoption & JATC Pilots** | Years 0–2 | Insurers + Guild + Employers | **National Board & Guild Chartered** | Cohort 0 launch, DOL-registered JATC trusts, underwriting warranty credits, & 24-mo portfolio bridge. |
+| **Phase 2: Critical Infrastructure & Procurement** | Years 3–5 | Enterprise & Federal Procurement | **FAR/DFARS Procurement Scoring** | Defense contractor clauses, high-reliability adoption (ICS/MedTech), & Model Compact drafting. |
+| **Phase 3: Interstate Compacts & Safe Harbors** | Years 5–10 | Multi-State Legislatures | **National Licensure Compact (NCTLC)** | Statutory interstate reciprocity, mandatory MoR critical infrastructure sign-off, & legal safe harbors. |
 
 ---
 
@@ -62,20 +61,21 @@ The modern cybersecurity employment model is broken across every tier:
 ### Framework Specifications
 * [**Standards, Regulatory Baselines & Compliance**](framework/standards-and-compliance.md) — The building code model (NICE workforce taxonomy, open technical baselines, and legal sign-offs).
 * [**Wage Scales & Compensation Floors**](framework/wage-scales.md) — Milestone progression tiers, COLI standards, hazard differentials, and on-call surge pay.
-* [**Specialty Endorsements & Domain Tracks**](framework/specialty-endorsements.md) — DFIR, ICS/SCADA, MedTech/IoMT, Cloud Security, OffSec, ICAM, and GRC tracks.
+* [**Specialty Endorsements & Domain Tracks**](framework/specialty-endorsements.md) — DFIR, ICS/SCADA, MedTech/IoMT, Cloud Security, OffSec, ICAM, AI/ML, and GRC tracks.
+* [**Contractors, Consulting & The Trade LLC Model**](framework/contractors-and-consulting.md) — 1099/W-2 contractor rules, fractional Master of Record (vMoR) guidelines, and entity licensing.
 * [**Executive Leadership & The CISO Role**](framework/executive-and-ciso.md) — Separating corporate business management from statutory Master of Record technical sign-off.
 * [**Velocity, Cloud & Safe Harbor**](framework/velocity-and-cloud.md) — Certified CI/CD pipeline automation, Cloud Shared Responsibility boundaries, and shadow IT protections.
-* [**Universal Logbook Standards**](framework/logbook-standards.md) — Immutable, portable hour verification and domain tracking schemas.
+* [**Universal Logbook Schema & Telemetry Standard**](framework/logbook-schema.md) — Dual-layer verification, cryptographic commit hashes, AI/ML artifact ingestion, and actuarial feed schemas.
 * [**Supervisory Ratios**](framework/supervisory-ratios.md) — On-shift headcount caps governing direct, human-in-the-loop operational seats.
-* [**Code of Ethics & Refusal Protocols**](framework/ethics-and-refusal.md) — The formal Notice of Safety Non-Concurrence workflow and whistleblower protections.
+* [**Code of Ethics & Refusal Protocols**](framework/ethics-and-refusal.md) — Exception flags, formal Notice of Safety Non-Concurrence workflow, and Master of Record liability transfer.
 
 ### Governance & Community
-* [**National Governance Board Structure**](governance/board-structure.md) — Multilateral board composition, practical challenge exams, and malpractice due process.
-* [**Guild Formation & Labor Charter**](governance/guild-formation-and-charter.md) — Taft-Hartley JATC trusts, legal defense shields, and separation of powers from the Board.
-* [**Industry Transition Plan (Legacy Bridge)**](governance/transition-plan.md) — 5-year grandfathering window, Recognition of Prior Learning (RPL), and credential clearinghouse.
+* [**National Governance Board Structure**](governance/board-structure.md) — 11-member board composition, practical challenge exams, and the 18-month JATC curriculum rule.
+* [**Guild Formation & Labor Charter**](governance/guild-formation-and-charter.md) — Bilateral governance accord, Taft-Hartley JATC trusts, legal defense shields, and portable benefits.
+* [**10-Year Industry Transition Plan**](governance/transition-plan.md) — Phased statutory compact horizon, 24-month portfolio bridge, and National Registry rollout.
 * [**Glossary of Terms & Acronyms**](glossary.md) — Canonical definitions across skilled trade, technical operations, and regulatory frameworks.
 * [**Frequently Asked Questions (FAQ)**](faq.md) — Addressing developer velocity, small business models, cloud providers, and personal liability.
-* [**Contributing Guide**](contributing.md) — Guidelines for submitting proposals, refining hour targets, and maintaining vendor neutrality.
+* [**Contributing Guide**](contributing.md) — Issue templates, proposal workflows, and release cadence policies.
 
 ---
 
@@ -92,7 +92,7 @@ We welcome contributions and pull requests on these active focus areas:
 * **Practitioners & Engineers:** Review the [Specialty Endorsements](framework/specialty-endorsements.md) and open an Issue or PR to refine practical competencies for your domain.
 * **CISOs & Engineering Leaders:** Review [Executive Leadership & The CISO Role](framework/executive-and-ciso.md) to evaluate organizational governance and risk transfer models.
 * **Educators & Vocational Providers:** Help expand the open pre-apprenticeship curriculum specifications in [Pillar I](pillars/01_pre-apprenticeship.md).
-* **Join the Initiative:** Open an Issue tagged `proposal` or submit a pull request following the [Contributing Guidelines](contributing.md).
+* **Join the Initiative:** Open an Issue using our structured [Proposal Templates](.github/ISSUE_TEMPLATE/) or submit a pull request following the [Contributing Guidelines](contributing.md).
 
 ---
 
