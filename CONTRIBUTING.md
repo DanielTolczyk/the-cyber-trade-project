@@ -1,6 +1,6 @@
 # Contributing to The Cybersecurity Trade Project
 
-Thank you for your interest in contributing to the Cybersecurity Trade Project. This initiative is structured as an open-source, vendor-neutral standard to build an accountable, accessible, and rigorous skilled trade framework for the cybersecurity industry.
+Thank you for your interest in contributing to The Cybersecurity Trade Project. This initiative is structured as an open-source, vendor-neutral standard to build an accountable, accessible, and rigorous skilled trade framework for the cybersecurity industry.
 
 ---
 
@@ -14,14 +14,17 @@ Thank you for your interest in contributing to the Cybersecurity Trade Project. 
 
 ## 2. How to Propose Changes
 
-### Minor Revisions & Clarifications
-* For typo corrections, phrasing polish, or markdown formatting fixes, submit a direct **Pull Request** with a concise description of the edit.
+### Ideation & Open Discussion
+* For open-ended questions, brainstorming, or broad philosophical alignment, start a thread in **GitHub Discussions** before opening formal issues.
 
-### Structural Amendments
+### Documentation Fixes & Clarifications
+* For typos, broken internal links, or phrasing clarifications, open an Issue using the **Documentation & Clarification Fix** template (`[DOCS]`) or submit a direct Pull Request.
+
+### Structural Framework Proposals & Amendments
 * For substantial structural changes (e.g., modifying domain rotation hours, altering baseline wage floors, adding new specialty endorsements, or revising board governance structures):
-  1. Open an **Issue** tagged `proposal` to initiate community discussion.
+  1. Open a formal issue using either the **Framework Proposal / Amendment** (`[PROPOSAL]`) or **New Specialty Track Proposal** (`[SPECIALTY TRACK]`) template.
   2. State the operational justification, threat/actuarial impact, and how the change maintains alignment with the core 7 pillars.
-  3. Once consensus is reached, submit a focused PR referencing the Issue.
+  3. Once community consensus is established, submit a focused Pull Request referencing the Issue.
 
 ---
 
@@ -38,5 +41,21 @@ Ensure proposed changes are placed in the appropriate directory:
 
 ## 4. Style & Terminology Standards
 * **Voice:** Professional, direct, authoritative, and policy-grounded. Avoid marketing buzzwords, vague abstractions, and hyperbolic claims.
-* **Canonical Terminology:** Consistently use established project terms (e.g., *Master of Record*, *Notice of Non-Concurrence*, *Related Technical Instruction / RTI*, *Joint Apprenticeship and Training Committee / JATC*).
-* **Formatting:** Use standard Markdown formatting. Favor tables for comparative metrics and numbered lists for sequential requirements.
+* **Canonical Terminology:** Consistently use established trade definitions:
+  * **National Cybersecurity Trade Board** (the statutory licensure and standard-setting authority)
+  * **The Cybersecurity Craft Guild** (the workforce representation, labor advocacy, and JATC body)
+  * **Master Practitioner** (personal 12,000+ hr credential tier) vs. **Master of Record / MoR** (statutory sign-off role)
+  * **Notice of Safety Non-Concurrence** (formal technical refusal filing)
+  * **Related Technical Instruction (RTI)** & **Joint Apprenticeship and Training Committee (JATC)**
+* **Formatting:** Use standard Markdown. Favor tables for comparative metrics and numbered lists for sequential requirements.
+
+---
+
+## 5. Release Cadence & Versioning Strategy
+
+To maintain stability for enterprise adopters, insurance underwriters, and educational institutions, this project follows Semantic Versioning (`vMAJOR.MINOR.PATCH`) under a release-gated cadence:
+
+* **Direct Commits to `main` (No Tag):** Typo fixes, internal link repairs, markdown formatting, issue templates, and non-breaking documentation tooling.
+* **Patch Releases (`v1.0.x`):** Batched policy clarifications, resolving contradictory metrics (such as hours or supervisory ratios), and statutory wording updates.
+* **Minor Releases (`v1.x.0`):** Substantive framework milestones, including complete Specialty Endorsement curricula (e.g., AI/ML Assurance, MedTech), model state compact legislation, or actuarial loss-prevention tables.
+* **Major Releases (`v2.0.0`):** Structural revisions to the foundational 7 Pillars, changes to the core 8,000-hour rotational model, or fundamental governance overhauls.
