@@ -2,7 +2,7 @@
 
 Individual accountability and the legal right of refusal cannot survive in a vacuum where isolated engineers face corporate legal teams alone. The trade framework establishes the **Cybersecurity Craft Guild** as the institutional engine for collective legal defense, multi-employer training funds, and portable benefits.
 
-> **Foundational Principle:** The National Licensure Board licenses the practitioner and protects public safety; the Craft Guild trains, protects, and represents the workforce.
+> **Foundational Principle:** The National Cybersecurity Trade Board licenses the practitioner and protects public safety; the Craft Guild trains, protects, and represents the workforce.
 
 ---
 
@@ -17,8 +17,8 @@ The Cybersecurity Guild does not operate as an adversarial factory-floor union. 
 ---
 
 ## 2. Collective Legal Defense & Anti-Retaliation Shield
-* **Automated Legal Defense Shield:** Dedicated trust reserves provide immediate legal counsel and indemnification to any licensed practitioner facing corporate retaliation, termination, or blacklisting after filing a formal **Notice of Non-Concurrence**.
-* **Malpractice Defense:** Provides peer-reviewed legal representation and expert witness support for members undergoing inquiries or disciplinary hearings before the National Licensure Board.
+* **Automated Legal Defense Shield:** Dedicated trust reserves provide immediate legal counsel and indemnification to any licensed practitioner facing corporate retaliation, termination, or blacklisting after filing a formal **Notice of Safety Non-Concurrence**.
+* **Malpractice Defense:** Provides peer-reviewed legal representation and expert witness support for members undergoing inquiries or disciplinary hearings before the National Cybersecurity Trade Board.
 
 ---
 

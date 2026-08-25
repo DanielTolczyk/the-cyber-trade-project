@@ -16,9 +16,9 @@ Cyber-insurance carriers absorb billions in avoidable breach claims annually cau
 
 ## 2. Claim Adjudication & Prima Facie Due Care
 Following a catastrophic security incident, ransomware event, or data breach:
-* **The Logbook Trade Audit:** Forensic claims investigators audit the organization's immutable change logs and competency ledgers against the National Trade Board registry.
+* **The Logbook Trade Audit:** Forensic claims investigators audit the organization's immutable change logs and competency ledgers against the National Cybersecurity Trade Board registry.
 * **Statutory Proof of Due Care:** Verifying that critical systems were engineered, hardened, and maintained by licensed Journeymen or certified by a Master of Record establishes prima facie proof of corporate due care, preventing bad-faith claim denials.
-* **Executive Override Transparency:** If a breach originated from an architectural vulnerability where a licensed engineer filed a formal **Notice of Non-Concurrence**, insurers immediately identify corporate risk acceptance, accelerating claims resolution.
+* **Executive Override Transparency:** If a breach originated from an architectural vulnerability where a licensed engineer filed a formal **Notice of Safety Non-Concurrence**, insurers immediately identify corporate risk acceptance, accelerating claims resolution.
 * **Malpractice Subrogation Safeguards:** Individual subrogation applies **strictly upon clear and convincing proof of deliberate fraud, intentional sabotage, or statutory gross negligence**—protecting good-faith practitioners from personal financial liability during normal operational incidents.
 
 ---

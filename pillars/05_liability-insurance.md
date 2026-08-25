@@ -18,7 +18,7 @@ Security practitioners frequently operate in high-pressure environments where ex
 
 ---
 
-## 3. Formal Liability Transfer (Notice of Non-Concurrence)
+## 3. Formal Liability Transfer (Notice of Safety Non-Concurrence)
 When executive leadership insists on deploying a system over a licensed engineer's technical refusal:
 1. **Filing Non-Concurrence:** The licensed engineer files an official, timestamped Notice of Safety Non-Concurrence detailing the specific control failure, regulatory violation, and potential impact.
 2. **Permanent Risk Ledger:** The notice is permanently recorded in the enterprise risk register with copies transmitted to the Authorizing Officer, CISO, and Corporate Compliance.

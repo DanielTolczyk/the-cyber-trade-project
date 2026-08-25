@@ -51,7 +51,7 @@ The modern cybersecurity employment model is broken across every tier:
 2. [**Pillar II: The Earn-While-You-Learn Pipeline**](pillars/02_earn-while-learning.md) — Zero-tuition direct W-2 employment with graduated living wages and paid classroom time.
 3. [**Pillar III: Progressive Rotations & Enforced Ratios**](pillars/03_rotational-pipeline.md) — Mandatory 8,000-hour cross-domain rotations and line-of-sight supervisory ratios.
 4. [**Pillar IV: Professional Licensure & The Journeyman Standard**](pillars/04_licensure-and-board.md) — Unified Journeyman milestones, credential evaluation clearinghouse, and malpractice accountability.
-5. [**Pillar V: Personal Liability & The Right of Technical Refusal**](pillars/05_liability-insurance.md) — Dual-layer insurance, statutory safe harbor, and formal liability transfer via the Notice of Non-Concurrence.
+5. [**Pillar V: Personal Liability & The Right of Technical Refusal**](pillars/05_liability-insurance.md) — Dual-layer insurance, statutory safe harbor, and formal liability transfer via the Notice of Safety Non-Concurrence.
 6. [**Pillar VI: Craft Guilds, Labor Trusts & Collective Defense**](pillars/06_craft-guilds-and-labor-trusts.md) — Taft-Hartley JATC training funds, legal defense shields, and portable multi-employer benefits.
 7. [**Pillar VII: The Insurance-Driven Market Catalyst**](pillars/07_insurance-catalyst.md) — Market enforcement through actuarial risk tiering, prima facie due care, and insurance premium incentives.
 

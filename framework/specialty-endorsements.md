@@ -2,7 +2,7 @@
 
 Cybersecurity is not a monolith. Following the completion of foundational generalist rotations (Years 1–2), practitioners pursue specific technical endorsements that validate deep architectural, operational, and regulatory expertise.
 
-> **Note on Credentials:** Any certifications mentioned under domain tracks are **strictly non-binding illustrative examples** of current industry alignments. The National Trade Board holds sole statutory authority to evaluate, validate, or design objective, vendor-neutral challenge exams for each endorsement.
+> **Note on Credentials:** Any certifications mentioned under domain tracks are **strictly non-binding illustrative examples** of current industry alignments. The National Cybersecurity Trade Board holds sole statutory authority to evaluate, validate, or design objective, vendor-neutral challenge exams for each endorsement.
 
 ---
 

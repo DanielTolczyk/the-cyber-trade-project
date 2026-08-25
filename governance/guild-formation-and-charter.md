@@ -2,13 +2,13 @@
 
 This document establishes the roadmap for chartering the Cybersecurity Craft Guild, outlining its institutional separation from the Regulatory Board, its multi-employer training trusts (JATCs), and its member defense infrastructure.
 
-> **Foundational Principle:** The National Licensure Board licenses the practitioner and enforces public safety; the Craft Guild trains, protects, and represents the workforce.
+> **Foundational Principle:** The National Cybersecurity Trade Board licenses the practitioner and enforces public safety; the Craft Guild trains, protects, and represents the workforce.
 
 ---
 
 ## 1. Separation of Powers: Board vs. Guild
 
-| Dimension | The National Licensure Board | The Cybersecurity Craft Guild |
+| Dimension | The National Cybersecurity Trade Board | The Cybersecurity Craft Guild |
 | :--- | :--- | :--- |
 | **Primary Mandate** | Public safety, system integrity, and statutory credential enforcement. | Worker protection, wage standards, legal defense, and training delivery. |
 | **Institutional Model** | Independent non-profit regulatory body (modeled after State Medical/PE Boards / NCEES). | Professional craft association & labor trust (modeled after IBEW / NECA / JATC). |

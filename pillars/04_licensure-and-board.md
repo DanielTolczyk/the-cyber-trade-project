@@ -2,14 +2,14 @@
 
 The cybersecurity industry is currently saturated with hundreds of competing commercial credentials. Vendors churn out proprietary multiple-choice tests and extract recurring annual renewal fees, confusing newcomers and employers alike. 
 
-Rather than invalidating the legitimate work practitioners have already completed or endorsing commercial vendor lock-in, the trade model establishes an independent **National Trade Board and Credential Evaluation Clearinghouse**. The Board systematically evaluates existing credentials against open standards (such as NIST NICE SP 800-181)—determining appropriate tier mapping, filtering out low-rigor cash grabs, and honoring rigorous practical credentials.
+Rather than invalidating the legitimate work practitioners have already completed or endorsing commercial vendor lock-in, the trade model establishes an independent **National Cybersecurity Trade Board and Credential Evaluation Clearinghouse**. The Board systematically evaluates existing credentials against open standards (such as NIST NICE SP 800-181)—determining appropriate tier mapping, filtering out low-rigor cash grabs, and honoring rigorous practical credentials.
 
-> **Foundational Principle:** The National Licensure Board licenses the practitioner and protects the public interest; the Craft Guild trains, protects, and represents the workforce.
+> **Foundational Principle:** The National Cybersecurity Trade Board licenses the practitioner and protects the public interest; the Craft Guild trains, protects, and represents the workforce.
 
 ---
 
 ## 1. The Board Credential Evaluation Clearinghouse
-The National Trade Board conducts objective, peer-reviewed evaluations of commercial and academic credentials:
+The National Cybersecurity Trade Board conducts objective, peer-reviewed evaluations of commercial and academic credentials:
 
 * **Objective Evaluation Criteria:** Certifications are evaluated based on hands-on lab rigor, psychometric validity, identity-verified proctoring, and alignment with open competencies—not vendor market share.
 * **Tier Placement Authority:** The Board determines whether a credential qualifies for Pre-Apprenticeship, Operational Rotational credit, or Specialty Endorsements.
