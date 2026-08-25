@@ -1,27 +1,40 @@
-# Pillar IV: Professional Licensure & Eliminating the Certification Treadmill
+# Pillar IV: Professional Licensure & The Journeyman Standard
 
-The modern cybersecurity certification market has devolved into an unregulated, commercial pay-to-play ecosystem. Practitioners are forced onto an endless treadmill of expensive multiple-choice exams and recurring annual fees, while newcomers waste thousands chasing ambiguous credentials that offer no guarantee of job readiness. 
+The cybersecurity industry is currently saturated with hundreds of competing commercial credentials. Vendors churn out proprietary multiple-choice tests and annual renewal fees, confusing newcomers and employers alike. 
 
-Critical digital infrastructure, medical technology, and financial networks require verified professional licensure governed by objective trade standards—not fragmented private vendor marketing.
-
----
-
-## 1. Replacing the Cert Industrial Complex
-* **The Logbook Over Badges:** Instead of collecting dozens of competing commercial certificates, a practitioner's qualifications are proven through an audited digital logbook of verified operational hours under licensed supervision.
-* **Unified Practical Milestones:** Private vendor exams are replaced or standardized under objective, vendor-neutral practical board milestones administered by the Trade Board, eliminating recurring corporate subscription fees and pay-to-play gatekeeping.
-* **The Journeyman Benchmark:** For general licensure, the framework anchors to established, rigorous standards (such as the CISSP or equivalent comprehensive practical board examination requiring 5 years of verified multi-domain experience and peer endorsement).
+Rather than invalidating the legitimate work practitioners have already completed, the trade model introduces a **Board-Regulated Credential Clearinghouse**. The Board audits, validates, and maps respected industry certifications directly into recognized trade progression tiers—weeding out predatory cash-grabs while honoring rigorous credentials.
 
 ---
 
-## 2. The Professional Self-Regulating Board
-Modeled after state medical boards, structural engineering panels, and electrical trade licensing bodies:
+## 1. The Board Credential Clearinghouse
+The National Trade Board maintains an active, peer-reviewed clearinghouse that evaluates commercial and academic credentials against open trade standards (such as NIST NICE):
 
-* **Structure:** A non-profit, independent governance body composed of peer-elected Master Practitioners, legal scholars, industry underwriters, and academic representatives.
-* **Responsibilities:** Administering the universal trade logbook, setting continuing competency requirements, managing interstate licensure compacts, and hearing formal malpractice investigations.
+* **Tier Mapping:** Respected credentials with practical components or rigorous domain coverage are mapped to specific apprenticeship levels or specialty endorsements.
+* **Weeding Out Low-Rigor Exams:** Multiple-choice brain-dump exams with no practical labs or verification standards are excluded from trade hour or milestone credits.
+* **Credit for Existing Work:** Practitioners who already hold accredited credentials receive proportional credit toward their classroom instruction (RTI) requirements and logbook milestones.
 
 ---
 
-## 3. Investigation & License Revocation
-* **Malpractice & Negligence:** The board investigates allegations of gross negligence, willful bypass of security controls, falsification of audit evidence, or malicious actions.
-* **Enforceable Penalties:** If found guilty of gross negligence, a practitioner faces tiered sanctions: formal reprimand, mandatory retraining, license suspension, or permanent license revocation.
-* **Loss of Practice:** Revocation legally prohibits the individual from holding root administrative privileges or signing off on production architectures for insured commercial entities.
+## 2. The Journeyman License Milestone
+The defining milestone transitioning a worker from supervised apprentice to independent practitioner is the **Journeyman License**:
+
+* **The Core Benchmark:** Generalist licensure is anchored to comprehensive multi-domain standards—specifically reflecting the rigor of the **CISSP** (5 years of cumulative, verified experience across core domains with professional endorsement) or an equivalent Board-administered practical examination.
+* **Practical Challenge Pathways:** Self-taught engineers and non-traditional candidates can challenge the Journeyman milestone directly through practical, hands-on lab examinations paired with verified operational logs.
+* **Single Standard of Competence:** Instead of collecting dozens of overlapping vendor badges, the Journeyman credential serves as the unified, legally recognized standard of generalist competence.
+
+---
+
+## 3. The Master of Record
+For high-consequence infrastructure, healthcare networks, and critical utilities, the framework establishes the **Master Practitioner (Master of Record)**:
+
+* **Scope of Authority:** Requires 12,000+ verified operational hours and specialized domain mastery.
+* **Production Sign-Off:** Holds statutory responsibility for approving major architectural baselines, root key ceremonies, and regulatory filings—legally separating technical safety from corporate management.
+
+---
+
+## 4. The Professional Self-Regulating Board
+Modeled after state licensing panels, medical boards, and structural engineering boards:
+
+* **Independent Administration:** A multi-stakeholder body composed of peer-elected practitioners, academic deans, public safety liaisons, and insurance actuaries.
+* **Malpractice & Accountability:** Investigates formal complaints of gross negligence, intentional control bypass, or audit falsification, with enforceable powers to issue reprimands, require retraining, or revoke licenses.
+* **Interstate Reciprocity:** Manages digital licensing compacts ensuring credentials remain portable across employers and state boundaries for remote work.
