@@ -18,6 +18,7 @@ To resolve the artificial talent shortage, eliminate predatory bootcamps, and re
 The current industry model is broken across every tier:
 * **The Experience Paradox:** Entry-level postings routinely demand 3–5 years of experience or 4-year degrees, locking out qualified foundational talent.
 * **Predatory Bootcamps:** Unregulated training vendors charge five-figure tuitions on empty promises with zero curriculum alignment to enterprise reality.
+* **The Cert Treadmill:** An unregulated commercial market pushing dozens of overlapping multiple-choice tests that drain wallets without verifying hands-on skill.
 * **Alert-Silo Burnout:** Junior practitioners are trapped in monotonous triage roles without structured rotation into senior competencies.
 * **Diffused Liability:** When breaches occur due to executive budget cuts or ignored warnings, practitioners carry the stress while corporations treat catastrophic breaches as cost-of-doing-business risks.
 
@@ -28,7 +29,7 @@ The current industry model is broken across every tier:
 1. [**Pillar I: Standardized Pre-Apprenticeship**](pillars/01_pre-apprenticeship.md) — High-volume, low-cost talent filter embedded into community colleges.
 2. [**Pillar II: The Earn-While-You-Learn Pipeline**](pillars/02_earn-while-learning.md) — Zero-tuition direct employment with graduated living wages.
 3. [**Pillar III: Progressive Rotations & Enforced Ratios**](pillars/03_rotational-pipeline.md) — Mandatory cross-domain rotations and line-of-sight supervision.
-4. [**Pillar IV: Professional Licensure & Self-Regulating Boards**](pillars/04_licensure-and-board.md) — Production sign-offs anchored to gold standards (e.g., CISSP) with malpractice review.
+4. [**Pillar IV: Professional Licensure & Self-Regulating Boards**](pillars/04_licensure-and-board.md) — Unified Journeyman milestones, cert evaluation clearinghouse, and malpractice review.
 5. [**Pillar V: Personal Liability & The Right of Technical Refusal**](pillars/05_liability-insurance.md) — Individual liability insurance and statutory protection to refuse unsafe deployments.
 6. [**Pillar VI: Craft Guilds, Labor Trusts & Collective Defense**](pillars/06_craft-guilds-and-labor-trusts.md) — JATC training funds, legal defense shields, and portable benefits.
 7. [**Pillar VII: The Insurance-Driven Market Catalyst**](pillars/07_insurance-catalyst.md) — Market enforcement driven by underwriting risk tiers and premium incentives.
@@ -38,6 +39,7 @@ The current industry model is broken across every tier:
 ## Operational Frameworks & Governance
 
 ### Framework Specifications
+* [**Standards, Regulatory Baselines & Compliance**](framework/standards-and-compliance.md) — Adopting the building code model (NICE workforce taxonomy, open technical baselines, and legal sign-offs).
 * [**Wage Scales & Compensation Floors**](framework/wage-scales.md) — Base progression tiers and hazard/sector differentials.
 * [**Specialty Endorsements & Domain Tracks**](framework/specialty-endorsements.md) — DFIR, ICS/SCADA, MedTech, Cloud, OffSec, ICAM, and GRC tracks.
 * [**Executive Leadership & The CISO Role**](framework/executive-and-ciso.md) — Distinguishing business management from statutory Master of Record sign-off.
@@ -49,7 +51,7 @@ The current industry model is broken across every tier:
 ### Governance & Community
 * [**National Governance Board Structure**](governance/board-structure.md) — Regulatory board composition, exam oversight, and malpractice mandates.
 * [**Guild Formation & Labor Charter**](governance/guild-formation-and-charter.md) — Roadmap for chartering the craft guild, JATC trusts, and separation from the Board.
-* [**Industry Transition Plan (Experience Bridge)**](governance/transition-plan.md) — Grandfathering active practitioners and credit for adjacent technical experience.
+* [**Industry Transition Plan (Experience Bridge)**](governance/transition-plan.md) — Grandfathering active practitioners and illustrative credential alignment.
 * [**Glossary of Terms & Acronyms**](GLOSSARY.md) — Cross-functional definitions for tech, trade, and regulatory terms.
 * [**Frequently Asked Questions (FAQ)**](FAQ.md) — Addressing corporate velocity, cloud providers, and small business concerns.
 * [**Contributing Guide**](CONTRIBUTING.md) — How to propose amendments, work-role hours, and new specialty branches.
