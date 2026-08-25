@@ -1,0 +1,21 @@
+name: Delete Stale Branches
+
+on:
+  schedule:
+    # Runs weekly on Sunday at midnight UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Allows manual trigger from the Actions tab
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Delete Stale Branches (Inactive > 30 days)
+        uses: phpdude/delete-stale-branches@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          days_before_delete: 30
+          exclude_branches: 'main,master,staging,develop'
+          dry_run: false
