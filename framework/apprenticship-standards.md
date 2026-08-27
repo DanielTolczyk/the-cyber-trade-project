@@ -54,13 +54,11 @@ Prior operational experience and verified skill benchmarks translate to OJT hour
 
 ---
 
-## 4. Supervisory Ratios & Safety Enforcement
+## 4. Supervisory Ratio Alignment
 
-To ensure safety, maintain operational velocity, and prevent the abuse of apprentices as cheap, unsupervised labor:
+All operational OJT hours logged under this standard must be conducted in strict compliance with the trade's established mentorship and safety density limits. 
 
-* **Tier 1 Apprentices (0–2,000 hrs):** Enforced **1:1 ratio** with a dedicated Licensed Journeyman or Master Practitioner.
-* **Tier 2–4 Apprentices (2,001–8,000 hrs):** Maximum **2:1 ratio** (up to two apprentices per licensed supervisor).
-* **Sign-Off Prohibition:** Apprentices are strictly prohibited from issuing final production change approvals, deploying root security policies, or signing regulatory compliance attestations without direct cosigning by their supervising Journeyman or Master.
+For exact 1:1 and 2:1 environment thresholds, solo-shift prohibitions, and Master-of-Record (MoR) capacity caps, refer directly to the **[Supervisory Ratios & Operational Headcount Standards](supervisory-ratios.md)**. 
 
 ---
 
