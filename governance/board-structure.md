@@ -19,12 +19,12 @@ The Trade Board functions analogous to state boards of professional engineers, m
 
 To ensure no single special interest, commercial vendor, or corporate lobby captures the regulatory body, the Board maintains a strict 11-member voting quorum:
 
-* **3 Seats — Active Master Practitioners:** Practicing engineers with 12,000+ verified runtime hours, elected by the licensed trade body.
-* **2 Seats — The Cybersecurity Craft Guild / JATC Trustees:** Designated representatives from vocational training trusts and labor advocacy bodies.
-* **2 Seats — Cyber Insurance Underwriters & Actuaries:** Actuarial and risk underwriting representatives tying safety rubrics to enterprise risk reduction.
-* **2 Seats — Enterprise & Critical Infrastructure CISOs:** Operational leadership managing enterprise defense and regulatory compliance.
-* **1 Seat — Public Safety & Consumer Protection Advocate:** Independent legal or consumer rights representative.
-* **1 Seat — Academic & NIST Standards Liaison:** Non-voting advisory liaison to national standards bodies (NIST NICE / CISA).
+* **3 Seats - Active Master Practitioners:** Practicing engineers with 12,000+ verified runtime hours, elected by the licensed trade body.
+* **2 Seats - The Cybersecurity Craft Guild / JATC Trustees:** Designated representatives from vocational training trusts and labor advocacy bodies.
+* **2 Seats - Cyber Insurance Underwriters & Actuaries:** Actuarial and risk underwriting representatives tying safety rubrics to enterprise risk reduction.
+* **2 Seats - Enterprise & Critical Infrastructure CISOs:** Operational leadership managing enterprise defense and regulatory compliance.
+* **1 Seat - Public Safety & Consumer Protection Advocate:** Independent legal or consumer rights representative.
+* **1 Seat - Academic & NIST Standards Liaison:** Non-voting advisory liaison to national standards bodies (NIST NICE / CISA).
 
 ---
 

@@ -30,9 +30,9 @@ A foundational principle of the trade framework is the formal separation between
 
 * **The Scope of CISO Authority:** Executive leadership retains the absolute right to accept business risk and proceed against the recommendation of the Master of Record.
 * **Statutory Liability Hand-Off:** When an executive overrules a Master of Record's formal refusal:
-  1. The Master of Record files a formal **Notice of Non-Concurrence**.
-  2. The overruling corporate officer executes a written **Executive Risk Acceptance**.
-  3. Regulatory, forensic, and legal liability for resulting technical failures transfers entirely from the engineering staff to the authorizing corporate officer.
+  1. The Master of Record files a formal [Notice of Safety Non-Concurrence (Form FORM-001)](../templates/FORM-001_notice-of-safety-non-concurrence.md).
+  2. The overruling corporate officer executes a written [Executive Override & Risk Acceptance Form (Form FORM-002)](../templates/FORM-002_executive-override-risk-acceptance.md).
+  3. Regulatory, forensic, and legal liability for resulting technical failures transfers entirely from the engineering staff to the authorizing corporate officer. For complete refusal protocols, refer to [Ethical Canons & Technical Refusal](ethics-and-refusal.md).
 
 ---
 

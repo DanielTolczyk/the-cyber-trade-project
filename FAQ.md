@@ -1,53 +1,62 @@
 # Frequently Asked Questions (FAQ)
 
 ### 1. Does this replace a four-year computer science degree?
-No. Academic degrees remain valuable for theoretical research, algorithm design, and computer science academia. However, operational cybersecurity is an applied engineering trade. The trade pipeline ensures verified, hands-on operational competency without imposing arbitrary four-year degree gatekeeping or unmanageable debt loads on entry-level practitioners.
+No. Degrees remain valuable for theoretical research, but operational defense is an applied engineering trade. The framework provides verified hands-on competency without arbitrary degree gatekeeping. For details, see [Pillar I: Standardized Pre-Apprenticeship](pillars/01_pre-apprenticeship.md).
 
 ### 2. How are existing experienced professionals grandfathered in?
-Active cybersecurity professionals are integrated through a structured **24-Month Legacy Transition Window**:
-* **Journeyman Standing:** 5+ years of verified operational defense experience (10,000+ hours) or holding a Board-recognized comprehensive benchmark credential (e.g., CISSP) grants Journeyman licensure upon portfolio review and ethics exam completion.
-* **Master Practitioner Standing:** 10+ years of verified operational experience (20,000+ hours) evaluated through an oral board defense, incident history audit, and safety sign-off assessment.
-* **Adjacent IT Credit:** Systems administrators, network engineers, and DevOps/software developers receive up to **4,000 hours (50%) credit** toward apprenticeship rotational requirements.
+Active practitioners transition via a 24-month portfolio review window (10,000+ hrs for Journeyman, 20,000+ hrs for Master). For grandfathering criteria and PLA hour caps, see the [10-Year Industry Transition Plan](governance/transition-plan.md) and [Apprenticeship Standards](framework/apprenticeship-standards.md).
 
 ### 3. Does this invalidate my existing certifications?
-No. The Board operates a **Credential Evaluation Clearinghouse** that audits established commercial and academic certifications against open standards (such as NIST NICE). Rigorous practical credentials award direct credit toward Related Technical Instruction (RTI) classroom hours and rotational milestones, preserving existing practitioner investments while filtering out unverified multiple-choice brain dumps.
+No. The Board Credential Evaluation Clearinghouse audits established certs against NIST NICE to award direct Related Technical Instruction (RTI) and milestone credit. For evaluation criteria, see [Pillar IV: Professional Licensure](pillars/04_licensure-and-board.md).
 
 ### 4. Will I be personally sued if my company gets breached?
-No. Financial losses, ransomware damages, and business interruption are absorbed exclusively by the **Enterprise Cyber Liability Policy**. Frontline practitioners have complete safe harbor for all good-faith engineering work. Individual Errors & Omissions (E&O) applies strictly to cases of deliberate fraud, intentional sabotage, or statutory gross negligence. Furthermore, filing a **Notice of Safety Non-Concurrence** when overruled on safety baselines legally transfers all liability to the overriding corporate executives.
+No. Enterprise cyber liability absorbs financial breach losses, and practitioners hold statutory safe harbor for good-faith engineering. Personal E&O applies strictly to gross negligence or intentional sabotage. For liability rules, see [Pillar V: Professional Liability](pillars/05_liability-insurance.md).
 
 ### 5. How does this prevent small businesses (SMBs) from being priced out?
-Small and medium-sized businesses utilize **Fractional Masters of Record (vMoR)** through accredited **Licensed Cybersecurity Trade Contractors** (consulting firms or MSSPs)—identical to a general contractor retaining an independent Master Electrician or Plumber to inspect blueprints, verify installations, and sign off on compliance permits without needing a full-time in-house executive payroll.
+SMBs retain accredited Fractional Masters of Record (vMoR) through Licensed Trade Contractors to inspect baselines and execute compliance stamps without full-time executive payroll. For engagement rules, see [Contractors, Consulting & The Trade LLC Model](framework/contractors-and-consulting.md).
 
 ### 6. Will this slow down agile development and modern CI/CD pipelines?
-No. Supervisory ratios and manual oversight govern human-in-the-loop operational seats (such as live SOC queues or manual penetration testing). For software development, licensed Masters of Record certify the **automated CI/CD pipelines, policy-as-code guardrails, and runtime admission controllers**. Once the automated pipeline is stamped, developers deploy continuously without manual human gates.
+No. Staffing ratios govern human-in-the-loop operational seats only; automated CI/CD pipelines operate autonomously once security guardrails are certified by a Master of Record. For automation rules, see [Velocity, Cloud & Safe Harbor](framework/velocity-and-cloud.md).
 
 ### 7. How does liability work with cloud providers (AWS, Azure, GCP)?
-Liability strictly adheres to the established Cloud Shared Responsibility Model. Licensed practitioners are accountable only for the customer-controlled layer (IAM policies, tenant configurations, encryption baselines, egress controls) and are completely shielded from upstream cloud infrastructure failures, hypervisor bugs, or provider-side outages.
+Liability strictly follows the Cloud Shared Responsibility Model, attaching only to customer-controlled configurations while shielding engineers from upstream hypervisor or infrastructure outages. For scope definitions, see [Velocity, Cloud & Safe Harbor](framework/velocity-and-cloud.md).
 
 ### 8. How are remote, interstate, and offshore teams handled?
-* **National Interstate Compact (NCTLC):** Modeled after the Interstate Medical Licensure Compact, a national digital compact ensures licenses and logged hours remain fully portable across state borders for remote employees.
-* **Global & Contractor Delegation:** Offshore teams, third-party contractors, and MSPs perform operational triage under the structured supervision and sign-off authority of a licensed Journeyman or Master of Record.
+Digital interstate compacts (NCTLC) ensure multi-state license portability for remote staff, while global and contractor teams operate under the sign-off authority of a licensed Master of Record. For compact mechanics, see the [10-Year Industry Transition Plan](governance/transition-plan.md).
 
 ### 9. What about self-taught engineers and non-traditional talent?
-The trade framework guarantees merit-based advancement through **Practical Challenge Examinations**. Anyone with demonstrated hands-on technical proficiency—regardless of formal degrees or background—can test directly into advanced apprentice or Journeyman tiers. Documented CVEs, open-source security tool development, and bug bounty disclosures are evaluated for hour credits.
+Demonstrated technical proficiency grants direct credit through hands-on Practical Challenge Exams and Prior Learning Assessments (PLA) for CVEs, bug bounties, and lab certs. For conversion tables and challenge rules, see [Apprenticeship Standards](framework/apprenticeship-standards.md).
 
 ### 10. Will this restrict open-source development or vulnerability research?
-No. Licensure regulates administrative root access, production deployments, and compliance sign-offs over **commercial production systems and critical infrastructure**. It does not apply to open-source software authoring, independent vulnerability research, academic study, or personal home lab experimentation.
+No. Licensure governs administrative production authority and statutory compliance sign-offs for commercial systems and critical infrastructure, strictly excluding independent research, open-source authoring, and home labs. For statutory boundaries, see [Standards, Regulatory Baselines & Compliance](framework/standards-and-compliance.md).
 
 ### 11. Is the Craft Guild just a traditional union?
-The Guild functions as a professional craft association and multi-employer training trust modeled after skilled trade guilds (such as the IBEW/JATC), the Bar Association, and maritime boards. Its core responsibilities are administering zero-tuition JATC training trusts, providing legal defense for engineers exercising their Right of Refusal, managing portable Taft-Hartley benefits, and guaranteeing workforce competency to employers. Licensure itself is administered separately and objectively by the National Board, ensuring open-shop and non-member practitioners can practice freely.
+No. The Guild functions as a craft association and Taft-Hartley training trust that administers zero-tuition JATCs, portable benefits, and legal defense shields, while licensure is maintained independently by the National Board under an open-shop model. For governance details, see [Guild Formation & Labor Charter](governance/guild-formation-and-charter.md).
 
 ### 12. Can I work as a 1099 contractor or launch my own consulting business?
-Yes. Licensed Journeymen and Masters hold full professional mobility to practice as independent 1099 contractors, staff-augmentation specialists, or found an independent consulting firm as a **Licensed Cybersecurity Trade Contractor**. Contracting entities register a designated Master of Record, carry commercial surety and E&O bonding, and are legally authorized to sponsor JATC apprentices and provide fractional compliance sign-offs to clients. Registered Apprentices, however, must remain W-2 employees (via an employer or the JATC Trust) to satisfy legal supervisory and training mandates.
+Yes. Licensed Journeymen and Masters may work as 1099 contractors or establish Licensed Trade Contractors (LLCs/MSSPs) with designated MoR oversight; apprentices must remain W-2 trainees. For entity licensing rules, see [Contractors, Consulting & The Trade LLC Model](framework/contractors-and-consulting.md).
 
 ### 13. What is the "Right of Technical Refusal"?
-The Right of Technical Refusal is an ethical and operational standard ensuring that licensed cybersecurity professionals cannot be compelled to deploy unsafe systems, bypass statutory security controls, or sign off on unverified compliance checklists under administrative pressure. Frontline engineers (Apprentices and Journeymen) raise internal **Operational Exception Flags**, while designated **Masters of Record (MoR)** hold the exclusive authority to issue a formal **Notice of Safety Non-Concurrence**.
+An ethical standard allowing practitioners to refuse unsafe directives by filing an Operational Exception Flag (Form FORM-003) or a formal Notice of Safety Non-Concurrence (Form FORM-001). For escalation protocols, see [Code of Ethics & Refusal Protocols](framework/ethics-and-refusal.md).
 
 ### 14. Does a Notice of Safety Non-Concurrence stop an enterprise from operating?
-No. In commercial and standard enterprise environments, the trade framework does not seize executive decision-making power. Instead, it serves as an **evidentiary liability transfer mechanism**. If executive leadership determines that business necessity outweighs the technical risk, they retain the authority to proceed by executing a formal **Executive Override & Risk Acceptance Form**.
+No. It acts as a condition-bounded liability transfer mechanism; executive leadership may proceed by signing an Executive Override Form (Form FORM-002). For operational impact tiers and invalidation rules, see [Code of Ethics & Refusal Protocols](framework/ethics-and-refusal.md).
 
 ### 15. How does the liability transfer protect frontline engineers?
-When an Executive Override is executed, statutory, regulatory, and malpractice liability for failures resulting directly from that specific defect transfers entirely to the overriding corporate officers. The Master of Record, supervising Journeymen, and frontline Apprentices are legally shielded by the Trade Ethical Shield and backed by the Craft Guild Legal Defense Trust against retaliatory termination, administrative retaliation, or wrongful prosecution.
+Executing an Executive Override transfers statutory, regulatory, and financial liability entirely to the overriding corporate officers, shielding engineering staff under the Trade Liability Shield. For legal mechanics, see [Pillar V: Professional Liability](pillars/05_liability-insurance.md).
 
-### 16. How is the evidentiary trail protected if an employer attempts to suppress or delete it?
-When a Notice of Safety Non-Concurrence is filed, its cryptographic hash is dual-logged to the enterprise internal audit log and the National Cybersecurity Trade Board external clearinghouse. This creates an immutable, verifiable record of notice, refusal, and technical justification outside executive control that cannot be altered, suppressed, or destroyed internally following a breach or regulatory audit.
+### 16. How is the evidentiary trail protected if an employer attempts to suppress it?
+Filing hashes are dual-logged to internal enterprise logs and the external National Board clearinghouse, creating an immutable, timestamped record outside corporate control. For schema details, see [Universal Logbook Schema & Telemetry Standard](framework/logbook-schema.md).
+
+### 17. How can cybersecurity be standardized when vendor tooling varies so widely across enterprises?
+Like electrical panels or aircraft avionics, vendor interfaces change, but core engineering principles (TCP/IP state mechanics, packet routing, cryptographic handshakes, and least privilege) remain universal. For workforce mapping, see [Standards, Regulatory Baselines & Compliance](framework/standards-and-compliance.md).
+
+### 18. Doesn't the rapid pace of technological change make a multi-year trade framework obsolete?
+No. Durable engineering primitives are paired with modular Specialty Endorsements and an 18-Month JATC Curriculum Notice Rule to integrate emerging technologies without breaking foundational baselines. For domain tracks, see [Specialty Endorsements & Domain Tracks](framework/specialty-endorsements.md).
+
+### 19. Does a standardized trade model create a centralized monopoly that restricts free-market competition?
+No. The Board sets objective public safety standards, while public colleges, non-profit JATCs, private providers, and employers compete freely to deliver instruction under an open-shop model. For board structure, see [National Governance Board Structure](governance/board-structure.md).
+
+### 20. What happens to an apprentice if their sponsoring employer downsizes, is acquired, or closes?
+Apprentices permanently own their verified logbook hours, and the multi-employer JATC trust reallocates and dispatches them to another partner employer to complete their training without interruption. For multi-employer mechanics, see [Guild Formation & Labor Charter](governance/guild-formation-and-charter.md).
+
