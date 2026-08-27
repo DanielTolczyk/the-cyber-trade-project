@@ -11,7 +11,7 @@ The Cybersecurity Guild does not operate as an adversarial factory-floor union. 
 
 * **Joint Training Administration (JATC):** Co-manages multi-employer apprenticeship training trusts under Section 302(c) of the Taft-Hartley Act, funded by employer hourly contributions to deliver zero-tuition classroom instruction and high-fidelity range labs.
 * **Competency & Quality Guarantee:** Guarantees verified operational competency to employer partners, offering free retraining and remediation if dispatched practitioners fail to meet baseline standards.
-* **Direct Talent Clearinghouse & Incident Surge:** Provides enterprises with direct access to pre-vetted, logbook-audited Journeymen and Apprentices—eliminating third-party recruiter placement fees while providing an emergency surge pool for critical incident recovery.
+* **Direct Talent Clearinghouse & Incident Surge:** Provides enterprises with direct access to pre-vetted, logbook-audited Journeymen and Apprentices, eliminating third-party recruiter placement fees while providing an emergency surge pool for critical incident recovery.
 * **Open-Shop & Interstate Compatibility:** Ensures trade credentials remain universally recognized across all jurisdictions, allowing non-guild practitioners to practice freely while maintaining full guild defense and trust benefits for enrolled members.
 
 ---

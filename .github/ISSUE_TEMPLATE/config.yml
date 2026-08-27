@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: "💬 General Questions & Community Debates"
+  - name: "General Questions & Community Debates"
     url: "https://github.com/DanielTolczyk/the-cyber-trade-project/discussions"
     about: "For open-ended questions, trade philosophy, or general Q&A."
-  - name: "🏛️ Propose a Major Architectural RFC"
+  - name: "Propose a Major Architectural RFC"
     url: "https://github.com/DanielTolczyk/the-cyber-trade-project/tree/main/rfcs"
     about: "For major structural overhauls, statutory riders, or complex protocols."
