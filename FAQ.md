@@ -39,3 +39,15 @@ The Guild functions as a professional craft association and multi-employer train
 
 ### 12. Can I work as a 1099 contractor or launch my own consulting business?
 Yes. Licensed Journeymen and Masters hold full professional mobility to practice as independent 1099 contractors, staff-augmentation specialists, or found an independent consulting firm as a **Licensed Cybersecurity Trade Contractor**. Contracting entities register a designated Master of Record, carry commercial surety and E&O bonding, and are legally authorized to sponsor JATC apprentices and provide fractional compliance sign-offs to clients. Registered Apprentices, however, must remain W-2 employees (via an employer or the JATC Trust) to satisfy legal supervisory and training mandates.
+
+### 13. What is the "Right of Technical Refusal"?
+The Right of Technical Refusal is an ethical and operational standard ensuring that licensed cybersecurity professionals cannot be compelled to deploy unsafe systems, bypass statutory security controls, or sign off on unverified compliance checklists under administrative pressure. Frontline engineers (Apprentices and Journeymen) raise internal **Operational Exception Flags**, while designated **Masters of Record (MoR)** hold the exclusive authority to issue a formal **Notice of Safety Non-Concurrence**.
+
+### 14. Does a Notice of Safety Non-Concurrence stop an enterprise from operating?
+No. In commercial and standard enterprise environments, the trade framework does not seize executive decision-making power. Instead, it serves as an **evidentiary liability transfer mechanism**. If executive leadership determines that business necessity outweighs the technical risk, they retain the authority to proceed by executing a formal **Executive Override & Risk Acceptance Form**.
+
+### 15. How does the liability transfer protect frontline engineers?
+When an Executive Override is executed, statutory, regulatory, and malpractice liability for failures resulting directly from that specific defect transfers entirely to the overriding corporate officers. The Master of Record, supervising Journeymen, and frontline Apprentices are legally shielded by the Trade Ethical Shield and backed by the Craft Guild Legal Defense Trust against retaliatory termination, administrative retaliation, or wrongful prosecution.
+
+### 16. How is the evidentiary trail protected if an employer attempts to suppress or delete it?
+When a Notice of Safety Non-Concurrence is filed, its cryptographic hash is dual-logged to the enterprise internal audit log and the National Cybersecurity Trade Board external clearinghouse. This creates an immutable, verifiable record of notice, refusal, and technical justification outside executive control that cannot be altered, suppressed, or destroyed internally following a breach or regulatory audit.
