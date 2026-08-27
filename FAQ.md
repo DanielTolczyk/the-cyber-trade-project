@@ -40,7 +40,7 @@ Yes. Licensed Journeymen and Masters may work as 1099 contractors or establish L
 An ethical standard allowing practitioners to refuse unsafe directives by filing an Operational Exception Flag (Form FORM-003) or a formal Notice of Safety Non-Concurrence (Form FORM-001). For escalation protocols, see [Code of Ethics & Refusal Protocols](framework/ethics-and-refusal.md).
 
 ### 14. Does a Notice of Safety Non-Concurrence stop an enterprise from operating?
-No. It acts as an evidentiary liability transfer mechanism; executive leadership retains the authority to proceed by signing an Executive Override Form (Form FORM-002). For operational impact tiers, see [Code of Ethics & Refusal Protocols](framework/ethics-and-refusal.md).
+No. It acts as a condition-bounded liability transfer mechanism; executive leadership may proceed by signing an Executive Override Form (Form FORM-002). For operational impact tiers and invalidation rules, see [Code of Ethics & Refusal Protocols](framework/ethics-and-refusal.md).
 
 ### 15. How does the liability transfer protect frontline engineers?
 Executing an Executive Override transfers statutory, regulatory, and financial liability entirely to the overriding corporate officers, shielding engineering staff under the Trade Liability Shield. For legal mechanics, see [Pillar V: Professional Liability](pillars/05_liability-insurance.md).

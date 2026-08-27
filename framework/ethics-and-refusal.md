@@ -53,6 +53,7 @@ A Notice of Safety Non-Concurrence does not seize executive authority; rather, i
 1. **Evidentiary Filing:** The MoR submits the formal notice to the enterprise C-suite/Board of Directors and logs the cryptographic hash with the National Cybersecurity Trade Board clearinghouse using [Form FORM-001](../templates/FORM-001_notice-of-safety-non-concurrence.md).
 2. **Executive Risk Assumption:** Corporate executives retain the authority to proceed with the release or deployment, but doing so requires an explicit, signed [Executive Override & Risk Acceptance Form (Form FORM-002)](../templates/FORM-002_executive-override-risk-acceptance.md).
 3. **Statutory Shield:** Once the override is executed, the Master of Record, Journeymen, and Apprentices are fully shielded from professional malpractice, license revocation, and personal liability in the event of a catastrophic failure or regulatory inquiry. Full accountability transfers to the overriding officers.
+4. **Condition-Bounded Invalidation:** An override remains valid strictly while the temporary compensating controls and operational assumptions specified in Form FORM-002 remain active. Any material change in architecture, compensating control failure, or emerging exploit immediately invalidates the override, returning the deployment to an unapproved state.
 
 ---
 
