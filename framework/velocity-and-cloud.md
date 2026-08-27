@@ -30,10 +30,3 @@ Security practitioners cannot be held liable for assets, services, or software d
 * **Unsanctioned Asset Immunity:** Licensed practitioners, CISOs, and security teams enjoy full statutory safe harbor from liability regarding breaches originating from unapproved shadow IT, unsanctioned SaaS subscriptions, or bypasses executed by independent business units.
 * **Executive Liability Reallocation:** If a non-technical business unit or regional manager bypasses standard procurement and deployment guardrails, civil, financial, and insurance liability reallocates directly to the authorizing executive of that business unit.
 
----
-
-## 4. Merit-Based Practical Challenge Pathways
-To prevent artificial gatekeeping and honor the foundational tradition of self-taught security talent:
-
-* **Direct Examination Option:** Practitioners with non-traditional backgrounds, open-source maintainers, CTF competitors, and independent security researchers may bypass prerequisite classroom hours by passing rigorous, hands-on **Practical Challenge Exams**.
-* **Skill-Driven Placement:** Passing these proctored, hands-on lab evaluations grants direct credit for equivalent apprenticeship hours, enabling rapid placement into advanced Journeyman tiers based purely on demonstrated technical competence.
