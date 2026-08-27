@@ -19,7 +19,7 @@ Licensure liability and technical sign-offs are strictly bound to the **Customer
 
 * **In-Scope Areas:** Identity & Access Management (IAM), tenant security posture (CSPM/CIEM), key management/HSM ceremonies, egress filtering, workload isolation, and centralized logging.
 * **Out-of-Scope Areas:** Upstream hypervisor zero-days, underlying hardware faults, or global infrastructure outages caused by the cloud service provider (CSP).
-* **Open Source Supply Chain Standard:** Practitioners are responsible for implementing automated SBOM tracking, dependency lockfiles, and vulnerability gating—not for unannounced, upstream zero-days in third-party dependencies.
+* **Open Source Supply Chain Standard:** Practitioners are responsible for implementing automated SBOM tracking, dependency lockfiles, and vulnerability gating, not for unannounced, upstream zero-days in third-party dependencies.
 * **Liability Standard:** Personal liability applies exclusively to willful control circumvention or gross negligence within direct administrative control (e.g., exposing databases publicly without authentication, deliberately disabling multi-factor enforcement).
 
 ---
@@ -29,11 +29,3 @@ Security practitioners cannot be held liable for assets, services, or software d
 
 * **Unsanctioned Asset Immunity:** Licensed practitioners, CISOs, and security teams enjoy full statutory safe harbor from liability regarding breaches originating from unapproved shadow IT, unsanctioned SaaS subscriptions, or bypasses executed by independent business units.
 * **Executive Liability Reallocation:** If a non-technical business unit or regional manager bypasses standard procurement and deployment guardrails, civil, financial, and insurance liability reallocates directly to the authorizing executive of that business unit.
-
----
-
-## 4. Merit-Based Practical Challenge Pathways
-To prevent artificial gatekeeping and honor the foundational tradition of self-taught security talent:
-
-* **Direct Examination Option:** Practitioners with non-traditional backgrounds, open-source maintainers, CTF competitors, and independent security researchers may bypass prerequisite classroom hours by passing rigorous, hands-on **Practical Challenge Exams**.
-* **Skill-Driven Placement:** Passing these proctored, hands-on lab evaluations grants direct credit for equivalent apprenticeship hours, enabling rapid placement into advanced Journeyman tiers based purely on demonstrated technical competence.

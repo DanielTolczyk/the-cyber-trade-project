@@ -60,6 +60,6 @@ Actuaries do not track staffing ratios as an abstract headcount metric; they tra
 
 Underwriters require unambiguous accountability for enterprise risk decisions:
 
-* **The Insurer Override Clause:** If corporate leadership overrides a Master of Record's formal *Notice of Safety Non-Concurrence*, the policyholder must report the override to the underwriter within 72 hours.
-* **Actuarial Deductible Restructuring:** Overridden warnings may result in a dynamic adjustment of policy terms (e.g., doubling the policy retention for that specific attack vector), directly incentivizing executives to remediate critical security defects.
-* **Statutory Safe Harbor:** Sponsoring employers that fully maintain certified trade ratios and respect MoR safety determinations receive statutory immunity from gross-negligence claims and punitive regulatory fines in post-breach litigation.
+* **The Insurer Override Clause:** If corporate leadership overrides a Master of Record's formal [Notice of Safety Non-Concurrence (Form FORM-001)](../templates/FORM-001_notice-of-safety-non-concurrence.md), the policyholder must report the override to the underwriter within 72 hours using [Form FORM-002](../templates/FORM-002_executive-override-risk-acceptance.md).
+* **Actuarial Deductible Restructuring:** Overridden warnings may result in a dynamic adjustment of policy terms (such as doubling the policy retention for that specific attack vector), directly incentivizing executives to remediate critical security defects.
+* **Statutory Safe Harbor:** Sponsoring employers that fully maintain certified trade ratios and respect MoR safety determinations receive statutory immunity from gross-negligence claims and punitive regulatory fines in post-breach litigation. For detailed refusal protocols and liability mechanics, see [Ethical Canons & Technical Refusal](../framework/ethics-and-refusal.md).

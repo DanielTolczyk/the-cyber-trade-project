@@ -20,6 +20,6 @@ Cybersecurity is an applied engineering and operational discipline. It cannot be
 ---
 
 ## 3. Predictable Economic Progression & Retention
-* **Milestone Wage Escalation:** Wage increases are scheduled and enforced every 2,000 operational hours (equivalent to approximately one year of full-time work), progressing predictably from 50% to 85% of the Journeyman Base Floor.
+* **Milestone Wage Escalation:** Wage increases are scheduled and enforced every 2,000 operational hours (equivalent to approximately one year of full-time work), progressing predictably from 50% to 80% of the Regional Journeyman Prevailing Benchmark (RJPB). For the complete compensation step schedule, see the [Standardized Wage Scales](framework/wage-scales.md).
 * **Employer ROI & Retention:** Structured earn-while-you-learn pipelines eliminate costly recruiting churn, allowing employers to build loyal, culturally integrated security talent with predictable multi-year labor forecasting.
 * **Layoff Safe Harbor & JATC Reassignment:** If an employer undergoes downsizing, corporate restructuring, or contract termination, the apprentice's logged hours remain fully preserved, and the JATC clearinghouse facilitates immediate reassignment to a participating partner employer to complete their training.

@@ -37,11 +37,11 @@ To prevent operational deadlocks in agile deployment pipelines while maintaining
 ```
 
 ### Tier 1: Operational Exception Flag (Apprentice & Journeyman Level)
-* Any practicing Journeyman or Apprentice may log an **Operational Exception Flag** within internal ticketing systems when software or infrastructure deployments violate trade baselines.
+* Any practicing Journeyman or Apprentice may log an [Operational Exception Flag (Form FORM-003)](../templates/FORM-003_operational-exception-flag.md) within internal ticketing systems when software or infrastructure deployments violate trade baselines.
 * This flag serves as an internal dissent record and initiates mandatory review by the designated Master of Record. It does not halt business operations or pipeline execution.
 
 ### Tier 2: Notice of Safety Non-Concurrence (Master of Record Exclusivity)
-* A formal **Notice of Safety Non-Concurrence** may be authored and filed **exclusively by a designated Master of Record (MoR)**.
+* A formal [Notice of Safety Non-Concurrence (Form FORM-001)](../templates/FORM-001_notice-of-safety-non-concurrence.md) may be authored and filed **exclusively by a designated Master of Record (MoR)**.
 * The MoR files this instrument when a proposed executive directive, production release, or cost-cutting measure violates statutory minimum baselines, creates severe life-safety risks, or constitutes gross negligence.
 
 ---
@@ -50,8 +50,8 @@ To prevent operational deadlocks in agile deployment pipelines while maintaining
 
 A Notice of Safety Non-Concurrence does not seize executive authority; rather, it establishes an immutable evidentiary record that **shifts statutory and financial liability**:
 
-1. **Evidentiary Filing:** The MoR submits the formal notice to the enterprise C-suite/Board of Directors and logs the cryptographic hash with the National Cybersecurity Trade Board clearinghouse.
-2. **Executive Risk Assumption:** Corporate executives retain the authority to proceed with the release or deployment, but doing so requires an explicit, signed **Executive Override & Risk Acceptance Form**.
+1. **Evidentiary Filing:** The MoR submits the formal notice to the enterprise C-suite/Board of Directors and logs the cryptographic hash with the National Cybersecurity Trade Board clearinghouse using [Form FORM-001](../templates/FORM-001_notice-of-safety-non-concurrence.md).
+2. **Executive Risk Assumption:** Corporate executives retain the authority to proceed with the release or deployment, but doing so requires an explicit, signed [Executive Override & Risk Acceptance Form (Form FORM-002)](../templates/FORM-002_executive-override-risk-acceptance.md).
 3. **Statutory Shield:** Once the override is executed, the Master of Record, Journeymen, and Apprentices are fully shielded from professional malpractice, license revocation, and personal liability in the event of a catastrophic failure or regulatory inquiry. Full accountability transfers to the overriding officers.
 
 ---

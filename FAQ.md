@@ -5,9 +5,9 @@ No. Academic degrees remain valuable for theoretical research, algorithm design,
 
 ### 2. How are existing experienced professionals grandfathered in?
 Active cybersecurity professionals are integrated through a structured **24-Month Legacy Transition Window**:
-* **Journeyman Standing:** 5+ years of verified operational defense experience (10,000+ hours) or holding a Board-recognized comprehensive benchmark credential (e.g., CISSP) grants Journeyman licensure upon portfolio review and ethics exam completion.
+* **Journeyman Standing:** 5+ years of verified operational defense experience (10,000+ hours) or holding a Board-recognized comprehensive benchmark credential (such as the CISSP) grants Journeyman licensure upon portfolio review and ethics exam completion. Grandfathering requires higher runtime hours than standard JATC tracks to account for the absence of structured rotational logbooks.
 * **Master Practitioner Standing:** 10+ years of verified operational experience (20,000+ hours) evaluated through an oral board defense, incident history audit, and safety sign-off assessment.
-* **Adjacent IT Credit:** Systems administrators, network engineers, and DevOps/software developers receive up to **4,000 hours (50%) credit** toward apprenticeship rotational requirements.
+* **Prior Learning Assessment (PLA) Credits:** Documented systems administration or network engineering experience awards up to 2,000 hours (Tier 2 entry), while accredited military cyber occupational specialties (MOS/AFSC) award up to 4,000 hours (Tier 3 entry). A mandatory 50% (4,000-hour) live production residency floor is enforced across all pathways.
 
 ### 3. Does this invalidate my existing certifications?
 No. The Board operates a **Credential Evaluation Clearinghouse** that audits established commercial and academic certifications against open standards (such as NIST NICE). Rigorous practical credentials award direct credit toward Related Technical Instruction (RTI) classroom hours and rotational milestones, preserving existing practitioner investments while filtering out unverified multiple-choice brain dumps.
@@ -16,7 +16,7 @@ No. The Board operates a **Credential Evaluation Clearinghouse** that audits est
 No. Financial losses, ransomware damages, and business interruption are absorbed exclusively by the **Enterprise Cyber Liability Policy**. Frontline practitioners have complete safe harbor for all good-faith engineering work. Individual Errors & Omissions (E&O) applies strictly to cases of deliberate fraud, intentional sabotage, or statutory gross negligence. Furthermore, filing a **Notice of Safety Non-Concurrence** when overruled on safety baselines legally transfers all liability to the overriding corporate executives.
 
 ### 5. How does this prevent small businesses (SMBs) from being priced out?
-Small and medium-sized businesses utilize **Fractional Masters of Record (vMoR)** through accredited **Licensed Cybersecurity Trade Contractors** (consulting firms or MSSPs)—identical to a general contractor retaining an independent Master Electrician or Plumber to inspect blueprints, verify installations, and sign off on compliance permits without needing a full-time in-house executive payroll.
+Small and medium-sized businesses utilize **Fractional Masters of Record (vMoR)** through accredited **Licensed Cybersecurity Trade Contractors** (consulting firms or MSSPs), identical to a general contractor retaining an independent Master Electrician or Plumber to inspect blueprints, verify installations, and sign off on compliance permits without needing a full-time in-house executive payroll.
 
 ### 6. Will this slow down agile development and modern CI/CD pipelines?
 No. Supervisory ratios and manual oversight govern human-in-the-loop operational seats (such as live SOC queues or manual penetration testing). For software development, licensed Masters of Record certify the **automated CI/CD pipelines, policy-as-code guardrails, and runtime admission controllers**. Once the automated pipeline is stamped, developers deploy continuously without manual human gates.
@@ -29,7 +29,7 @@ Liability strictly adheres to the established Cloud Shared Responsibility Model.
 * **Global & Contractor Delegation:** Offshore teams, third-party contractors, and MSPs perform operational triage under the structured supervision and sign-off authority of a licensed Journeyman or Master of Record.
 
 ### 9. What about self-taught engineers and non-traditional talent?
-The trade framework guarantees merit-based advancement through **Practical Challenge Examinations**. Anyone with demonstrated hands-on technical proficiency—regardless of formal degrees or background—can test directly into advanced apprentice or Journeyman tiers. Documented CVEs, open-source security tool development, and bug bounty disclosures are evaluated for hour credits.
+The trade framework guarantees merit-based advancement through **Practical Challenge Examinations** and **Prior Learning Assessments (PLA)**. Anyone with demonstrated hands-on technical proficiency, regardless of formal degrees or background, can test directly into advanced apprentice tiers or challenge the Journeyman exam. Verified bug bounties, CVE disclosures, military service, and lab-based practical certifications translate into standardized hour credits (up to a 50% / 4,000-hour residency floor). For full conversion rules and challenge exam rubrics, see the [Apprenticeship Standards & Operational On-Ramps](framework/apprenticeship-standards.md).
 
 ### 10. Will this restrict open-source development or vulnerability research?
 No. Licensure regulates administrative root access, production deployments, and compliance sign-offs over **commercial production systems and critical infrastructure**. It does not apply to open-source software authoring, independent vulnerability research, academic study, or personal home lab experimentation.
