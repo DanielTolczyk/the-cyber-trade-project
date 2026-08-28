@@ -59,6 +59,35 @@ MANDATORY_PILLARS = {
 }
 
 
+def check_pillar_immutability() -> list:
+    errors = []
+    for rel_path, expected_title in MANDATORY_PILLARS.items():
+        pillar_path = REPO_ROOT / rel_path
+        if not pillar_path.exists():
+            errors.append(
+                f"[Pillar Immutability Error] Mandatory pillar file missing: '{rel_path}'. "
+                f"The 7 core pillars are permanent architectural constants and cannot be renamed or deleted."
+            )
+            continue
+
+        try:
+            with open(pillar_path, "r", encoding="utf-8") as f:
+                first_line = ""
+                for line in f:
+                    stripped = line.strip()
+                    if stripped:
+                        first_line = stripped
+                        break
+                if first_line != expected_title:
+                    errors.append(
+                        f"[Pillar Immutability Error] {rel_path}: Title mismatch.\n"
+                        f"  Expected: '{expected_title}'\n"
+                        f"  Found:    '{first_line}'"
+                    )
+        except Exception as e:
+            errors.append(f"[Read Error] Could not read pillar {rel_path}: {e}")
+    return errors
+
 
 def check_typography_and_emojis(file_path: Path) -> list:
     errors = []
