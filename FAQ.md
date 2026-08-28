@@ -10,7 +10,7 @@ Active practitioners transition via a 24-month portfolio review window (10,000+ 
 No. The Board Credential Evaluation Clearinghouse audits established certs against NIST NICE to award direct Related Technical Instruction (RTI) and milestone credit. For evaluation criteria, see [Pillar IV: Professional Licensure](pillars/04_licensure-and-board.md).
 
 ### 4. Will I be personally sued if my company gets breached?
-No. Enterprise cyber liability absorbs financial breach losses, and practitioners hold statutory safe harbor for good-faith engineering. Personal E&O applies strictly to gross negligence or intentional sabotage. For liability rules, see [Pillar V: Professional Liability](pillars/05_liability-insurance.md).
+No. Enterprise cyber liability absorbs financial breach losses, and practitioners hold statutory safe harbor for good-faith engineering. Personal E&O applies strictly to gross negligence or intentional sabotage. For liability rules, see [Pillar V: Personal Liability & The Right of Technical Refusal](pillars/05_personal-liability-and-refusal.md).
 
 ### 5. How does this prevent small businesses (SMBs) from being priced out?
 SMBs retain accredited Fractional Masters of Record (vMoR) through Licensed Trade Contractors to inspect baselines and execute compliance stamps without full-time executive payroll. For engagement rules, see [Contractors, Consulting & The Trade LLC Model](framework/contractors-and-consulting.md).
@@ -43,7 +43,7 @@ An ethical standard allowing practitioners to refuse unsafe directives by filing
 No. It acts as a condition-bounded liability transfer mechanism; executive leadership may proceed by signing an Executive Override Form (Form FORM-002). For operational impact tiers and invalidation rules, see [Code of Ethics & Refusal Protocols](framework/ethics-and-refusal.md).
 
 ### 15. How does the liability transfer protect frontline engineers?
-Executing an Executive Override transfers statutory, regulatory, and financial liability entirely to the overriding corporate officers, shielding engineering staff under the Trade Liability Shield. For legal mechanics, see [Pillar V: Professional Liability](pillars/05_liability-insurance.md).
+Executing an Executive Override transfers statutory, regulatory, and financial liability entirely to the overriding corporate officers, shielding engineering staff under the Trade Liability Shield. For legal mechanics, see [Pillar V: Personal Liability & The Right of Technical Refusal](pillars/05_personal-liability-and-refusal.md).
 
 ### 16. How is the evidentiary trail protected if an employer attempts to suppress it?
 Filing hashes are dual-logged to internal enterprise logs and the external National Board clearinghouse, creating an immutable, timestamped record outside corporate control. For schema details, see [Universal Logbook Schema & Telemetry Standard](framework/logbook-schema.md).
