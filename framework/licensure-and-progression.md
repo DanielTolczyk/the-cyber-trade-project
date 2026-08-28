@@ -63,6 +63,12 @@ To graduate from apprentice status and achieve independent Journeyman Licensure,
 * Supervise up to two registered apprentices on an active shift (2:1 ratio).
 * Issue internal [Operational Exception Flags (Form FORM-003)](../templates/FORM-003_operational-exception-flag.md).
 
+### Legacy Transition & Prior Learning Equivalence
+During the initial transition window, practitioners transition via three non-exclusive pathways defined in the [10-Year Industry Transition Plan](../governance/transition-plan.md):
+* **Track A (Career Runtime & Peer Review):** 4+ years (8,000+ verified operational hours) of full-time defense/systems runtime + 2 peer reference affidavits grants direct Journeyman Licensure without commercial cert requirements.
+* **Track B (Benchmark RTI Credit):** Historical multi-domain benchmark credentials (CISSP, CISM, GSLC, etc.) count as permanent RTI credit, regardless of active or lapsed vendor standing.
+* **Track C (Practical Challenge):** Direct completion of the 4-hour Board Practical Challenge Exam.
+
 ---
 
 ## 4. Master Practitioner Elevation
@@ -74,6 +80,9 @@ Master Practitioner represents the highest individual technical credential in th
 3. **Defense Portfolio Audit:** Submit a comprehensive defense portfolio containing sanitized architectural blueprints, incident post-mortems, automation tools, or research publications.
 4. **Oral Board Defense:** Successfully defend their portfolio before an evaluation panel of three active Master Practitioners convened by the Board.
 5. **Ethical Record:** Maintain a clean ethical standing with zero unresolved malpractice findings or disciplinary suspensions.
+
+### Legacy Master Transition Window (8+ Years / 16,000+ Hours)
+Senior practitioners with 8+ years of production engineering and defense experience transition directly to Master Practitioner standing during the transition window by submitting 3 sanitized engineering artifacts and completing a 45-minute Oral Board Defense before a panel of 3 Master Practitioners, with zero commercial vendor certification requirements.
 
 ---
 
@@ -91,7 +100,7 @@ A Master of Record is a Master Practitioner who accepts legal and statutory resp
 
 To eliminate predatory commercial recertification fees, vendor lock-in, and recurring credential taxes:
 
-* **Strict Prohibition of Annual Maintenance Fees (AMFs):** The National Board and Craft Guild are legally prohibited from levying recurring annual maintenance fees, badge subscription taxes, or pay-to-maintain charges on licensed practitioners.
+* **Strict Prohibition of Annual Maintenance Fees (AMFs):** The National Board and Craft Guild are legally prohibited from levying recurring annual maintenance fees, badge subscription taxes, or pay-to-maintain charges on licensed practitioners. Furthermore, historical accredited certifications held by practitioners retain 100% standing for Related Technical Instruction (RTI) credit regardless of whether commercial vendor renewal fees were maintained.
 * **Triennial Competency Audit Cycle:** Trade licenses (Journeyman and Master Practitioner) are renewed every 3 years at **zero financial cost ($0.00)** upon submitting verified logbook proof of:
   * **Active Operational Runtime:** Minimum of **3,000 verified operational runtime hours** over the 3-year cycle (averaging 1,000 hrs/year), OR
   * **Continuing Technical Development (CTD):** Completion of **120 hours of approved technical development** over the 3-year cycle (e.g., advanced JATC range labs, mentoring registered apprentices, contributing to open-source security tooling, or specialty clinics).
