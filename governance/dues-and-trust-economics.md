@@ -52,6 +52,7 @@ In the skilled trades, healthcare and retirement belong permanently to the worke
 
 ### B. The "Two-Check" Retirement System (Pension + 401(k))
 * **Check 1: Multi-Employer Defined Benefit Pension:** Funded 100% by employer hourly contributions (e.g., $6.00/hour worked) into the Taft-Hartley Pension Trust. Accumulates continuously across multiple employers, guaranteeing a defined lifetime monthly benefit upon retirement.
+* **Unified 5-Year Multi-Employer Vesting Clock:** Under federal ERISA standards for Taft-Hartley trusts, all operational hours worked for any participating PEC employer accumulate toward a single, unified 5-year vesting clock (minimum 1,000 hours/year). Once a practitioner logs 5,000 total verified hours across any combination of employers, they are **100% permanently vested** in their lifetime pension.
 * **Check 2: Optional Employer-Matching 401(k) / Annuity:** Employers may offer corporate 401(k) matching plans alongside the pension. Trade pension participation does not restrict an employer from providing a matching 401(k) plan.
 
 ### C. Supplemental Unemployment Benefit (SUB) Fund
@@ -64,6 +65,7 @@ In the skilled trades, healthcare and retirement belong permanently to the worke
 Benefit funds are legally independent from Guild operational accounts under the Employee Retirement Income Security Act (ERISA):
 
 * **50/50 Bipartisan Board of Trustees:** Every benefit trust is governed by equal representation: 50% Worker Trustees (elected by Guild membership) and 50% Employer Trustees (appointed by participating businesses). Neither side can unilaterally spend trust assets. Deadlocks are referred to independent federal arbitration.
+* **Statutory Bankruptcy Insulation:** Under Section 302(c) of the Taft-Hartley Act and ERISA Section 403, all Health Hour-Bank, Pension, and JATC assets are legally insulated non-profit trust assets. They are **100% immune from corporate bankruptcy courts, corporate creditors, and corporate acquisitions**.
 * **Independent Third-Party Administrator (TPA):** Claims processing, Hour-Bank accounting, and benefit disbursements are executed exclusively by bonded professional third-party administrative firms. No Guild officer handles benefit checkbooks.
 * **Independent Annual CPA Audits & IRS Form 5500:** All trusts undergo mandatory annual external CPA audits and file public IRS Form 5500 reports accessible to all members.
 * **Mandatory Federal Surety Bonding:** All officers handling funds carry federal fiduciary bonding under ERISA Section 412 and LMRDA Section 502.

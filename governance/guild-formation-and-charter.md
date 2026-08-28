@@ -120,3 +120,20 @@ To protect frontline workers from supervisory capture and ensure fair labor repr
 * **Grievance Impartiality:** Supervisory members are barred from sitting on Guild grievance arbitration panels or ratio dispute committees involving their own corporate enterprise.
 * **Anti-Retaliation Accountability:** If a supervisory member uses their corporate authority to retaliate against, demote, or stall the logbook hours of an engineer who filed an Operational Exception Flag (Form FORM-003) or executed a technical refusal, the manager faces immediate Board ethics prosecution and mandatory 24-month supervisory license suspension.
 
+
+### D. Return to the Tools & Re-Activation of Full Voting Rights
+In technology and engineering, practitioners frequently move between technical leadership and frontline engineering roles. The trade seamlessly accommodates this transition:
+* **Immediate Re-Activation:** When a manager, director, or CISO steps down from a supervisory role and returns to a frontline engineering position (no longer possessing hiring, firing, or disciplinary authority), their **Active Working Member Card** is immediately re-activated upon written notice to their Local Chapter.
+* **Full Democratic Rights Restored:** Full voting rights on collective bargaining agreements, local chapter elections, and grievance participation are restored in full without waiting periods, penalties, or re-initiation fees.
+
+---
+
+## 7. Guild Membership Intake & Onboarding Protocols
+
+Joining the Craft Guild is structured across three clear practitioner on-ramps:
+
+1. **Registered Apprentices:** Automatically enrolled in the Guild upon indenturing into a recognized JATC apprenticeship program or passing an accredited community college pre-apprenticeship screening. Pay reduced Basic Dues ($15/mo) with full safe-harbor legal protections.
+2. **Journeymen & Masters:** Experienced practitioners submit their verified Board License or approved clearinghouse benchmark (e.g., CISSP or Practical Challenge Exam) to their regional Local Chapter and execute the Guild Membership Card.
+3. **Independent Contractors & Consultants:** Licensed Journeymen and Masters operating as 1099 consultants execute a standard Guild Master Agreement, ensuring their clients remit required hourly health and pension contributions into the central trusts.
+
+

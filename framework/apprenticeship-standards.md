@@ -101,3 +101,33 @@ To ensure trainees are protected from predatory employer practices, wage theft, 
         with zero loss of standing or wage step progress.
 ```
 
+
+
+---
+
+## 7. Federal Statutory Compliance Alignment (DOL 29 CFR Part 29 & Part 30)
+
+To guarantee that participating employers, community colleges, and apprentices unlock federal and state registered apprenticeship benefits on Day 1, this standard satisfies all statutory criteria:
+
+| Federal Statutory Requirement (29 CFR Part 29 / 30) | Cybersecurity Trade Project Standard | Statutory Compliance Status |
+| :--- | :--- | :--- |
+| **Minimum 2,000 OJT Hours / Year (§ 29.5(b)(2))** | 8,000 hours over 4 years across 5 standardized rotational domains. | **100% Compliant** |
+| **Minimum 144 Classroom RTI Hours / Year (§ 29.5(b)(4))** | 576 hours total (144 hrs/year) funded zero-cost by JATC training trusts. | **100% Compliant** |
+| **Progressive Wage Step Schedule (§ 29.5(b)(5))** | Graduated scale: Tier 1 (50%), Tier 2 (60%), Tier 3 (70%), Tier 4 (80%), Journeyman (100%). | **100% Compliant** |
+| **Supervisory Ratios & Worker Safety (§ 29.5(b)(7))** | Enforced 2:1 on-shift operational ratio; solo-shift bans on graveyard/on-call. | **100% Compliant** |
+| **Equal Opportunity & Affirmative Action (Part 30)** | Public vocational community college screening and veterans' recruitment partnerships. | **100% Compliant** |
+| **Credential Portability & Completion (§ 29.5(b)(15))** | Universal Logbook and issuance of DOL Certificate of Completion of Apprenticeship. | **100% Compliant** |
+
+---
+
+## 8. Exam Failure Remediation & Supervisor Departure Protections
+
+### A. Practical Examination Remediation Protocol
+* **Wage Stability:** An apprentice who completes 8,000 operational runtime hours but does not pass the Journeyman Practical Challenge Exam remains at **Tier 4 Apprentice Wages (80% RJPB)** for a structured **6-month remediation period**.
+* **Zero-Cost Lab Tutoring:** The regional JATC provides dedicated lab tutoring focusing on the specific domain competencies where the candidate experienced scoring deficiencies.
+* **Retake Policy:** Apprentices may attempt the practical examination up to **three (3) times within an 18-month window** before a joint JATC review panel convenes to evaluate career pathway placement.
+
+### B. Supervisor Departure & 14-Day Reassignment Safe Harbor
+* **Cryptographic Hour Preservation:** If a supervising Journeyman or Master leaves an enterprise, gets reassigned, or faces license suspension, all previously logged and ticket-hashed hours remain permanently valid and accredited.
+* **14-Day Employer Reassignment Window:** The employer has 14 calendar days to assign another active Licensed Journeyman or Master on staff to resume line-of-sight supervision. If no licensed staff is available, the JATC immediately executes emergency reassignment to another participating sponsor with zero loss of training progress.
+

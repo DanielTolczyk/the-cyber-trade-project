@@ -32,6 +32,9 @@ The permanent Board maintains a strict **Tripartite 11-Member Voting Quorum (4 -
 | **Advisory Delegates (Non-Voting)** | **Apprentice Advocate Delegate (1 Seat)** | Non-voting delegate elected directly by Apprentices | 1 Year (Annual) |
 | | **Federal Standards Liaison (1 Seat)** | Non-voting advisory liaison appointed by NIST/CISA | 3 Years |
 
+
+*Each seat operates under an explicit fiduciary mandate: Master Practitioners defend architectural rigor and MoR liability; the Journeyman Trustee represents frontline operational sustainability and 2:1 ratio enforcement; the Guild Representative defends worker labor rights and trust benefits; CISOs represent commercial defensibility; Insurers represent actuarial risk; and Independent Trustees defend public safety and non-debt educational access.*
+
 ---
 
 ## 3. Democratic Election Procedures & Anti-Coercion Safeguards
@@ -59,6 +62,13 @@ To eliminate vote-splitting, prevent polarizing factional takeovers, and ensure 
 * **Instant-Runoff Balloting:** In any Board trustee or Guild officer election with three or more candidates, voters rank candidates in order of preference (1st choice, 2nd choice, 3rd choice).
 * **Majority Threshold Tabulation:** If no candidate secures an outright majority (50% + 1) of first-choice votes, the candidate with the fewest votes is eliminated, and their ballots are transferred to each voter's next-ranked choice until a candidate achieves a true majority.
 * **Single Transferable Vote for Multi-Seat Elections:** When electing multiple trustees concurrently (e.g., electing two Master Practitioners), tabulation follows the Single Transferable Vote (STV) proportional method.
+
+
+### E. Independent Election Administration & Observer Safeguards
+To eliminate any risk of backroom tampering, ballot stuffing, or disputed counts:
+* **Independent Neutral Election Arbiter:** All Board and National Guild elections are administered by an external, neutral election supervisor (such as the American Arbitration Association / AAA or an accredited voting service operating under federal LMRDA Title IV standards).
+* **Rank-and-File Election Observers:** Every certified candidate holds the statutory right to designate official rank-and-file observers to witness all digital key ceremonies, ballot opening, signature verification, and computerized tabulation.
+* **Protested Election Protocol:** Any active member in good standing may file a formal election protest with the Independent Election Arbiter within 10 calendar days of certified results. If material irregularities are proven, the arbiter holds authority to order a re-vote.
 
 ---
 

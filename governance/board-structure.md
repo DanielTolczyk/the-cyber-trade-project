@@ -46,6 +46,29 @@ To ensure no single special interest, commercial vendor, or corporate lobby capt
   └─► 1 Seat: Apprentice Advocate Delegate (Elected directly by Apprentices)
 ```
 
+### A. Distinct Representation Mandates & Focus Areas
+
+Even within stakeholder groupings, individual seats hold specific, legally distinct representational mandates:
+
+1. **Workforce & Practice (4 Seats):**
+   * **Active Master Practitioners (2 Seats):** Represent senior engineering architecture, statutory Master of Record (MoR) sign-off liability, practical challenge examination rigor, and ethical refusal protocols (Form FORM-001/002).
+   * **Active Licensed Journeyman (1 Seat):** Represents the frontline working majority, shift workload sustainability, on-shift 2:1 supervisory ratio enforcement, tooling ergonomics, and technical debt escalation (Form FORM-003).
+   * **Craft Guild Worker Representative (1 Seat):** Represents worker legal rights, labor safety standards, collective defense shield operations, portable benefit trust viability, and protection against employer retaliation.
+
+2. **Business, Employers & Risk Capital (4 Seats):**
+   * **Enterprise & Critical Infrastructure CISOs (2 Seats):** Represent organizational defense feasibility, corporate risk appetite, commercial velocity, and executive governance.
+   * **Cyber Insurance Underwriters & Actuaries (2 Seats):** Represent actuarial loss modeling, underwriting warranty compliance, telemetry verification, and policy discount structures.
+
+3. **Independent Public Interest & Education (3 Seats):**
+   * **Public Safety & Consumer Protection Advocate (1 Seat):** Represents the general public, consumer data privacy, patient safety, and unbiased malpractice discipline.
+   * **Public Vocational Educator / Community College Dean (1 Seat):** Represents public community college systems, collegiate lab range funding, and tuition-free vocational access.
+   * **JATC Curriculum Specialist (1 Seat):** Represents pedagogical instructional quality, Related Technical Instruction (RTI) standards, and psychometric exam validity.
+
+4. **Non-Voting Advisory Delegates (2 Seats):**
+   * **Apprentice Advocate Delegate:** Represents the direct welfare, mentorship safety, and ratio compliance of registered trainees.
+   * **Federal Standards Liaison (NIST NICE / CISA):** Represents alignment with national cybersecurity workforce taxonomies and federal critical infrastructure directives.
+
+
 ---
 
 ## 3. Statutory Powers of the Advisory Delegates

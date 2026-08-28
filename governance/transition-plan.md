@@ -34,19 +34,20 @@ Recognizing that statutory licensing compacts (analogous to the Interstate Medic
 
 ## 2. Phase Breakdown & Milestones
 
-### Phase 1: Voluntary Market Adoption & JATC Pilots (Years 0 – 2)
-* **Institutional Chartering:** Formal 501(c)(6) incorporation of the National Cybersecurity Trade Board and initial Craft Guild chapters.
-* **JATC Pilot Cohorts:** Launching DOL-registered apprenticeship cohorts in 3–5 regional tech/industrial hubs in partnership with community colleges and employer sponsors.
-* **Actuarial Risk Incentive Program:** Partnering with cyber liability underwriters to grant warranty extensions and premium credits for organizations maintaining compliant Journeyman-to-Apprentice ratios.
+### Phase 1: Voluntary Market Adoption & Institutional Chartering (Years 0 - 2)
+* **Four-Pillar Institutional Chartering:** Simultaneous 501(c)(6) non-profit incorporation of the National Cybersecurity Trade Board (NCTB), the Cybersecurity Craft Guild (CCG), the Participating Employer Council (PEC), and the Cyber Underwriting & Actuarial Advisory Consortium (CUAAC).
+* **Federal DOL Apprenticeship Registration:** Formally registering the National Guidelines for Apprenticeship Standards (NGAS) with the U.S. Department of Labor under 29 CFR Part 29 and Part 30.
+* **JATC Pilot Cohorts:** Launching DOL-registered apprenticeship cohorts in 3 to 5 regional industrial and technology hubs in partnership with public community colleges and PEC employer sponsors.
+* **Actuarial Risk Incentive Program:** Implementing CUAAC standardized underwriting warranty schedules, granting 25% to 35% Preferred Risk premium credits for organizations maintaining compliant Journeyman-to-Apprentice ratios (2:1).
 * **Grandfathering Review Windows:** Opening the 24-month structured portfolio evaluation window for experienced practitioners to transition into Journeyman or Master Practitioner tiers.
 
-### Phase 2: Critical Infrastructure & Procurement Standards (Years 3 – 5)
+### Phase 2: Critical Infrastructure & Procurement Standards (Years 3 - 5)
 * **Federal Procurement Integration:** Introducing preferential procurement scoring in federal defense contracts (FAR/DFARS) for suppliers employing licensed Master Practitioners and maintaining auditable apprentice ratios.
 * **Critical Sector Standardization:** High-reliability industries (ICS/SCADA, MedTech/IoMT, nuclear, defense industrial base) adopt trade sign-off standards into operational safety baselines.
 * **Actuarial Baseline Report:** Publishing the first comprehensive 5-year actuarial study comparing breach frequency and claim severity between trade-staffed vs. unstandardized organizations.
 * **Drafting the Model Compact Legislation:** Partnering with the Council of State Governments (CSG) to draft the **National Cybersecurity Trade Licensure Compact (NCTLC)**.
 
-### Phase 3: Statutory Interstate Compacts & Safe Harbor (Years 5 – 10)
+### Phase 3: Statutory Interstate Compacts & Safe Harbor (Years 5 - 10)
 * **State Legislative Enactment:** Introducing and passing the NCTLC across state legislatures, beginning with a 5-to-10 state founding compact quorum.
 * **Mutual Reciprocity & Mobility:** Full digital multi-state licensure enabling seamless interstate physical and remote deployment of Journeymen and Masters.
 * **Mandatory Master of Record (MoR) Statutory Sign-Off:** Codifying statutory requirements for public utilities, municipal infrastructure, and healthcare networks to maintain a designated MoR.
@@ -60,6 +61,6 @@ To ensure immediate operational continuity without stranding existing senior pro
 
 | Tier | Eligibility Window | Experience Requirement | Evaluation Mechanism |
 | :--- | :--- | :--- | :--- |
-| **Legacy Journeyman Transition** | Open during Years 0 – 3 | 5+ years operational defense (10,000+ verified hrs) | Portfolio review, verified incident history, and trade ethics exam. |
-| **Legacy Master Transition** | Open during Years 0 – 3 | 10+ years operational defense (20,000+ verified hrs) | Oral board defense, reference audits, and safety sign-off assessment. |
+| **Legacy Journeyman Transition** | Open during Years 0 - 3 | 5+ years operational defense (10,000+ verified hrs) | Portfolio review, verified incident history, and trade ethics exam. |
+| **Legacy Master Transition** | Open during Years 0 - 3 | 10+ years operational defense (20,000+ verified hrs) | Oral board defense, reference audits, and safety sign-off assessment. |
 | **Post-Transition Standard** | Year 4 onwards | Standard 8,000 / 12,000 hr trade tracks | Universal Logbook telemetry + Practical Challenge Examination. |
