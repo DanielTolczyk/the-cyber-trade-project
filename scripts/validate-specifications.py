@@ -47,6 +47,18 @@ REQUIRED_RFC_SECTIONS = [
     "## 6. Implementation",
 ]
 
+# Canonical 7 Pillars (Immutability Gate)
+MANDATORY_PILLARS = {
+    "pillars/01_pre-apprenticeship.md": "# Pillar I: Standardized Pre-Apprenticeship (The Talent Filter)",
+    "pillars/02_earn-while-learning.md": "# Pillar II: The Earn-While-You-Learn Pipeline",
+    "pillars/03_rotational-pipeline.md": "# Pillar III: Progressive Rotations & Enforced Ratios",
+    "pillars/04_licensure-and-board.md": "# Pillar IV: Professional Licensure & The Journeyman Standard",
+    "pillars/05_personal-liability-and-refusal.md": "# Pillar V: Personal Liability & The Right of Technical Refusal",
+    "pillars/06_craft-guilds-and-labor-trusts.md": "# Pillar VI: Craft Guilds, Labor Trusts & Collective Defense",
+    "pillars/07_insurance-catalyst.md": "# Pillar VII: The Insurance-Driven Market Catalyst",
+}
+
+
 
 def check_typography_and_emojis(file_path: Path) -> list:
     errors = []
@@ -140,6 +152,36 @@ def check_rfc_structure(rfc_path: Path) -> list:
     return errors
 
 
+def check_pillar_immutability() -> list:
+    errors = []
+    for rel_path, expected_title in MANDATORY_PILLARS.items():
+        pillar_path = REPO_ROOT / rel_path
+        if not pillar_path.exists():
+            errors.append(
+                f"[Pillar Immutability Error] Mandatory pillar file missing: '{rel_path}'. "
+                f"The 7 core pillars are permanent architectural constants and cannot be renamed or deleted."
+            )
+            continue
+
+        try:
+            with open(pillar_path, "r", encoding="utf-8") as f:
+                first_line = ""
+                for line in f:
+                    stripped = line.strip()
+                    if stripped:
+                        first_line = stripped
+                        break
+                if first_line != expected_title:
+                    errors.append(
+                        f"[Pillar Immutability Error] {rel_path}: Title mismatch.\n"
+                        f"  Expected: '{expected_title}'\n"
+                        f"  Found:    '{first_line}'"
+                    )
+        except Exception as e:
+            errors.append(f"[Read Error] Could not read pillar {rel_path}: {e}")
+    return errors
+
+
 def check_json_files() -> list:
     errors = []
     for json_file in REPO_ROOT.rglob("*.json"):
@@ -172,6 +214,11 @@ def main():
     for md_file in md_files:
         total_errors.extend(check_typography_and_emojis(md_file))
         total_errors.extend(check_markdown_links(md_file))
+
+    # Validate Mandatory 7 Pillars Immutability
+    print("[*] Validating the 7 Core Pillars immutability and canonical titles...")
+    pillar_errors = check_pillar_immutability()
+    total_errors.extend(pillar_errors)
 
     # Check RFCs
     rfc_dir = REPO_ROOT / "rfcs"
