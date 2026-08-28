@@ -32,6 +32,9 @@ The permanent Board maintains a strict **Tripartite 11-Member Voting Quorum (4 -
 | **Advisory Delegates (Non-Voting)** | **Apprentice Advocate Delegate (1 Seat)** | Non-voting delegate elected directly by Apprentices | 1 Year (Annual) |
 | | **Federal Standards Liaison (1 Seat)** | Non-voting advisory liaison appointed by NIST/CISA | 3 Years |
 
+
+*Each seat operates under an explicit fiduciary mandate: Master Practitioners defend architectural rigor and MoR liability; the Journeyman Trustee represents frontline operational sustainability and 2:1 ratio enforcement; the Guild Representative defends worker labor rights and trust benefits; CISOs represent commercial defensibility; Insurers represent actuarial risk; and Independent Trustees defend public safety and non-debt educational access.*
+
 ---
 
 ## 3. Democratic Election Procedures & Anti-Coercion Safeguards
