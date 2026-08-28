@@ -29,7 +29,7 @@ These differentials reflect heightened technical complexity, regulatory scrutiny
 | Specialty Track | Code | Baseline Adder (% above RJPB) | Operational Justification & Risk Environment |
 | :--- | :--- | :--- | :--- |
 | **ICS / OT / SCADA Defense** | `SE-ICS` | **+20% to +25%** | Life-safety critical infrastructure, physical plant environments, NERC CIP, and industrial safety interlocks. |
-| **MedTech & Clinical IoMT** | `SE-MED` | **+20% to +25%** | FDA 524B compliance, connected patient-care devices, clinical networks, and direct patient safety risks. |
+| **MedTech & Clinical Technology** | `SE-MED` | **+20% to +25%** | FDA 524B compliance, connected patient-care devices, clinical networks, and direct patient safety risks. |
 | **Digital Forensics & Incident Response (DFIR)** | `SE-DFIR` | **+15% to +20%** | Chain of custody preservation, sworn expert testimony exposure, active threat containment, and high-stress surge response. |
 | **Offensive Security & Red Teaming** | `SE-OFF` | **+15% to +20%** | Live exploit simulation, zero-day research, safety-constrained adversary emulation, and high-privilege risk environments. |
 | **Cloud Architecture & IAM Hardening** | `SE-CLD` | **+10% to +15%** | Multi-cloud control-plane hardening, automated supply-chain governance, and hyper-scale blast radius mitigation. |
