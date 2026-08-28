@@ -30,7 +30,28 @@ Thank you for your interest in contributing to The Cybersecurity Trade Project. 
 
 ## 3. The Request for Comments (RFC) Process
 
-Major architectural debates, statutory legal riders, complex economic models, or new operational protocols (e.g., surge staffing ratios, fractional MoR liability apportionment) are managed through the formal **RFC Process**.
+Major architectural debates, statutory legal riders, complex economic models, or new operational protocols (such as surge staffing ratios or fractional MoR liability apportionment) are managed through the formal **RFC Process**.
+
+### When is an RFC Required? (The Decision Matrix)
+
+To balance agile development with community peer review, proposed changes follow a clear decision threshold:
+
+* **Direct Pull Request (No RFC Needed):**
+  * Fleshing out an existing Specialty Track curriculum (e.g., expanding `SE-ICS` or `SE-AIML` competency rubrics).
+  * Adding standardized procedural templates or administrative forms (e.g., `FORM-001`, `FORM-002`, `FORM-003`).
+  * Resolving contradictory wording, metric discrepancies, or domain hour mappings across specifications.
+  * Routine documentation clarifications, typography hygiene, link repairs, and FAQ additions.
+
+* **Formal RFC Process Required:**
+  * **Legal & Liability Apportionment:** Shifting statutory accountability, introducing contractual safe harbor riders, or altering malpractice definitions (e.g., RFC 0001).
+  * **Safety Ratio & Headcount Variances:** Establishing temporary exceptions to supervisory headcount ratios or on-shift density rules (e.g., RFC 0002).
+  * **Mandatory Prerequisites & Elevation Gates:** Introducing new mandatory instructional quotas or qualification gates for licensure tiers (e.g., RFC 0003).
+  * **Core Economic Model Changes:** Altering baseline wage floor percentages, Related Technical Instruction (RTI) compensation rules, or Taft-Hartley trust funding mechanics.
+  * **Governance Restructuring:** Modifying Board composition, voting seat allocations, or Guild charter bylaws.
+
+---
+
+### RFC Submission Lifecycle
 
 1. **Fork the Repository:** Create a working branch off `main` (e.g., `rfc/my-feature-name`).
 2. **Draft the Document:** Copy `rfcs/0000-template.md` to `rfcs/000X-short-name.md` using the next available 4-digit index.
