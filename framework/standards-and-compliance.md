@@ -46,3 +46,23 @@ To embrace technological velocity while guaranteeing genuine engineering compete
 
 * **The "Power Tool" Operational Standard:** Artificial intelligence coding assistants, LLM-driven log summarizers, and automated security copilots are recognized as modern engineering power tools (analogous to an electrician's hydraulic bender or a machinist's CNC lathe). Practitioners and apprentices are fully permitted to utilize AI tooling in daily production to accelerate defense and automation.
 * **The Air-Gapped Licensure Benchmark:** To ensure practitioners possess foundational problem-solving capabilities rather than superficial prompt generation, all **Board Practical Challenge Examinations** are conducted in strictly proctored, air-gapped cyber range environments. Candidates must demonstrate raw CLI navigation, script authoring, packet analysis, and manual threat containment without external internet access or generative AI assistance.
+
+
+---
+
+## 6. Worker Algorithmic Defense & Anti-Automated Termination Standards
+
+To protect cybersecurity practitioners from black-box automated evaluation, dehumanizing surveillance metrics, and arbitrary algorithmic termination:
+
+### A. Strict Prohibition of Algorithmic Termination & Adverse Actions
+* **The Human Accountability Mandate:** No registered apprentice, Licensed Journeyman, or Master Practitioner may be terminated, demoted, laid off, placed on a Performance Improvement Plan (PIP), or denied a scheduled wage tier elevation **solely or primarily based on automated algorithms, AI-generated scorecards, or electronic surveillance telemetry**.
+* **Mandatory Human Supervisory Review:** Any adverse employment action or negative performance rating requires independent investigation, factual substantiation, and written personal attestation by a qualified human supervisor (Licensed Journeyman or Master of Record).
+
+### B. Prohibition of Invasive Bossware & Superficial Productivity Telemetry
+* **Banned Metric Practices:** Participating employers are strictly prohibited from utilizing continuous webcam tracking, eye-gaze tracking, audio listening daemons, biometric sentiment scoring, or keystroke-count quotas as performance standards.
+* **Trade Competency Standard:** Engineering performance in cybersecurity is evaluated strictly through objective NIST NICE task execution, verified ticket resolution quality, system hardening milestones, and Universal Logbook domain competencies.
+
+### C. The Worker Right to Algorithmic Transparency & Audit
+* **Transparency Entitlement:** Practitioners have the statutory right to request and inspect all automated telemetry, activity logs, scoring algorithms, and AI evaluation metrics maintained by their employer.
+* **Grievance Standing:** If an employer utilizes uncalibrated, inaccurate, or biased algorithmic scoring to penalize a practitioner, the affected worker or the Guild Ombudsperson holds standing to file an immediate grievance under [Form FORM-004](../templates/FORM-004_ethics-and-conduct-incident-report.md) to strike the evaluation and demand supervisory audit.
+

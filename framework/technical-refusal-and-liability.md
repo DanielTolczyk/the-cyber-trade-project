@@ -1,18 +1,16 @@
-# Ethical Canons, Technical Refusal & The Master of Record Liability Shield
+# Technical Refusal, Non-Concurrence & The Master of Record Liability Shield
 
 Professional accountability requires that licensed practitioners possess both the ethical obligation and the legal protection to uphold system integrity. This standard establishes the **Right of Technical Refusal**, the execution parameters for a **Notice of Safety Non-Concurrence**, and the liability transfer mechanics that protect frontline engineering personnel.
 
 ---
 
-## 1. Ethical Canons of the Trade
+## 1. The Statutory Right of Technical Refusal
 
-Every registered Apprentice, Journeyman, and Master Practitioner is bound by four foundational canons:
+A licensed cybersecurity practitioner operates under a statutory fiduciary duty to protect public safety, system integrity, and critical digital infrastructure. 
 
-1. **Primacy of Public Safety & System Integrity:** Safeguard human safety, critical infrastructure, and data integrity above commercial expedience or administrative convenience.
-2. **Objective Engineering Candor:** Provide unvarnished, mathematically sound, and auditable assessments of risk, vulnerabilities, and defensive readiness.
-3. **Guardianship of Competency & Truthful Telemetry:** Never falsify logbook hours, sign off on unverified operational artifacts, or practice beyond accredited domain competencies.
-4. **Protection of Whistleblowers & Ethical Defensibility:** Support peers and subordinates who invoke ethical escalation procedures in good faith.
-5. **Prohibition of Supervisory Coercion & Exploitation:** Never condition subordinate career progression, logbook attestations, wage advancement, or training evaluations on personal, political, or organizational compliance. Senior practitioners must actively defend the independent agency and welfare of the trainees under their supervision.
+* **Professional Duty:** A licensed practitioner has the legal right and affirmative professional obligation to refuse to deploy, configure, or sign off on architectures, releases, or operational procedures that knowingly violate statutory safety minimums, regulatory mandates, or critical defense baselines.
+* **Non-Coercion Guarantee:** Senior executives and management personnel are strictly prohibited from compelling, threatening, or coercing a licensed practitioner into executing unsafe deployments or falsifying safety telemetry.
+* **Whistleblower Standing:** Exercising a technical refusal in good faith is legally protected under trade compact model legislation as a protected safety activity.
 
 ---
 
@@ -70,9 +68,11 @@ The enforcement thresholds for Technical Refusal reflect operational risk contex
 
 ---
 
-## 5. Whistleblower Protections & Legal Defense
+## 5. Whistleblower Protections & Legal Defense Shield
 
 Any licensed practitioner who invokes an Exception Flag or a Master of Record who issues a Notice of Safety Non-Concurrence receives comprehensive protection under trade bylaws:
 
-* **Guild Legal Defense Shield:** Immediate indemnification, specialized legal representation, and living stipends funded through the Craft Guild Defense Trust in the event of retaliatory termination or blacklisting.
-* **Statutory Retaliation Safe Harbor:** Under Model Trade Legislation, retaliating against a licensed practitioner for a good-faith safety refusal constitutes unlawful termination with mandatory punitive damages.
+* **Guild Legal Defense Shield:** Immediate indemnification, specialized legal representation, and living stipends funded through the Craft Guild Defense Trust in the event of retaliatory termination, demotion, or blacklisting.
+* **Statutory Retaliation Safe Harbor:** Under Model Trade Legislation, retaliating against a licensed practitioner for good-faith safety refusal constitutes unlawful termination with mandatory punitive damages.
+* **Incident Reporting for Harassment/Retaliation:** If an employer or supervisor retaliates against an engineer for exercising a refusal, the affected practitioner may submit an [Ethics & Conduct Incident Report (Form FORM-004)](../templates/FORM-004_ethics-and-conduct-incident-report.md) to initiate immediate Guild and Board protective proceedings.
+

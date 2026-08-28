@@ -131,3 +131,59 @@ To guarantee that participating employers, community colleges, and apprentices u
 * **Cryptographic Hour Preservation:** If a supervising Journeyman or Master leaves an enterprise, gets reassigned, or faces license suspension, all previously logged and ticket-hashed hours remain permanently valid and accredited.
 * **14-Day Employer Reassignment Window:** The employer has 14 calendar days to assign another active Licensed Journeyman or Master on staff to resume line-of-sight supervision. If no licensed staff is available, the JATC immediately executes emergency reassignment to another participating sponsor with zero loss of training progress.
 
+---
+
+## 9. Pre-Apprentice Candidate Integrity & Intake Debarment
+
+To ensure individuals granted privileged operational access uphold foundational trade ethics from Day 1, pre-apprenticeship participants and practical challenge candidates are bound by the **Candidate Trade Integrity Agreement**:
+
+### A. Candidate Violation Categories & Intake Sanctions
+1. **Academic & Lab Dishonesty (Category 1):** Using unauthorized braindumps, sharing live challenge flags, copying code submissions, or bypassing proctor controls results in immediate dismissal from the pre-apprenticeship program, cancellation of exam scores, and a **12-to-24 month suspension** from the National Candidate Clearinghouse.
+2. **Discriminatory Harassment & Hate Speech (Category 2):** Engaging in harassment, sexual harassment, deadnaming, or slurs against fellow students, instructors, or lab staff results in immediate dismissal and **permanent debarment** from all JATC apprenticeship indentures.
+3. **Range Sabotage & Unauthorized Access (Category 3):** Attacking shared training range infrastructure, tampering with scoring daemons, or credential theft triggers **lifetime trade debarment** and formal referral to civil/criminal legal authorities.
+
+### B. Due Process for Candidates
+* Infractions are documented via an [Ethics & Conduct Incident Report (Form FORM-004)](../templates/FORM-004_ethics-and-conduct-incident-report.md) with technical evidence hashes.
+* Candidates receive written notice within 5 business days and the right to an evidentiary hearing before a 3-member JATC Candidate Review Panel (1 Vocational Educator, 1 Journeyman Proctor, 1 Apprentice Advocate).
+
+---
+
+## 10. Equal Opportunity & Emergency Harassment Transfers (29 CFR Part 30)
+
+In strict compliance with 29 CFR Part 30 and Title VII:
+* **Equal Opportunity Guarantee:** All recruitment, intake screening, classroom RTI, on-the-job rotational assignments, and wage elevations operate strictly without discrimination based on race, color, religion, national origin, sex, sexual orientation, gender identity, disability, age (40+), veteran status, genetic information, pregnancy, or cultural expression.
+* **Emergency Apprentice Transfer Protocol:** If an apprentice experiences discrimination, harassment, retaliation, or supervisory abuse at a participating employer, the JATC executes an immediate emergency transfer of the apprentice's indenture to a new compliant sponsor within 14 calendar days, with 100% preservation of accumulated hours, wage tiers, and health hour-bank reserves.
+
+---
+
+## 11. Prohibition of TRAPs, Liquidated Damages & Non-Competes
+
+To prevent the financial indenturing and debt-bondage of early-career practitioners:
+
+### A. Strict Prohibition of Training Repayment Agreement Provisions (TRAPs)
+* **Zero Worker Training Debt:** Under JATC multi-employer trust rules, all Related Technical Instruction (RTI), cyber range access, lab licenses, and exam vouchers are funded centrally by participating employer hourly contributions ($1.50/hr).
+* **Ban on Exit Debts & Reimbursement Penalties:** Sponsoring employers are legally prohibited from requiring apprentices to execute Training Repayment Agreements (TRAPs), liquidated damages clauses, tuition reimbursement clawbacks, or exit penalties if the apprentice departs during or after the training program.
+* **Statutory Nullity:** Any TRAP, promissory note, or repayment contract executed against an apprentice is legally null, void, and unenforceable under trade bylaws, and constitutes an actionable Class D unfair labor practice.
+
+### B. Universal Prohibition of Non-Compete Agreements
+* **Labor Mobility Guarantee:** Trade credentials and Journeyman licenses are open-market assets. Sponsoring employers cannot restrict where an apprentice or graduate Journeyman works following graduation.
+* **Void Covenants:** Post-employment non-compete agreements, customer solicitation covenants, and geographic practice restrictions applied to registered apprentices or graduating Journeymen are strictly prohibited across all participating employer agreements.
+
+---
+
+## 12. Forensic Trauma, Graphic Material Exposure & Rotational Respite
+
+Defensive cyber operations and digital forensics occasionally expose analysts to high-trauma material during lawful investigations (e.g., child sexual abuse material [CSAM] evidence handling, violent extremism triage, or severe cyber-extortion).
+
+To protect practitioner mental health and eliminate career penalties for occupational trauma exposure:
+
+### A. Rotational Respite for High-Trauma Forensic Investigations
+* **Stigma-Free Temporary Reassignment:** Any practitioner or apprentice assigned to forensic investigations involving CSAM evidence, graphic violence, or acute crisis triage holds the unconditional right to request temporary rotational relief away from traumatic materials.
+* **Zero Retaliation & Wage Protection:** Exercising a trauma respite request cannot be used as grounds for negative performance reviews, delayed wage-step elevation, or tier demotion. The apprentice is temporarily rotated into non-traumatic domains (e.g., Perimeter Hardening, Identity Governance, Vulnerability Scanning, or Defensive GRC) with 100% preservation of accumulated hours and base pay.
+
+### B. Dedicated Psychological Support Infrastructure
+* **Confidential Support Access:** The multi-employer Taft-Hartley Health Trust funds specialized, confidential psychological counseling tailored specifically to forensic digital trauma and high-stress incident containment.
+* **Secondary Review Protections:** In CSAM investigations, direct media inspection must be minimized through automated cryptographic hashing (e.g., PhotoDNA matching) and strict operational exposure limits (maximum 2 hours of continuous review).
+
+
+

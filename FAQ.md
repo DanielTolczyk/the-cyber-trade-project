@@ -37,10 +37,10 @@ No. The Guild functions as a craft association and Taft-Hartley training trust t
 Yes. Licensed Journeymen and Masters may work as 1099 contractors or establish Licensed Trade Contractors (LLCs/MSSPs) with designated MoR oversight; apprentices must remain W-2 trainees. For entity licensing rules, see [Contractors, Consulting & The Trade LLC Model](framework/contractors-and-consulting.md).
 
 ### 13. What is the "Right of Technical Refusal"?
-An ethical standard allowing practitioners to refuse unsafe directives by filing an Operational Exception Flag (Form FORM-003) or a formal Notice of Safety Non-Concurrence (Form FORM-001). For escalation protocols, see [Code of Ethics & Refusal Protocols](framework/ethics-and-refusal.md).
+An ethical standard allowing practitioners to refuse unsafe directives by filing an Operational Exception Flag (Form FORM-003) or a formal Notice of Safety Non-Concurrence (Form FORM-001). For escalation protocols, see [Technical Refusal & Liability Shield](framework/technical-refusal-and-liability.md).
 
 ### 14. Does a Notice of Safety Non-Concurrence stop an enterprise from operating?
-No. It acts as a condition-bounded liability transfer mechanism; executive leadership may proceed by signing an Executive Override Form (Form FORM-002). For operational impact tiers and invalidation rules, see [Code of Ethics & Refusal Protocols](framework/ethics-and-refusal.md).
+No. It acts as a condition-bounded liability transfer mechanism; executive leadership may proceed by signing an Executive Override Form (Form FORM-002). For operational impact tiers and invalidation rules, see [Technical Refusal & Liability Shield](framework/technical-refusal-and-liability.md).
 
 ### 15. How does the liability transfer protect frontline engineers?
 Executing an Executive Override transfers statutory, regulatory, and financial liability entirely to the overriding corporate officers, shielding engineering staff under the Trade Liability Shield. For legal mechanics, see [Pillar V: Personal Liability & The Right of Technical Refusal](pillars/05_personal-liability-and-refusal.md).
@@ -63,4 +63,14 @@ Apprentices permanently own their verified logbook hours, and the multi-employer
 
 ### 21. How do enterprises and business owners benefit from participating in this trade framework?
 Enterprises eliminate 25% to 30% recruiter fees, reduce health plan administrative liability through fixed-rate Taft-Hartley trusts, capture 25% to 35% cyber insurance discounts, and establish legal proof of due care. For a full economic breakdown, see [Business & Operational Benefits](framework/business-and-operational-benefits.md).
+
+
+### 22. How are whistleblowers protected when reporting popular or influential senior peers?
+Reporters can utilize the Blind Ombudsperson Institutional Proxy to seal their identity permanently while the Ombudsperson prosecutes the case. Additionally, mandatory Interim Protective Orders firewalls the accused from supervisory authority during inquiries, while the 12-Month Post-Resolution Monitoring Docket establishes a legal presumption of retaliation for any adverse action within 365 days. For full defense mechanics, see [Code of Ethics, Civil Rights & Conduct](framework/code-of-ethics-and-conduct.md).
+
+### 23. Can an employer use AI performance tracking or automated algorithms to fire workers?
+No. The framework establishes strict Worker Algorithmic Due Process, prohibiting employers from terminating, demoting, or disciplining practitioners based primarily on automated AI scorecards or invasive bossware metrics (e.g., keystroke counts, eye-tracking). All adverse actions mandate independent investigation and written sign-off by a licensed human supervisor. For standards, see [Standards, Regulatory Baselines & Compliance](framework/standards-and-compliance.md).
+
+### 24. How does the trade protect engineers from burnout, 30-hour shifts, and forensic trauma?
+The framework enforces a hard 14-Hour Incident Operational Ceiling paired with a mandatory 10-Hour Uninterrupted Rest Cycle, 1.5x to 2.0x surge pay, and a 4-hour live SOC queue limit. Practitioners assigned to forensic investigations involving child exploitation evidence (CSAM), violent extremism, or acute crisis triage possess an unconditional right to temporary rotational respite without wage loss. For health and shift standards, see [Supervisory Ratios & Headcount Standards](framework/supervisory-ratios.md) and [Apprenticeship Standards](framework/apprenticeship-standards.md).
 

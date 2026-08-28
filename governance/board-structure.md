@@ -101,3 +101,18 @@ To ensure proceedings remain fair, orderly, and publicly auditable:
 * **30-Day Advance Public Notice:** All regular standard-setting meetings, exam rubric debates, and proposed rule changes must be published on the Board Registry at least 30 calendar days in advance with a public agenda.
 * **Open Public Livestream & Voting Record:** All general policy hearings and roll-call votes are live-streamed and transcribed. Every individual trustee vote is published to the permanent public record within 5 business days.
 * **Strictly Restricted Closed Sessions:** Closed executive sessions are legally permitted exclusively for investigating individual named malpractice complaints (to protect licensee due process), reviewing confidential live practical challenge exam keys (to prevent cheating leaks), or conferring with legal counsel on active litigation.
+
+---
+
+## 6. Standing Committees & Ethics Review Architecture
+
+To maintain regulatory oversight and adjudicate violations of trade standards, the Board maintains four standing statutory committees:
+
+1. **Practical Challenge Examination & Psychometrics Committee:** Oversees hands-on exam rubrics, cyber range infrastructure, and air-gapped grading benchmarks.
+2. **Credential Evaluation & Prior Learning Clearinghouse:** Evaluates commercial certifications and military runtime for PLA credit articulation.
+3. **Malpractice & Ethics Review Committee:**
+   * **Composition:** Tripartite 3-member panel consisting of 1 Master Practitioner Trustee, 1 Employer CISO Trustee, and 1 Public Safety / Legal Advocate Trustee.
+   * **Authority:** Adjudicates formal complaints of logbook fraud, false compliance attestations, technical refusal retaliation, and severe civil rights violations filed via [Form FORM-004](../templates/FORM-004_ethics-and-conduct-incident-report.md).
+   * **Due Process Standards:** Guarantees 30-day evidentiary discovery, right to representation by Guild defense counsel, confidential witness testimony, and written published findings.
+   * **Sanction Powers:** Issues binding disciplinary orders including public reprimands, supervisory sign-off debarment, practicing license suspensions (12 to 36 months), permanent license revocations, and statutory referrals to state/federal regulators.
+4. **Appeals & Administrative Review Board:** Independent tribunal hearing licensee appeals against committee findings or examination disputes.
