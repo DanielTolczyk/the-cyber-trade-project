@@ -4,7 +4,7 @@
 No. Degrees remain valuable for theoretical research, but operational defense is an applied engineering trade. The framework provides verified hands-on competency without arbitrary degree gatekeeping. For details, see [Pillar I: Standardized Pre-Apprenticeship](pillars/01_pre-apprenticeship.md).
 
 ### 2. How are existing experienced professionals grandfathered in?
-Active practitioners transition via a 24-month portfolio review window (10,000+ hrs for Journeyman, 20,000+ hrs for Master). For grandfathering criteria and PLA hour caps, see the [10-Year Industry Transition Plan](governance/transition-plan.md) and [Apprenticeship Standards](framework/apprenticeship-standards.md).
+Active practitioners transition via a 24-to-36-month transition window across three non-exclusive on-ramps: Track A (Career Runtime & Peer Portfolio Review for zero-certification veterans; 8,000+ hrs for Journeyman, 16,000+ hrs + Oral Board for Master), Track B (Benchmark RTI Fast-Track for active or lapsed cert holders with zero AMF penalties), or Track C (4-hour Practical Range Challenge Exam). For full grandfathering rubrics, see the [10-Year Industry Transition Plan](governance/transition-plan.md) and [Licensure Standards & Progression](framework/licensure-and-progression.md).
 
 ### 3. Does this invalidate my existing certifications?
 No. The Board Credential Evaluation Clearinghouse audits established certs against NIST NICE to award direct Related Technical Instruction (RTI) and milestone credit. For evaluation criteria, see [Pillar IV: Professional Licensure](pillars/04_licensure-and-board.md).
