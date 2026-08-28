@@ -36,3 +36,13 @@ Regulatory filings and third-party risk attestations carry legal consequence. Un
 * **Underwriter Verification:** Cyber insurance underwriters utilize these signed attestations to calculate risk weighting and premium discounts.
 * **Integrity & Independence:** Signing off on known falsified controls or concealing unmitigated critical vulnerabilities constitutes professional malpractice, subjecting the individual to Board investigation, license suspension, and loss of practice rights.
 * **SMB Safe Harbor:** Small-to-medium enterprises without full-time security staff may utilize certified third-party trade contractors or fractional Masters of Record to inspect systems and issue annual baseline compliance stamps.
+
+
+---
+
+## 5. AI Tooling & Practical Examination Integrity Standards
+
+To embrace technological velocity while guaranteeing genuine engineering competency:
+
+* **The "Power Tool" Operational Standard:** Artificial intelligence coding assistants, LLM-driven log summarizers, and automated security copilots are recognized as modern engineering power tools (analogous to an electrician's hydraulic bender or a machinist's CNC lathe). Practitioners and apprentices are fully permitted to utilize AI tooling in daily production to accelerate defense and automation.
+* **The Air-Gapped Licensure Benchmark:** To ensure practitioners possess foundational problem-solving capabilities rather than superficial prompt generation, all **Board Practical Challenge Examinations** are conducted in strictly proctored, air-gapped cyber range environments. Candidates must demonstrate raw CLI navigation, script authoring, packet analysis, and manual threat containment without external internet access or generative AI assistance.

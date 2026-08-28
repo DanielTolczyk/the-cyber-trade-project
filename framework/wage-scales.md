@@ -63,5 +63,5 @@ The Regional Journeyman Prevailing Benchmark is calculated across localized econ
 Frontline defensive operations require round-the-clock uptime and intense cognitive focus. The trade enforces standard shift differentials and incident response surcharges:
 
 * **Third-Shift / Overnight Differential:** Minimum +15% hourly premium for sustained nocturnal operations (e.g., 24/7 SOC rotations).
-* **Standby / On-Call Retainer:** Guaranteed base compensation (minimum 2 hours of straight-time pay per 24-hour on-call window) regardless of incident activation.
-* **Active Incident Surge (Major Incident Response):** 1.5× base rate for emergency incident response activations exceeding standard shift hours or scheduled rest windows.
+* **Standby / On-Call Retainer:** Guaranteed base compensation (minimum 2 hours of straight-time pay per 24-hour on-call window) regardless of incident activation. *Note: Standby hours earn mandatory stipends but do not count toward the 8,000-hour operational runtime ledger.*
+* **Active Incident Surge (Major Incident Response):** 1.5x base rate for emergency incident response activations exceeding standard shift hours or scheduled rest windows. All active, ticket-verified triage hours performed during incident dispatch count toward the Domain 2 operational runtime ledger.

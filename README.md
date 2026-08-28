@@ -79,6 +79,9 @@ The modern cybersecurity employment model is broken across every tier:
 * [**Guild Formation & Labor Charter**](governance/guild-formation-and-charter.md): Bilateral governance accord, Taft-Hartley JATC trusts, legal defense shields, and portable benefits.
 * [**Dues Structure & Labor Trusts**](governance/dues-and-trust-economics.md): Two-part worker dues model, employer training trust contributions, and pre-tax policy advocacy.
 * [**Regional Chapters & Local Governance**](governance/regional-chapters-and-locals.md): Three-tier federation, local chapter chartering, COLI wage negotiations, and convention delegate apportionment.
+* [**Participating Employer Council (PEC)**](governance/participating-employer-council.md): Multi-employer association charter, Large Enterprise vs. SMB/Contractor divisions, and management trustee elections.
+* [**Underwriter & Actuarial Consortium (CUAAC)**](governance/underwriter-and-actuarial-consortium.md): Risk capital consortium charter, 25% to 35% premium warranty schedules, and insurer trustee selection.
+
 * [**10-Year Industry Transition Plan**](governance/transition-plan.md): Phased statutory compact horizon, 24-month portfolio bridge, and National Registry rollout.
 * [**Refusal & Override Procedure Templates**](templates/): Standardized forms for Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), and Form FORM-003 (Operational Exception Flag).
 * [**Glossary of Terms & Acronyms**](GLOSSARY.md): Canonical definitions across skilled trade, technical operations, and regulatory frameworks.

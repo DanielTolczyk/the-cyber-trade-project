@@ -63,6 +63,13 @@ To eliminate vote-splitting, prevent polarizing factional takeovers, and ensure 
 * **Majority Threshold Tabulation:** If no candidate secures an outright majority (50% + 1) of first-choice votes, the candidate with the fewest votes is eliminated, and their ballots are transferred to each voter's next-ranked choice until a candidate achieves a true majority.
 * **Single Transferable Vote for Multi-Seat Elections:** When electing multiple trustees concurrently (e.g., electing two Master Practitioners), tabulation follows the Single Transferable Vote (STV) proportional method.
 
+
+### E. Independent Election Administration & Observer Safeguards
+To eliminate any risk of backroom tampering, ballot stuffing, or disputed counts:
+* **Independent Neutral Election Arbiter:** All Board and National Guild elections are administered by an external, neutral election supervisor (such as the American Arbitration Association / AAA or an accredited voting service operating under federal LMRDA Title IV standards).
+* **Rank-and-File Election Observers:** Every certified candidate holds the statutory right to designate official rank-and-file observers to witness all digital key ceremonies, ballot opening, signature verification, and computerized tabulation.
+* **Protested Election Protocol:** Any active member in good standing may file a formal election protest with the Independent Election Arbiter within 10 calendar days of certified results. If material irregularities are proven, the arbiter holds authority to order a re-vote.
+
 ---
 
 ## 4. Conflict of Interest & Commercial Independence
