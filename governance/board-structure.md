@@ -15,23 +15,66 @@ The Trade Board functions analogous to state boards of professional engineers, m
 
 ---
 
-## 2. Eleven-Member Balanced Board Composition
+## 2. Eleven-Member Balanced Board Composition (Tripartite 4 - 4 - 3 Model)
 
-To ensure no single special interest, commercial vendor, or corporate lobby captures the regulatory body, the Board maintains a strict 11-member voting quorum:
+To ensure no single special interest, commercial vendor, or corporate lobby captures the regulatory body, the Board maintains a strict **Tripartite 11-Member Voting Quorum (4 - 4 - 3)** paired with two permanent non-voting advisory delegates:
 
-* **3 Seats - Active Master Practitioners:** Practicing engineers with 12,000+ verified runtime hours, elected by the licensed trade body.
-* **2 Seats - The Cybersecurity Craft Guild / JATC Trustees:** Designated representatives from vocational training trusts and labor advocacy bodies.
-* **2 Seats - Cyber Insurance Underwriters & Actuaries:** Actuarial and risk underwriting representatives tying safety rubrics to enterprise risk reduction.
-* **2 Seats - Enterprise & Critical Infrastructure CISOs:** Operational leadership managing enterprise defense and regulatory compliance.
-* **1 Seat - Public Safety & Consumer Protection Advocate:** Independent legal or consumer rights representative.
-* **1 Seat - Academic & NIST Standards Liaison:** Non-voting advisory liaison to national standards bodies (NIST NICE / CISA).
+```
++─────────────────────────────────────────────────────────────────────────────+
+| THE TRIPARTITE ELEVEN-MEMBER BOARD (4 - 4 - 3 BALANCE)                      |
++─────────────────────────────────────────────────────────────────────────────+
+  │
+  ├─► PILLAR 1: WORKFORCE & PRACTITIONERS (4 Voting Seats : 36.4%)
+  │   • 2 Seats: Active Master Practitioners (Elected by Masters)
+  │   • 1 Seat:  Active Licensed Journeyman (Elected by Journeymen)
+  │   • 1 Seat:  Craft Guild Worker Representative (Elected by Guild)
+  │
+  ├─► PILLAR 2: BUSINESS, EMPLOYERS & RISK CAPITAL (4 Voting Seats : 36.4%)
+  │   • 2 Seats: Enterprise & Critical Infrastructure CISOs (Employer Appointees)
+  │   • 2 Seats: Cyber Insurance Underwriters & Actuaries (Carrier Appointees)
+  │
+  └─► PILLAR 3: INDEPENDENT PUBLIC INTEREST & EDUCATION (3 Voting Seats : 27.2%)
+      • 1 Seat:  Public Safety & Consumer Protection Legal Advocate
+      • 1 Seat:  Public Vocational Educator / Community College Dean
+      • 1 Seat:  Independent Training & Curriculum Specialist (JATC Trustee)
+
++─────────────────────────────────────────────────────────────────────────────+
+| TWO PERMANENT NON-VOTING ADVISORY DELEGATES                                 |
++─────────────────────────────────────────────────────────────────────────────+
+  │
+  ├─► 1 Seat: Federal Standards & Agency Liaison (NIST NICE / CISA)
+  └─► 1 Seat: Apprentice Advocate Delegate (Elected directly by Apprentices)
+```
 
 ---
 
-## 3. Bilateral Governance & The JATC Accord
+## 3. Statutory Powers of the Advisory Delegates
+
+To ensure the non-voting advisory delegates maintain substantive influence over standard-setting without risking regulatory dilution:
+
+1. **The Right of the Floor:** The Apprentice Advocate Delegate and NIST/CISA Liaison hold full participation, questioning, and debate privileges in all open public hearings and closed executive sessions.
+2. **Direct Docket Sponsorship:** Both advisory delegates possess the statutory authority to introduce formal motions, petitions, and policy proposals directly onto the Board's official voting docket.
+3. **The 30-Day Formal Response Mandate:** When an advisory delegate submits a formal petition regarding supervisory ratio violations, training safety concerns, or federal guideline updates, the Board is legally required to debate the item on the record and issue a written public finding within 30 days.
+4. **The Dissenting Opinion Docket:** If a Board vote passes that an advisory delegate believes harms apprentices or conflicts with federal standards, the delegate holds the right to enter an official Minority Advisory Dissent into the permanent public clearinghouse record.
+
+---
+
+## 4. Bilateral Governance & The JATC Accord
 
 To eliminate regulatory antagonism and prevent the Board from disrupting active vocational training pipelines:
 
 * **The 18-Month Curriculum Notice Rule:** Any structural change to practical exam rubrics, core domain weightings, or specialty requirements enacted by the Board mandates a minimum 18-month transition runway before taking effect. This guarantees Guild JATC programs can update Related Technical Instruction (RTI) without stranding active apprentice cohorts.
 * **Joint Standards Review Committee:** Exam revisions must pass through a joint standing committee composed equally of Board Examiners and Guild JATC Curriculum Directors before formal ratification.
 * **Appeals & Arbitration:** The Guild holds standing to petition the Board for administrative reviews regarding exam scoring variance, curriculum disputes, or unfair examination prerequisites.
+
+
+---
+
+## 5. Parliamentary Authority & Sunshine Open Meetings Rules
+
+To ensure proceedings remain fair, orderly, and publicly auditable:
+
+* **Parliamentary Standard:** All regular, special, and committee meetings of the Board are conducted under **Robert's Rules of Order Newly Revised (RONR)**, except where specifically superseded by constitutional bylaws.
+* **30-Day Advance Public Notice:** All regular standard-setting meetings, exam rubric debates, and proposed rule changes must be published on the Board Registry at least 30 calendar days in advance with a public agenda.
+* **Open Public Livestream & Voting Record:** All general policy hearings and roll-call votes are live-streamed and transcribed. Every individual trustee vote is published to the permanent public record within 5 business days.
+* **Strictly Restricted Closed Sessions:** Closed executive sessions are legally permitted exclusively for investigating individual named malpractice complaints (to protect licensee due process), reviewing confidential live practical challenge exam keys (to prevent cheating leaks), or conferring with legal counsel on active litigation.

@@ -60,3 +60,7 @@ No. The Board sets objective public safety standards, while public colleges, non
 ### 20. What happens to an apprentice if their sponsoring employer downsizes, is acquired, or closes?
 Apprentices permanently own their verified logbook hours, and the multi-employer JATC trust reallocates and dispatches them to another partner employer to complete their training without interruption. For multi-employer mechanics, see [Guild Formation & Labor Charter](governance/guild-formation-and-charter.md).
 
+
+### 21. How do enterprises and business owners benefit from participating in this trade framework?
+Enterprises eliminate 25% to 30% recruiter fees, reduce health plan administrative liability through fixed-rate Taft-Hartley trusts, capture 25% to 35% cyber insurance discounts, and establish legal proof of due care. For a full economic breakdown, see [Business & Operational Benefits](framework/business-and-operational-benefits.md).
+

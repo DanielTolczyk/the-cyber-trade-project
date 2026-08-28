@@ -39,6 +39,6 @@ For high-consequence infrastructure, healthcare networks, financial backbones, a
 ## 4. The Professional Self-Regulating Board
 Modeled after state licensing panels, medical boards, and structural engineering boards:
 
-* **Independent Multilateral Administration:** A balanced, multi-stakeholder body composed of peer-elected practitioners (25%), enterprise employers (25%), insurance underwriters (20%), vocational educators (15%), and public safety observers (15%).
+* **Independent Multilateral Administration:** A balanced, tripartite governing body maintaining an 11-member voting quorum (4 Workforce/Practitioners, 4 Employers/Insurers, 3 Independent Public/Education) paired with two permanent advisory delegates. For exact seat allocations and bylaws, see [National Governance Board Structure](../governance/board-structure.md).
 * **Malpractice & Evidentiary Due Process:** Investigates formal complaints of gross negligence, intentional control bypass, or audit falsification. License sanctions (reprimand, suspension, revocation) require clear and convincing evidence and full due process.
 * **Interstate Reciprocity Compact:** Administers digital licensing compacts ensuring credentials and logged hours remain fully portable across employers and state boundaries for remote work.

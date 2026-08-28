@@ -87,13 +87,14 @@ A Master of Record is a Master Practitioner who accepts legal and statutory resp
 
 ---
 
-## 6. License Maintenance & Triennial Renewal
+## 6. License Maintenance, Triennial Renewal & AMF Prohibition
 
-To eliminate predatory commercial recertification fees while guaranteeing active competence:
+To eliminate predatory commercial recertification fees, vendor lock-in, and recurring credential taxes:
 
-* **Zero-Fee Renewal:** The Board charges zero annual maintenance fees (AMFs) for credential renewal.
-* **Triennial Audit Cycle:** Licenses are renewed every 3 years upon submitting proof of:
-  * Minimum 1,000 verified operational runtime hours per year (or approved instructional/community technical contributions).
-  * Completion of 40 hours per year of continuing technical development (CTD) or advanced lab coursework.
-  * An updated ethics attestation affirming compliance with Trade Canons.
+* **Strict Prohibition of Annual Maintenance Fees (AMFs):** The National Board and Craft Guild are legally prohibited from levying recurring annual maintenance fees, badge subscription taxes, or pay-to-maintain charges on licensed practitioners.
+* **Triennial Competency Audit Cycle:** Trade licenses (Journeyman and Master Practitioner) are renewed every 3 years at **zero financial cost ($0.00)** upon submitting verified logbook proof of:
+  * **Active Operational Runtime:** Minimum of **3,000 verified operational runtime hours** over the 3-year cycle (averaging 1,000 hrs/year), OR
+  * **Continuing Technical Development (CTD):** Completion of **120 hours of approved technical development** over the 3-year cycle (e.g., advanced JATC range labs, mentoring registered apprentices, contributing to open-source security tooling, or specialty clinics).
+  * **Ethics Standing Attestation:** An updated formal affirmation of compliance with Trade Canons and a clean disciplinary standing.
+* **Administrative Audit:** Renewals are processed programmatically through the Universal Logbook Clearinghouse in milliseconds with zero friction for active practitioners.
 
