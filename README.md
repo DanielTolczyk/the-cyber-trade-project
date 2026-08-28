@@ -69,7 +69,8 @@ The modern cybersecurity employment model is broken across every tier:
 * [**Velocity, Cloud & Safe Harbor**](framework/velocity-and-cloud.md): Certified CI/CD pipeline automation, Cloud Shared Responsibility boundaries, and shadow IT protections.
 * [**Universal Logbook Schema & Telemetry Standard**](framework/logbook-schema.md): Dual-layer verification, cryptographic commit hashes, AI/ML artifact ingestion, and actuarial feed schemas.
 * [**Supervisory Ratios**](framework/supervisory-ratios.md): On-shift headcount caps governing direct, human-in-the-loop operational seats.
-* [**Code of Ethics & Refusal Protocols**](framework/ethics-and-refusal.md): Exception flags, formal Notice of Safety Non-Concurrence workflow, and Master of Record liability transfer.
+* [**Code of Ethics, Civil Rights & Conduct**](framework/code-of-ethics-and-conduct.md): Canons of ethics, protected classes, violation classes, mandatory reporting, and disciplinary sanction matrix.
+* [**Technical Refusal & Liability Shield**](framework/technical-refusal-and-liability.md): Exception flags, formal Notice of Safety Non-Concurrence workflow, and Master of Record liability transfer.
 * [**Business & Operational Benefits**](framework/business-and-operational-benefits.md): The enterprise value model (linear benefit costs, zero agency fees, 25% to 35% insurance discounts, and statutory due care).
 
 
@@ -83,7 +84,7 @@ The modern cybersecurity employment model is broken across every tier:
 * [**Underwriter & Actuarial Consortium (CUAAC)**](governance/underwriter-and-actuarial-consortium.md): Risk capital consortium charter, 25% to 35% premium warranty schedules, and insurer trustee selection.
 
 * [**10-Year Industry Transition Plan**](governance/transition-plan.md): Phased statutory compact horizon, 24-month portfolio bridge, and National Registry rollout.
-* [**Refusal & Override Procedure Templates**](templates/): Standardized forms for Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), and Form FORM-003 (Operational Exception Flag).
+* [**Refusal & Incident Reporting Templates**](templates/): Standardized forms for Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), Form FORM-003 (Operational Exception Flag), and Form FORM-004 (Ethics & Conduct Incident Report).
 * [**Glossary of Terms & Acronyms**](GLOSSARY.md): Canonical definitions across skilled trade, technical operations, and regulatory frameworks.
 * [**Frequently Asked Questions (FAQ)**](FAQ.md): Addressing developer velocity, small business models, cloud providers, and personal liability.
 * [**Contributing Guide**](CONTRIBUTING.md): Issue templates, proposal workflows, quality gates, and release cadence policies.

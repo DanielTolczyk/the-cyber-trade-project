@@ -10,12 +10,12 @@ Apprentice compensation is tied directly to the **Regional Journeyman Prevailing
 
 | Classification Tier | Runtime Hours | RTI Milestones | Minimum Wage Floor (% of RJPB) | Typical Scope & Responsibilities |
 | :--- | :--- | :--- | :--- | :--- |
-| **Apprentice Tier 1** | 0 – 2,000 hrs | 144 hrs (Year 1) | **50% of RJPB** | Direct 1:1 supervision; foundational IAM, hygiene, and triage. |
-| **Apprentice Tier 2** | 2,001 – 4,000 hrs | 288 hrs (Year 2) | **60% of RJPB** | SOC Tier 1/2 triage, pipeline scanning, guided system hardening. |
-| **Apprentice Tier 3** | 4,001 – 6,000 hrs | 432 hrs (Year 3) | **70% of RJPB** | Threat hunting, automated response authoring, policy auditing. |
-| **Apprentice Tier 4** | 6,001 – 8,000 hrs | 576 hrs (Year 4) | **80% of RJPB** | Advanced systems hardening, architecture review, exam preparation. |
+| **Apprentice Tier 1** | 0 - 2,000 hrs | 144 hrs (Year 1) | **50% of RJPB** | Direct 1:1 supervision; foundational IAM, hygiene, and triage. |
+| **Apprentice Tier 2** | 2,001 - 4,000 hrs | 288 hrs (Year 2) | **60% of RJPB** | SOC Tier 1/2 triage, pipeline scanning, guided system hardening. |
+| **Apprentice Tier 3** | 4,001 - 6,000 hrs | 432 hrs (Year 3) | **70% of RJPB** | Threat hunting, automated response authoring, policy auditing. |
+| **Apprentice Tier 4** | 6,001 - 8,000 hrs | 576 hrs (Year 4) | **80% of RJPB** | Advanced systems hardening, architecture review, exam preparation. |
 | **Licensed Journeyman** | 8,000+ hrs | Trade Exam Passed | **100% of RJPB** | Independent operational execution; direct apprentice supervision (2:1 ratio). |
-| **Master Practitioner** | 12,000+ hrs | Master Portfolio | **135% – 150% of RJPB** | Multi-system architecture review, forensics, specialized defense engineering. |
+| **Master Practitioner** | 12,000+ hrs | Master Portfolio | **135% to 150% of RJPB** | Multi-system architecture review, forensics, specialized defense engineering. |
 | **Designated Master of Record (MoR)** | 12,000+ hrs | Formal Statutory Filing | **150%+ of RJPB (+ Premium)** | Legal sign-off authority, regulatory filing, and individual liability exposure. |
 
 ---
@@ -64,4 +64,9 @@ Frontline defensive operations require round-the-clock uptime and intense cognit
 
 * **Third-Shift / Overnight Differential:** Minimum +15% hourly premium for sustained nocturnal operations (e.g., 24/7 SOC rotations).
 * **Standby / On-Call Retainer:** Guaranteed base compensation (minimum 2 hours of straight-time pay per 24-hour on-call window) regardless of incident activation. *Note: Standby hours earn mandatory stipends but do not count toward the 8,000-hour operational runtime ledger.*
-* **Active Incident Surge (Major Incident Response):** 1.5x base rate for emergency incident response activations exceeding standard shift hours or scheduled rest windows. All active, ticket-verified triage hours performed during incident dispatch count toward the Domain 2 operational runtime ledger.
+* **Active Incident Surge Multipliers:**
+  * **Surge Tier 1 (Hours 8 to 12 in Incident Response):** Mandatory **1.5x base hourly rate** for emergency incident response activations exceeding standard shift schedules.
+  * **Surge Tier 2 (Hours 12 to 14 in Incident Response):** Mandatory **2.0x double-time hourly rate** for emergency shifts extending past 12 consecutive hours.
+  * **The 14-Hour Shift Ceiling:** All operations must halt at 14 consecutive hours, initiating a mandatory 10-hour uninterrupted recovery rest cycle.
+  * **Ledger Credit:** All active, ticket-verified triage hours performed during incident dispatch count toward the Domain 2 operational runtime ledger.
+* **Apprentice On-Call & Graveyard Protection:** Registered Apprentices are legally barred from primary solo on-call pager coverage or unsupervised overnight shifts. Apprentice on-call experience is limited strictly to secondary shadowing alongside a compensated Journeyman.

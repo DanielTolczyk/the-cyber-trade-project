@@ -37,12 +37,21 @@ To prevent administrative overhead in fast-paced enterprise environments:
 
 ---
 
-## 5. Data Privacy, Proprietary Protection & Portability
-* **Individual Ownership:** The logbook is permanently owned by the practitioner, remaining fully portable across employers, contract gigs, and career breaks.
-* **Zero-Knowledge Architecture:** The logbook records *what* engineering competency was exercised and for *how long*, strictly omitting customer data, internal IP addresses, source code, or proprietary business details.
+## 5. Data Privacy, Zero-Knowledge Schema & Worker Ownership
+
+To ensure logbooks remain auditable without exposing enterprise proprietary secrets or violating non-disclosure agreements:
+
+* **Statutory Worker Property:** The Universal Logbook is legally recognized as the personal property of the individual practitioner (analogous to an airline pilot's flight ledger or a master electrician's work book). It is permanently portable across employers, contract gigs, and career breaks.
+* **Zero-Knowledge Architecture:** The logbook records *what* engineering competency was exercised (NICE work role ID) and for *how long* (verified duration), paired with a sanitized ticket hash or change request ID. It strictly omits customer proprietary data, internal IP addresses, source code, payload artifacts, or business details.
+* **Export Safe Harbor:** Because the logbook utilizes zero-knowledge schema hashes, exporting or maintaining a personal logbook export does not violate standard corporate NDAs or intellectual property covenants.
 
 ---
 
-## 6. Integrity, Auditing & Dispute Appeals
+## 6. Integrity, Auditing & Anti-Hostage Dispute Protections
+
 * **Falsification Penalties:** Falsifying logbook entries or signing off on unperformed hours constitutes professional fraud, resulting in immediate suspension of both the apprentice's registration and the supervisor's license.
-* **Supervisory Dispute Appeals:** If an employer or supervisor withholds sign-offs maliciously or due to contractual separation disputes, the apprentice may petition the JATC or Board review panel to audit change tickets and peer attestations for retroactive hour credit.
+* **Supervisory Dispute Appeals & Anti-Hostage Safe Harbor:** 
+  * Employers and supervisors are legally prohibited from withholding logbook sign-offs, conditioning hour verification on post-employment non-disparagement concessions, or threatening departing workers over logbook exports.
+  * If a supervisor withholds sign-offs maliciously or due to contractual separation disputes, the apprentice may file an [Ethics & Conduct Incident Report (Form FORM-004)](../templates/FORM-004_ethics-and-conduct-incident-report.md).
+  * The JATC Training Panel conducts an administrative ticket audit and peer review, retroactively stamping accredited hours directly into the Board Clearinghouse without requiring employer consent.
+

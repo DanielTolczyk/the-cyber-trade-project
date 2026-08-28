@@ -73,12 +73,26 @@ Small and medium-sized businesses often lack the capital to employ a full-time, 
 
 ---
 
-## 5. Capacity Ratios for Consulting & Service Providers
+## 5. Capacity Ratios, Risk-Weighted Caps & Anti-Ghost-Staffing
 
-To prevent consulting firms and MSSPs from overextending senior staff and diluting oversight quality across dozens of client accounts, the trade enforces **Contractor Capacity Caps**:
+To prevent consulting firms, MSSPs, and contractors from overextending senior staff or diluting supervisory standards across client accounts, the trade enforces strict **Contractor Capacity Caps** and **Anti-Ghost-Staffing Standards**:
 
-* **Apprentice Sponsoring Threshold:** A consulting firm must employ at least one full-time Journeyman or Master on staff for every two registered apprentices it hosts (`2:1 ratio`).
-* **Fractional MoR Account Limits:** A single Master of Record operating in a fractional consulting capacity may serve as the designated MoR for a **maximum of 5 concurrent small-business accounts** or **1 mid-tier enterprise account**, ensuring adequate operational depth and line-of-sight oversight.
+### A. Risk-Weighted Fractional MoR Capacity Caps
+To eliminate "mass rubber-stamping" and ensure adequate technical diligence, strict account ceilings apply to all Master of Record assignments:
+* **Full-Time Enterprise MoR:** An individual Master Practitioner serving as the primary designated MoR for an enterprise may hold that designation for **exactly one (1) primary organization**.
+* **Fractional Master of Record (vMoR) Cap:** A Master Practitioner operating in a fractional consulting capacity through an accredited Trade Contractor is governed by a **Risk-Weighted Account Ceiling**:
+  * Maximum of **eight (8) Tier-III Commercial SMB accounts**, OR
+  * Maximum of **three (3) Tier-II Regulated Enterprise accounts** (e.g., regional healthcare, community banking), OR
+  * A proportional combination (e.g., 1 Tier-II account and up to 5 Tier-III accounts).
+* **Tier-I Critical Infrastructure Prohibition:** Fractional (vMoR) assignments are strictly prohibited for Tier-I Critical Infrastructure (e.g., nuclear power, bulk electric grids, Class III medical devices, defense weapons systems). Tier-I assets require a dedicated, full-time Master of Record on staff.
+* **Mandatory Quarterly Audit Quotas:** A fractional MoR must perform and log a verifiable minimum of **20 runtime audit hours per quarter per retained client** into the Universal Clearinghouse to maintain active sign-off validity.
+
+### B. Anti-Ghost-Staffing Protocol & Telemetry Verification
+To eliminate predatory contractor arbitrage where firms bid licensed trade labor but staff operational shifts with unvetted, unindentured, or uncredited offshore labor:
+* **Cryptographic Shift Attestation:** Every billable operational shift transmitted through the Actuarial Attestation Feed must map active operator sessions directly to valid Board License IDs or registered JATC apprentice indenture numbers.
+* **Ghost-Staffing Malpractice:** Billing an enterprise client for certified Journeyman-supervised labor while utilizing uncredited, unvetted, or unsupervised personnel constitutes **Tier 3 Professional Fraud**.
+* **Sanctions:** Finding of ghost-staffing results in immediate 24-month practicing license suspension for the supervising Master/Journeyman, forfeiture of client warranty discounts, and formal debarment of the Trade Contractor from the Participating Employer Council.
+
 
 
 ---

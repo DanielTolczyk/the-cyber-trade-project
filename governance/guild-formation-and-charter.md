@@ -136,4 +136,88 @@ Joining the Craft Guild is structured across three clear practitioner on-ramps:
 2. **Journeymen & Masters:** Experienced practitioners submit their verified Board License or approved clearinghouse benchmark (e.g., CISSP or Practical Challenge Exam) to their regional Local Chapter and execute the Guild Membership Card.
 3. **Independent Contractors & Consultants:** Licensed Journeymen and Masters operating as 1099 consultants execute a standard Guild Master Agreement, ensuring their clients remit required hourly health and pension contributions into the central trusts.
 
+---
+
+## 8. Guild Civil Rights, Member Welfare & Equal Opportunity Charter
+
+The Cybersecurity Craft Guild is founded on the principle of solidarity, mutual aid, and universal worker protection. The Guild maintains a strict Civil Rights Charter aligned with Title VII, ADA, USERRA, PWFA, CROWN Act, and 29 CFR Part 30:
+
+### A. Non-Discrimination & Equal Representation Mandate
+* **Universal Protection:** The Guild represents and defends all members equally regardless of race, color, national origin, religion, sex, sexual orientation, gender identity, disability, neurodivergence, veteran status, age (40+), pregnancy, genetic information, or cultural hairstyle/expression.
+* **Equal Bargaining & Dispatch:** Hiring hall dispatches, specialty track selections, wage minimums, and grievance advocacy must operate free from bias or favoritism.
+
+### B. The Guild Member Welfare & Civil Rights Committee
+* **Composition:** An elected Guild Ombudsperson, two active Journeymen, and one elected Apprentice Delegate.
+* **Mandate:** Receives and investigates member complaints of discrimination, sexual harassment, hostile workplace environments, and supervisory retaliation using [Form FORM-004](../templates/FORM-004_ethics-and-conduct-incident-report.md).
+* **Protective Interventions:** The committee holds authority to initiate expedited workplace grievance mediations, provide independent legal counsel through the Defense Trust, and mandate emergency apprentice transfers away from hostile work environments within 14 calendar days.
+* **Member Disciplinary Referral:** If a Guild member is found to have engaged in hate speech, sexual harassment, or retaliation against a fellow member, the Committee may suspend the offender's Guild membership and dispatch rights, and refer the findings to the National Board for licensure disciplinary action.
+
+### C. The Ombudsperson Institutional Blind Proxy Privilege
+To eliminate the fear of peer retaliation or social ostracization when reporting influential senior members:
+* **Institutional Standing:** The elected Guild Ombudsperson holds statutory authority to receive confidential disclosures, verify evidence independently, and file formal complaints on behalf of the victim in the Ombudsperson's own institutional name.
+* **Identity Privilege:** The victim's name is sealed within confidential Guild trust vaults and cannot be disclosed to the accused, corporate management, or public hearing records.
+
+### D. 12-Month Post-Resolution Anti-Retaliation Monitoring
+* Following any sustained grievance or disciplinary reprimand, the Member Welfare Committee maintains an active 12-month monitoring docket over the affected team.
+* The Committee audits pull-request metrics, on-call schedules, wage step timing, and performance evaluations quarterly to detect and neutralize indirect or proxy retaliation.
+
+---
+
+## 9. The Office of the Guild Ombudsperson
+
+The **Office of the Guild Ombudsperson** functions as the independent constitutional officer of the Craft Guild responsible for protecting member civil rights, hearing confidential grievances, and shielding whistleblowers from systemic retaliation.
+
+### A. Democratic Election, Term & Qualifications
+* **Election Mandate:** The Guild Ombudsperson is elected directly by a national secret ballot of active Guild members via Ranked-Choice Voting (RCV).
+* **Term of Office:** Serves a 3-year term, with a strict lifetime limit of two (2) consecutive terms to prevent institutional entrenchment.
+* **Qualifications:** Must be an active Licensed Journeyman or Master Practitioner with a minimum of 5 years of verified operational practice, zero ethics disciplinary findings, and accredited certification in alternative dispute resolution and workplace civil rights law.
+* **Institutional Independence:** The Ombudsperson operates under an independent budget line funded directly by member basic dues, with strict operational separation from collective bargaining teams and employer councils.
+
+### B. Statutory Powers & Investigative Mandate
+1. **Direct Confidential Intake:** Serves as the primary intake conduit for [Form FORM-004](../templates/FORM-004_ethics-and-conduct-incident-report.md) submissions filed by apprentices, practitioners, or pre-apprentices.
+2. **Institutional Blind Proxy Standing:** Holds legal and constitutional standing to author, sign, and prosecute formal complaints before the National Board Malpractice Committee in the Ombudsperson's official capacity, shielding the victim's identity.
+3. **Emergency Interim Protective Orders:** Holds statutory authority to issue binding administrative orders imposing immediate supervisory firewalls, mutual no-contact directives, and non-prejudicial remote reassignments during active investigations.
+4. **Mandatory Post-Resolution Auditing:** Oversees the 12-month post-investigation anti-retaliation monitoring docket, auditing workplace telemetry and PR review turnaround times quarterly.
+5. **Absolute Evidentiary Privilege:** Intake records, witness interviews, and notes maintained by the Ombudsperson are protected by strict institutional privilege and cannot be subpoenaed, discovered, or compelled by employer management or internal Guild political bodies.
+
+
+
+
+
+---
+
+## 10. Operational Field Roles & Governance Authority
+
+To ensure seamless coordination between shop-floor engineering reality, classroom instruction, and regulatory standards, the trade establishes clearly defined responsibilities for operational field officers:
+
+### A. The Frontline Trade Job Steward ("Shop Steward")
+* **Role:** The designated frontline Guild representative embedded on an active engineering team or SOC shift at a participating employer.
+* **Selection:** Appointed by the Local Chapter Business Manager from among active Licensed Journeymen on the employer's staff.
+* **Key Responsibilities:**
+  * **Supervisory Ratio Enforcement:** Monitors active shifts to ensure the mandatory 2:1 on-shift Journeyman-to-Apprentice ratio is strictly maintained.
+  * **Informal Grievance Triage:** Intervenes in initial logbook disputes, uncredited on-call hours, or supervisory friction before formal escalation.
+  * **Interim Safety & Non-Concurrence Support:** Assists apprentices and Journeymen in authoring and timestamping [Operational Exception Flags (Form FORM-003)](../templates/FORM-003_operational-exception-flag.md).
+  * **Supersurveillance Protection:** Ensures employers adhere to worker algorithmic defense standards and do not deploy unauthorized bossware or keystroke quotas.
+
+### B. The JATC Regional Training Director
+* **Role:** The executive administrator of the regional Joint Apprenticeship and Training Committee trust.
+* **Key Responsibilities:**
+  * Coordinates Related Technical Instruction (RTI) curriculum with accredited public community college faculties.
+  * Manages regional air-gapped cyber range environments and simulation exercises.
+  * Conducts quarterly apprentice logbook audits and certifies wage step elevations (Tiers 1 through 4).
+  * Convenes bipartisan JATC grievance hearings for wage withholding or apprentice transfer petitions.
+
+### C. The Board Practical Challenge Examiner
+* **Role:** A certified Master Practitioner appointed and accredited by the National Board to proctor and evaluate objective, hands-on licensure challenge exams.
+* **Key Responsibilities:**
+  * Administers proctored, air-gapped practical examinations on live cyber ranges.
+  * Scores candidate incident triage, packet analysis, script authoring, and system hardening according to standardized psychometric rubrics.
+  * Subject to strict conflict-of-interest firewalls: cannot examine candidates from their own employer or direct mentees.
+
+### D. The Talent Clearinghouse Dispatch Officer
+* **Role:** The neutral administrative officer at the Local or National Guild responsible for staffing allocation and apprentice placement.
+* **Key Responsibilities:**
+  * Manages the out-of-work list and talent clearinghouse queue for Journeymen and Apprentices.
+  * Dispatches qualified practitioners to participating employers based on verified Universal Logbook credentials and Specialty Endorsements, eliminating subjective recruiter screening biases.
+  * Coordinates emergency apprentice transfers following safety or harassment grievances.
 
