@@ -87,6 +87,11 @@ Ensure proposed changes are placed in the appropriate directory:
   * **Related Technical Instruction (RTI)** & **Joint Apprenticeship and Training Committee (JATC)**
   * **Actuarial Attestation Feed** (zero-knowledge insurer compliance telemetry API)
 * **Formatting:** Use standard Markdown. Favor tables for comparative metrics and numbered lists for sequential requirements.
+* **Automated Quality Gate Testing:** Before submitting a Pull Request, run the local specification quality gate to verify link integrity, typography, and RFC schema compliance:
+  ```bash
+  python3 scripts/validate-specifications.py
+  ```
+  *(All PRs must pass the automated GitHub Actions Specification Quality Gate before merge).*
 
 ---
 
