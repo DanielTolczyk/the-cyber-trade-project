@@ -63,7 +63,7 @@ The modern cybersecurity employment model is broken across every tier:
 * [**Licensure Standards & Progression Milestones**](framework/licensure-and-progression.md): Progression tiers from Apprentice Tier 1 through Master Practitioner and Master of Record.
 * [**Standards, Regulatory Baselines & Compliance**](framework/standards-and-compliance.md): The building code model (NICE workforce taxonomy, open technical baselines, and legal sign-offs).
 * [**Wage Scales & Compensation Floors**](framework/wage-scales.md): Milestone progression tiers, COLI standards, hazard differentials, and on-call surge pay.
-* [**Specialty Endorsements & Domain Tracks**](framework/specialty-endorsements.md): DFIR, ICS/SCADA, MedTech/IoMT, Cloud Security, OffSec, ICAM, AI/ML, and GRC tracks.
+* [**Specialty Endorsements & Domain Tracks**](framework/specialty-endorsements.md): The Three-Layer Architecture, Master Endorsement Ledger, and specialized track specifications (including [Medical Device Security](framework/specialty-tracks/medical-devices.md)).
 * [**Contractors, Consulting & The Trade LLC Model**](framework/contractors-and-consulting.md): 1099/W-2 contractor rules, fractional Master of Record (vMoR) guidelines, and entity licensing.
 * [**Executive Leadership & The CISO Role**](framework/executive-and-ciso.md): Separating corporate business management from statutory Master of Record technical sign-off.
 * [**Velocity, Cloud & Safe Harbor**](framework/velocity-and-cloud.md): Certified CI/CD pipeline automation, Cloud Shared Responsibility boundaries, and shadow IT protections.
@@ -84,10 +84,11 @@ The modern cybersecurity employment model is broken across every tier:
 
 ## Priority Areas for Community Contribution
 We welcome contributions and pull requests on these active focus areas:
-1. **Operational Hour Distribution:** Refining the 8,000-hour rotational breakdown across IAM, Defensive Ops, Infrastructure Hardening, and Architecture/GRC.
-2. **Statutory Model Legislation:** Drafting language for state and interstate licensing compacts modeled after the IMLC and NCEES.
-3. **Emerging Specialty Tracks:** Defining formal competencies and practical evaluation standards for AI/ML Security Assurance and Post-Quantum Cryptographic Migrations.
+1. **Specialty Track Specifications:** Proposing normative curricula and 2,000-hour ledgers for remaining tracks (ICS/SCADA, Cloud Architecture, DFIR, AI/ML Assurance, OffSec) using our [New Specialty Track Template](.github/ISSUE_TEMPLATE/new_specialty_track.md) and [Medical Device Specification](framework/specialty-tracks/medical-devices.md) exemplar.
+2. **Operational Hour Distribution:** Refining the 8,000-hour rotational breakdown across IAM, Defensive Ops, Infrastructure Hardening, and Architecture/GRC.
+3. **Statutory Model Legislation:** Drafting language for state and interstate licensing compacts modeled after the IMLC and NCEES.
 4. **Actuarial Risk Modeling:** Partnering with cyber-insurance underwriters to refine empirical loss-prevention credits for certified trade labor.
+5. **Trade Tier Estimator Tool:** Designing open-source tooling for practitioners to estimate their provisional trade tier, PLA credits, and specialty pathways.
 
 ---
 
