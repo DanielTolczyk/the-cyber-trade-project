@@ -12,6 +12,7 @@ Every registered Apprentice, Journeyman, and Master Practitioner is bound by fou
 2. **Objective Engineering Candor:** Provide unvarnished, mathematically sound, and auditable assessments of risk, vulnerabilities, and defensive readiness.
 3. **Guardianship of Competency & Truthful Telemetry:** Never falsify logbook hours, sign off on unverified operational artifacts, or practice beyond accredited domain competencies.
 4. **Protection of Whistleblowers & Ethical Defensibility:** Support peers and subordinates who invoke ethical escalation procedures in good faith.
+5. **Prohibition of Supervisory Coercion & Exploitation:** Never condition subordinate career progression, logbook attestations, wage advancement, or training evaluations on personal, political, or organizational compliance. Senior practitioners must actively defend the independent agency and welfare of the trainees under their supervision.
 
 ---
 

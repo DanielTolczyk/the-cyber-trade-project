@@ -13,7 +13,7 @@ To earn Journeyman Licensure, an apprentice must log and verify hours across fiv
 * **Domain 4: Vulnerability & Attack Surface Management:** **1,500 Hours** (Patch orchestration, asset discovery, configuration auditing, and attack surface reduction).
 * **Domain 5: Defensive Governance, Risk & Audit (GRC):** **1,500 Hours** (Control validation, audit log verification, compliance testing, and vendor risk reviews).
 
-> **Rotational Flexibility & Specialty Tracks:** Up to 1,000 hours may be allocated as elective focus hours in an approved Specialty Track (such as ICS/SCADA, MedTech, DFIR, OffSec, or AI/ML Assurance) during Apprentice Tier 4. For complete domain specifications and Prior Learning Assessment (PLA) challenge pathways, refer directly to the [Apprenticeship Standards & Operational On-Ramps](framework/apprenticeship-standards.md).
+> **Rotational Flexibility & Specialty Tracks:** Up to 1,000 hours may be allocated as elective focus hours in an approved Specialty Track (such as ICS/SCADA, MedTech, DFIR, OffSec, or AI/ML Assurance) during Apprentice Tier 4. For complete domain specifications and Prior Learning Assessment (PLA) challenge pathways, refer directly to the [Apprenticeship Standards & Operational On-Ramps](../framework/apprenticeship-standards.md).
 
 ---
 
@@ -33,4 +33,4 @@ To guarantee line-of-sight mentorship, maintain operational safety, and prevent 
 * **Master Tier Oversight:** A Master Practitioner may oversee up to 4 Journeymen across complex architectural domains and high-risk environments.
 * **MSSP & Contractor Compliance:** Managed Security Service Providers (MSSPs) must maintain identical shift ratios within client tenant environments, with a cap of no more than 5 concurrent client feeds per supervising Journeyman.
 
-For complete quantitative staffing tables, environment-specific rules, and contractor limits, refer to the [Supervisory Ratios & Operational Headcount Standards](framework/supervisory-ratios.md).
+For complete quantitative staffing tables, environment-specific rules, and contractor limits, refer to the [Supervisory Ratios & Operational Headcount Standards](../framework/supervisory-ratios.md).

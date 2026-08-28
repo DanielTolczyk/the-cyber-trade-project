@@ -73,3 +73,31 @@ Apprentices must maintain an immutable, cryptographic or signed physical **Opera
 4. Bi-weekly review signatures or periodic batch sign-offs from the supervising Journeyman or Master of Record.
 5. Quarterly evaluations submitted to the regional Joint Apprenticeship and Training Committee (JATC) for wage tier advancement.
 
+
+---
+
+## 6. Apprentice Grievance, Wage Protection & Logbook Dispute Protocol
+
+To ensure trainees are protected from predatory employer practices, wage theft, or supervisory withholding of logbook hours, all participating employers and apprentices are bound by the **Three-Step JATC Dispute Protocol**:
+
+```
++─────────────────────────────────────────────────────────────────────────────+
+| THREE-STEP JATC APPRENTICE GRIEVANCE & DISPUTE WORKFLOW                    |
++─────────────────────────────────────────────────────────────────────────────+
+  │
+  ├─► STEP 1: LOCAL TRAINING DIRECTOR REVIEW (5 Business Days)
+  │   • Apprentice files a dispute regarding uncredited hours or withheld wage steps.
+  │   • Local JATC Director audits sanitized ticket logs, commits, and timesheets.
+  │
+  ├─► STEP 2: BIPARTISAN JATC GRIEVANCE HEARING (14 Calendar Days)
+  │   • Bipartisan panel (2 employer trustees + 2 Journeyman trustees).
+  │   • Apprentice is represented by the elected Apprentice Advocate Delegate.
+  │   • Panel reviews operational evidence and issues a binding resolution.
+  │
+  └─► STEP 3: STATUTORY BOARD DECREE & EMERGENCY REALLOCATION
+      • If employer is found non-compliant: hours are credited by Board decree,
+        back-wages are recovered via the employer's Trade Surety Bond.
+      • The apprentice is immediately re-dispatched to a compliant employer sponsor
+        with zero loss of standing or wage step progress.
+```
+

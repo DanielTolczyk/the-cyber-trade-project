@@ -70,10 +70,15 @@ The modern cybersecurity employment model is broken across every tier:
 * [**Universal Logbook Schema & Telemetry Standard**](framework/logbook-schema.md): Dual-layer verification, cryptographic commit hashes, AI/ML artifact ingestion, and actuarial feed schemas.
 * [**Supervisory Ratios**](framework/supervisory-ratios.md): On-shift headcount caps governing direct, human-in-the-loop operational seats.
 * [**Code of Ethics & Refusal Protocols**](framework/ethics-and-refusal.md): Exception flags, formal Notice of Safety Non-Concurrence workflow, and Master of Record liability transfer.
+* [**Business & Operational Benefits**](framework/business-and-operational-benefits.md): The enterprise value model (linear benefit costs, zero agency fees, 25% to 35% insurance discounts, and statutory due care).
+
 
 ### Governance & Community
 * [**National Governance Board Structure**](governance/board-structure.md): 11-member board composition, practical challenge exams, and the 18-month JATC curriculum rule.
+* [**Board Bylaws & Democratic Elections**](governance/board-elections-and-bylaws.md): Founding steering committee sunset, secret-ballot elections, staggered 3-year terms, and member recall protocols.
 * [**Guild Formation & Labor Charter**](governance/guild-formation-and-charter.md): Bilateral governance accord, Taft-Hartley JATC trusts, legal defense shields, and portable benefits.
+* [**Dues Structure & Labor Trusts**](governance/dues-and-trust-economics.md): Two-part worker dues model, employer training trust contributions, and pre-tax policy advocacy.
+* [**Regional Chapters & Local Governance**](governance/regional-chapters-and-locals.md): Three-tier federation, local chapter chartering, COLI wage negotiations, and convention delegate apportionment.
 * [**10-Year Industry Transition Plan**](governance/transition-plan.md): Phased statutory compact horizon, 24-month portfolio bridge, and National Registry rollout.
 * [**Refusal & Override Procedure Templates**](templates/): Standardized forms for Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), and Form FORM-003 (Operational Exception Flag).
 * [**Glossary of Terms & Acronyms**](GLOSSARY.md): Canonical definitions across skilled trade, technical operations, and regulatory frameworks.
