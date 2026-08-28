@@ -86,17 +86,21 @@ The modern cybersecurity employment model is broken across every tier:
 * [**Refusal & Override Procedure Templates**](templates/): Standardized forms for Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), and Form FORM-003 (Operational Exception Flag).
 * [**Glossary of Terms & Acronyms**](GLOSSARY.md): Canonical definitions across skilled trade, technical operations, and regulatory frameworks.
 * [**Frequently Asked Questions (FAQ)**](FAQ.md): Addressing developer velocity, small business models, cloud providers, and personal liability.
-* [**Contributing Guide**](CONTRIBUTING.md): Issue templates, proposal workflows, and release cadence policies.
+* [**Contributing Guide**](CONTRIBUTING.md): Issue templates, proposal workflows, quality gates, and release cadence policies.
+
+### Ecosystem Tooling
+* **Trade Tier & Grandfathering Estimator (`cyber-trade-estimator`):** An open-source, privacy-first client-side web application and mathematical engine enabling practitioners to estimate their provisional trade standing, PLA hour credits, and specialty wage floors.
 
 ---
 
 ## Priority Areas for Community Contribution
 We welcome contributions and pull requests on these active focus areas:
 1. **Specialty Track Specifications:** Proposing normative curricula and 2,000-hour ledgers for remaining tracks (ICS/SCADA, Cloud Architecture, DFIR, AI/ML Assurance, OffSec) using our [New Specialty Track Template](.github/ISSUE_TEMPLATE/new_specialty_track.md) and [Medical Device Specification](framework/specialty-tracks/medical-devices.md) exemplar.
-2. **Operational Hour Distribution:** Refining the 8,000-hour rotational breakdown across IAM, Defensive Ops, Infrastructure Hardening, and Architecture/GRC.
-3. **Statutory Model Legislation:** Drafting language for state and interstate licensing compacts modeled after the IMLC and NCEES.
-4. **Actuarial Risk Modeling:** Partnering with cyber-insurance underwriters to refine empirical loss-prevention credits for certified trade labor.
-5. **Trade Tier Estimator Tool:** Designing open-source tooling for practitioners to estimate their provisional trade tier, PLA credits, and specialty pathways.
+2. **Community College Pre-Apprenticeship Syllabi:** Mapping hands-on lab modules and practical screening rubrics to the 4 prerequisite technical domains.
+3. **Regional JATC Pilot Programs:** Establishing local employer consortia and community college training trust partnerships across metropolitan chapters.
+4. **Statutory Model Legislation:** Drafting language for state and interstate licensing compacts modeled after the IMLC and NCEES.
+5. **Actuarial Risk Modeling:** Partnering with cyber-insurance underwriters to refine empirical loss-prevention credits for certified trade labor.
+
 
 ---
 
