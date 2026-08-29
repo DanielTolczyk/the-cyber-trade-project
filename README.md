@@ -91,6 +91,7 @@ The modern cybersecurity employment model is broken across every tier:
 
 ### Ecosystem Tooling
 * [**Cybersecurity Trade Tier & Grandfathering Estimator**](https://danieltolczyk.github.io/cyber-trade-estimator/): An open-source, privacy-first client-side web application and mathematical engine enabling practitioners to estimate their provisional trade placement, PLA hour credits, and milestone path ([Repository](https://github.com/DanielTolczyk/cyber-trade-estimator)).
+* [**Universal Digital Logbook & Competency Ledger**](https://danieltolczyk.github.io/cyber-trade-logbook/): A mobile-first, privacy-preserving Progressive Web Application (PWA) and cryptographic verification engine for logging operational runtime, SCIF shift transcriptions, Merkle hash chaining, and supervisor attestation ([Repository](https://github.com/DanielTolczyk/cyber-trade-logbook)).
 
 ---
 
