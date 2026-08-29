@@ -24,8 +24,8 @@ Liability strictly follows the Cloud Shared Responsibility Model, attaching only
 ### 8. How are remote, interstate, and offshore teams handled?
 Digital interstate compacts (NCTLC) ensure multi-state license portability for remote staff, while global and contractor teams operate under the sign-off authority of a licensed Master of Record. For compact mechanics, see the [10-Year Industry Transition Plan](governance/transition-plan.md).
 
-### 9. What about self-taught engineers and non-traditional talent?
-Demonstrated technical proficiency grants direct credit through hands-on Practical Challenge Exams and Prior Learning Assessments (PLA) for CVEs, bug bounties, and lab certs. For conversion tables and challenge rules, see [Apprenticeship Standards](framework/apprenticeship-standards.md).
+### 9. What about self-taught engineers, bootcamp grads, and college transfers?
+Demonstrated technical proficiency grants direct credit through hands-on Practical Challenge Exams and Prior Learning Assessments (PLA). Candidates currently enrolled in or who previously completed bootcamps or college degrees receive Related Technical Instruction (RTI) classroom transfer credit (up to 288 hrs) and OJT lab credits (up to 1,000 hrs), while having the option to test out of pre-apprenticeship classroom requirements immediately at zero cost. For conversion tables and challenge rules, see [Apprenticeship Standards](framework/apprenticeship-standards.md).
 
 ### 10. Will this restrict open-source development or vulnerability research?
 No. Licensure governs administrative production authority and statutory compliance sign-offs for commercial systems and critical infrastructure, strictly excluding independent research, open-source authoring, and home labs. For statutory boundaries, see [Standards, Regulatory Baselines & Compliance](framework/standards-and-compliance.md).

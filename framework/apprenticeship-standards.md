@@ -50,6 +50,8 @@ Documented operational experience, open-source security tool development, and ve
 | **Accredited Military Cyber MOS / AFSC** | Direct OJT Credit (Domains 1-4) | Up to 4,000 hrs (Tier 3 Entry) |
 | **Practical Hands-on Certifications (Lab-Based)** | RTI & OJT Credit (Domains 1-3) | Up to 2,000 hrs (Tier 2 Entry) |
 | **Documented Production SysAdmin / NetEng Experience** | Direct OJT Credit (Domains 1 & 3) | Up to 2,000 hrs (Tier 2 Entry) |
+| **Accredited Degree / Vocational Technical Coursework** | RTI Classroom Articulation (Domains 1-5) | Up to 288 hrs (50% RTI Bypass) |
+| **Structured Technical Bootcamp Capstones / Portfolio Labs** | Direct OJT & RTI Credit (Domains 1-4) | Up to 1,000 hrs (Tier 1/2 Entry) |
 
 > **Mandatory Cap & Residency Rule:** Regardless of prior credentials or exam scores, credit-by-examination and PLA cannot bypass more than **4,000 hours (50%)** of the 8,000-hour core baseline. Every candidate must complete at least 4,000 hours of live, supervised production work to be eligible for the Journeyman Licensure Exam.
 
