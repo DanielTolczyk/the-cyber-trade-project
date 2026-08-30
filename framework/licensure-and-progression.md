@@ -10,7 +10,7 @@ The trade enforces a unified, transparent progression model based on verified ru
 
 ```
 +─────────────────────────────────────────────────────────────────────────────+
-| Tier 1–4: Registered Apprentice (0 to 8,000 Verified Runtime Hours)         |
+| Tier 1 - 4: Registered Apprentice (0 to 8,000 Verified Runtime Hours)       |
 | • 50% to 80% RJPB  • 576 Total RTI Hours  • Universal Logbook Attestation    |
 +─────────────────────────────────────────────────────────────────────────────+
                                        │
@@ -23,7 +23,7 @@ The trade enforces a unified, transparent progression model based on verified ru
                                        ▼ (Specialty Mastery & Portfolio Board)
 +─────────────────────────────────────────────────────────────────────────────+
 | Master Practitioner (12,000+ Verified Runtime Hours)                        |
-| • 135%–150% RJPB  • Multi-Domain Architecture Review  • Oral Board Defense  |
+| • 135% to 150% RJPB  • Multi-Domain Architecture Review • Oral Board Defense|
 +─────────────────────────────────────────────────────────────────────────────+
                                        │
                                        ▼ (Statutory Filing & Legal Assignment)

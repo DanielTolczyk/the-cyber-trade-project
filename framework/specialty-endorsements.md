@@ -99,6 +99,7 @@ Before pursuing specialty endorsements, all apprentices must log validated opera
 * **Core Focus:** Secure SDLC integration, component-level threat modeling, SAST/DAST/SCA tooling, API security, Software Bill of Materials (SBOM) lifecycle (CycloneDX/SPDX), non-product R&D tooling qualification, and PSIRT coordinated vulnerability management.
 * **Illustrative Examples / Equivalencies:** CASE, CSSLP, specialized product and application security engineering credentials.
 * **Sign-off Authority:** Production software and product security release clearance, SBOM compliance verification.
+* **Detailed Standard:** [Specialty Track Specification: SE-APP Application & Software Product Security](specialty-tracks/application-security.md).
 
 ### Branch F: Medical Device & Clinical Technology Security (SE-MED)
 * **Core Focus:** Embedded device firmware (SiMD), Software as a Medical Device (SaMD), companion mobile health apps, FDA Section 524B premarket compliance, AAMI TIR57 / ISO 14971 clinical safety risk integration, and SBOM lifecycle management.

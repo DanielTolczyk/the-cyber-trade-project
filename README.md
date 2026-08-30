@@ -2,9 +2,6 @@
 
 > An open-source, vendor-neutral framework to restructure cybersecurity into a recognized skilled trade through paid apprenticeships, standardized wage floors, progressive rotations, professional licensure, guild protections, and underwriter-driven accountability.
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
 ---
 
 ## The Core Thesis
@@ -30,10 +27,10 @@ The Cyber Trade Project is in its open-source formative stage. You do not need t
 
 * **Test Your Career Placement:** Run your numbers in the open-source [Trade Tier & Grandfathering Estimator](https://danieltolczyk.github.io/cyber-trade-estimator/) to see where your verified runtime, certifications, or challenge pathways place you.
 * **Inspect the Tooling:** Review the offline-first [Universal Digital Logbook](https://danieltolczyk.github.io/cyber-trade-logbook/) Progressive Web App for cryptographic runtime attestation and decentralized supervisor verification.
-* **Review Active RFCs:** Read, stress-test, and critique active Request for Comments branches:
-  * `rfc/0001-vmor-liability`: Fractional Master of Record engagement scopes and SMB safe harbors.
-  * `rfc/0002-dfir-surge-protocols`: Crisis incident response surge compensation, rest cycles, and trauma respite.
-  * `rfc/mandatory-mentorship-hours`: Defining apprentice line-of-sight supervision requirements and ratio audits.
+* **Review Active RFCs:** Read, stress-test, and critique active Request for Comments proposals:
+  * [**RFC 0001: vMoR Statutory Scope & Liability (#7)**](https://github.com/DanielTolczyk/the-cyber-trade-project/pull/7): Fractional Master of Record engagement scopes and SMB safe harbors.
+  * [**RFC 0002: DFIR Surge Capacity & Rest Cycles (#8)**](https://github.com/DanielTolczyk/the-cyber-trade-project/pull/8): Crisis incident response surge compensation, rest cycles, and forensic trauma respite.
+  * [**RFC 0003: Mandatory Mentorship Quotas (#12)**](https://github.com/DanielTolczyk/the-cyber-trade-project/pull/12): Defining apprentice line-of-sight supervision requirements and ratio audits.
 * **Join GitHub Discussions:** Share your thoughts, edge cases, and critiques on [GitHub Discussions](https://github.com/DanielTolczyk/the-cyber-trade-project/discussions).
 * **Jurisdictional Adaptation:** While baseline specifications are anchored in United States labor statutes (29 CFR Part 29, Taft-Hartley Section 302(c), ERISA), the modular framework is designed to be adapted or forked for international apprenticeship systems (such as Canada's Red Seal Program, Skilled Trades Ontario, or UK Modern Apprenticeships).
 
@@ -73,12 +70,20 @@ The modern cybersecurity employment model is broken across every tier:
 
 ## Operational Frameworks & Governance
 
-### Framework Specifications
+### Foundational Architecture & Primers
+* [**Skilled Trades for Tech Workers: Foundational Primer**](docs/trade-mechanisms-primer.md): Plain-English explanation of DOL registration, Taft-Hartley trusts, ERISA benefit portability, and insurance warranty economics.
+* [**International Adaptation Guide**](docs/international-adaptations.md): Crosswalks and mapping guides for Canadian (Red Seal, STO), UK (IfATE), and European (ENISA) apprenticeship systems.
+* [**10-Year Industry Transition Plan**](governance/transition-plan.md): Phased statutory compact horizon, 24-month portfolio bridge, and National Registry rollout.
+* [**Glossary of Terms & Acronyms**](GLOSSARY.md): Canonical definitions across skilled trade, technical operations, and regulatory frameworks.
+* [**Frequently Asked Questions (FAQ)**](FAQ.md): Addressing developer velocity, small business models, cloud providers, and personal liability.
+* [**Contributing Guide**](CONTRIBUTING.md): Issue templates, proposal workflows, quality gates, and release cadence policies.
+
+### Operational Framework Specifications
 * [**Apprenticeship Standards & Operational On-Ramps**](framework/apprenticeship-standards.md): Core 8,000-hour rotational breakdown, RTI classroom mandates, and Prior Learning Assessment (PLA) challenge rules.
 * [**Licensure Standards & Progression Milestones**](framework/licensure-and-progression.md): Progression tiers from Apprentice Tier 1 through Master Practitioner and Master of Record.
 * [**Standards, Regulatory Baselines & Compliance**](framework/standards-and-compliance.md): The building code model (NICE workforce taxonomy, open technical baselines, and legal sign-offs).
 * [**Wage Scales & Compensation Floors**](framework/wage-scales.md): Milestone progression tiers, COLI standards, hazard differentials, and on-call surge pay.
-* [**Specialty Endorsements & Domain Tracks**](framework/specialty-endorsements.md): The Three-Layer Architecture, Master Endorsement Ledger, and specialized track specifications (including [Medical Device Security](framework/specialty-tracks/medical-devices.md)).
+* [**Specialty Endorsements & Domain Tracks**](framework/specialty-endorsements.md): The Three-Layer Architecture, Master Endorsement Ledger, and specialized track specifications (including [Application Security](framework/specialty-tracks/application-security.md) and [Medical Device Security](framework/specialty-tracks/medical-devices.md)).
 * [**Contractors, Consulting & The Trade LLC Model**](framework/contractors-and-consulting.md): 1099/W-2 contractor rules, fractional Master of Record (vMoR) guidelines, and entity licensing.
 * [**Executive Leadership & The CISO Role**](framework/executive-and-ciso.md): Separating corporate business management from statutory Master of Record technical sign-off.
 * [**Velocity, Cloud & Safe Harbor**](framework/velocity-and-cloud.md): Certified CI/CD pipeline automation, Cloud Shared Responsibility boundaries, and shadow IT protections.
@@ -87,22 +92,17 @@ The modern cybersecurity employment model is broken across every tier:
 * [**Code of Ethics, Civil Rights & Conduct**](framework/code-of-ethics-and-conduct.md): Canons of ethics, protected classes, violation classes, mandatory reporting, and disciplinary sanction matrix.
 * [**Technical Refusal & Liability Shield**](framework/technical-refusal-and-liability.md): Exception flags, formal Notice of Safety Non-Concurrence workflow, and Master of Record liability transfer.
 * [**Business & Operational Benefits**](framework/business-and-operational-benefits.md): The enterprise value model (linear benefit costs, zero agency fees, 25% to 35% insurance discounts, and statutory due care).
+* [**Refusal & Incident Reporting Templates**](templates/): Standardized forms for Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), Form FORM-003 (Operational Exception Flag), and Form FORM-004 (Ethics & Conduct Incident Report).
 
-
-### Governance & Community
+### Institutional Governance & Trust Accords
 * [**National Governance Board Structure**](governance/board-structure.md): 11-member board composition, practical challenge exams, and the 18-month JATC curriculum rule.
 * [**Board Bylaws & Democratic Elections**](governance/board-elections-and-bylaws.md): Founding steering committee sunset, secret-ballot elections, staggered 3-year terms, and member recall protocols.
 * [**Guild Formation & Labor Charter**](governance/guild-formation-and-charter.md): Bilateral governance accord, Taft-Hartley JATC trusts, legal defense shields, and portable benefits.
-* [**Dues Structure & Labor Trusts**](governance/dues-and-trust-economics.md): Two-part worker dues model, employer training trust contributions, and pre-tax policy advocacy.
 * [**Regional Chapters & Local Governance**](governance/regional-chapters-and-locals.md): Three-tier federation, local chapter chartering, COLI wage negotiations, and convention delegate apportionment.
+* [**Dues Structure & Labor Trusts**](governance/dues-and-trust-economics.md): Two-part worker dues model, employer training trust contributions, and pre-tax policy advocacy.
+* [**Operational Field Roles & Stewards**](governance/operational-field-roles.md): Shop Stewards, JATC Training Directors, Board Practical Challenge Examiners, and Dispatch Officers.
 * [**Participating Employer Council (PEC)**](governance/participating-employer-council.md): Multi-employer association charter, Large Enterprise vs. SMB/Contractor divisions, and management trustee elections.
 * [**Underwriter & Actuarial Consortium (CUAAC)**](governance/underwriter-and-actuarial-consortium.md): Risk capital consortium charter, 25% to 35% premium warranty schedules, and insurer trustee selection.
-
-* [**10-Year Industry Transition Plan**](governance/transition-plan.md): Phased statutory compact horizon, 24-month portfolio bridge, and National Registry rollout.
-* [**Refusal & Incident Reporting Templates**](templates/): Standardized forms for Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), Form FORM-003 (Operational Exception Flag), and Form FORM-004 (Ethics & Conduct Incident Report).
-* [**Glossary of Terms & Acronyms**](GLOSSARY.md): Canonical definitions across skilled trade, technical operations, and regulatory frameworks.
-* [**Frequently Asked Questions (FAQ)**](FAQ.md): Addressing developer velocity, small business models, cloud providers, and personal liability.
-* [**Contributing Guide**](CONTRIBUTING.md): Issue templates, proposal workflows, quality gates, and release cadence policies.
 
 ### Ecosystem Tooling
 * [**Cybersecurity Trade Tier & Grandfathering Estimator**](https://danieltolczyk.github.io/cyber-trade-estimator/): An open-source, privacy-first client-side web application and mathematical engine enabling practitioners to estimate their provisional trade placement, PLA hour credits, and milestone path ([Repository](https://github.com/DanielTolczyk/cyber-trade-estimator)).

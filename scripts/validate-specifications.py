@@ -94,11 +94,11 @@ def check_typography_and_emojis(file_path: Path) -> list:
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             for line_num, line in enumerate(f, start=1):
-                # Check for emdash
-                if "—" in line:
+                # Check for emdash and endash
+                if "—" in line or "–" in line:
                     errors.append(
                         f"[Typography Error] {file_path.relative_to(REPO_ROOT)}:{line_num} "
-                        f"contains an emdash ('—'). Use standard hyphens (' - ') or colons (':') instead."
+                        f"contains non-standard dash ('—' or '–'). Use standard hyphens (' - ') or colons (':') instead."
                     )
                 # Check for emojis
                 if EMOJI_PATTERN.search(line):

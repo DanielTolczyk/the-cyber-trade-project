@@ -188,38 +188,10 @@ The **Office of the Guild Ombudsperson** functions as the independent constituti
 
 ## 10. Operational Field Roles & Governance Authority
 
-To ensure seamless coordination between shop-floor engineering reality, classroom instruction, and regulatory standards, the trade establishes clearly defined responsibilities for operational field officers:
+To ensure seamless coordination between shop-floor engineering reality, classroom instruction, and regulatory standards, the trade establishes clearly defined responsibilities for operational field officers across enterprise shifts, JATC training centers, and Guild halls.
 
-### A. The Frontline Trade Job Steward ("Shop Steward")
-* **Role:** The designated frontline Guild representative embedded on an active engineering team or SOC shift at a participating employer.
-* **Selection:** Appointed by the Local Chapter Business Manager from among active Licensed Journeymen on the employer's staff.
-* **Key Responsibilities:**
-  * **Supervisory Ratio Enforcement:** Monitors active shifts to ensure the mandatory 2:1 on-shift Journeyman-to-Apprentice ratio is strictly maintained.
-  * **Informal Grievance Triage:** Intervenes in initial logbook disputes, uncredited on-call hours, or supervisory friction before formal escalation.
-  * **Interim Safety & Non-Concurrence Support:** Assists apprentices and Journeymen in authoring and timestamping [Operational Exception Flags (Form FORM-003)](../templates/FORM-003_operational-exception-flag.md).
-  * **Supersurveillance Protection:** Ensures employers adhere to worker algorithmic defense standards and do not deploy unauthorized bossware or keystroke quotas.
-
-### B. The JATC Regional Training Director
-* **Role:** The executive administrator of the regional Joint Apprenticeship and Training Committee trust.
-* **Key Responsibilities:**
-  * Coordinates Related Technical Instruction (RTI) curriculum with accredited public community college faculties.
-  * Manages regional air-gapped cyber range environments and simulation exercises.
-  * Conducts quarterly apprentice logbook audits and certifies wage step elevations (Tiers 1 through 4).
-  * Convenes bipartisan JATC grievance hearings for wage withholding or apprentice transfer petitions.
-
-### C. The Board Practical Challenge Examiner
-* **Role:** A certified Master Practitioner appointed and accredited by the National Board to proctor and evaluate objective, hands-on licensure challenge exams.
-* **Key Responsibilities:**
-  * Administers proctored, air-gapped practical examinations on live cyber ranges.
-  * Scores candidate incident triage, packet analysis, script authoring, and system hardening according to standardized psychometric rubrics.
-  * Subject to strict conflict-of-interest firewalls: cannot examine candidates from their own employer or direct mentees.
-
-### D. The Talent Clearinghouse Dispatch Officer
-* **Role:** The neutral administrative officer at the Local or National Guild responsible for staffing allocation and apprentice placement.
-* **Key Responsibilities:**
-  * Manages the out-of-work list and talent clearinghouse queue for Journeymen and Apprentices.
-  * Dispatches qualified practitioners to participating employers based on verified Universal Logbook credentials and Specialty Endorsements, eliminating subjective recruiter screening biases.
-  * Coordinates emergency apprentice transfers following safety or harassment grievances.
+For the complete specification of operational duties, supervisory ratio enforcement powers, and conflict-of-interest firewalls governing Shop Stewards, JATC Regional Training Directors, Board Practical Challenge Examiners, and Talent Clearinghouse Dispatch Officers, see:
+* [**Operational Field Roles & Governance Authority**](operational-field-roles.md)
 
 ---
 

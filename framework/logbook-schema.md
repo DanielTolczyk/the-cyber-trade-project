@@ -113,7 +113,7 @@ To operationalize Pillar V and Pillar VII without exposing proprietary corporate
 ```
 
 * **Zero-Knowledge Privacy:** Underwriters receive verified cryptographic aggregates (ratio compliance rate, active MoR presence, total supervised hours) without seeing employee identities, raw incident logs, or internal network architecture.
-* **Continuous Rate Gating:** Sponsoring enterprises connect their trade registry instance to underwriter APIs to maintain real-time qualification for Tier A premium credits (25%–35% reductions).
+* **Continuous Rate Gating:** Sponsoring enterprises connect their trade registry instance to underwriter APIs to maintain real-time qualification for Tier A premium credits (25% to 35% reductions).
 
 ---
 

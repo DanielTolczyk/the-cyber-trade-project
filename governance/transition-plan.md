@@ -2,7 +2,7 @@
 
 To transform cybersecurity from an unregulated corporate cost center into a federally recognized skilled trade, the industry requires a realistic, phased transition strategy. 
 
-Recognizing that statutory licensing compacts (analogous to the Interstate Medical Licensure Compact or NCEES Professional Engineering standard) require sustained multi-state legislative coordination, this roadmap separates **Voluntary Market Adoption (Years 0–5)** from **Statutory Interstate Codification (Years 5–10)**.
+Recognizing that statutory licensing compacts (analogous to the Interstate Medical Licensure Compact or NCEES Professional Engineering standard) require sustained multi-state legislative coordination, this roadmap separates **Voluntary Market Adoption (Years 0-5)** from **Statutory Interstate Codification (Years 5-10)**.
 
 ---
 
@@ -10,21 +10,21 @@ Recognizing that statutory licensing compacts (analogous to the Interstate Medic
 
 ```
 +─────────────────────────────────────────────────────────────────────────────+
-| Phase 1: Private Market Adoption & JATC Pilots (Years 0 – 2)                |
+| Phase 1: Private Market Adoption & JATC Pilots (Years 0 - 2)                |
 | • Non-profit Board/Guild incorporation  • JATC pilot cohorts                |
 | • Insurer premium credits               • Grandfathering portfolio audits   |
 +─────────────────────────────────────────────────────────────────────────────+
                                        │
                                        ▼
 +─────────────────────────────────────────────────────────────────────────────+
-| Phase 2: Federal Procurement & Critical Infrastructure (Years 3 – 5)        |
+| Phase 2: Federal Procurement & Critical Infrastructure (Years 3 - 5)        |
 | • Defense/Federal contractor clauses    • Critical sector adoption (ICS/Med)|
 | • Actuarial loss data published         • Model state compact drafted       |
 +─────────────────────────────────────────────────────────────────────────────+
                                        │
                                        ▼
 +─────────────────────────────────────────────────────────────────────────────+
-| Phase 3: Interstate Compacts & Statutory Safe Harbors (Years 5 – 10)        |
+| Phase 3: Interstate Compacts & Statutory Safe Harbors (Years 5 - 10)        |
 | • Model bill passed in pilot states     • Interstate compact reaches quorum |
 | • Mandatory sign-off for critical infra • Statutory safe harbor enacted     |
 +─────────────────────────────────────────────────────────────────────────────+

@@ -1,0 +1,39 @@
+/* Cybersecurity Trade Project - Design Tokens */
+:root {
+  /* Surfaces & Backgrounds */
+  --bg-primary: #0a0e17;
+  --bg-surface: #0f172a;
+  --bg-sidebar: #111827;
+  --bg-card: #161f30;
+  --bg-card-hover: #1e293b;
+  --bg-code: #0b1120;
+
+  /* Hairline Borders */
+  --border-color: #1f2937;
+  --border-subtle: #2e3a52;
+  --border-accent: #334155;
+
+  /* Typography Colors */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-link: #38bdf8;
+  --text-link-hover: #7dd3fc;
+
+  /* Brand & Status Accents */
+  --accent-cyan: #0ea5e9;
+  --accent-blue: #2563eb;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-rose: #f43f5e;
+  --accent-purple: #8b5cf6;
+
+  /* Typography Stacks */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Monaco, Consolas, monospace;
+
+  /* Radii & Shadows (Subtle, Non-AI) */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+}
