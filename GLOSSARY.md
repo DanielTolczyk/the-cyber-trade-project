@@ -8,6 +8,8 @@ This glossary defines key skilled trade, cybersecurity operational, and regulato
 
 * **18-Month Curriculum Notice Rule:** A statutory governance constraint requiring the National Board to provide an 18-month lead time before changing practical examination requirements, preventing curriculum disruption for active JATC apprentice cohorts.
 * **Actuarial Attestation Feed:** A zero-knowledge cryptographic API feed enabling sponsoring employers to securely transmit verified operational labor ratios, active MoR presence, and supervised runtime metrics to cyber liability underwriters without exposing proprietary network architecture, logs, or employee identities.
+* **AMF (Annual Maintenance Fee):** Recurring commercial certification vendor subscription fees charged annually to maintain credential designations, strictly prohibited from trade licensure renewals.
+
 * **Anti-Hostage Logbook Safe Harbor:** A statutory protection establishing that Universal Logbooks are the personal property of the individual practitioner, legally barring employers from withholding hour sign-offs, demanding non-disparagement waivers, or asserting NDA/trade-secret claims against sanitized logbook exports.
 * **Apprentice:** An entry-level practitioner engaged in a formal, paid, zero-tuition training program combining on-the-job operational hours (80%) with structured, paid classroom instruction (20%).
 * **Apprentice Advocate Delegate:** A non-voting advisory delegate elected directly by registered apprentices with statutory standing to attend Board proceedings, report supervisory ratio violations, and represent trainee welfare before the National Board.
@@ -15,6 +17,8 @@ This glossary defines key skilled trade, cybersecurity operational, and regulato
 * **Blind Ombudsperson Institutional Proxy:** A statutory privilege enabling the Guild Ombudsperson to receive confidential disclosures and formally prosecute complaints under institutional standing, permanently sealing the victim's identity from public dockets.
 * **Board (National Cybersecurity Trade Board):** An independent, multilateral 11-member regulatory body responsible for public safety, competency standards, practical challenge exams, and professional licensing, strictly separated from labor unions and individual employers.
 * **Board Practical Challenge Examiner:** A certified Master Practitioner appointed and accredited by the National Board to administer and score objective, air-gapped challenge exams under strict psychometric rubrics and conflict-of-interest rules.
+* **Career Runtime:** Total verified hands-on operational hours logged in active defensive, administrative, engineering, or incident triage roles, distinct from passive classroom or theoretical study.
+
 * **Candidate Trade Integrity Agreement:** A legally binding ethical code executed by pre-apprentices and practical challenge candidates prohibiting cheating, exam braindump usage, discriminatory harassment, and range sabotage under penalty of clearinghouse debarment.
 * **Condition-Bounded Safe Harbor:** The legal indemnification granted under Form FORM-002 that remains valid strictly while enumerated operational assumptions and compensating controls remain active, expiring immediately upon material architectural changes.
 * **Craft Guild (Cybersecurity Craft Guild):** A professional association and labor trust focused on workforce training, JATC administration, legal defense, portable benefits, and collective representation, distinct from industrial factory-floor unions.
@@ -67,6 +71,8 @@ This glossary defines key skilled trade, cybersecurity operational, and regulato
 * **Two-Check Retirement System:** A retirement architecture combining a guaranteed multi-employer Defined Benefit Pension (funded 100% by employer hourly contributions) with an optional employer-matching 401(k) / Annuity plan.
 * **Worker Algorithmic Due Process:** The binding labor standard prohibiting automated AI termination, bossware surveillance quotas, or algorithmic demotions without independent human supervisory review and transparent technical telemetry audits.
 * **Working Dues:** A percentage-based contribution (1.5% of gross hourly wages) deducted via payroll check-off strictly while actively employed on shift to fund local chapter operations, contract enforcement, and hiring hall dispatch.
+* **W-2 Direct Employment:** Direct salaried or hourly employment classification with statutory worker protections, mandatory overtime rules, and employer tax withholding, as distinct from 1099 independent contractor arrangements.
+
 
 ---
 
@@ -85,6 +91,8 @@ This glossary defines key skilled trade, cybersecurity operational, and regulato
 * **OT / ICS / SCADA (Operational Technology / Industrial Control Systems):** Specialized computing hardware and telemetry networks that monitor and control physical industrial processes (power grids, water treatment, manufacturing).
 * **PKI / HSM (Public Key Infrastructure / Hardware Security Module):** Cryptographic root authority hierarchies and tamper-resistant physical appliances protecting enterprise encryption keys.
 * **SAST (Static Application Security Testing):** Automated static code analysis inspecting source repositories for security flaws prior to build execution.
+* **SE-APP (Application & Software Product Security):** A Tier 1 discipline specialty endorsement covering secure architecture, automated CI/CD security tooling, software supply-chain defenses, and SBOM lifecycles.
+* **SE-MED (Medical Device & Clinical Technology Security):** A Tier 2 statutory life-safety specialty endorsement (+20% to +25% wage adder) governing embedded firmware (SiMD), SaMD, mobile health apps, and FDA Section 524B compliance.
 * **SOC (Security Operations Center):** The centralized operational unit handling 24/7 telemetry monitoring, triage, detection engineering, and incident response.
 
 ---

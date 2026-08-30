@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/tokens.css?v={{ site.time | date: '%s' }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/portal.css?v={{ site.time | date: '%s' }}">
+</head>
+<body>
+  {% include header.html %}
+
+  <div class="portal-layout">
+    {% include sidebar.html %}
+
+    <main class="portal-main">
+      <article class="portal-article">
+        {{ content }}
+      </article>
+    </main>
+  </div>
+
+  {% include footer.html %}
+
+  <script src="{{ site.baseurl }}/assets/js/portal.js?v={{ site.time | date: '%s' }}"></script>
+</body>
+</html>

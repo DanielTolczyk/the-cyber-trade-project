@@ -12,7 +12,7 @@ The Cybersecurity Trade Project aligns labor protections with corporate balance-
 +─────────────────────────────────────────────────────────────────────────────+
   │
   ├─► 1. Predictable Linear Benefit Costs & Zero Plan Fiduciary Liability
-  │      • Replaces volatile annual healthcare premium spikes (8%–15% broker hikes)
+  │      • Replaces volatile annual healthcare premium spikes (8% to 15% broker hikes)
   │        with a fixed, predictable hourly trust contribution ($7.00/hour worked).
   │      • Eliminates corporate ERISA health plan sponsor legal liability and open
   │        enrollment administrative overhead; independent Joint Trusts manage 100%.

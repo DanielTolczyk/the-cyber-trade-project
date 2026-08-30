@@ -8,7 +8,7 @@
 ---
 
 ## 1. Executive Summary
-A brief 2–3 paragraph explanation of the operational problem, the trade tension, and the proposed resolution.
+A brief 2-3 paragraph explanation of the operational problem, the trade tension, and the proposed resolution.
 
 ## 2. Motivation & Trade Context
 * What specific gap or real-world friction does this RFC address?

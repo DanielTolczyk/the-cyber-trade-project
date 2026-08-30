@@ -45,6 +45,22 @@ Under Section 302(c) of the Labor Management Relations Act (29 U.S.C. § 186(c))
 
 In the skilled trades, healthcare and retirement belong permanently to the worker, not to the employer:
 
+```
++─────────────────────────────────────────────────────────────────────────────+
+|               TAFT-HARTLEY MULTI-EMPLOYER TRUST FLOW & ERISA SHIELD         |
++─────────────────────────────────────────────────────────────────────────────+
+  PARTICIPATING EMPLOYERS (PEC)
+  • Remit fixed hourly trust contributions per billable labor hour worked.
+         │
+         ├──► $1.00/hr ──► JATC TRAINING TRUST (60% Community College Labs / 40% RTI)
+         ├──► $7.00/hr ──► HEALTH & WELFARE TRUST (Hour-Bank Reserve: 6-Mo Coverage)
+         └──► $6.00/hr ──► DEFINED BENEFIT PENSION (5-Year Unified Vesting Clock)
+                                       │
+                                       ▼ (ERISA Section 403 Fiduciary Shield)
+  100% INDEPENDENT LEGAL TRUSTS • 100% IMMUNE TO CORPORATE BANKRUPTCY & CREDITORS
++─────────────────────────────────────────────────────────────────────────────+
+```
+
 ### A. The "Hour-Bank" Health & Welfare Trust
 * **Employer Hourly Contribution:** Participating employers contribute a mandatory fixed hourly rate (e.g., $7.00/hour worked) into the Taft-Hartley Health & Welfare Trust.
 * **The Hour-Bank Reserve:** Maintaining full family medical, dental, and vision coverage requires approximately 140 credited hours per month. Excess hours accumulate in the worker's personal **Hour Bank** (up to a 6-month reserve).
