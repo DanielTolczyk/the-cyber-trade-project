@@ -24,6 +24,21 @@ To eliminate the artificial entry-level talent shortage, eradicate predatory tra
 
 ---
 
+## Fast-Start: How to Engage in 5 Minutes
+
+The Cyber Trade Project is in its open-source formative stage. You do not need to read the entire repository to contribute:
+
+* **Test Your Career Placement:** Run your numbers in the open-source [Trade Tier & Grandfathering Estimator](https://danieltolczyk.github.io/cyber-trade-estimator/) to see where your verified runtime, certifications, or challenge pathways place you.
+* **Inspect the Tooling:** Review the offline-first [Universal Digital Logbook](https://danieltolczyk.github.io/cyber-trade-logbook/) Progressive Web App for cryptographic runtime attestation and decentralized supervisor verification.
+* **Review Active RFCs:** Read, stress-test, and critique active Request for Comments branches:
+  * `rfc/0001-vmor-liability`: Fractional Master of Record engagement scopes and SMB safe harbors.
+  * `rfc/0002-dfir-surge-protocols`: Crisis incident response surge compensation, rest cycles, and trauma respite.
+  * `rfc/mandatory-mentorship-hours`: Defining apprentice line-of-sight supervision requirements and ratio audits.
+* **Join GitHub Discussions:** Share your thoughts, edge cases, and critiques on [GitHub Discussions](https://github.com/DanielTolczyk/the-cyber-trade-project/discussions).
+* **Jurisdictional Adaptation:** While baseline specifications are anchored in United States labor statutes (29 CFR Part 29, Taft-Hartley Section 302(c), ERISA), the modular framework is designed to be adapted or forked for international apprenticeship systems (such as Canada's Red Seal Program, Skilled Trades Ontario, or UK Modern Apprenticeships).
+
+---
+
 ## Strategic Roadmap & 10-Year Phased Horizon
 
 | Phase | Horizon | Primary Driver | Governance Milestone | Key Deliverable |

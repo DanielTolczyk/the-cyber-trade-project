@@ -74,3 +74,19 @@ No. The framework establishes strict Worker Algorithmic Due Process, prohibiting
 ### 24. How does the trade protect engineers from burnout, 30-hour shifts, and forensic trauma?
 The framework enforces a hard 14-Hour Incident Operational Ceiling paired with a mandatory 10-Hour Uninterrupted Rest Cycle, 1.5x to 2.0x surge pay, and a 4-hour live SOC queue limit. Practitioners assigned to forensic investigations involving child exploitation evidence (CSAM), violent extremism, or acute crisis triage possess an unconditional right to temporary rotational respite without wage loss. For health and shift standards, see [Supervisory Ratios & Headcount Standards](framework/supervisory-ratios.md) and [Apprenticeship Standards](framework/apprenticeship-standards.md).
 
+
+### 25. Is this framework trying to create one giant union for all of tech?
+No. Different technical disciplines face fundamentally different operational realities, risk profiles, and training requirements. Software Engineers build and architect application logic; IT specialists provision and maintain physical and cloud infrastructure; Cybersecurity practitioners defend systems, manage identity, and verify compliance baselines. Just as electricians, pipefitters, and carpenters operate distinct craft unions under a shared Building Trades Council, tech requires specialized guilds collaborating through inter-trade councils rather than a single monolithic umbrella union. For trade structure, see [Guild Formation & Labor Charter](governance/guild-formation-and-charter.md).
+
+
+### 26. Does skilled trade licensure create exclusionary gatekeeping like medical or law school?
+No. Skilled trade licensure is the exact opposite of academic gatekeeping. In medical or law school, candidates must absorb six-figure debt and years of unpaid schooling before touching real work. In the skilled trade model, apprentices earn full W-2 wages from Day 1, training is tuition-free via multi-employer JATC trusts and public workforce grants, and experienced practitioners transition via respectful grandfathering tracks (PLA runtime, benchmark exams, range challenge tests) with zero annual maintenance fees (AMFs). Licensure exists to protect the worker by establishing statutory legal standing to refuse unsafe management directives without fear of retaliation. For progression rules, see [Licensure Standards & Progression](framework/licensure-and-progression.md).
+
+
+### 27. How does this framework apply to practitioners outside the United States (e.g., Canada, UK, EU)?
+The core engineering baselines (NIST NICE work roles, 8,000-hour rotational domains, 2:1 supervisory ratios, Master of Record attestation) are universally applicable across global infrastructure. While legal and trust mechanics in this repository reference US statutes (DOL 29 CFR 29, Taft-Hartley Section 302(c), ERISA), the framework is open-source and modular so international practitioners can adapt or fork specifications to match their domestic trade institutions (such as Canada's Red Seal Program, Skilled Trades Ontario, or UK Modern Apprenticeships).
+
+
+### 28. What stage is the project in today, and how do we reach Phase 0?
+The project is in its open-source formative stage. Immediate priorities focus on stress-testing the framework logic, demonstrating proof-of-concept tooling (Universal Logbook and Trade Estimator), delivering educational talks, and gathering feedback through GitHub Discussions and RFC branches. Once sufficient practitioner, educator, and employer alignment is established, formal non-profit chartering and pilot cohort formation (Phase 0) will begin. For phased horizons, see the [10-Year Industry Transition Plan](governance/transition-plan.md).
+
