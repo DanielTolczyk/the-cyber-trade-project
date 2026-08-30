@@ -221,3 +221,14 @@ To ensure seamless coordination between shop-floor engineering reality, classroo
   * Dispatches qualified practitioners to participating employers based on verified Universal Logbook credentials and Specialty Endorsements, eliminating subjective recruiter screening biases.
   * Coordinates emergency apprentice transfers following safety or harassment grievances.
 
+---
+
+## 11. Inter-Trade Solidarity & Federation Accord
+
+To prevent craft isolation and foster horizontal collaboration with adjacent technical disciplines, the Cybersecurity Craft Guild maintains structured inter-trade relationships:
+
+* **The Digital Infrastructure Trades Council:** Modeled after traditional Building and Construction Trades Councils (BCTC), the Guild participates in multi-craft councils alongside emerging Software Engineering Guilds and IT Infrastructure Unions.
+* **Jurisdictional Respect:** The Guild does not dictate governance or bargaining terms for adjacent trades. Software engineers retain full autonomy over application architecture standards, and IT infrastructure specialists govern system availability and hardware lifecycles.
+* **Automated Guardrail Handshake:** In modern CI/CD environments, licensed cybersecurity practitioners certify security baseline policies within infrastructure-as-code templates, enabling software developers to ship code autonomously without manual sprint friction.
+* **Shared Labor Trust Facilities:** Where advantageous, regional chapters may co-locate JATC classroom training facilities and share administrative infrastructure for Taft-Hartley health and pension trust management with allied tech craft unions.
+
