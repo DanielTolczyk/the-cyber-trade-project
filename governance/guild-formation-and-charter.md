@@ -225,10 +225,29 @@ To ensure seamless coordination between shop-floor engineering reality, classroo
 
 ## 11. Inter-Trade Solidarity & Federation Accord
 
-To prevent craft isolation and foster horizontal collaboration with adjacent technical disciplines, the Cybersecurity Craft Guild maintains structured inter-trade relationships:
+To prevent craft isolation and foster horizontal collaboration with adjacent technical disciplines, the Cybersecurity Craft Guild maintains structured inter-trade relationships modeled after the Building and Construction Trades Council (BCTC). 
 
-* **The Digital Infrastructure Trades Council:** Modeled after traditional Building and Construction Trades Councils (BCTC), the Guild participates in multi-craft councils alongside emerging Software Engineering Guilds and IT Infrastructure Unions.
-* **Jurisdictional Respect:** The Guild does not dictate governance or bargaining terms for adjacent trades. Software engineers retain full autonomy over application architecture standards, and IT infrastructure specialists govern system availability and hardware lifecycles.
+> **Non-Prescriptive Federation Model:** The taxonomy below represents an illustrative conceptual architecture of how digital disciplines could coordinate. The Cybersecurity Trade Project does not dictate how software engineers, IT specialists, or adjacent fields organize, govern, or structure their own unions or associations. Each craft maintains sovereign autonomy to determine its internal standards, training pipelines, and collective representation.
+
+```
++─────────────────────────────────────────────────────────────────────────────+
+|               THE DIGITAL INFRASTRUCTURE TRADES COUNCIL                     |
+|           (Conceptual Multi-Craft Federation Architecture)                  |
++─────────────────────────────────────────────────────────────────────────────+
+                                       │
+        ┌──────────────────────────────┼──────────────────────────────┐
+        ▼                              ▼                              ▼
+  CYBERSECURITY                  SOFTWARE & SYSTEMS                 IT & CLOUD
+  CRAFT GUILD (CCG)             ENGINEERING (ILLUSTRATIVE)    INFRASTRUCTURE (ILLUSTRATIVE)
+  • Operational Defense          • Application Architecture      • Systems Administration
+  • Threat Modeling & GRC        • Formal Verification           • Network & Cloud Fabric
+  • Incident Response (DFIR)     • Critical Systems Code         • Hardware & Uptime
+  • Refusal & Licensure          • Product Standards             • Infrastructure as Code
++─────────────────────────────────────────────────────────────────────────────+
+```
+
+* **The Digital Infrastructure Trades Council:** Modeled after traditional Building and Construction Trades Councils (BCTC), the Guild participates in voluntary multi-craft councils alongside emerging software engineering and IT worker organizations.
+* **Jurisdictional Respect & Craft Sovereignty:** The Guild does not dictate governance, apprenticeship requirements, or bargaining terms for adjacent trades. Software engineers retain full autonomy over application architecture standards, and IT infrastructure specialists govern system availability and hardware lifecycles.
 * **Automated Guardrail Handshake:** In modern CI/CD environments, licensed cybersecurity practitioners certify security baseline policies within infrastructure-as-code templates, enabling software developers to ship code autonomously without manual sprint friction.
 * **Shared Labor Trust Facilities:** Where advantageous, regional chapters may co-locate JATC classroom training facilities and share administrative infrastructure for Taft-Hartley health and pension trust management with allied tech craft unions.
 
