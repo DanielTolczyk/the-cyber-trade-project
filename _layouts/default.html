@@ -6,6 +6,11 @@
   <title>{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} - Restructuring Cybersecurity into a Skilled Trade{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
   
+  <!-- Defensive Security & Content Protection Directives -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), interest-cohort=()">
+
   <!-- Open Graph & Social Preview Metadata -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="The Cybersecurity Trade Project">

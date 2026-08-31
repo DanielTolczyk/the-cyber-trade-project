@@ -153,3 +153,14 @@ If private cyber insurance syndicates restrict capacity due to systemic AI ranso
 When a critical CVE is disclosed in an upstream open-source dependency with no official maintainer patch available within 72 hours, the team can create an isolated security fork and apply runtime compensating controls (e.g., WAF virtual patches, memory-safety wrappers, micro-segmentation). The Master of Record certifies the fork via Form FORM-005 (Targeted OSS Security Fork Exemption), granting an extended 90-day compliant grace period that preserves autonomous CI/CD release velocity, statutory due-care safe harbors, and insurance warranty discounts while upstream community patches develop. For open-source supply chain rules, see [Velocity, Cloud & Safe Harbor](framework/velocity-and-cloud.md) and [Form FORM-005](templates/FORM-005_targeted-oss-security-fork-exemption.md).
 
 
+
+### 37. How does the framework account for hybrid roles like DevSecOps that cross multiple craft jurisdictions?
+The trade framework evaluates operational competencies rather than corporate job titles. For engineers in hybrid DevSecOps, Platform Security, or SRE roles, time spent on defensive automation, SAST/DAST gating, IAM policies, and infrastructure hardening is credited directly across Domain 1 (Defensive Infrastructure) and Domain 3 (Software Assurance). Pure application business logic development can be cross-credited to software engineering guilds via Bilateral Articulation Accords. Additionally, AppSec and DevSecOps environments operate with an expanded 3:1 supervisory ratio, and shift attestations can be automated through Git commit signing (Modality B). For detailed guidance, see the [Startup Generalists & Hybrid Engineering Guide](docs/startup-and-hybrid-roles-guide.md).
+
+
+
+### 38. How do startup generalists and solo security practitioners accumulate verified runtime without on-site Journeymen?
+Early-stage startups and small businesses often employ solo practitioners who handle all security and IT operations. These generalists naturally accumulate balanced runtime across all 5 core trade domains simultaneously. To satisfy supervisory requirements without full-time enterprise headcount, startups retain a Fractional Master of Record (vMoR) or utilize the regional JATC Training Director for scheduled quarterly audit reviews. Hours are logged with cryptographic Git commit signatures and ticket hashes (Modality B), and workers are shielded from startup insolvency through portable Taft-Hartley Hour-Bank healthcare reserves and multi-employer pension vesting. For solo practitioner workflows, see the [Startup Generalists & Hybrid Engineering Guide](docs/startup-and-hybrid-roles-guide.md).
+
+
+

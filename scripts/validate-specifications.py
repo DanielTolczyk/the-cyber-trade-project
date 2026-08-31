@@ -282,6 +282,23 @@ def check_ecosystem_version_sync() -> list:
     return errors
 
 
+def check_release_notes_quality() -> list:
+    errors = []
+    rel_dir = REPO_ROOT / "docs" / "releases"
+    if not rel_dir.exists():
+        return errors
+    for rf in rel_dir.glob("*.md"):
+        try:
+            content = rf.read_text(encoding="utf-8")
+            if len(content.splitlines()) < 5:
+                errors.append(f"[Release Notes Error] {rf.name}: Release notes file is too short (less than 5 lines).")
+            if "Merge pull request" in content or "chore(release)" in content:
+                errors.append(f"[Release Notes Error] {rf.name}: Release notes contain raw merge/commit logs. Must be structured domain prose.")
+        except Exception as e:
+            errors.append(f"[Release Notes Error] {rf.name}: Could not read release notes: {e}")
+    return errors
+
+
 def main():
     print("=" * 70)
     print(" The Cybersecurity Trade Project - Specification Quality Gate")
@@ -300,6 +317,11 @@ def main():
     for md_file in md_files:
         total_errors.extend(check_typography_and_emojis(md_file))
         total_errors.extend(check_markdown_links(md_file))
+
+    # Validate Release Notes Quality
+    print("[*] Validating curated release notes quality in docs/releases/...")
+    release_errors = check_release_notes_quality()
+    total_errors.extend(release_errors)
 
     # Validate Mandatory 7 Pillars Immutability
     print("[*] Validating the 7 Core Pillars immutability and canonical titles...")

@@ -127,32 +127,31 @@ def handle_open_prs(include_pr_ids=None, dry_run=False) -> list:
 
 
 def generate_notes(version: str, title: str, prev_tag: str) -> str:
-    lines = [
-        f"## What's New in {version}",
-        f"### {title}",
-        "",
-        "### Key Changes:",
-    ]
-    try:
-        commits = run_cmd(f"git log {prev_tag}..HEAD --oneline", check=False)
-        if commits:
-            for c in commits.splitlines()[:10]:
-                lines.append(f"- {c}")
-        else:
-            lines.append("- Documentation, specification, and governance updates.")
-    except Exception:
-        lines.append("- Documentation, specification, and governance updates.")
+    """Reads curated release notes from docs/releases/<version>.md."""
+    v_clean = version if version.startswith("v") else f"v{version}"
+    rel_notes_file = REPO_ROOT / "docs" / "releases" / f"{v_clean}.md"
+    if not rel_notes_file.exists():
+        rel_notes_file = REPO_ROOT / "docs" / "releases" / f"{v_clean.lstrip('v')}.md"
+    
+    if rel_notes_file.exists():
+        content = rel_notes_file.read_text(encoding="utf-8").strip()
+    else:
+        raise FileNotFoundError(
+            f"Mandatory release notes file missing: 'docs/releases/{v_clean}.md'. "
+            f"Please author comprehensive, structured release notes before publishing."
+        )
 
-    lines.extend([
-        "",
-        "---",
-        "",
-        "### Verification",
-        "- Passed automated Specification Quality Gate (`validate-specifications.py`): 0 emdashes, 0 emojis, 100% relative link integrity, 7 Core Pillars verified immutable.",
-        "",
-        f"**Full Changelog**: https://github.com/DanielTolczyk/the-cyber-trade-project/compare/{prev_tag}...{version}",
-    ])
-    return "\n".join(lines)
+    changelog_link = f"**Full Changelog**: https://github.com/DanielTolczyk/the-cyber-trade-project/compare/{prev_tag}...{v_clean}"
+    return f"{content}\n\n{changelog_link}"
+
+
+def get_semantic_commit_type(bump_type: str, title: str) -> str:
+    if bump_type in ["minor", "major"]:
+        return "feat"
+    lower = title.lower()
+    if any(w in lower for w in ["fix", "security", "harden", "patch", "repair", "csrf", "xss"]):
+        return "fix"
+    return "docs"
 
 
 
@@ -246,15 +245,16 @@ def execute_release(args):
                 run_cmd(f"git checkout -b {branch_name}")
         else:
             print(f"[*] Already on release branch '{branch_name}'.")
+        sem_type = get_semantic_commit_type(args.type, release_title)
         print("[*] Staging and committing changes...")
         run_cmd("git add -A")
-        run_cmd(["git", "commit", "-m", f"chore(release): prepare {target_version} - {release_title}"])
+        run_cmd(["git", "commit", "-m", f"{sem_type}(release): prepare {target_version} - {release_title}"])
         print(f"[*] Pushing '{branch_name}' to origin...")
         run_cmd(f"git push -u origin {branch_name}")
 
         notes = generate_notes(target_version, release_title, prev_tag)
         print("[*] Creating Pull Request...")
-        pr_cmd = ["gh", "pr", "create", "--base", "main", "--head", branch_name, "--title", f"chore(release): {target_version} - {release_title}", "--body", notes]
+        pr_cmd = ["gh", "pr", "create", "--base", "main", "--head", branch_name, "--title", f"{sem_type}(release): {target_version} - {release_title}", "--body", notes]
         run_cmd(pr_cmd)
 
         print("[*] Merging Pull Request into main...")
