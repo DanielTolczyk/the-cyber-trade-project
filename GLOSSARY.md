@@ -1,3 +1,8 @@
+---
+layout: default
+title: Glossary & Taxonomy
+---
+
 # Glossary of Terms & Acronyms
 
 This glossary defines key skilled trade, cybersecurity operational, and regulatory terminology used across the framework to ensure shared clarity among engineers, IT leaders, educators, underwriters, and policy makers.
