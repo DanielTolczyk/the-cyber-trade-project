@@ -61,7 +61,7 @@ To balance agile development with community peer review, proposed changes follow
 1. **Fork the Repository:** Create a working branch off `main` (e.g., `rfc/my-feature-name`).
 2. **Draft the Document:** Copy `rfcs/0000-template.md` to `rfcs/000X-short-name.md` using the next available 4-digit index.
 3. **Submit a Pull Request:** Open a PR titled `RFC: [Title of Proposal]` with the `Status: Proposed` in the header.
-4. **Link Discussion:** Create a corresponding thread in [GitHub Discussions](https://github.com/DanielTolczyk/the-cyber-trade-project/discussions) under the **Architecture & RFCs** category linking to your PR.
+4. **Link Discussion:** Create a corresponding thread in [GitHub Discussions](https://github.com/the-cyber-trade-project/the-cyber-trade-project/discussions) under the **Architecture & RFCs** category linking to your PR.
 5. **Review & Adoption:** Once the community and maintainers reach consensus:
    * The RFC status is updated to `Accepted` and merged into the `rfcs/` directory.
    * Implementation Pull Requests are opened against the relevant files in `framework/`, `governance/`, or `pillars/`.

@@ -141,7 +141,7 @@ def generate_notes(version: str, title: str, prev_tag: str) -> str:
             f"Please author comprehensive, structured release notes before publishing."
         )
 
-    changelog_link = f"**Full Changelog**: https://github.com/DanielTolczyk/the-cyber-trade-project/compare/{prev_tag}...{v_clean}"
+    changelog_link = f"**Full Changelog**: https://github.com/the-cyber-trade-project/the-cyber-trade-project/compare/{prev_tag}...{v_clean}"
     return f"{content}\n\n{changelog_link}"
 
 
