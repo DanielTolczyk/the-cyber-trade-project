@@ -141,7 +141,7 @@ def generate_notes(version: str, title: str, prev_tag: str) -> str:
             f"Please author comprehensive, structured release notes before publishing."
         )
 
-    changelog_link = f"**Full Changelog**: https://github.com/the-cyber-trade-project/the-cyber-trade-project/compare/{prev_tag}...{v_clean}"
+    changelog_link = f"**Full Changelog**: https://github.com/the-cyber-trade-project/framework/compare/{prev_tag}...{v_clean}"
     return f"{content}\n\n{changelog_link}"
 
 
@@ -183,7 +183,7 @@ def sync_ecosystem_metadata(target_version: str):
             json.dump(cdata, f, indent=2)
 
     # 3. Update Estimator footer
-    estimator_index = REPO_ROOT.parent / "cyber-trade-estimator" / "public" / "index.html"
+    estimator_index = REPO_ROOT.parent / "estimator" / "public" / "index.html"
     if estimator_index.exists():
         with open(estimator_index, "r", encoding="utf-8") as f:
             text = f.read()
@@ -192,7 +192,7 @@ def sync_ecosystem_metadata(target_version: str):
             f.write(text)
 
     # 4. Update Logbook specifications framework_version
-    logbook_specs = REPO_ROOT.parent / "cyber-trade-logbook" / "public" / "data" / "logbook_specifications.json"
+    logbook_specs = REPO_ROOT.parent / "logbook" / "public" / "data" / "logbook_specifications.json"
     if logbook_specs.exists():
         with open(logbook_specs, "r", encoding="utf-8") as f:
             ldata = json.load(f)
