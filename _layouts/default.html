@@ -3,8 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <title>{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} - Restructuring Cybersecurity into a Skilled Trade{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
+  
+  <!-- Open Graph & Social Preview Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="The Cybersecurity Trade Project">
+  <meta property="og:title" content="{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:url" content="https://danieltolczyk.github.io/the-cyber-trade-project/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/tokens.css?v={{ site.time | date: '%s' }}">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/portal.css?v={{ site.time | date: '%s' }}">
 </head>

@@ -4,7 +4,7 @@ The cybersecurity industry is currently saturated with hundreds of competing com
 
 Rather than invalidating the legitimate work practitioners have already completed or endorsing commercial vendor lock-in, the trade model establishes an independent **National Cybersecurity Trade Board and Credential Evaluation Clearinghouse**. The Board systematically evaluates existing credentials against open standards (such as NIST NICE SP 800-181), determining appropriate tier mapping, filtering out low-rigor cash grabs, and honoring rigorous practical credentials.
 
-> **Foundational Principle:** The National Cybersecurity Trade Board licenses the practitioner and protects the public interest; the Craft Guild trains, protects, and represents the workforce.
+> **Core Mandate:** Replace fragmented vendor certifications with an independent, legally recognized Journeyman standard anchored to practical competency and open standards.
 
 ---
 

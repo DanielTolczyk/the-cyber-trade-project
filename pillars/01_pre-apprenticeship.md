@@ -2,7 +2,7 @@
 
 The entry-level cybersecurity pipeline is broken: organizations take unquantifiable risks on candidates with non-standardized backgrounds, while newcomers are exploited by high-cost, predatory bootcamps. The trade model resolves this through an institutionalized, standardized, non-debt **Pre-Apprenticeship Filter**.
 
-> **Pillar I Axiom (The Talent Filter):** Replace predatory $20,000 bootcamps and arbitrary degree gatekeeping with tuition-free, hands-on screening embedded in public community colleges.
+> **Core Mandate:** Replace predatory bootcamps and degree gatekeeping with tuition-free, hands-on screening embedded in public community colleges.
 
 ---
 
