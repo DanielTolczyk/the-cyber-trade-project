@@ -8,6 +8,7 @@ import os
 import sys
 import re
 import json
+import time
 import argparse
 import subprocess
 from pathlib import Path
@@ -155,12 +156,61 @@ def generate_notes(version: str, title: str, prev_tag: str) -> str:
 
 
 
+def sync_ecosystem_metadata(target_version: str):
+    """Synchronizes version metadata across _config.yml, context.json, and sister repositories."""
+    raw_ver = target_version.lstrip("v")
+    v_str = f"v{raw_ver}"
+
+    # 1. Update _config.yml
+    config_path = REPO_ROOT / "_config.yml"
+    if config_path.exists():
+        with open(config_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+        with open(config_path, "w", encoding="utf-8") as f:
+            for line in lines:
+                if line.startswith("version:"):
+                    f.write(f'version: "{v_str}"\n')
+                else:
+                    f.write(line)
+
+    # 2. Update .config/ai/context.json
+    context_path = REPO_ROOT / ".config" / "ai" / "context.json"
+    if context_path.exists():
+        with open(context_path, "r", encoding="utf-8") as f:
+            cdata = json.load(f)
+        cdata["version"] = raw_ver
+        cdata["last_updated"] = time.strftime("%Y-%m-%d %H:%M")
+        with open(context_path, "w", encoding="utf-8") as f:
+            json.dump(cdata, f, indent=2)
+
+    # 3. Update Estimator footer
+    estimator_index = REPO_ROOT.parent / "cyber-trade-estimator" / "public" / "index.html"
+    if estimator_index.exists():
+        with open(estimator_index, "r", encoding="utf-8") as f:
+            text = f.read()
+        text = re.sub(r"The Cybersecurity Trade Project \(v[0-9.]+\)", f"The Cybersecurity Trade Project ({v_str})", text)
+        with open(estimator_index, "w", encoding="utf-8") as f:
+            f.write(text)
+
+    # 4. Update Logbook specifications framework_version
+    logbook_specs = REPO_ROOT.parent / "cyber-trade-logbook" / "public" / "data" / "logbook_specifications.json"
+    if logbook_specs.exists():
+        with open(logbook_specs, "r", encoding="utf-8") as f:
+            ldata = json.load(f)
+        ldata["framework_version"] = raw_ver
+        with open(logbook_specs, "w", encoding="utf-8") as f:
+            json.dump(ldata, f, indent=2)
+
+
 def execute_release(args):
-    validate_specifications()
     prev_tag = get_latest_tag()
     target_version = args.version if args.version else calculate_next_version(prev_tag, args.type)
     if not target_version.startswith("v"):
         target_version = f"v{target_version}"
+
+    # Synchronize metadata before pre-flight validation
+    sync_ecosystem_metadata(target_version)
+    validate_specifications()
     
     release_title = args.title or f"Specification and Governance Update ({target_version})"
     release_title = release_title.replace("—", "-")
