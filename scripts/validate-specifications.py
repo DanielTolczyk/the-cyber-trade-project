@@ -267,14 +267,14 @@ def check_ecosystem_version_sync() -> list:
                         f"[Ecosystem Version Sync Error] _config.yml version does not match current v{current_ver}."
                     )
 
-        # Verify cyber-trade-estimator parity
-        estimator_index = REPO_ROOT.parent / "cyber-trade-estimator" / "public" / "index.html"
+        # Verify estimator parity
+        estimator_index = REPO_ROOT.parent / "estimator" / "public" / "index.html"
         if estimator_index.exists():
             with open(estimator_index, "r", encoding="utf-8") as f:
                 content = f.read()
                 if f"v{current_ver}" not in content:
                     errors.append(
-                        f"[Ecosystem Version Sync Error] cyber-trade-estimator/public/index.html is missing reference to v{current_ver}."
+                        f"[Ecosystem Version Sync Error] estimator/public/index.html is missing reference to v{current_ver}."
                     )
     except Exception as e:
         errors.append(f"[Ecosystem Version Sync Error] Verification error: {e}")

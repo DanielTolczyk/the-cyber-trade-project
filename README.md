@@ -25,13 +25,13 @@ To eliminate the artificial entry-level talent shortage, eradicate predatory tra
 
 The Cyber Trade Project is in its open-source formative stage. You do not need to read the entire repository to contribute:
 
-* **Test Your Career Placement:** Run your numbers in the open-source [Trade Tier & Grandfathering Estimator](https://the-cyber-trade-project.github.io/cyber-trade-estimator/) to see where your verified runtime, certifications, or challenge pathways place you.
-* **Inspect the Tooling:** Review the offline-first [Universal Digital Logbook](https://the-cyber-trade-project.github.io/cyber-trade-logbook/) Progressive Web App for cryptographic runtime attestation and decentralized supervisor verification.
+* **Test Your Career Placement:** Run your numbers in the open-source [Trade Tier & Grandfathering Estimator](https://the-cyber-trade-project.github.io/estimator/) to see where your verified runtime, certifications, or challenge pathways place you.
+* **Inspect the Tooling:** Review the offline-first [Universal Digital Logbook](https://the-cyber-trade-project.github.io/logbook/) Progressive Web App for cryptographic runtime attestation and decentralized supervisor verification.
 * **Review Active RFCs:** Read, stress-test, and critique active Request for Comments proposals:
-  * [**RFC 0001: vMoR Statutory Scope & Liability (#7)**](https://github.com/the-cyber-trade-project/the-cyber-trade-project/pull/7): Fractional Master of Record engagement scopes and SMB safe harbors.
-  * [**RFC 0002: DFIR Surge Capacity & Rest Cycles (#8)**](https://github.com/the-cyber-trade-project/the-cyber-trade-project/pull/8): Crisis incident response surge compensation, rest cycles, and forensic trauma respite.
-  * [**RFC 0003: Mandatory Mentorship Quotas (#12)**](https://github.com/the-cyber-trade-project/the-cyber-trade-project/pull/12): Defining apprentice line-of-sight supervision requirements and ratio audits.
-* **Join GitHub Discussions:** Share your thoughts, edge cases, and critiques on [GitHub Discussions](https://github.com/the-cyber-trade-project/the-cyber-trade-project/discussions).
+  * [**RFC 0001: vMoR Statutory Scope & Liability (#7)**](https://github.com/the-cyber-trade-project/framework/pull/7): Fractional Master of Record engagement scopes and SMB safe harbors.
+  * [**RFC 0002: DFIR Surge Capacity & Rest Cycles (#8)**](https://github.com/the-cyber-trade-project/framework/pull/8): Crisis incident response surge compensation, rest cycles, and forensic trauma respite.
+  * [**RFC 0003: Mandatory Mentorship Quotas (#12)**](https://github.com/the-cyber-trade-project/framework/pull/12): Defining apprentice line-of-sight supervision requirements and ratio audits.
+* **Join GitHub Discussions:** Share your thoughts, edge cases, and critiques on [GitHub Discussions](https://github.com/the-cyber-trade-project/framework/discussions).
 * **Jurisdictional Adaptation:** While baseline specifications are anchored in United States labor statutes (29 CFR Part 29, Taft-Hartley Section 302(c), ERISA), the modular framework is designed to be adapted or forked for international apprenticeship systems (such as Canada's Red Seal Program, Skilled Trades Ontario, or UK Modern Apprenticeships).
 
 ---
@@ -105,8 +105,8 @@ The modern cybersecurity employment model is broken across every tier:
 * [**Underwriter & Actuarial Consortium (CUAAC)**](governance/underwriter-and-actuarial-consortium.md): Risk capital consortium charter, 25% to 35% premium warranty schedules, and insurer trustee selection.
 
 ### Ecosystem Tooling
-* [**Cybersecurity Trade Tier & Grandfathering Estimator**](https://the-cyber-trade-project.github.io/cyber-trade-estimator/): An open-source, privacy-first client-side web application and mathematical engine enabling practitioners to estimate their provisional trade placement, PLA hour credits, and milestone path ([Repository](https://github.com/the-cyber-trade-project/cyber-trade-estimator)).
-* [**Universal Digital Logbook & Competency Ledger**](https://the-cyber-trade-project.github.io/cyber-trade-logbook/): A mobile-first, privacy-preserving Progressive Web Application (PWA) and cryptographic verification engine for logging operational runtime, SCIF shift transcriptions, Merkle hash chaining, and supervisor attestation ([Repository](https://github.com/the-cyber-trade-project/cyber-trade-logbook)).
+* [**Cybersecurity Trade Tier & Grandfathering Estimator**](https://the-cyber-trade-project.github.io/estimator/): An open-source, privacy-first client-side web application and mathematical engine enabling practitioners to estimate their provisional trade placement, PLA hour credits, and milestone path ([Repository](https://github.com/the-cyber-trade-project/estimator)).
+* [**Universal Digital Logbook & Competency Ledger**](https://the-cyber-trade-project.github.io/logbook/): A mobile-first, privacy-preserving Progressive Web Application (PWA) and cryptographic verification engine for logging operational runtime, SCIF shift transcriptions, Merkle hash chaining, and supervisor attestation ([Repository](https://github.com/the-cyber-trade-project/logbook)).
 
 ---
 

@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: "General Questions & Community Debates"
-    url: "https://github.com/the-cyber-trade-project/the-cyber-trade-project/discussions"
+    url: "https://github.com/the-cyber-trade-project/framework/discussions"
     about: "For open-ended questions, trade philosophy, or general Q&A."
   - name: "Propose a Major Architectural RFC"
-    url: "https://github.com/the-cyber-trade-project/the-cyber-trade-project/tree/main/rfcs"
+    url: "https://github.com/the-cyber-trade-project/framework/tree/main/rfcs"
     about: "For major structural overhauls, statutory riders, or complex protocols."
