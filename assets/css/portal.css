@@ -95,12 +95,19 @@ body {
   border: 1px solid var(--border-color);
   color: var(--text-secondary);
   text-decoration: none;
+  font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 600;
-  padding: 0.35rem 0.75rem;
+  line-height: 1;
+  height: 32px;
+  box-sizing: border-box;
+  padding: 0 0.75rem;
   border-radius: var(--radius-sm);
   transition: all 0.15s ease;
   cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
 }
 
 .tool-link:hover {
@@ -138,7 +145,8 @@ body {
   .tool-link {
     width: 100%;
     font-size: 0.75rem;
-    padding: 0.4rem 0.2rem;
+    height: 30px;
+    padding: 0 0.2rem;
     text-align: center;
     justify-content: center;
   }
