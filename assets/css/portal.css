@@ -196,12 +196,51 @@ body {
   top: 55px;
 }
 
+.mobile-sidebar-summary {
+  display: none;
+}
+
 @media (max-width: 900px) {
   .portal-sidebar {
     position: static;
     max-height: none;
     border-right: none;
     border-bottom: 1px solid var(--border-color);
+    padding: 0.6rem 1rem;
+  }
+
+  .mobile-sidebar-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161f30;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    padding: 0.65rem 0.85rem;
+    color: var(--accent-cyan);
+    font-size: 0.82rem;
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+
+  .mobile-sidebar-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mobile-sidebar-summary::after {
+    content: "▾";
+    font-size: 0.9rem;
+    color: var(--text-muted);
+  }
+
+  .mobile-sidebar-drawer[open] .mobile-sidebar-summary::after {
+    content: "▴";
+  }
+
+  .mobile-sidebar-drawer-content {
+    padding-top: 1rem;
   }
 }
 
