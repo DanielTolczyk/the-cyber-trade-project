@@ -123,8 +123,8 @@ body {
   display: none;
   position: absolute;
   right: 0;
-  top: 100%;
-  margin-top: 0.35rem;
+  top: calc(100% + 2px);
+  margin-top: 0;
   background-color: #0f172a;
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
@@ -132,6 +132,16 @@ body {
   min-width: 260px;
   z-index: 200;
   padding: 0.4rem;
+}
+
+/* Invisible hover bridge so mouse cursor never loses hover focus when transitioning */
+.dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 0;
+  right: 0;
+  height: 8px;
 }
 
 .dropdown:hover .dropdown-menu,
