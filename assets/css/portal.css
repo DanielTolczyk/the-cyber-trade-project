@@ -648,16 +648,33 @@ details.nav-subgroup summary.nav-subgroup-title:hover {
   margin-bottom: 0;
 }
 
-/* Data Tables */
+/* Data Tables & Responsive Table Scroll Wrappers */
+.table-scroll-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.75rem 0;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-card);
+}
+
+.table-scroll-wrapper table,
 .portal-article table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.75rem 0;
   font-size: 0.875rem;
   background-color: var(--bg-card);
   border-radius: var(--radius-sm);
-  overflow: hidden;
-  border: 1px solid var(--border-color);
+}
+
+@media (max-width: 768px) {
+  .table-scroll-wrapper table,
+  .portal-article table {
+    display: table;
+    min-width: 520px;
+  }
 }
 
 .portal-article th {
@@ -668,16 +685,22 @@ details.nav-subgroup summary.nav-subgroup-title:hover {
   font-weight: 700;
   border-bottom: 1px solid var(--border-subtle);
   font-family: var(--font-sans);
+  white-space: nowrap;
 }
 
 .portal-article td {
   padding: 0.75rem 1rem;
   border-bottom: 1px solid var(--border-color);
   color: #cbd5e1;
+  vertical-align: top;
 }
 
 .portal-article tr:nth-child(even) {
   background-color: rgba(30, 41, 59, 0.4);
+}
+
+.portal-article tr:last-child td {
+  border-bottom: none;
 }
 
 /* Code & ASCII Diagrams */

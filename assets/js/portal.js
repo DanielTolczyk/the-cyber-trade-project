@@ -397,6 +397,18 @@
     });
   }
 
+  function initResponsiveTables() {
+    const tables = document.querySelectorAll(".portal-article table");
+    tables.forEach(table => {
+      if (!table.parentElement.classList.contains("table-scroll-wrapper")) {
+        const wrapper = document.createElement("div");
+        wrapper.className = "table-scroll-wrapper";
+        table.parentNode.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+      }
+    });
+  }
+
   function initNavigation() {
     const currentPath = window.location.pathname;
     const navLinks = document.querySelectorAll(".nav-item a");
@@ -419,6 +431,7 @@
       initGlossarySearch();
       initNavigation();
       initMobileSidebar();
+      initResponsiveTables();
     });
   } else {
     initGlossaryParser();
@@ -426,6 +439,7 @@
     initGlossarySearch();
     initNavigation();
     initMobileSidebar();
+    initResponsiveTables();
   }
 })();
 
