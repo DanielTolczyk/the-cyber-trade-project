@@ -241,6 +241,47 @@ def check_json_files() -> list:
     return errors
 
 
+def check_ecosystem_version_sync() -> list:
+    """Verifies that the framework version is perfectly synchronized across the ecosystem."""
+    errors = []
+    context_json = REPO_ROOT / ".config" / "ai" / "context.json"
+    if not context_json.exists():
+        return errors
+
+    try:
+        with open(context_json, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            current_ver = data.get("version", "").strip()
+
+        if not current_ver:
+            errors.append("[Ecosystem Version Sync Error] Missing 'version' key in .config/ai/context.json")
+            return errors
+
+        # Verify _config.yml version
+        config_yml = REPO_ROOT / "_config.yml"
+        if config_yml.exists():
+            with open(config_yml, "r", encoding="utf-8") as f:
+                content = f.read()
+                if f"v{current_ver}" not in content:
+                    errors.append(
+                        f"[Ecosystem Version Sync Error] _config.yml version does not match current v{current_ver}."
+                    )
+
+        # Verify cyber-trade-estimator parity
+        estimator_index = REPO_ROOT.parent / "cyber-trade-estimator" / "public" / "index.html"
+        if estimator_index.exists():
+            with open(estimator_index, "r", encoding="utf-8") as f:
+                content = f.read()
+                if f"v{current_ver}" not in content:
+                    errors.append(
+                        f"[Ecosystem Version Sync Error] cyber-trade-estimator/public/index.html is missing reference to v{current_ver}."
+                    )
+    except Exception as e:
+        errors.append(f"[Ecosystem Version Sync Error] Verification error: {e}")
+
+    return errors
+
+
 def main():
     print("=" * 70)
     print(" The Cybersecurity Trade Project - Specification Quality Gate")
@@ -277,6 +318,11 @@ def main():
     json_errors = check_json_files()
     total_errors.extend(json_errors)
 
+    # Check Ecosystem Version Synchronization
+    print("[*] Validating ecosystem version synchronization across repositories...")
+    version_sync_errors = check_ecosystem_version_sync()
+    total_errors.extend(version_sync_errors)
+
     print("=" * 70)
     if total_errors:
         print(f"[FAIL] Quality Gate failed with {len(total_errors)} issue(s):\n")
@@ -285,7 +331,7 @@ def main():
         print("\nPlease resolve all errors before submitting or merging your pull request.")
         sys.exit(1)
     else:
-        print("[PASS] All specifications, links, RFC schemas, and JSON files verified 100% clean!")
+        print("[PASS] All specifications, links, RFC schemas, JSON files, and version parity verified 100% clean!")
         print("=" * 70)
         sys.exit(0)
 
