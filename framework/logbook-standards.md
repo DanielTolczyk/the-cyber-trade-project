@@ -55,3 +55,26 @@ To ensure logbooks remain auditable without exposing enterprise proprietary secr
   * If a supervisor withholds sign-offs maliciously or due to contractual separation disputes, the apprentice may file an [Ethics & Conduct Incident Report (Form FORM-004)](../templates/FORM-004_ethics-and-conduct-incident-report.md).
   * The JATC Training Panel conducts an administrative ticket audit and peer review, retroactively stamping accredited hours directly into the Board Clearinghouse without requiring employer consent.
 
+---
+
+## 7. Client-Side Cryptographic Vault Architecture & At-Rest Encryption
+
+To protect practitioner career data when operating on shared workstations, SCIF terminals, or college labs:
+
+* **WebCrypto AES-256-GCM Encryption:** Local storage vaults are encrypted at rest using authenticated 256-bit AES in Galois/Counter Mode (AES-GCM).
+* **PBKDF2 Key Derivation:** Cryptographic encryption keys are derived dynamically in volatile memory from a user-selected 4-digit PIN using PBKDF2 with 100,000 iterations of SHA-256 and a 16-byte random salt. The PIN itself is never stored in browser memory, disk storage, or LocalStorage.
+* **Inactivity Auto-Lock & Memory Wiping:** After 15 minutes of inactivity or upon manual lock, the client application encrypts the active ledger into an authenticated ciphertext envelope and wipes all plaintext shift entries from browser RAM.
+* **Shared Workstation Recovery Guardrail:** If an unencrypted terminal is reset or local storage cleared, practitioners restore their authenticated ledger using their encrypted backup archive file (`.ctp-vault` or `.json`) without requiring employer intervention.
+
+---
+
+## 8. Dual-Recipient Hybrid Envelope Submission Model
+
+To allow formal JATC training audits without introducing centralized backdoor vulnerabilities:
+
+* **Zero-Backdoor Principle:** The National Board does not maintain master decryption keys for local practitioner vaults.
+* **Hybrid Envelope Submissions:** When an apprentice submits an audit batch for statutory wage step elevation:
+  1. The shift records are encrypted with an ephemeral 256-bit AES data key.
+  2. The data key is encrypted under the apprentice's personal public key (Envelope A) and simultaneously encrypted under the National Board JATC public key (Envelope B).
+  3. The combined hybrid package is submitted to the Clearinghouse. The JATC panel decrypts only the specific submitted shift batch using the Board private key in an authenticated hardware security module (HSM).
+

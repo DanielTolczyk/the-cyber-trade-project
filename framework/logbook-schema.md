@@ -124,3 +124,27 @@ Under no circumstances are proprietary corporate logs, raw payload dumps, custom
 1. **Local Telemetry Retention:** Detailed proprietary artifact logs remain inside the sponsoring employer's firewalled systems.
 2. **Cryptographic Proofs & One-Way Hashes:** The clearinghouse and public registry store only the one-way cryptographic hash of the artifact and the supervisory digital signature.
 3. **Auditing Safe Harbor:** In the event of a Trade Board audit or malpractice review, verification occurs on-premises or via zero-knowledge proofs confirming that the artifact hash corresponds to authenticated enterprise activity.
+
+---
+
+## 6. Encrypted Vault Envelope Schema (`.ctp-vault`)
+
+When exported for secure offline backup or encrypted at rest in local IndexedDB storage, the logbook ledger is formatted as an authenticated cryptographic envelope:
+
+```json
+{
+  "$schema": "https://cybertrade.org/schemas/v1/encrypted-vault.json",
+  "format": "AES-256-GCM",
+  "kdf": "PBKDF2-SHA256",
+  "iterations": 100000,
+  "salt": [142, 23, 89, 211, 45, 12, 99, 184, 201, 78, 155, 33, 67, 120, 8, 245],
+  "iv": [12, 44, 91, 180, 205, 16, 73, 220, 15, 88, 34, 112],
+  "ciphertext": [201, 45, 118, 92, 14, 88, 230, 17, 85, 3, 166, 240, 77, 19, 102, 54],
+  "metadata": {
+    "schema_version": "1.1.0",
+    "encryption_timestamp": "2026-08-30T12:00:00Z",
+    "entry_count": 28,
+    "merkle_root_hash": "sha256:7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069"
+  }
+}
+```
