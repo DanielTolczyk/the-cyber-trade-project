@@ -1,14 +1,8 @@
 <header class="portal-header">
   <div class="portal-header-inner">
-    <div class="portal-brand-wrap">
-      <button class="mobile-menu-btn" id="btn-toggle-sidebar" aria-label="Browse specifications">
-        <span class="menu-icon-bars">☰</span>
-        <span class="menu-label">Specs</span>
-      </button>
-      <a href="{{ site.baseurl }}/" class="portal-brand">
-        <span class="portal-brand-title">{{ site.title }}</span>
-      </a>
-    </div>
+    <a href="{{ site.baseurl }}/" class="portal-brand">
+      <span class="portal-brand-title">{{ site.title }}</span>
+    </a>
     <div class="portal-header-tools">
       <div class="dropdown">
         <button class="tool-link dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
@@ -22,7 +16,7 @@
           </a>
           <a href="https://danieltolczyk.github.io/cyber-trade-estimator/" class="dropdown-item">
             <span class="item-title">Career Estimator</span>
-            <span class="item-desc">Calculate trade tier & PLA hours</span>
+            <span class="item-desc">Calculate trade tier &amp; PLA hours</span>
           </a>
           <a href="https://danieltolczyk.github.io/cyber-trade-logbook/" class="dropdown-item">
             <span class="item-title">Digital Logbook</span>
@@ -37,6 +31,12 @@
         <span>GitHub</span>
       </a>
     </div>
+  </div>
+  <div class="portal-mobile-nav-bar">
+    <button class="mobile-nav-trigger" id="btn-toggle-sidebar" aria-label="Browse framework specifications">
+      <span class="mobile-nav-label"><span class="menu-icon-bars">☰</span> Framework Navigation &amp; Specifications (47)</span>
+      <span class="mobile-nav-arrow">▾</span>
+    </button>
   </div>
 </header>
 

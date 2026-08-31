@@ -155,6 +155,55 @@ body {
   }
 }
 
+/* Mobile Framework Navigation Bar (Row 3, connects directly to content) */
+.portal-mobile-nav-bar {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .portal-mobile-nav-bar {
+    display: block;
+    background-color: #0b1120;
+    border-top: 1px solid var(--border-color);
+    padding: 0.4rem 1rem;
+  }
+
+  .mobile-nav-trigger {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-cyan);
+    color: var(--text-primary);
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.55rem 0.85rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .mobile-nav-trigger:hover,
+  .mobile-nav-trigger:active {
+    background-color: var(--bg-card-hover);
+    border-color: var(--accent-cyan);
+  }
+
+  .mobile-nav-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--accent-cyan);
+  }
+
+  .mobile-nav-arrow {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+}
+
 /* Dropdown */
 .dropdown {
   position: relative;
