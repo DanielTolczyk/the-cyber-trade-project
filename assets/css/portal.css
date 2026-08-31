@@ -27,9 +27,22 @@ body {
   flex: 1;
 }
 
-@media (max-width: 900px) {
-  .portal-layout {
-    grid-template-columns: 1fr;
+@media (max-width: 600px) {
+  .portal-header-inner {
+    padding: 0.5rem 0.75rem;
+    gap: 0.5rem;
+  }
+  .portal-brand-title {
+    font-size: 0.82rem;
+    line-height: 1.2;
+  }
+  .portal-header-tools {
+    gap: 0.25rem;
+    flex-wrap: nowrap;
+  }
+  .tool-link {
+    font-size: 0.72rem;
+    padding: 0.25rem 0.45rem;
   }
 }
 
