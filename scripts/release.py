@@ -173,7 +173,9 @@ def sync_ecosystem_metadata(target_version: str):
                     f.write(line)
 
     # 2. Update .config/ai/context.json
-    context_path = REPO_ROOT / ".config" / "ai" / "context.json"
+    context_path = REPO_ROOT.parent / ".config" / "ai" / "context.json"
+    if not context_path.exists():
+        context_path = REPO_ROOT / ".config" / "ai" / "context.json"
     if context_path.exists():
         with open(context_path, "r", encoding="utf-8") as f:
             cdata = json.load(f)
