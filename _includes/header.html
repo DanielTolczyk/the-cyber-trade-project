@@ -1,8 +1,14 @@
 <header class="portal-header">
   <div class="portal-header-inner">
-    <a href="{{ site.baseurl }}/" class="portal-brand">
-      <span class="portal-brand-title">{{ site.title }}</span>
-    </a>
+    <div class="portal-brand-wrap">
+      <button class="mobile-menu-btn" id="btn-toggle-sidebar" aria-label="Browse specifications">
+        <span class="menu-icon-bars">☰</span>
+        <span class="menu-label">Specs</span>
+      </button>
+      <a href="{{ site.baseurl }}/" class="portal-brand">
+        <span class="portal-brand-title">{{ site.title }}</span>
+      </a>
+    </div>
     <div class="portal-header-tools">
       <div class="dropdown">
         <button class="tool-link dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">

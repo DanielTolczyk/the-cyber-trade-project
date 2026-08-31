@@ -37,6 +37,14 @@ EMOJI_PATTERN = re.compile(
 # Markdown Link Regex: [text](path)
 LINK_PATTERN = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
+# Prohibited AI Slop & Buzzword Pattern
+AI_SLOP_PATTERN = re.compile(
+    r"\b(delve into|delving into|tapestry of|rich tapestry|multifaceted approach|"
+    r"beacon of|testament to|holistic landscape|ever-evolving landscape|"
+    r"game-changer|pivotal role|realm of|foster a culture of|in summary,|in conclusion,)\b",
+    re.IGNORECASE,
+)
+
 # Required RFC Sections
 REQUIRED_RFC_SECTIONS = [
     "## 1. Executive Summary",
@@ -105,6 +113,14 @@ def check_typography_and_emojis(file_path: Path) -> list:
                     errors.append(
                         f"[Style Error] {file_path.relative_to(REPO_ROOT)}:{line_num} "
                         f"contains emojis. Emojis are prohibited in trade specifications."
+                    )
+                # Check for prohibited AI slop phrases
+                slop_match = AI_SLOP_PATTERN.search(line)
+                if slop_match:
+                    errors.append(
+                        f"[AI Slop Error] {file_path.relative_to(REPO_ROOT)}:{line_num} "
+                        f"contains prohibited AI slop phrase ('{slop_match.group(0)}'). "
+                        f"Use concrete, authoritative engineering language instead."
                     )
     except Exception as e:
         errors.append(f"[Read Error] Could not read {file_path.relative_to(REPO_ROOT)}: {e}")
