@@ -364,6 +364,39 @@
     });
   }
 
+  function initMobileSidebar() {
+    const toggleBtn = document.getElementById("btn-toggle-sidebar");
+    const closeBtn = document.getElementById("btn-close-sidebar");
+    const sidebar = document.getElementById("portal-sidebar");
+    const backdrop = document.getElementById("portal-sidebar-backdrop");
+
+    const openSidebar = () => {
+      if (sidebar) sidebar.classList.add("open");
+      if (backdrop) backdrop.classList.add("active");
+      document.body.style.overflow = "hidden";
+    };
+
+    const closeSidebar = () => {
+      if (sidebar) sidebar.classList.remove("open");
+      if (backdrop) backdrop.classList.remove("active");
+      document.body.style.overflow = "";
+    };
+
+    if (toggleBtn) toggleBtn.addEventListener("click", openSidebar);
+    if (closeBtn) closeBtn.addEventListener("click", closeSidebar);
+    if (backdrop) backdrop.addEventListener("click", closeSidebar);
+
+    // Auto-close when clicking any link in mobile drawer
+    const sidebarLinks = sidebar ? sidebar.querySelectorAll("a") : [];
+    sidebarLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth <= 900) {
+          closeSidebar();
+        }
+      });
+    });
+  }
+
   function initNavigation() {
     const currentPath = window.location.pathname;
     const navLinks = document.querySelectorAll(".nav-item a");
@@ -385,12 +418,14 @@
       initDiagramLightbox();
       initGlossarySearch();
       initNavigation();
+      initMobileSidebar();
     });
   } else {
     initGlossaryParser();
     initDiagramLightbox();
     initGlossarySearch();
     initNavigation();
+    initMobileSidebar();
   }
 })();
 
