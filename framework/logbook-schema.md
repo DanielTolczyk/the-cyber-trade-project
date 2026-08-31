@@ -148,3 +148,15 @@ When exported for secure offline backup or encrypted at rest in local IndexedDB 
   }
 }
 ```
+
+---
+
+## 7. Passive Operational Entropy & Anti-Gaming Telemetry Protocol
+
+To prevent metric manipulation and Goodhart's Law distortion without burdening practitioners with intrusive CAPTCHAs or cognitive fatigue:
+
+* **Zero-Interruption Passive Verification:** Telemetry is verified passively and asynchronously through authentic operational entropy (e.g., FIDO2/WebAuthn hardware key touches during shift sign-in, signed Git commit digests, ticket state transitions, and shell command telemetry). Practitioners are never subjected to interactive "prove you are human" popups or cognitive interruptions during live defense.
+* **Hardware-Enforced Cryptographic Pulse:** To eliminate LLM-synthesized bot activity and multi-client "ghost-worker" staffing at MSSPs, operational entropy requires physical FIDO2/WebAuthn hardware token presence (User Presence / UP) and User Verification (UV) contextually bound to specific, non-repeatable operational actions (e.g., privileged container executions, firewall ruleset commits, incident containment authorizations). Software emulators and synthetic API scripts cannot simulate physical capacitive hardware touches.
+* **Concurrent Active Session Lockout:** A single Board License ID is cryptographically barred from asserting active physical shift presence across overlapping operational rosters or concurrent customer feeds beyond statutory supervisory limits (`framework/supervisory-ratios.md`).
+* **Statistical Entropy Auditing:** Actuarial auditing engines perform out-of-band statistical distribution analysis, comparing logbook submission timing and operational entropy against expected human workflow baselines to detect automated bot generation or artificial metric synthesis.
+* **Commercial Fraud Classification:** Synthesizing artificial shift telemetry or gaming reachability metrics to illegitimately capture cyber insurance discounts constitutes **Class-A Malpractice and Insurance Fraud**, resulting in immediate license revocation, PEC employer debarment, and referral to state insurance commissioners.

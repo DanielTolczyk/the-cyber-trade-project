@@ -235,8 +235,17 @@ def execute_release(args):
         return
 
     if has_pending:
-        print(f"[*] Creating release branch '{branch_name}'...")
-        run_cmd(f"git checkout -b {branch_name}")
+        current_branch = run_cmd("git branch --show-current")
+        if current_branch != branch_name:
+            branches = [b.strip("* ") for b in run_cmd("git branch --list").splitlines()]
+            if branch_name in branches:
+                print(f"[*] Switching to existing release branch '{branch_name}'...")
+                run_cmd(f"git checkout {branch_name}")
+            else:
+                print(f"[*] Creating release branch '{branch_name}'...")
+                run_cmd(f"git checkout -b {branch_name}")
+        else:
+            print(f"[*] Already on release branch '{branch_name}'.")
         print("[*] Staging and committing changes...")
         run_cmd("git add -A")
         run_cmd(["git", "commit", "-m", f"chore(release): prepare {target_version} - {release_title}"])

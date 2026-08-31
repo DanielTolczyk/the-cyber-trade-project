@@ -93,6 +93,12 @@ To eliminate predatory contractor arbitrage where firms bid licensed trade labor
 * **Ghost-Staffing Malpractice:** Billing an enterprise client for certified Journeyman-supervised labor while utilizing uncredited, unvetted, or unsupervised personnel constitutes **Tier 3 Professional Fraud**.
 * **Sanctions:** Finding of ghost-staffing results in immediate 24-month practicing license suspension for the supervising Master/Journeyman, forfeiture of client warranty discounts, and formal debarment of the Trade Contractor from the Participating Employer Council.
 
+### C. Cross-Border Regulatory Attachment & Anti-Arbitrage Telemetry
+Enterprises operating digital systems that process data subject to domestic jurisdiction (e.g., SEC, FTC, CISA CIRCIA, HIPAA, NYDFS 500) cannot evade trade standards or statutory liability by shifting security operations to offshore subsidiaries or unrated captive insurers:
+* **Liability Follows the Regulated Asset:** Statutory due care, breach reporting obligations, and regulatory safe harbors attach strictly to the data owner and domestic enterprise entity, regardless of the physical location of remote SOC analysts.
+* **Global Operator Remote Ingestion:** Offshore or cross-border analysts staffing covered client queues must hold accredited reciprocal credentials or operate under active, attested Journeyman supervision verified through the cryptographic Actuarial Attestation Feed.
+* **Captive & Reinsurance Loss Verification:** Captive insurers and global reinsurance treaties rely on the same standardized logbook feeds and Master of Record sign-offs to evaluate solvency, underwriting warranties, and catastrophic aggregate risk modeling.
+
 
 
 ---

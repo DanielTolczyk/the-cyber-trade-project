@@ -323,6 +323,20 @@ def main():
     version_sync_errors = check_ecosystem_version_sync()
     total_errors.extend(version_sync_errors)
 
+    # Validate Web Portal Frontend Assets & Hover Glossary
+    print("[*] Validating web portal frontend assets and interactive hover glossary integrity...")
+    web_asset_files = [
+        p for p in (REPO_ROOT / "assets").rglob("*")
+        if p.is_file() and p.suffix in [".js", ".css", ".html"]
+    ]
+    for asset_file in web_asset_files:
+        total_errors.extend(check_typography_and_emojis(asset_file))
+
+    # Validate Core Documentation Files Presence
+    for core_doc in ["README.md", "GLOSSARY.md", "FAQ.md"]:
+        if not (REPO_ROOT / core_doc).exists():
+            total_errors.append(f"[Core Doc Error] Missing mandatory documentation file: '{core_doc}'.")
+
     print("=" * 70)
     if total_errors:
         print(f"[FAIL] Quality Gate failed with {len(total_errors)} issue(s):\n")

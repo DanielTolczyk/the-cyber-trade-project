@@ -52,6 +52,7 @@ Recognizing that statutory licensing compacts (analogous to the Interstate Medic
 * **Mutual Reciprocity & Mobility:** Full digital multi-state licensure enabling seamless interstate physical and remote deployment of Journeymen and Masters.
 * **Mandatory Master of Record (MoR) Statutory Sign-Off:** Codifying statutory requirements for public utilities, municipal infrastructure, and healthcare networks to maintain a designated MoR.
 * **Affirmative Defense / Statutory Safe Harbor:** State laws establish a legal safe harbor against punitive data-breach damages for enterprises operating under trade compliance and respecting MoR safety sign-offs.
+* **The Fallback Statutory Mandate Bridge:** If private cyber insurance syndicates restrict underwriting capacity, the trade framework automatically activates pre-drafted statutory bridges into mandatory Federal Procurement (FAR/DFARS), state Public Utility Commission (PUC) operational licenses, and federal infrastructure grant rules (CISA/IIJA), permanently sustaining trade adoption.
 
 ---
 
@@ -105,6 +106,17 @@ To ensure immediate operational continuity without stranding existing senior pro
 3. **Track C: Practical Range Challenge Track (Hands-On Fast Path):**
    * Designed for non-traditional candidates, CTF competitors, independent security researchers, or contractors seeking immediate validation without compiling historical employment paper trails.
    * Passing the proctored, 4-hour hands-on Board Practical Challenge Examination awards immediate **Licensed Journeyman** standing.
+   * **The 5-Domain Modular Station Architecture (4-Hour Proctored Exam):**
+     * **Station 1 (Perimeter, Cloud & Network Defense - 45 min):** WAF and egress rule authoring, zero-trust microsegmentation, and control-plane policy remediation.
+     * **Station 2 (Detection Engineering & Incident Triage - 50 min):** Live SIEM/EDR alert telemetry triage, containment execution, and Sigma/YARA detection rule generation.
+     * **Station 3 (IAM & Cryptographic Controls - 45 min):** Privilege escalation remediation, PAM policy authoring, and PKI key rotation ceremonies.
+     * **Station 4 (Vulnerability & Attack Surface Management - 45 min):** Attack surface analysis, patch prioritization, and automated remediation scripting.
+     * **Station 5 (Defensive GRC & Control Verification - 45 min):** Log audit attestation, baseline compliance validation, and exception documentation.
+   * **Automated Scoring & Passing Thresholds:** Pre-warmed lab environments execute automated, deterministic scoring scripts evaluating container state, rule executions, and policy checks. Candidates must achieve a minimum **80% aggregate passing score** across all five stations, with no single domain station scoring below **70%**.
+   * **Grandfathering Retake & Cooldown Policy:**
+     * **Attempt Cooldowns:** A mandatory 30-day cooldown applies between Attempt 1 and Attempt 2; a 60-day cooldown applies between Attempt 2 and Attempt 3. Retakes are capped at a maximum of three (3) attempts within a 12-month rolling window.
+     * **Modular Station Retest Option:** A candidate who achieves >=80% on four stations but fails a single station (<70%) is granted a **60-day Modular Retake Window** to re-test only the failed station.
+     * **Fallback PLA Placement:** Candidates who do not achieve a full passing score after three attempts receive structured placement credit: scoring >=70% on 3 or 4 stations awards direct placement into **Apprentice Tier 4 (6,000 hours credited / 80% RJPB wage floor)**; scoring >=70% on 1 or 2 stations awards placement into **Apprentice Tier 3 (4,000 hours credited / 70% RJPB wage floor)**.
 
 ### B. Grandfathering Transition Summary Table
 
@@ -112,4 +124,50 @@ To ensure immediate operational continuity without stranding existing senior pro
 | :--- | :--- | :--- | :--- |
 | **Legacy Journeyman Transition** | Open during Years 0 - 3 | 4+ years operational defense (8,000+ verified hrs) | Track A (Runtime + 2 Peer Affidavits), Track B (Benchmark RTI + Runtime), or Track C (Range Challenge Exam). |
 | **Legacy Master Transition** | Open during Years 0 - 3 | 8+ years operational defense (16,000+ verified hrs) | 3 sanitized engineering artifacts, 3 peer reference audits, and 45-minute Oral Board Defense. |
-| **Post-Transition Standard** | Year 4 onwards | Standard 8,000 / 12,000 hr trade tracks | Universal Logbook telemetry + Practical Challenge Examination. |
+| **Post-Transition Standard** | Year 4 onwards | Standard 8,000 / 12,000 hr trade tracks | Universal Logbook telemetry + Mandatory Practical Challenge Examination. |
+
+---
+
+## 4. Post-Transition Pipeline & Sunsetting (Year 4 Onwards)
+
+Upon the conclusion of the 36-month transition window (Year 4 onwards), provisional grandfathering on-ramps sunset permanently to protect the long-term integrity of the trade license.
+
+```
++─────────────────────────────────────────────────────────────────────────────+
+|               PERMANENT POST-TRANSITION PIPELINE (YEAR 4+)                  |
++─────────────────────────────────────────────────────────────────────────────+
+                                       │
+         ┌─────────────────────────────┴─────────────────────────────┐
+         ▼                                                           ▼
++─────────────────────────────────+         +─────────────────────────────────+
+|     STANDARD APPRENTICESHIP     |         |     LATERAL DIRECT CHALLENGE    |
+|   (New Entrants / Career Chg)   |         |    (Experienced Practitioners)  |
++─────────────────────────────────+         +─────────────────────────────────+
+         │                                                           │
+ • 8,000 OJT hours (Domains 1-5)             • 8,000+ verified runtime hours
+ • 576 RTI hours                             • Documented W-2 / 1099 / DD-214
+ • PLA credits capped at 4,000 hrs           • Formal portfolio audit
+         │                                                           │
+         └─────────────────────────────┬─────────────────────────────┘
+                                       ▼
++─────────────────────────────────────────────────────────────────────────────+
+|               MANDATORY BOARD PRACTICAL CHALLENGE EXAMINATION               |
+|         • 4-Hour 5-Domain Proctored Exam (Required for All Journeymen)      |
++─────────────────────────────────────────────────────────────────────────────+
+                                       ▼
+                        FULL LICENSED JOURNEYMAN STANDING
+```
+
+### A. Permanent Sunset of Provisional Grandfathering Tracks
+* **Track A Sunset:** Uncredentialed career runtime alone no longer grants direct Day-1 Journeyman Licensure without passing the Board Practical Challenge Examination.
+* **Track B Sunset:** Commercial vendor certifications (CISSP, CISM, GSLC) no longer grant standalone Day-1 licensure; they convert into standard Related Technical Instruction (RTI) classroom transfer credits within the apprenticeship system.
+* **Track C Grandfathering Sunset:** Zero-documentation, unverified exam challenges are retired as a standalone grandfathering mechanism.
+
+### B. Permanent Post-Transition Pathways
+1. **Graduating Apprenticeship Pathway:**
+   * All standard registered apprentices completing their 8,000 on-the-job training (OJT) hours and 576 Related Technical Instruction (RTI) hours must pass the **4-Hour Board Practical Challenge Examination** as their mandatory exit licensing gate.
+   * High-aptitude candidates, degree holders, and military veterans may apply Prior Learning Assessment (PLA) credits to bypass up to **4,000 hours (50% Residency Floor)**, but must complete the remaining 4,000 hours of live supervised operational practice before challenging the exam.
+2. **Permanent Lateral Direct Challenge Pathway (Experienced Practitioners):**
+   * Experienced practitioners entering the trade from unorganized sectors, foreign jurisdictions, or military transitions after Year 3 may challenge the Journeyman Licensure examination directly.
+   * **Mandatory Prerequisites:** The candidate must submit verified documentation of at least **8,000 hours (4+ years) of direct defensive operational runtime** through W-2s, 1099s, military DD-214 records, or employer affidavits.
+   * Candidates meeting the runtime prerequisite who successfully pass the proctored 4-Hour Board Practical Challenge Examination receive full **Licensed Journeyman** standing.
