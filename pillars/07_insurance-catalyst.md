@@ -2,7 +2,7 @@
 
 Systemic transformation in the private enterprise sector cannot rely solely on slow, reactive government legislation. The trade model is accelerated and enforced through the direct economic leverage of cyber-insurance underwriters and capital markets.
 
-> **Pillar VII Axiom (The Insurance Catalyst):** Cyber insurance underwriters provide the commercial catalyst, offering 25% to 35% premium warranty discounts to organizations that maintain verified skilled trade staffing ratios.
+> **Core Mandate:** Align market incentives through cyber insurance underwriters, offering substantial premium discounts to organizations maintaining verified skilled trade staffing ratios.
 
 ---
 

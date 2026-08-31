@@ -2,7 +2,7 @@
 
 Security practitioners frequently operate in high-pressure environments where executive leadership may demand the deployment of insecure systems to meet arbitrary release deadlines, leaving engineers without statutory leverage. The trade framework establishes an accountable dual-layer liability model paired with an enforceable Right of Technical Refusal.
 
-> **Pillar V Axiom (Personal Liability & Technical Refusal):** Licensed practitioners hold statutory standing to refuse unsafe deployment orders. Executives may override a refusal only by executing Form FORM-002, formally transferring civil liability to the corporate officer.
+> **Core Mandate:** Grant practitioners statutory standing to refuse unsafe deployments, shifting liability to corporate officers who execute written overrides.
 
 ---
 

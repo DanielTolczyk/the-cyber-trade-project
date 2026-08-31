@@ -2,7 +2,7 @@
 
 A primary failure mode of modern enterprise security is trapping junior analysts in narrow, monotonous silos (such as Tier 1 alert triage for multiple years). This causes rapid operational burnout, high turnover, and starves the industry of versatile, well-rounded senior talent.
 
-> **Pillar III Axiom (Progressive Rotations & Enforced Ratios):** Break the multi-year SOC alert silo through a mandatory 8,000-hour cross-domain rotational ledger paired with a strict 2:1 on-shift mentorship ratio.
+> **Core Mandate:** Break the multi-year SOC alert silo through a mandatory 8,000-hour rotational ledger paired with a strict 2:1 on-shift mentorship ratio.
 
 ---
 

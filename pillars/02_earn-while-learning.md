@@ -2,7 +2,7 @@
 
 Cybersecurity is an applied engineering and operational discipline. It cannot be mastered exclusively through passive classroom lectures or multiple-choice exams. True operational competence requires immersion in live production environments under structured mentorship.
 
-> **Pillar II Axiom (The Earn-While-You-Learn Pipeline):** Apprentices are direct W-2 employees from Day 1. Unpaid internships, uncredited overtime, and training repayment penalty agreements (TRAPs) are strictly prohibited.
+> **Core Mandate:** Employ apprentices as direct W-2 workers from Day 1 with milestone wage steps, strictly prohibiting unpaid labor and training repayment penalties (TRAPs).
 
 ---
 
