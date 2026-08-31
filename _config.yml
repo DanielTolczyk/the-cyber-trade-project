@@ -5,6 +5,11 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+include:
+  - CONTRIBUTING.md
+  - GLOSSARY.md
+  - FAQ.md
+
 defaults:
   - scope:
       path: ""

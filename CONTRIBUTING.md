@@ -1,3 +1,8 @@
+---
+layout: default
+title: Contributing & RFCs
+---
+
 # Contributing to The Cybersecurity Trade Project
 
 Thank you for your interest in contributing to The Cybersecurity Trade Project. This initiative is structured as an open-source, vendor-neutral standard to build an accountable, accessible, and rigorous skilled trade framework for the cybersecurity industry.

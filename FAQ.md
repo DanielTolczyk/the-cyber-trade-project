@@ -1,3 +1,8 @@
+---
+layout: default
+title: Frequently Asked Questions
+---
+
 # Frequently Asked Questions (FAQ)
 
 ### 1. Does this replace a four-year computer science degree?
