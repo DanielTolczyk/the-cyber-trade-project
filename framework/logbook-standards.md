@@ -4,12 +4,14 @@ The Universal Digital Logbook provides an immutable, verifiable record of a prac
 
 ---
 
-## 1. Dual-Format Verification (Digital & Physical Modalities)
+## 1. Four Recognized Supervisor Attestation Modalities
 
-To accommodate varied enterprise environments, classified enclaves, and offline physical sites, the framework recognizes two official logbook modalities:
+To accommodate varied enterprise environments, classified enclaves, and offline physical sites, the framework recognizes four official supervisor attestation modalities:
 
-* **Digital Signed Ledger (Standard Format):** An open-standard JSON/Markdown ledger exported from the practitioner's local tooling or Git vault. The supervising Journeyman validates entries and digitally signs the submission using their cryptographic Trade Key.
-* **Physical Bound Ledger (Offline / Classified Format):** A standard, tamper-evident physical logbook. For each operational task or sprint milestone, the apprentice logs the domain, hours, and sanitized ticket ID, and the supervising Journeyman physically signs their name, license number, and date.
+* **Modality A: Asymmetric WebAuthn & FIDO2 Signing (Web PKI & Passkey):** The supervising Journeyman reviews pending shift batches in the PWA or web portal and cryptographically signs using an ECDSA (P-256 or Ed25519) hardware passkey registered to their active trade license ID.
+* **Modality B: Git Vault & Cryptographic Commit Signing (GPG / SSH / Sigstore):** For detection engineering, automation, and DevSecOps rotations, the supervisor reviews the apprentice's change pull requests and applies a verified GPG or SSH commit signature to the logbook repository branch.
+* **Modality C: Physical Bound Book & Embossed JATC Stamp (Classified SCIF / Air-Gap):** Inside classified defense facilities (SCIF) or air-gapped industrial control zones where digital recording devices are prohibited, the apprentice maintains a serialized, tamper-evident paper ledger. The supervising Journeyman physically stamps and signs each shift with their license number, transcribed into the digital registry during quarterly JATC panel audits.
+* **Modality D: Enterprise SSO & Automated Shift Attestation (SAML / OIDC Federation):** In high-volume enterprise SOCs and MSSPs, shift hours are validated programmatically via enterprise identity provider (IdP) assertions tied to ticketing CAB approvals and supervisor badge verification.
 
 ---
 
