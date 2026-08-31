@@ -127,7 +127,7 @@ To guarantee that participating employers, community colleges, and apprentices u
 ### A. Practical Examination Remediation Protocol
 * **Wage Stability:** An apprentice who completes 8,000 operational runtime hours but does not pass the Journeyman Practical Challenge Exam remains at **Tier 4 Apprentice Wages (80% RJPB)** for a structured **6-month remediation period**.
 * **Zero-Cost Lab Tutoring:** The regional JATC provides dedicated lab tutoring focusing on the specific domain competencies where the candidate experienced scoring deficiencies.
-* **Retake Policy:** Apprentices may attempt the practical examination up to **three (3) times within an 18-month window** before a joint JATC review panel convenes to evaluate career pathway placement.
+* **Retake Policy & Modular Retest:** Apprentices may attempt the practical examination up to **three (3) times within an 18-month window**. Candidates achieving >=80% on four domain stations but failing a single station (<70%) may exercise a **60-day Modular Retake Window** to re-test only the deficient station. If the exam is not cleared after three attempts, a joint JATC review panel convenes to evaluate extended remediation or career pathway placement.
 
 ### B. Supervisor Departure & 14-Day Reassignment Safe Harbor
 * **Cryptographic Hour Preservation:** If a supervising Journeyman or Master leaves an enterprise, gets reassigned, or faces license suspension, all previously logged and ticket-hashed hours remain permanently valid and accredited.

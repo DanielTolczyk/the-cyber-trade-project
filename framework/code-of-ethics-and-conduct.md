@@ -86,7 +86,11 @@ To protect vulnerable practitioners from social ostracization or career retaliat
 * **Comprehensive Protection:** Every individual who provides witness statements, telemetry data, code artifacts, or interview testimony during an ethics investigation receives the identical statutory Whistleblower Shield and Guild Legal Defense indemnification granted to primary filers.
 * **Strict Anti-Retaliation Immunity:** Any adverse action taken against a participating witness within 12 months is treated as an aggravated Class C violation.
 
-
+### D. The 72-Hour Internal Remediation Rule & Bounty Pre-Requisites
+To prevent bad-faith entrapment, malicious compliance, or the manufacturing of artificial violations to capture regulatory bounties:
+* **Pre-Requisite Internal Filing:** A whistleblower recovery bounty is legally barred and forfeit unless the reporting practitioner first logged an internal [Operational Exception Flag (Form FORM-003)](../templates/FORM-003_operational-exception-flag.md) in the enterprise ticketing system and allowed a mandatory **72-hour internal corporate remediation window**.
+* **Good-Faith Corporate Cure:** If the enterprise remediates the flagged control deficiency, restores compliant telemetry, or initiates Master of Record review within the 72-hour window, external regulatory penalties and bounty allocations are dismissed.
+* **Exceptions for Criminality & Bad Faith:** The 72-hour cure period is waived *strictly and exclusively* upon verifiable, documentary proof of active executive extortion, intentional destruction/falsification of audit logs, or direct criminal conspiracy.
 
 ---
 

@@ -76,3 +76,14 @@ Any licensed practitioner who invokes an Exception Flag or a Master of Record wh
 * **Statutory Retaliation Safe Harbor:** Under Model Trade Legislation, retaliating against a licensed practitioner for good-faith safety refusal constitutes unlawful termination with mandatory punitive damages.
 * **Incident Reporting for Harassment/Retaliation:** If an employer or supervisor retaliates against an engineer for exercising a refusal, the affected practitioner may submit an [Ethics & Conduct Incident Report (Form FORM-004)](../templates/FORM-004_ethics-and-conduct-incident-report.md) to initiate immediate Guild and Board protective proceedings.
 
+
+---
+
+## 6. Statutory Malpractice Cap, Clean Attestation Safe Harbor & Defense Pool
+
+To prevent expert brain drain and ensure elite practitioners are not dissuaded from accepting designated Master of Record responsibilities:
+
+* **The Statutory Malpractice Liability Cap:** An active Master of Record who maintains verified compliance with open technical baselines and documents all operational exceptions via the Actuarial Attestation Feed receives a **$0 Personal Civil Damages Liability Cap** for non-willful security compromises.
+* **Guild Malpractice Defense Pool:** 100% of legal defense representation, administrative inquiry counsel, and expert witness retainers during Board malpractice reviews are indemnified through the industry-funded Guild Malpractice Defense Pool.
+* **Strict Scienter Standard:** Personal civil or criminal exposure attaches *strictly and exclusively* to clear and convincing proof of active criminal fraud, intentional sabotage, bad-faith falsification of telemetry, or direct participation in illegal concealment.
+

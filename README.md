@@ -86,18 +86,18 @@ The modern cybersecurity employment model is broken across every tier:
 * [**Specialty Endorsements & Domain Tracks**](framework/specialty-endorsements.md): The Three-Layer Architecture, Master Endorsement Ledger, and specialized track specifications (including [Application Security](framework/specialty-tracks/application-security.md) and [Medical Device Security](framework/specialty-tracks/medical-devices.md)).
 * [**Contractors, Consulting & The Trade LLC Model**](framework/contractors-and-consulting.md): 1099/W-2 contractor rules, fractional Master of Record (vMoR) guidelines, and entity licensing.
 * [**Executive Leadership & The CISO Role**](framework/executive-and-ciso.md): Separating corporate business management from statutory Master of Record technical sign-off.
-* [**Velocity, Cloud & Safe Harbor**](framework/velocity-and-cloud.md): Certified CI/CD pipeline automation, Cloud Shared Responsibility boundaries, and shadow IT protections.
-* [**Universal Logbook Schema & Telemetry Standard**](framework/logbook-schema.md): Dual-layer verification, cryptographic commit hashes, AI/ML artifact ingestion, and actuarial feed schemas.
-* [**Supervisory Ratios**](framework/supervisory-ratios.md): On-shift headcount caps governing direct, human-in-the-loop operational seats.
-* [**Code of Ethics, Civil Rights & Conduct**](framework/code-of-ethics-and-conduct.md): Canons of ethics, protected classes, violation classes, mandatory reporting, and disciplinary sanction matrix.
-* [**Technical Refusal & Liability Shield**](framework/technical-refusal-and-liability.md): Exception flags, formal Notice of Safety Non-Concurrence workflow, and Master of Record liability transfer.
+* [**Velocity, Cloud & Safe Harbor**](framework/velocity-and-cloud.md): Certified CI/CD pipeline automation, SLSA Level 4 supply-chain provenance, Dead-Man's Switch freeze protocols, Cloud Shared Responsibility boundaries, and shadow IT protections.
+* [**Universal Logbook Schema & Telemetry Standard**](framework/logbook-schema.md): Dual-layer verification, hardware cryptographic pulse, cryptographic commit hashes, AI/ML artifact ingestion, and actuarial feed schemas.
+* [**Supervisory Ratios**](framework/supervisory-ratios.md): On-shift headcount caps, virtual line-of-sight SLAs, and counter-cyclical Cyber Civil Defense Reserve (CCDR) allocations.
+* [**Code of Ethics, Civil Rights & Conduct**](framework/code-of-ethics-and-conduct.md): Canons of ethics, protected classes, violation classes, mandatory reporting, 72-hour remediation cure period, and disciplinary sanction matrix.
+* [**Technical Refusal & Liability Shield**](framework/technical-refusal-and-liability.md): Exception flags, formal Notice of Safety Non-Concurrence workflow, Master of Record liability transfer, and statutory malpractice liability caps.
 * [**Business & Operational Benefits**](framework/business-and-operational-benefits.md): The enterprise value model (linear benefit costs, zero agency fees, 25% to 35% insurance discounts, and statutory due care).
-* [**Refusal & Incident Reporting Templates**](templates/): Standardized forms for Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), Form FORM-003 (Operational Exception Flag), and Form FORM-004 (Ethics & Conduct Incident Report).
+* [**Refusal & Incident Reporting Templates**](templates/): Standardized forms for Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), Form FORM-003 (Operational Exception Flag), Form FORM-004 (Ethics & Conduct Incident Report), and Form FORM-005 (Targeted OSS Security Fork Exemption).
 
 ### Institutional Governance & Trust Accords
 * [**National Governance Board Structure**](governance/board-structure.md): 11-member board composition, practical challenge exams, and the 18-month JATC curriculum rule.
 * [**Board Bylaws & Democratic Elections**](governance/board-elections-and-bylaws.md): Founding steering committee sunset, secret-ballot elections, staggered 3-year terms, and member recall protocols.
-* [**Guild Formation & Labor Charter**](governance/guild-formation-and-charter.md): Bilateral governance accord, Taft-Hartley JATC trusts, legal defense shields, and portable benefits.
+* [**Guild Formation & Labor Charter**](governance/guild-formation-and-charter.md): Bilateral governance accord, Taft-Hartley JATC trusts, legal defense shields, portable benefits, Tier-I No-Disruption Covenant, and Final-Offer Interest Arbitration.
 * [**Regional Chapters & Local Governance**](governance/regional-chapters-and-locals.md): Three-tier federation, local chapter chartering, COLI wage negotiations, and convention delegate apportionment.
 * [**Dues Structure & Labor Trusts**](governance/dues-and-trust-economics.md): Two-part worker dues model, employer training trust contributions, and pre-tax policy advocacy.
 * [**Operational Field Roles & Stewards**](governance/operational-field-roles.md): Shop Stewards, JATC Training Directors, Board Practical Challenge Examiners, and Dispatch Officers.

@@ -26,3 +26,14 @@ When executive leadership insists on deploying a system over a licensed engineer
 2. **Permanent Risk Ledger:** The notice is permanently recorded in the enterprise risk register with copies transmitted to the Authorizing Officer, CISO, and Corporate Compliance.
 3. **Statutory Liability Shift:** If executive leadership overrules the refusal via a written [Executive Override & Risk Acceptance Form (Form FORM-002)](../templates/FORM-002_executive-override-risk-acceptance.md), operational, regulatory, and financial liability transfers entirely from the engineer to the overruling corporate officer.
 4. **Condition-Bounded Safe Harbor:** The engineer is legally indemnified under the Trade Liability Shield, and insurers/regulators are provided clear, auditable evidence of intentional corporate risk assumption.
+
+---
+
+## 4. Statutory Malpractice Cap & Clean Attestation Safe Harbor
+
+To eliminate practitioner liability anxiety and prevent expert brain drain:
+
+* **$0 Personal Damages Liability Cap:** An active Master of Record or Journeyman maintaining verified baseline compliance and clean attestation feeds holds statutory immunity from personal civil damages.
+* **Guild Malpractice Defense Pool:** Full legal defense representation during board malpractice inquiries is funded directly through the multi-employer trust.
+* **Strict Criminality Standard:** Personal liability attaches strictly to proven criminal fraud, intentional sabotage, or deliberate falsification of audit telemetry.
+
