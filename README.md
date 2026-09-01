@@ -81,9 +81,9 @@ The modern cybersecurity employment model is broken across every tier:
 ### Operational Framework Specifications
 * [**Apprenticeship Standards & Operational On-Ramps**](framework/apprenticeship-standards.md): Core 8,000-hour rotational breakdown, RTI classroom mandates, and Prior Learning Assessment (PLA) challenge rules.
 * [**Licensure Standards & Progression Milestones**](framework/licensure-and-progression.md): Progression tiers from Apprentice Tier 1 through Master Practitioner and Master of Record.
-* [**Standards, Regulatory Baselines & Compliance**](framework/standards-and-compliance.md): The building code model (NICE workforce taxonomy, open technical baselines, and legal sign-offs).
+* [**Standards, Regulatory Baselines & Compliance**](framework/standards-and-compliance.md): The technical governance model (NICE workforce taxonomy, consensus technical baselines, and legal sign-offs).
 * [**Wage Scales & Compensation Floors**](framework/wage-scales.md): Milestone progression tiers, COLI standards, hazard differentials, and on-call surge pay.
-* [**Specialty Endorsements & Domain Tracks**](framework/specialty-endorsements.md): The Three-Layer Architecture, Master Endorsement Ledger, and specialized track specifications (including [Application Security](framework/specialty-tracks/application-security.md) and [Medical Device Security](framework/specialty-tracks/medical-devices.md)).
+* [**Specialty Endorsements & Domain Architecture**](framework/specialty-endorsements.md): The Three-Layer Architecture, Master Endorsement Ledger, and all 9 specialized track specifications (`SE-MED`, `SE-ICS`, `SE-DFIR`, `SE-CLD`, `SE-OFF`, `SE-AIML`, `SE-APP`, `SE-ICAM`, `SE-PKI`).
 * [**Contractors, Consulting & The Trade LLC Model**](framework/contractors-and-consulting.md): 1099/W-2 contractor rules, fractional Master of Record (vMoR) guidelines, and entity licensing.
 * [**Executive Leadership & The CISO Role**](framework/executive-and-ciso.md): Separating corporate business management from statutory Master of Record technical sign-off.
 * [**Velocity, Cloud & Safe Harbor**](framework/velocity-and-cloud.md): Certified CI/CD pipeline automation, SLSA Level 4 supply-chain provenance, Dead-Man's Switch freeze protocols, Cloud Shared Responsibility boundaries, and shadow IT protections.

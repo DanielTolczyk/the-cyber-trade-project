@@ -21,7 +21,7 @@ Practitioners in this track demonstrate verified competencies mapped directly to
 * **Primary Work Role 2: Security Control Assessor (`SP-SRP-001`):** Component threat modeling, architectural risk reviews, SAST/DAST rule tuning, and pipeline security verification.
 * **Primary Work Role 3: Vulnerability Assessment Analyst (`PR-VAM-001`):** Software vulnerability triage, root-cause flaw reproduction, dependency vulnerability validation, and exploit impact analysis.
 
-### B. Open Technical Baselines (Building Codes)
+### B. Open Technical Baselines & Engineering Standards
 1. **OWASP Software Assurance Maturity Model (SAMM v2.0):** Evaluating organizational software security governance, design, implementation, verification, and operations.
 2. **OWASP Application Security Verification Standard (ASVS v4.0):** Standardizing functional security controls and level-based technical requirements (Level 1, 2, and 3).
 3. **NIST Secure Software Development Framework (SSDF / SP 800-218):** Implementing federal security requirements across organizational preparation, software protection, well-secured software production, and vulnerability response.

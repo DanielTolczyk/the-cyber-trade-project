@@ -4,7 +4,7 @@ This document establishes operational mechanics ensuring the trade framework int
 
 ---
 
-## 1. CI/CD & Engineering Velocity (The "Pre-Approved Assembly" Model)
+## 1. CI/CD & Engineering Velocity Standards
 To preserve high release frequency, the trade model strictly avoids per-commit manual engineering bottlenecks.
 
 * **Pipeline-as-Code Certification:** A Master of Record or licensed Journeyman inspects and certifies the **automated security guardrails, policy-as-code engines, container signing mechanisms, and automated SAST/DAST/SCA gates** within the deployment pipeline.

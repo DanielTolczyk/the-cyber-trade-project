@@ -30,7 +30,7 @@ To prevent structural gridlock between regulatory standard-setting and instructi
 
 ## 3. Phased Roadmap for Guild Formation
 
-### Phase 1: The Voluntary Professional Association (The Organizing Phase)
+### Phase 1: The Voluntary Professional Association
 * **Structure:** Formed as a non-profit 501(c)(6) professional craft association.
 * **Focus:** Enrolling founding Journeymen and Masters, establishing model employment contract language, and pooling resources for an initial **Refusal Legal Defense Fund**.
 * **Consortium Alignment:** Partnering with forward-leaning employers, community colleges, and cyber-insurance underwriters to launch regional pilot apprenticeship cohorts.
@@ -87,7 +87,7 @@ To prevent the Craft Guild from degenerating into an entrenched, opaque bureaucr
   │      • You cannot be more than 12 months removed from active engineering
   │        practice when running for office.
   │
-  ├─► 4. OFFICER SALARY CAP (The Master Parity Rule)
+  ├─► 4. OFFICER SALARY CAP (Master Parity Rule)
   │      • Full-time Guild officers are legally prohibited from receiving
   │        inflated corporate salaries or untracked expense accounts.
   │      • Officer compensation is statutorily capped at a maximum of 1.25x the
@@ -105,7 +105,7 @@ To prevent the Craft Guild from degenerating into an entrenched, opaque bureaucr
 
 ---
 
-## 6. Supervisory & Management Membership Status (The Labor Firewall)
+## 6. Supervisory & Management Membership Status
 
 When a licensed Journeyman or Master Practitioner transitions into corporate management (Engineering Manager, Director, CISO) with hiring, firing, or budget authority, the trade enforces structural rules to prevent conflicts of interest while preserving the manager's career benefits:
 

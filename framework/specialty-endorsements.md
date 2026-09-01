@@ -12,24 +12,24 @@ To prevent arbitrary curriculum design and ensure every trade endorsement remain
 
 ```
 +─────────────────────────────────────────────────────────────────────────────+
-| LAYER 1: NIST NICE WORKFORCE TAXONOMY (The Foundation)                     |
+| LAYER 1: NIST NICE WORKFORCE TAXONOMY (Workforce Foundation)                |
 | Canonical mapping to national NIST SP 800-181 Work Role IDs and standardized|
 | Knowledge, Skills, and Tasks (KSTs). Ensures federal workforce recognition. |
 +─────────────────────────────────────────────────────────────────────────────+
                                        │
                                        ▼
 +─────────────────────────────────────────────────────────────────────────────+
-| LAYER 2: SECTOR-SPECIFIC CONSENSUS STANDARDS (The Building Codes)           |
+| LAYER 2: SECTOR-SPECIFIC CONSENSUS STANDARDS (Technical Baselines)          |
 | Authoritative technical frameworks governing the domain:                    |
 | • Medical Devices: FDA Section 524B, AAMI TIR57, ANSI/AAMI/ISO 14971        |
 | • Product Security: NIST IR 8259, ETSI EN 303 645, EU Cyber Resilience Act  |
-| • Industrial Controls: IEC 62443, NERC CIP                                  |
-| • Cloud Architecture: CIS Cloud Benchmarks, Cloud Shared Responsibility     |
+| • Industrial Controls: ISA/IEC 62443, NERC CIP, IEC 61511 (SIS)             |
+| • Cloud Architecture: CSA CCM v4, CIS Cloud Benchmarks, NIST SP 800-145     |
 +─────────────────────────────────────────────────────────────────────────────+
                                        │
                                        ▼
 +─────────────────────────────────────────────────────────────────────────────+
-| LAYER 3: TRADE OPERATIONAL LEDGER & AUTHORITY (The Skilled Trade Rules)     |
+| LAYER 3: TRADE OPERATIONAL LEDGER & AUTHORITY (Operational Standards)       |
 | • 2,000-Hour Post-Licensure Runtime Distribution                            |
 | • Line-of-Sight Supervisory Ratios & Headcount Caps                         |
 | • Statutory Sign-Off Authority & Regulatory Refusal Standing                |
@@ -53,14 +53,14 @@ To maintain economic equilibrium and provide the Craft Guild Clearinghouse with 
 | Specialty Discipline | Trade Code | Primary NIST NICE Work Roles | Tier & Wage Classification | Detailed Standard |
 | :--- | :--- | :--- | :--- | :--- |
 | **Medical Device & Clinical Technology** | `SE-MED` | `SP-DEV-001`, `SP-SRP-001`, `OV-MGT-001` | **Statutory Life-Safety (+20% to +25%)** | [Specification](specialty-tracks/medical-devices.md) |
-| **Industrial Control Systems (ICS/SCADA)** | `SE-ICS` | `OM-NET-001`, `SP-ARC-001`, `PR-CDO-001` | **Statutory Life-Safety (+20% to +25%)** | *Draft in Progress* |
-| **Digital Forensics & Incident Response** | `SE-DFIR` | `IN-FOR-001`, `PR-CIR-001`, `AN-TWA-001` | **High-Liability (+15% to +20%)** | *Draft in Progress* |
-| **Offensive Security & Red Teaming** | `SE-OFF` | `AN-EXP-001`, `SP-DEV-001` | **High-Risk Operational (+15% to +20%)** | *Draft in Progress* |
-| **AI / ML Security Assurance** | `SE-AIML` | `SP-DEV-001`, `AN-TWA-001`, `SP-SRP-001` | **Emerging Technology (+15% to +20%)** | *Draft in Progress* |
-| **Cloud Security & Infrastructure** | `SE-CLD` | `SP-ARC-001`, `OM-NET-001`, `PR-INF-001` | **Architectural Complexity (+10% to +15%)** | *Draft in Progress* |
-| **Application & Software Product Security** | `SE-APP` | `SP-DEV-001`, `SP-SRP-001`, `PR-VAM-001` | **Discipline Endorsement (Standard Base)** | *Draft in Progress* |
-| **Identity, Credential & Access (ICAM)** | `SE-ICAM` | `SP-ARC-001`, `PR-INF-001`, `OM-NET-001` | **Discipline Endorsement (Standard Base)** | *Draft in Progress* |
-| **Cryptographic Infrastructure & PKI** | `SE-PKI` | `SP-ARC-001`, `SP-DEV-001` | **Discipline Endorsement (Standard Base)** | *Draft in Progress* |
+| **Industrial Control Systems (ICS/SCADA)** | `SE-ICS` | `SP-ARC-002`, `SP-SRP-001`, `OM-NET-001` | **Statutory Life-Safety (+20% to +25%)** | [Specification](specialty-tracks/industrial-control-systems.md) |
+| **Digital Forensics & Incident Response** | `SE-DFIR` | `IN-FOR-001`, `PR-CDA-001`, `IN-FOR-002` | **High-Liability (+15% to +20%)** | [Specification](specialty-tracks/digital-forensics-incident-response.md) |
+| **Offensive Security & Red Teaming** | `SE-OFF` | `AN-EXP-001`, `SP-DEV-001` | **High-Risk Operational (+15% to +20%)** | [Specification](specialty-tracks/offensive-security.md) |
+| **AI / ML Security Assurance** | `SE-AIML` | `SP-DEV-001`, `AN-TWA-001`, `SP-SRP-001` | **Emerging Technology (+15% to +20%)** | [Specification](specialty-tracks/ai-machine-learning.md) |
+| **Cloud Security & Infrastructure** | `SE-CLD` | `SP-ARC-001`, `OM-NET-001`, `PR-INF-001` | **Architectural Complexity (+10% to +15%)** | [Specification](specialty-tracks/cloud-security.md) |
+| **Application & Software Product Security** | `SE-APP` | `SP-DEV-001`, `SP-SRP-001`, `PR-VAM-001` | **Discipline Endorsement (Standard Base)** | [Specification](specialty-tracks/application-security.md) |
+| **Identity, Credential & Access (ICAM)** | `SE-ICAM` | `SP-ARC-001`, `PR-INF-001`, `OM-NET-001` | **Discipline Endorsement (Standard Base)** | [Specification](specialty-tracks/identity-access-management.md) |
+| **Cryptographic Infrastructure & PKI** | `SE-PKI` | `SP-ARC-001`, `SP-DEV-001` | **Discipline Endorsement (Standard Base)** | [Specification](specialty-tracks/cryptographic-pki.md) |
 
 ---
 
@@ -75,25 +75,28 @@ Before pursuing specialty endorsements, all apprentices must log validated opera
 
 ## 4. Specialized Trade Branches (Tier 3 through Master)
 
-### Branch A: Digital Forensics & Incident Response (DFIR)
-* **Core Focus:** Active breach containment, memory and disk forensics, chain-of-custody evidence preservation, malware reverse engineering, and post-incident reconstruction.
+### Branch A: Digital Forensics & Incident Response (SE-DFIR)
+* **Core Focus:** Live incident containment, volatile memory forensics, disk imaging, chain-of-custody evidence preservation, threat actor eradication, malware analysis, statutory breach scoping, and insurer proof-of-loss documentation.
 * **Illustrative Examples / Equivalencies:** GCFA, GCFE, GNFA, GCIH (or Board Practical Challenge Exam).
-* **Sign-off Authority:** Sworn evidentiary chain of custody, formal breach containment verification for insurance claims, and SEC/regulatory incident attestation.
+* **Sign-off Authority:** Legal chain of custody digital stamping, formal breach containment attestation for cyber insurers, statutory regulatory breach notification root-cause sign-off.
+* **Detailed Standard:** [Specialty Track Specification: SE-DFIR Digital Forensics & Incident Response](specialty-tracks/digital-forensics-incident-response.md).
 
 ### Branch B: Cyber Risk Management, Threat Modeling & Governance (GRC)
 * **Core Focus:** Architectural threat modeling (STRIDE, PASTA), risk quantification (Open FAIR), security requirements authoring, NIST RMF, and ISO 27001 program governance.
 * **Illustrative Examples / Equivalencies:** CRISC, Open FAIR, CISM.
 * **Sign-off Authority:** Formal enterprise risk acceptances, statutory compliance readiness filings, and third-party vendor risk certifications.
 
-### Branch C: Offensive Security & Adversary Emulation
-* **Core Focus:** Network and application penetration testing, red teaming, exploit analysis, social engineering defense testing, and MITRE ATT&CK adversary emulation.
-* **Illustrative Examples / Equivalencies:** OSCP, OSEP, GXPN, CREST.
-* **Sign-off Authority:** Penetration test certification, external attack surface resilience sign-off.
+### Branch C: Offensive Security & Adversary Emulation (SE-OFF)
+* **Core Focus:** External and internal penetration testing, red teaming, exploit analysis, social engineering defense testing, and MITRE ATT&CK adversary emulation.
+* **Illustrative Examples / Equivalencies:** OSCP, OSEP, GXPN, CREST (or Board Practical Challenge Exam).
+* **Sign-off Authority:** Penetration test certification, external attack surface resilience sign-off, Rules of Engagement safety authorization.
+* **Detailed Standard:** [Specialty Track Specification: SE-OFF Offensive Security & Adversary Emulation](specialty-tracks/offensive-security.md).
 
-### Branch D: Cloud Security & Infrastructure Architecture
+### Branch D: Cloud Security & Infrastructure Architecture (SE-CLD)
 * **Core Focus:** Multi-cloud security architecture (AWS/Azure/GCP), container and Kubernetes security, Infrastructure-as-Code (IaC) policy guardrails, CIEM/CSPM, and cloud workload protection.
 * **Illustrative Examples / Equivalencies:** CCSP, AWS/Azure Advanced Security Specializations.
 * **Sign-off Authority:** Cloud baseline architecture certification, automated deployment policy-guardrail sign-off.
+* **Detailed Standard:** [Specialty Track Specification: SE-CLD Cloud Security & Infrastructure](specialty-tracks/cloud-security.md).
 
 ### Branch E: Application & Software Product Security (SE-APP)
 * **Core Focus:** Secure SDLC integration, component-level threat modeling, SAST/DAST/SCA tooling, API security, Software Bill of Materials (SBOM) lifecycle (CycloneDX/SPDX), non-product R&D tooling qualification, and PSIRT coordinated vulnerability management.
@@ -107,23 +110,50 @@ Before pursuing specialty endorsements, all apprentices must log validated opera
 * **Sign-off Authority:** Premarket FDA Section 524B cybersecurity readiness sign-off, clinical safety deployment clearance.
 * **Detailed Standard:** [Specialty Track Specification: SE-MED Medical Device Security](specialty-tracks/medical-devices.md).
 
-### Branch G: Industrial Control Systems (ICS / SCADA / OT)
-* **Core Focus:** Purdue Model network segmentation, industrial protocols (Modbus, DNP3, CIP), Safety Instrumented Systems (SIS), IEC 62443, and NERC-CIP compliance.
+### Branch G: Industrial Control Systems (SE-ICS / SCADA / OT)
+* **Core Focus:** Purdue Model network segmentation (IDMZ Level 3.5), industrial protocols (Modbus, DNP3, CIP, OPC UA, PROFINET), Safety Instrumented Systems (SIS / IEC 61511), physical process protection, ISA/IEC 62443, and NERC-CIP compliance.
 * **Illustrative Examples / Equivalencies:** GICSP, GRID, GCIP.
-* **Sign-off Authority:** Critical infrastructure safety cyber clearance, air-gapped system maintenance sign-off.
+* **Sign-off Authority:** Critical infrastructure plant cyber-safety commissioning stamp, IDMZ conduit certification, outage maintenance safe-harbor clearance.
+* **Detailed Standard:** [Specialty Track Specification: SE-ICS Industrial Control Systems & OT Security](specialty-tracks/industrial-control-systems.md).
 
-### Branch H: Identity, Credential & Access Management (ICAM)
+### Branch H: Identity, Credential & Access Management (SE-ICAM)
 * **Core Focus:** Enterprise Zero Trust architectures, cross-domain federation (SAML/OIDC), Privileged Access Management (PAM), secrets management lifecycle, and directory consolidation.
 * **Illustrative Examples / Equivalencies:** CIAM, enterprise identity engineering credentials.
 * **Sign-off Authority:** Enterprise federation sign-off, emergency root credential rotation attestation.
+* **Detailed Standard:** [Specialty Track Specification: SE-ICAM Identity, Credential & Access Management](specialty-tracks/identity-access-management.md).
 
-### Branch I: Cryptographic Infrastructure & PKI
+### Branch I: Cryptographic Infrastructure & PKI (SE-PKI)
 * **Core Focus:** Hardware Security Module (HSM) deployment, enterprise PKI lifecycle, root CA isolation, key management ceremonies, and Post-Quantum Cryptography (PQC) migration.
 * **Illustrative Examples / Equivalencies:** Board-approved cryptography and PKI engineering credentials.
 * **Sign-off Authority:** Root CA key ceremony execution and witness sign-off, enterprise cryptographic standard migration sign-off.
+* **Detailed Standard:** [Specialty Track Specification: SE-PKI Cryptographic Infrastructure & PKI](specialty-tracks/cryptographic-pki.md).
+
+### Branch J: AI & Machine Learning Security Assurance (SE-AIML)
+* **Core Focus:** Adversarial machine learning threat modeling, prompt injection defense, MLOps pipeline provenance, foundation model weight signing, and NIST AI RMF governance.
+* **Illustrative Examples / Equivalencies:** Board-approved AI/ML security credentials.
+* **Sign-off Authority:** Enterprise AI model deployment security certification, AI Model Safety Card sign-off.
+* **Detailed Standard:** [Specialty Track Specification: SE-AIML AI & Machine Learning Security Assurance](specialty-tracks/ai-machine-learning.md).
 
 ---
 
-## 5. Endorsement Stacking & Continuing Maintenance
+## 5. Master Cross-Crediting & Articulation Matrix
+
+To prevent dilution of tradecraft standards, cross-crediting between specialty endorsements is strictly regulated and asymmetrical. Where overlap exists in underlying engineering foundations, the Board permits credit towards the 2,000-hour post-licensure requirement up to strict maximum caps:
+
+| Target Endorsement Track | Eligible Source Track | Max Credit | Justification & Mandatory Remaining Runtime |
+| :--- | :--- | :--- | :--- |
+| **`SE-MED` (Medical Devices)** | `SE-APP` | 1,000 hrs (50%) | Shared threat modeling and SBOM lifecycle. Must complete 1,000 hrs clinical hazard & FDA 524B packaging. |
+| **`SE-APP` (AppSec/Product)** | `SE-MED` | 1,000 hrs (50%) | Medical device software engineering satisfies software product security baselines. |
+| **`SE-CLD` (Cloud Infrastructure)** | `SE-APP` or `SE-ICAM` | 500 hrs (25%) | IaC/CI-CD automated pipeline security or cloud identity federation overlap. |
+| **`SE-OFF` (Offensive Security)** | `SE-APP` | 500 hrs (25%) | Web/API vulnerability analysis and payload testing overlap. |
+| **`SE-AIML` (AI/ML Security)** | `SE-APP` or `SE-OFF` | 500 hrs (25%) | Software supply chain/MLOps security or adversarial prompt injection testing overlap. |
+| **`SE-ICAM` (Identity & Access)** | `SE-CLD` or `SE-PKI` | 500 hrs (25%) | Cloud IAM federation or certificate-based authentication overlap. |
+| **`SE-PKI` (Cryptography/PKI)** | `SE-ICAM` or `SE-APP` | 500 hrs (25%) | Authentication infrastructure or code signing/cryptographic primitive overlap. |
+| **`SE-ICS` (Industrial Control)** | Licensed Electrician / Navy Nuclear | 500 hrs (25%) | Physical process and electrical instrumentation overlap. **0 hrs from commercial IT/AppSec.** |
+| **`SE-DFIR` (Digital Forensics)** | Core Generalist Apprenticeship | 0 hrs (0%) | **Evidentiary isolation.** Forensic chain of custody requires 100% domain-specific runtime. |
+
+---
+
+## 6. Endorsement Stacking & Continuing Maintenance
 * **Multiple Endorsements:** Practitioners may earn and maintain multiple endorsements across their career by completing required specialized hours or practical exams.
 * **Unified Competency Maintenance:** Endorsements do not require separate recurring commercial renewal fees. All endorsements are maintained concurrently through validated professional practice hours and Board-approved continuing technical development.
