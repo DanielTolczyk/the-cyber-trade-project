@@ -30,6 +30,11 @@ To prevent administrative overhead in fast-paced enterprise environments:
 * **Periodic Batch Sign-Offs:** Supervisors review and sign off on cumulative operational hours on a weekly, bi-weekly, or monthly cadence based on sprint logs or change management tickets.
 * **Simulation & Range Credit:** Up to **1,000 hours (12.5%)** of the 8,000-hour requirement may be logged through Board-accredited high-fidelity cyber range exercises and structured adversary simulation labs.
 
+### C. Cross-Ledger Artifact Collision & Deduplication Invariant
+To prevent fraudulent double-counting and ledger duplication across apprentices or shifts:
+* **Unique Artifact Mapping:** An individual immutable artifact reference (`git_commit_hash`, `change_ticket_id`, `incident_record_id`) may only be claimed for one operational shift per solo operator.
+* **Pairing & Co-Authoring Metadata:** When multiple apprentices collaborate on a major release or incident response event, entries must explicitly record joint pairing metadata and distinct task role allocations.
+
 ---
 
 ## 4. Intake & Accreditation Workflow

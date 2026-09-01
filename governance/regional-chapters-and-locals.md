@@ -53,7 +53,19 @@ A Local Chapter represents the frontline democratic unit of the trade in a defin
 
 ---
 
-## 3. Local Autonomy & Regional Authority
+## 3. Geographic Regional District Hubs & Local Chapters
+
+To maintain geographic labor standards, the Craft Guild establishes five permanent Regional District Hubs:
+
+* **District 1 (Local 101 - Mid-Atlantic & Northeast Hub):** DC, MD, VA, DE, PA, NY, NJ, CT, MA, RI, VT, NH, ME (Tier A COLI - $85.00/hr RJPB Baseline).
+* **District 2 (Local 204 - Midwest & Great Lakes Industrial Hub):** IL, IN, OH, MI, WI, MN, IA, MO (Tier B COLI - $72.00/hr RJPB Baseline).
+* **District 3 (Local 302 - Pacific Northwest & West Coast Hub):** WA, OR, CA, NV, ID, AK, HI (Tier A COLI - $92.00/hr RJPB Baseline).
+* **District 4 (Local 405 - South & Gulf Coast Energy Hub):** TX, LA, MS, AL, GA, FL, TN, NC, SC (Tier B COLI - $78.00/hr RJPB Baseline).
+* **District 5 (Local 508 - Mountain West & Plains Hub):** CO, UT, AZ, NM, WY, MT, ND, SD, NE, KS (Tier C COLI - $62.00/hr RJPB Baseline).
+
+---
+
+## 4. Local Autonomy & Regional Authority
 
 Local Chapters maintain substantial autonomy over matters directly impacting their local membership:
 

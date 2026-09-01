@@ -56,6 +56,11 @@ The Regional Journeyman Prevailing Benchmark is calculated across localized econ
 * **Tier B (Standard Metropolitan Areas):** Indexed against regional industrial and tech centers (e.g., Chicago, Austin, Atlanta, Denver).
 * **Tier C (General & Rural Economic Zones):** Standard baseline floor below which no registered trade sponsor may pay.
 
+### A. Remote Work & Anti-Wage-Arbitrage Rule
+To prevent participating employers from utilizing distributed remote work to undercut localized prevailing wage standards, remote operational shifts are compensated at the **higher of**:
+1. The Sponsoring Employer's Headquarters Local Chapter RJPB rate, OR
+2. The Practitioner's Home Residence Local Chapter RJPB rate.
+
 ---
 
 ## 5. Operational Hazard Differentials & On-Call Surge Pay

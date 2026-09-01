@@ -72,8 +72,15 @@ To ensure seamless coordination between shop-floor engineering reality, classroo
 * **Role Definition:** The neutral administrative officer at the Local or National Guild responsible for operational staffing allocation and apprentice placement.
 * **Appointment:** Appointed by the Local Chapter Executive Board.
 * **Core Responsibilities:**
-  * **Out-of-Work Queue Management:** Maintains the objective talent clearinghouse queue for Journeymen and Apprentices awaiting operational placement.
+  * **Out-of-Work Queue Management (The Three-Book Standard):** Maintains the objective talent referral queue sorted strictly by First-In, First-Out (FIFO) chronological seniority of availability:
+    * **Priority Safe Harbor (Top Priority):** Displaced apprentices resulting from employer insolvency, and whistleblowers transferred following substantiated Form FORM-001 technical refusals, guaranteeing zero training hour disruption.
+    * **Book 1 (Resident Local Members):** Fully licensed Journeymen and Registered Apprentices residing within that Local Chapter jurisdiction, dispatched strictly in order of out-of-work registration date (longest searching = #1).
+    * **Book 2 (Regional Travelers):** Credentialed practitioners registered in sibling Locals traveling into the District, dispatched when local Book 1 labor in that specialty is fully absorbed.
+  * **Modality-Aware Dispatch Matching:**
+    * **On-Site & Hybrid Requisitions:** Evaluates resident Book 1 candidates within commuting jurisdiction, validating active security clearances (Secret, TS/SCI) when classified SCIF or defense facilities are specified.
+    * **Remote Requisitions:** Evaluates the Multi-District Remote Pool across all Locals, dispatching Candidate #1 under FIFO seniority.
   * **Merit-Based Dispatch:** Dispatches qualified practitioners to participating employers based strictly on verified Universal Logbook credentials and Specialty Endorsements, eliminating third-party recruiter placement fees.
+  * **Anti-Blacklisting & Turn-Down Protections:** Employers may not arbitrarily reject dispatched practitioners; rejections require an objective operational non-conformance finding submitted within 48 hours. Practitioners may decline up to two dispatch offers without queue penalty.
   * **Emergency Safety Reassignments:** Executes emergency apprentice transfers following substantiated safety non-concurrence or harassment grievances, ensuring zero loss of accredited hours or wage step progress.
 
 ---
