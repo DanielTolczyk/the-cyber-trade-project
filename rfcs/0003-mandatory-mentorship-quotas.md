@@ -21,8 +21,9 @@ In physical skilled craft trades (such as electrical and pipefitting), holding a
 This RFC proposes establishing a comprehensive Tripartite Mentorship & Instructional Standard:
 * **On-Shift Instructional Wage Differentials:** Establishing a mandatory +$2.50 to +$5.00/hr (or +5% RJPB) supervisory differential for active line-of-sight apprentice supervision.
 * **Supervisory Liability & Safe Harbor Boundaries:** Codifying vicarious technical responsibility and clear negligence thresholds.
-* **Certified Trade Instructor (CTI) Endorsement:** Creating a recognized vocational teaching credential and career transition safety valve.
-* **Mandatory Verified Mentorship Runtime Quotas:** Requiring verified instructional hours for Master Practitioner elevation.
+* **Annual Instructional Runtime Quotas (IQR):** Setting annual mentorship benchmarks (10% Journeyman, 15% Master, 20% MoR) for active license maintenance.
+* **Mutual Dual-Sign Logbook Protocol:** Eliminating time falsification via cryptographically bound bilateral attestation blocks.
+* **Solo Practitioner & Low-Apprentice Environment Waivers:** Providing JATC guest instruction and open-source review alternative pathways.
 
 ---
 
@@ -32,6 +33,7 @@ This RFC proposes establishing a comprehensive Tripartite Mentorship & Instructi
 * **Supervisory Liability Justification:** When an apprentice executes production firewall changes or cloud IAM provisioning, the supervising Journeyman's license is on the line. Compensating supervisors reflects this heightened responsibility.
 * **The Master Tier Definition:** In certified crafts, a "Master" is not merely an isolated high-performing technician; a Master is a recognized teacher capable of passing on tradecraft and safety standards to the next generation.
 * **Career Transition Safety Valve:** During macroeconomic contractions or between contract engagements, credentialed instructors provide the JATC training network with experienced frontline faculty while maintaining personal income.
+
 
 ---
 
@@ -50,15 +52,33 @@ Compensated supervision carries legal and regulatory accountability:
 * **The Supervision Safe Harbor:** If an apprentice commits an operational mistake during guided instruction where the supervisor maintained active line-of-sight oversight, the event is protected under standard trade safe harbor as a training error.
 * **Supervisory Negligence Boundary:** Leaving an apprentice to perform solo production changes on a classified, high-consequence, or Tier-I network without active oversight constitutes **Class-B Supervisory Negligence**, subjecting the supervisor's license to Board review.
 
-### C. Certified Trade Instructor (CTI) Credential
-A standardized JATC pedagogical endorsement for Journeymen and Masters:
-* **Curriculum Modules:** Adult vocational pedagogy (36 hrs), hands-on cyber range simulation management (36 hrs), rubric-based evaluation integrity (36 hrs), and anti-harassment/training ethics (36 hrs).
-* **Operational Privileges:** Qualifies practitioners to serve as paid classroom RTI faculty at public community college JATC labs, providing stable employment during career transitions or industry downturns.
+### C. Annual Instructional Runtime Quotas (IQR)
+To maintain an active license in good standing, practitioners allocate a baseline percentage of their annual operational runtime to verified apprentice mentorship:
 
-### D. Master Elevation Prerequisite (The Legacy Gate)
-To advance from Licensed Journeyman (8,000 hrs) to Master Practitioner (12,000 hrs):
-* **Quota:** Candidate must log a minimum of **500 to 800 verified instructional runtime hours** supervising registered apprentices under Modality A or B.
-* **Verification:** Logged via the Mutual Dual-Sign Logbook Protocol, requiring cryptographic countersignatures from supervised apprentices.
+| License Tier | Minimum Annual Mentorship Requirement | Eligible Instructional Modalities |
+| :--- | :--- | :--- |
+| **Licensed Journeyman** | **10% of annual runtime** (~200 hrs/year) | 1:1 / 2:1 pair triage, script/tool review, live packet analysis, incident post-mortem walkthroughs. |
+| **Master Practitioner** | **15% of annual runtime** (~300 hrs/year) | Architecture threat modeling reviews, formal RTI classroom instruction, high-risk operational oversight. |
+| **Master of Record (MoR)** | **20% of annual runtime** (~400 hrs/year) | Structured apprentice evaluations, safety non-concurrence drills, rotational domain logbook auditing. |
+
+### D. Mutual Dual-Sign Logbook Protocol
+Mentorship hours cannot be logged unilaterally. To prevent ghost-logging and maintain actuarial integrity:
+* Both the mentor and apprentice maintain a linked digital logbook entry containing the following mandatory schema fields:
+  * `mentorship_record_id`: Unique cryptographic identifier
+  * `mentor_license_id`: Licensed Journeyman or Master identifier
+  * `apprentice_id`: Registered apprentice identifier
+  * `rotational_domain`: Domain 1 through 5 matching the Apprenticeship Standard
+  * `instructional_focus`: Narrative breakdown of active pairing, review, or triage
+  * `runtime_hours`: Precise duration of instructional contact
+  * `timestamp_start` / `timestamp_end`: ISO 8601 operational runtime stamps
+  * `mentor_signature` / `apprentice_signature`: Mutual cryptographic attestations
+* **Validation Mechanics:** An entry is valid only when cryptographically countersigned by both the mentor and the apprentice.
+* **Audit Sampling:** Regional JATC boards sample mentorship logs during quarterly wage tier and triennial license renewals.
+
+### E. Solo Practitioner & Low-Apprentice Environment Waivers
+In environments where an employer does not host registered apprentices (e.g., small boutique consulting units, solo contract work):
+* **JATC Guest Instruction:** Journeymen and Masters may satisfy their annual quota by teaching accredited RTI lab modules at local community colleges, vocational high schools, or JATC training centers.
+* **Public Open-Source Mentorship:** Proctored code reviews, patch guidance, and architecture reviews for apprentices working on accredited open-source defensive security tools count at a 1:1 hourly rate (capped at 50% of annual quota).
 
 ---
 
@@ -84,6 +104,7 @@ To advance from Licensed Journeyman (8,000 hrs) to Master Practitioner (12,000 h
 ## 6. Implementation & Feedback Areas
 
 * **Questions for Community Review:**
-  1. Should the instructional wage differential be structured as a flat hourly dollar adder (+$2.50 to +$5.00/hr) or a percentage rate (+5% RJPB)?
-  2. Is 500 hours or 800 hours the optimal instructional threshold for Master Practitioner elevation?
-  3. Should CTI credential holders receive preferred dispatch ranking for JATC academic training roles?
+  1. Should the on-shift instructional wage differential be structured as a flat hourly dollar adder (+$2.50 to +$5.00/hr) or a percentage premium (+5% RJPB)?
+  2. How should Taft-Hartley JATC Training Trust funds be allocated to subsidize employer instructional differential costs?
+  3. Should annual Instructional Runtime Quotas (10%/15%/20%) be integrated into the triennial CTD renewal hours (120 hrs/3 yrs)?
+  4. What specific supervisory telemetry should be fed to cyber insurance underwriters to verify active ratio compliance for preferred premium credits?
