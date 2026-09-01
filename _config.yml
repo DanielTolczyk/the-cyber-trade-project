@@ -1,6 +1,6 @@
 title: The Cybersecurity Trade Project
 description: Restructuring cybersecurity into a recognized skilled trade through apprenticeships, licensure, and underwriter accountability.
-version: "v1.8.1"
+version: "v1.8.2"
 baseurl: "/framework"
 url: "https://the-cyber-trade-project.github.io"
 markdown: kramdown

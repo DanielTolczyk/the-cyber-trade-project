@@ -173,7 +173,9 @@ def sync_ecosystem_metadata(target_version: str):
                     f.write(line)
 
     # 2. Update .config/ai/context.json
-    context_path = REPO_ROOT / ".config" / "ai" / "context.json"
+    context_path = REPO_ROOT.parent / ".config" / "ai" / "context.json"
+    if not context_path.exists():
+        context_path = REPO_ROOT / ".config" / "ai" / "context.json"
     if context_path.exists():
         with open(context_path, "r", encoding="utf-8") as f:
             cdata = json.load(f)
@@ -199,6 +201,15 @@ def sync_ecosystem_metadata(target_version: str):
         ldata["framework_version"] = raw_ver
         with open(logbook_specs, "w", encoding="utf-8") as f:
             json.dump(ldata, f, indent=2)
+
+    # 5. Update Clearinghouse public assets
+    clearinghouse_index = REPO_ROOT.parent / "clearinghouse" / "public" / "index.html"
+    if clearinghouse_index.exists():
+        with open(clearinghouse_index, "r", encoding="utf-8") as f:
+            text = f.read()
+        text = re.sub(r"styles\.css\?v=[0-9.]+", f"styles.css?v={raw_ver}", text)
+        with open(clearinghouse_index, "w", encoding="utf-8") as f:
+            f.write(text)
 
 
 def execute_release(args):

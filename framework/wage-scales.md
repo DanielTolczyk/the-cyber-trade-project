@@ -48,13 +48,18 @@ To maintain clarity between personal credentials and legal accountability:
 
 ---
 
-## 4. Cost-of-Living Indexing (COLI) & Geographic Tiers
+## 4. Cost-of-Living Indexing (COLI) & Geographic MSA Zones
 
-The Regional Journeyman Prevailing Benchmark is calculated across localized economic zones to ensure real living wages:
+Because individual states contain both high-cost metropolitan centers and lower-cost rural areas (such as Seattle vs. Eastern Washington, Chicagoland vs. Downstate Illinois, or Austin vs. West Texas), the Regional Journeyman Prevailing Benchmark is calculated across localized Metropolitan Statistical Areas (MSAs) and economic zones:
 
-* **Tier A (High Cost of Living / Major Tech Hubs):** Indexed against metropolitan centers (e.g., SF Bay Area, NYC, Seattle).
-* **Tier B (Standard Metropolitan Areas):** Indexed against regional industrial and tech centers (e.g., Chicago, Austin, Atlanta, Denver).
-* **Tier C (General & Rural Economic Zones):** Standard baseline floor below which no registered trade sponsor may pay.
+* **Zone 1: Primary Metro & Tech Core (Tier A COLI):** Indexed against major urban and high-technology metropolitan centers (e.g., Seattle-Bellevue-Everett, Chicagoland, Austin-Round Rock, DC-Arlington-Alexandria, New York Metro) with prevailing baselines from **$85.00 to $92.00 / hr RJPB**.
+* **Zone 2: Secondary Metro & Industrial Hubs (Tier B COLI):** Indexed against mid-sized metropolitan centers and secondary tech corridors (e.g., Tacoma, Rockford, Spokane, San Antonio, Richmond, Cleveland) with prevailing baselines from **$72.00 to $78.00 / hr RJPB**.
+* **Zone 3: Non-Metropolitan & Rural Baseline (Tier C COLI):** Mandatory national statutory baseline floor (**$62.00 / hr RJPB**) below which no registered sponsoring employer in the United States may pay.
+
+### A. Remote Work & Anti-Wage-Arbitrage Rule
+To prevent participating employers from utilizing distributed remote work to undercut localized prevailing wage standards, remote operational shifts are compensated at the **higher of**:
+1. The Sponsoring Employer's Headquarters Local Chapter RJPB rate, OR
+2. The Practitioner's Home Residence Local Chapter RJPB rate.
 
 ---
 

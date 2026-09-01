@@ -244,7 +244,10 @@ def check_json_files() -> list:
 def check_ecosystem_version_sync() -> list:
     """Verifies that the framework version is perfectly synchronized across the ecosystem."""
     errors = []
-    context_json = REPO_ROOT / ".config" / "ai" / "context.json"
+    # Check workspace root first, then local repo root fallback
+    context_json = REPO_ROOT.parent / ".config" / "ai" / "context.json"
+    if not context_json.exists():
+        context_json = REPO_ROOT / ".config" / "ai" / "context.json"
     if not context_json.exists():
         return errors
 
@@ -278,6 +281,38 @@ def check_ecosystem_version_sync() -> list:
                     )
     except Exception as e:
         errors.append(f"[Ecosystem Version Sync Error] Verification error: {e}")
+
+    return errors
+
+
+def check_canonical_entity_naming() -> list:
+    """Verifies that all entity names, governance bodies, and ecosystem tools use canonical naming."""
+    errors = []
+    # Prohibited drift variations and their canonical replacements
+    DISALLOWED_PATTERNS = [
+        (re.compile(r"\bCyber Trade Board\b", re.IGNORECASE), "National Cybersecurity Trade Board (NCTB)"),
+        (re.compile(r"\bParticipating Employers Council\b", re.IGNORECASE), "Participating Employer Council (PEC)"),
+        (re.compile(r"\bCyber Trade Guild\b", re.IGNORECASE), "The Cybersecurity Craft Guild (CCG)"),
+        (re.compile(r"github\.com/cyber-trade-ecosystem", re.IGNORECASE), "github.com/the-cyber-trade-project"),
+    ]
+
+    md_files = [
+        p for p in REPO_ROOT.rglob("*.md")
+        if ".git" not in p.parts and ".cache" not in p.parts and "tmp" not in p.parts
+    ]
+
+    for mf in md_files:
+        try:
+            content = mf.read_text(encoding="utf-8")
+            for pattern, canonical in DISALLOWED_PATTERNS:
+                matches = pattern.findall(content)
+                if matches:
+                    errors.append(
+                        f"[Naming Quality Gate Error] {mf.relative_to(REPO_ROOT)}: Found non-canonical entity '{matches[0]}'. "
+                        f"Must use canonical standard: '{canonical}'."
+                    )
+        except Exception as e:
+            errors.append(f"[Naming Quality Gate Error] Could not scan {mf}: {e}")
 
     return errors
 
@@ -344,6 +379,11 @@ def main():
     print("[*] Validating ecosystem version synchronization across repositories...")
     version_sync_errors = check_ecosystem_version_sync()
     total_errors.extend(version_sync_errors)
+    # Validate Canonical Entity Naming & Ecosystem Alignment
+    print("[*] Validating canonical entity naming and ecosystem nomenclature...")
+    naming_errors = check_canonical_entity_naming()
+    total_errors.extend(naming_errors)
+
 
     # Validate Web Portal Frontend Assets & Hover Glossary
     print("[*] Validating web portal frontend assets and interactive hover glossary integrity...")

@@ -47,6 +47,10 @@ To embrace technological velocity while guaranteeing genuine engineering compete
 * **The "Power Tool" Operational Standard:** Artificial intelligence coding assistants, LLM-driven log summarizers, and automated security copilots are recognized as modern engineering power tools (analogous to an electrician's hydraulic bender or a machinist's CNC lathe). Practitioners and apprentices are fully permitted to utilize AI tooling in daily production to accelerate defense and automation.
 * **The Air-Gapped Licensure Benchmark:** To ensure practitioners possess foundational problem-solving capabilities rather than superficial prompt generation, all **Board Practical Challenge Examinations** are conducted in strictly proctored, air-gapped cyber range environments. Candidates must demonstrate raw CLI navigation, script authoring, packet analysis, and manual threat containment without external internet access or generative AI assistance.
 
+### D. Real-Time Clearinghouse Disciplinary Propagation & PKI-CRL
+Upon formal disciplinary sanction by the Malpractice & Ethics Review Committee (Form FORM-004):
+* **Instant Certificate Revocation:** The practitioner's Trade Key is immediately appended to the National Public Key Revocation List (PKI-CRL).
+* **Employer & Underwriter Telemetry Notification:** Sponsoring employers and bound cyber insurance underwriters receive automated cryptographic notification within 24 hours of any Master of Record signing authority suspension.
 
 ---
 
