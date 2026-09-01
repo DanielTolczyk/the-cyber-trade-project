@@ -36,7 +36,7 @@ All trade logbook tooling and enterprise tracking interfaces must conform to the
   "runtime_execution": {
     "date": "2026-08-25",
     "hours_logged": 4.5,
-    "core_domain": "D2_SYSTEM_HYGIENE",
+    "core_domain": "D2_DETECTION_SOC",
     "sub_domain": "CI_CD_PIPELINE_HARDENING",
     "environment_type": "Enterprise_Production"
   },

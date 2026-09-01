@@ -55,13 +55,19 @@ A Local Chapter represents the frontline democratic unit of the trade in a defin
 
 ## 3. Geographic Regional District Hubs & Local Chapters
 
-To maintain geographic labor standards, the Craft Guild establishes five permanent Regional District Hubs. Each Local Chapter publishes an official **Metropolitan Statistical Area (MSA) Zone Schedule** mapping regional counties to Zone 1 (Metro Core), Zone 2 (Secondary Metro), or Zone 3 (Rural Baseline) based on federal BLS and HUD Fair Market Rent data:
+To maintain geographic labor standards, the Craft Guild establishes five permanent Regional District Hubs covering all 50 U.S. States, the District of Columbia, and all 5 U.S. Territories. Each Local Chapter publishes an official **Metropolitan Statistical Area (MSA) Zone Schedule** mapping regional counties to Zone 1 (Metro Core), Zone 2 (Secondary Metro), or Zone 3 (Rural Baseline) based on federal BLS OEWS (SOC 15-1212) and HUD Fair Market Rent data:
 
-* **District 1 (Local 101 - Mid-Atlantic & Northeast Hub):** DC, MD, VA, DE, PA, NY, NJ, CT, MA, RI, VT, NH, ME (Zone 1 Metro Core: $85.00/hr RJPB Baseline; Rural Floor: $62.00/hr).
+* **District 1 (Local 101 - Northeast & Mid-Atlantic Hub):** DC, MD, VA, DE, PA, NY, NJ, CT, MA, RI, VT, NH, ME, Puerto Rico (PR), U.S. Virgin Islands (USVI) (Zone 1 Metro Core: $85.00/hr RJPB Baseline; Rural Floor: $62.00/hr).
 * **District 2 (Local 204 - Midwest & Great Lakes Industrial Hub):** IL, IN, OH, MI, WI, MN, IA, MO (Zone 1 Metro Core: $78.00/hr; Zone 2 Standard Metro: $72.00/hr RJPB Baseline; Rural Floor: $62.00/hr).
-* **District 3 (Local 302 - Pacific Northwest & West Coast Hub):** WA, OR, CA, NV, ID, AK, HI (Zone 1 Metro Core: $92.00/hr RJPB Baseline; Zone 2 Secondary Metro: $78.00/hr; Rural Floor: $62.00/hr).
+* **District 3 (Local 302 - Western & Pacific Rim Hub):** WA, OR, CA, NV, ID, Alaska (AK), Hawaii (HI), Guam (GU), American Samoa (AS), Northern Mariana Islands (MP) (Zone 1 Metro Core: $92.00/hr RJPB Baseline; Zone 2 Secondary Metro: $78.00/hr; Rural Floor: $62.00/hr).
 * **District 4 (Local 405 - South & Gulf Coast Energy Hub):** TX, LA, MS, AL, GA, FL, TN, NC, SC (Zone 1 Metro Core: $82.00/hr; Zone 2 Standard Metro: $78.00/hr RJPB Baseline; Rural Floor: $62.00/hr).
 * **District 5 (Local 508 - Mountain West & Plains Hub):** CO, UT, AZ, NM, WY, MT, ND, SD, NE, KS (Zone 1 Metro Core: $74.00/hr; Zone 3 General Baseline Floor: $62.00/hr).
+
+### A. Non-Contiguous States & Island Territories Standard
+To protect frontline defenders operating in remote logistics environments and critical defense theaters:
+* **Anti-Isolation Wage Floor:** Practitioners residing in non-contiguous states and island territories (Alaska, Hawaii, Guam, Puerto Rico, USVI, American Samoa, and Northern Mariana Islands) face elevated baseline living expenses due to maritime transport logistics, fuel tariffs, and island supply chains. Sponsoring employers are barred from classifying non-contiguous operational sites under the Zone 3 Rural floor without formal Local Chapter JATC variance review.
+* **Defense & Critical Enclave Alignment:** Pacific theater operational nodes (Guam, Hawaii, Alaska) supporting INDOPACOM, PACAF, missile defense, and undersea cable landing stations default to **Zone 1 (Metro Core / High COLI)** prevailing baselines to reflect strategic importance and prevent talent attrition to unorganized private contractors.
+* **Autonomous Island Charters:** Any territory with 50+ active Journeymen (e.g., Local 109 San Juan or Local 312 Honolulu) holds full autonomous standing to establish dedicated JATC community college training trusts and negotiate localized COLI differentials.
 
 ---
 
@@ -83,7 +89,7 @@ Local Chapters conduct mandatory monthly member meetings where rank-and-file eng
 
 ---
 
-## 4. National Convention Delegate Apportionment
+## 5. National Convention Delegate Apportionment
 
 To ensure large urban locals cannot disenfranchise smaller rural or regional chapters:
 
