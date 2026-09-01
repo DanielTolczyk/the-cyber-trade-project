@@ -1,14 +1,14 @@
 # Standards, Regulatory Baselines & Compliance Architecture
 
-The Cybersecurity Trade Project does not invent proprietary security controls or dictate business operations. Instead, it adopts the proven "Building Code" model of the skilled trades: aligning workforce training with open industry standards and transforming checkbox compliance into verifiable engineering attestations.
+The Cybersecurity Trade Project does not invent proprietary security controls or dictate business operations. Instead, it adopts the proven consensus standard model of the skilled trades: aligning workforce training with open industry standards and transforming checkbox compliance into verifiable engineering attestations.
 
 ---
 
-## 1. The Building Code Hierarchy
+## 1. The Technical Governance Hierarchy
 
-1. **Regulatory Statutes (The Law):** Federal and sector mandates such as SEC Cyber Disclosures, HIPAA Security Rule, FDA 524B, DoD CMMC, and NERC-CIP. Enforced by government regulatory bodies.
-2. **Technical Baselines (The Building Codes):** Open technical control frameworks such as NIST CSF / SP 800-53, CIS Critical Security Controls, ISO/IEC 27001, and IEC 62443. Selected by the enterprise and audited/implemented by licensed trade labor.
-3. **Workforce & Training Taxonomy (The Trade):** The NIST NICE Framework (SP 800-181). Governs apprentice logbooks, core rotations, and Board examination milestones.
+1. **Regulatory Statutes:** Federal and sector mandates such as SEC Cyber Disclosures, HIPAA Security Rule, FDA 524B, DoD CMMC, and NERC-CIP. Enforced by government regulatory bodies.
+2. **Consensus Standards & Technical Baselines:** Open technical control frameworks such as NIST CSF / SP 800-53, CIS Critical Security Controls, ISO/IEC 27001, and ISA/IEC 62443. Selected by the enterprise and audited/implemented by licensed trade labor.
+3. **Workforce & Training Taxonomy:** The NIST NICE Framework (SP 800-181). Governs apprentice logbooks, core rotations, and Board examination milestones.
 
 ---
 

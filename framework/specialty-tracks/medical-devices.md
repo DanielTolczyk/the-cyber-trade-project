@@ -21,7 +21,7 @@ Practitioners in this track demonstrate core competencies mapped directly to fed
 * **Primary Work Role 2: Security Control Assessor (`SP-SRP-001`):** Component threat modeling, attack surface analysis, vulnerability verification, and non-product R&D tooling qualification.
 * **Primary Work Role 3: Cybersecurity Management (`OV-MGT-001`):** Total Product Life Cycle (TPLC) governance, FDA Section 524B compliance packaging, and risk management documentation.
 
-### B. Sector-Specific Regulatory Standards (Building Codes)
+### B. Sector-Specific Consensus Standards & Regulatory Baselines
 1. **FDA Statutory Authority (Section 524B):** Compliance with statutory requirements for "cyber devices" under the Federal Food, Drug, and Cosmetic Act (FD&C Act), ensuring devices are designed, developed, and maintained with verified cybersecurity safeguards.
 2. **FDA Premarket Cybersecurity Guidance:** Implementing the Total Product Life Cycle (TPLC) security recommendations required for Premarket Submissions (510(k), PMA, De Novo, and eSTAR cybersecurity packages).
 3. **Medical Device Risk Management (AAMI TIR57 / ANSI/AAMI/ISO 14971):** Integrating cybersecurity risk analysis directly with medical device safety risk management, evaluating threats through the lens of clinical harm.
