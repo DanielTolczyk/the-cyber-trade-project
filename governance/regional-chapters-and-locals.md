@@ -55,13 +55,13 @@ A Local Chapter represents the frontline democratic unit of the trade in a defin
 
 ## 3. Geographic Regional District Hubs & Local Chapters
 
-To maintain geographic labor standards, the Craft Guild establishes five permanent Regional District Hubs:
+To maintain geographic labor standards, the Craft Guild establishes five permanent Regional District Hubs. Each Local Chapter publishes an official **Metropolitan Statistical Area (MSA) Zone Schedule** mapping regional counties to Zone 1 (Metro Core), Zone 2 (Secondary Metro), or Zone 3 (Rural Baseline) based on federal BLS and HUD Fair Market Rent data:
 
-* **District 1 (Local 101 - Mid-Atlantic & Northeast Hub):** DC, MD, VA, DE, PA, NY, NJ, CT, MA, RI, VT, NH, ME (Tier A COLI - $85.00/hr RJPB Baseline).
-* **District 2 (Local 204 - Midwest & Great Lakes Industrial Hub):** IL, IN, OH, MI, WI, MN, IA, MO (Tier B COLI - $72.00/hr RJPB Baseline).
-* **District 3 (Local 302 - Pacific Northwest & West Coast Hub):** WA, OR, CA, NV, ID, AK, HI (Tier A COLI - $92.00/hr RJPB Baseline).
-* **District 4 (Local 405 - South & Gulf Coast Energy Hub):** TX, LA, MS, AL, GA, FL, TN, NC, SC (Tier B COLI - $78.00/hr RJPB Baseline).
-* **District 5 (Local 508 - Mountain West & Plains Hub):** CO, UT, AZ, NM, WY, MT, ND, SD, NE, KS (Tier C COLI - $62.00/hr RJPB Baseline).
+* **District 1 (Local 101 - Mid-Atlantic & Northeast Hub):** DC, MD, VA, DE, PA, NY, NJ, CT, MA, RI, VT, NH, ME (Zone 1 Metro Core: $85.00/hr RJPB Baseline; Rural Floor: $62.00/hr).
+* **District 2 (Local 204 - Midwest & Great Lakes Industrial Hub):** IL, IN, OH, MI, WI, MN, IA, MO (Zone 1 Metro Core: $78.00/hr; Zone 2 Standard Metro: $72.00/hr RJPB Baseline; Rural Floor: $62.00/hr).
+* **District 3 (Local 302 - Pacific Northwest & West Coast Hub):** WA, OR, CA, NV, ID, AK, HI (Zone 1 Metro Core: $92.00/hr RJPB Baseline; Zone 2 Secondary Metro: $78.00/hr; Rural Floor: $62.00/hr).
+* **District 4 (Local 405 - South & Gulf Coast Energy Hub):** TX, LA, MS, AL, GA, FL, TN, NC, SC (Zone 1 Metro Core: $82.00/hr; Zone 2 Standard Metro: $78.00/hr RJPB Baseline; Rural Floor: $62.00/hr).
+* **District 5 (Local 508 - Mountain West & Plains Hub):** CO, UT, AZ, NM, WY, MT, ND, SD, NE, KS (Zone 1 Metro Core: $74.00/hr; Zone 3 General Baseline Floor: $62.00/hr).
 
 ---
 
