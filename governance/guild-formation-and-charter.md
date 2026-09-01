@@ -38,7 +38,7 @@ To prevent structural gridlock between regulatory standard-setting and instructi
 ### Phase 2: Multi-Employer Training Trusts (JATC Formation)
 * **Legal Architecture:** Establishing a multi-employer joint apprenticeship and training trust under Section 302(c) of the Labor Management Relations Act (Taft-Hartley Act).
 * **Employer Contribution Agreements:** Participating employers (enterprises, MSSPs, government contractors) contribute a fixed contribution per billable cybersecurity labor hour into the Trust.
-* **Educational Deployment:** The Trust funds community college lab environments, subsidizes instructor salaries, and guarantees **$0-tuition instruction** for registered apprentices.
+* **Educational Deployment & CTI Faculty:** The Trust funds community college lab environments, subsidizes instructor salaries, accredits [Certified Trade Instructors (CTI)](../framework/licensure-and-progression.md#5-certified-trade-instructor-cti-endorsement), and guarantees **$0-tuition instruction** for registered apprentices.
 * **Detailed Economics & Dues:** See [Dues Structure & Labor Trusts](dues-and-trust-economics.md).
 
 ### Phase 3: Formal Collective Bargaining Units & Regional Locals

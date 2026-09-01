@@ -73,20 +73,42 @@ During the initial transition window, practitioners transition via three non-exc
 
 ## 4. Master Practitioner Elevation
 
-Master Practitioner represents the highest individual technical credential in the trade. Elevation is open to Licensed Journeymen who demonstrate deep technical mastery and leadership:
+Master Practitioner represents the highest individual technical credential in the trade. Elevation is open to Licensed Journeymen who demonstrate deep technical mastery, pedagogical commitment, and trade leadership:
 
 1. **Runtime Prerequisite:** Complete a minimum of **12,000 verified operational runtime hours** (an additional 4,000 hours beyond Journeyman licensure).
-2. **Specialty Domain Mastery:** Hold at least one accredited [Specialty Endorsement](specialty-endorsements.md) (e.g., ICS/SCADA, DFIR, Cloud Security, AI/ML Assurance).
-3. **Defense Portfolio Audit:** Submit a comprehensive defense portfolio containing sanitized architectural blueprints, incident post-mortems, automation tools, or research publications.
-4. **Oral Board Defense:** Successfully defend their portfolio before an evaluation panel of three active Master Practitioners convened by the Board.
-5. **Ethical Record:** Maintain a clean ethical standing with zero unresolved malpractice findings or disciplinary suspensions.
+2. **Mentorship & Instructional Prerequisite:** Complete a minimum of **500 verified instructional / supervisory runtime hours** (12.5% of post-Journeyman runtime) logged in the Universal Logbook under Modality A or B, providing line-of-sight oversight to registered apprentices.
+3. **Specialty Domain Mastery:** Hold at least one accredited [Specialty Endorsement](specialty-endorsements.md) (e.g., ICS/SCADA, DFIR, Cloud Security, AI/ML Assurance).
+4. **Defense Portfolio Audit:** Submit a comprehensive defense portfolio containing sanitized architectural blueprints, incident post-mortems, automation tools, or research publications.
+5. **Oral Board Defense:** Successfully defend their portfolio before an evaluation panel of three active Master Practitioners convened by the Board.
+6. **Ethical Record:** Maintain a clean ethical standing with zero unresolved malpractice findings or disciplinary suspensions.
 
 ### Legacy Master Transition Window (8+ Years / 16,000+ Hours)
 Senior practitioners with 8+ years of production engineering and defense experience transition directly to Master Practitioner standing during the transition window by submitting 3 sanitized engineering artifacts and completing a 45-minute Oral Board Defense before a panel of 3 Master Practitioners, with zero commercial vendor certification requirements.
 
 ---
 
-## 5. Designated Master of Record (MoR) Assignment
+## 5. Certified Trade Instructor (CTI) Endorsement
+
+The **Certified Trade Instructor (CTI)** endorsement is an accredited pedagogical credential awarded to Licensed Journeymen and Master Practitioners who qualify to deliver formal classroom Related Technical Instruction (RTI) and supervise hands-on cyber range labs across the JATC training network.
+
+### A. Core Purpose & Career Transition Safety Valve
+* **Standardized Vocational Pedagogy:** Guarantees that trade instructors possess proven methods in adult vocational education, safe simulation management, and objective rubric scoring.
+* **Economic & Employment Safety Valve:** Provides experienced practitioners with paid, union-scale teaching opportunities at public community college JATC facilities between corporate contract engagements or during macroeconomic downturns, preserving senior talent within the trade ecosystem.
+
+### B. Curriculum Requirements (144 Hours)
+Candidates complete four 36-hour intensive modules:
+1. **Module CTI-101: Adult Vocational Pedagogy & Cognitive Apprenticeship (36 hrs):** Scaffolding complex technical concepts, cognitive load management, and kinetic skill transfer.
+2. **Module CTI-102: Cyber Range Simulation & Lab Management (36 hrs):** Designing, deploying, and resetting multi-node enterprise cyber range scenarios, live-fire attack/defense topologies, and automated scoring engines.
+3. **Module CTI-103: Rubric-Based Evaluation & Practical Exam Proctoring (36 hrs):** Formative and summative assessment integrity, objective grading rubrics, and air-gapped practical board examination proctoring standards.
+4. **Module CTI-104: Training Ethics, Anti-Harassment & Civil Rights (36 hrs):** Apprenticeship civil rights compliance (29 CFR Part 30), psychological safety in high-stress operational drills, anti-harassment enforcement, and constructive mentorship ethics.
+
+### C. Operational Privileges
+* **JATC Faculty Eligibility:** Certified to serve as lead instructors for 29 CFR Part 29 registered apprenticeship classroom cohorts.
+* **JATC Practical Exam Evaluator:** Authorized to sit on tripartite examination panels for Apprentice Milestone Challenges and Journeyman Licensure Practical Exams.
+
+---
+
+## 6. Designated Master of Record (MoR) Assignment
 
 A Master of Record is a Master Practitioner who accepts legal and statutory responsibility for an enterprise, critical system, or licensed trade contracting firm:
 
@@ -96,7 +118,7 @@ A Master of Record is a Master Practitioner who accepts legal and statutory resp
 
 ---
 
-## 6. License Maintenance, Triennial Renewal & AMF Prohibition
+## 7. License Maintenance, Triennial Renewal & AMF Prohibition
 
 To eliminate predatory commercial recertification fees, vendor lock-in, and recurring credential taxes:
 
