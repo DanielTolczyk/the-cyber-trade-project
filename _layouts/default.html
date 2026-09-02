@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/portal.css?v={{ site.time | date: '%s' }}">
 </head>
 <body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
   {% include header.html %}
 
   <div class="portal-sidebar-backdrop" id="portal-sidebar-backdrop"></div>
@@ -31,7 +32,7 @@
   <div class="portal-layout">
     {% include sidebar.html %}
 
-    <main class="portal-main">
+    <main class="portal-main" id="main-content" tabindex="-1">
       <article class="portal-article">
         {{ content }}
       </article>

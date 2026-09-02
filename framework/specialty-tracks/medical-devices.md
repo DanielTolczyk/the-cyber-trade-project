@@ -55,7 +55,7 @@ Practitioners must execute security risk engineering focused on device reliabili
 Practitioners must design, audit, and verify defensive controls across the device and connected ecosystem:
 
 * **Hardware & Firmware Integrity (SiMD):** Implementing Hardware Root of Trust (HRoT), Secure Boot with cryptographically signed firmware, secure on-chip key storage (TPM / Secure Enclave), and disabling JTAG/UART diagnostic interfaces on production hardware.
-* **Software as a Medical Device (SaMD) & Cloud Platform Defense:** Enforcing clinical algorithm integrity, secure API architectures, multi-tenant clinical data isolation, and robust logging telemetry for cloud-connected diagnostic systems.
+* **Software as a Medical Device (SaMD) & Cloud Platform Defense:** Enforcing clinical algorithm integrity, secure API architectures, multi-tenant clinical data isolation, and tamper-evident logging telemetry for cloud-connected diagnostic systems.
 * **Companion Mobile Health Application Hardening:** Enforcing secure local storage (iOS Keychain / Android Keystore), certificate pinning, biometric authentication for therapy delivery, and anti-tampering / anti-reverse-engineering controls.
 * **Interface Isolation & Cryptography:** Enforcing mutual TLS (mTLS) or authenticated cryptographic pairings for inter-device communications, programmer-to-device handshakes, and patient telemetry streams.
 * **Software Bill of Materials (SBOM):** Generating, validating, and maintaining machine-readable SBOMs (SPDX or CycloneDX) across all commercial off-the-shelf (COTS), third-party, and open-source software components.

@@ -64,7 +64,7 @@ In the skilled trades, healthcare and retirement belong permanently to the worke
 ### A. The "Hour-Bank" Health & Welfare Trust
 * **Employer Hourly Contribution:** Participating employers contribute a mandatory fixed hourly rate (e.g., $7.00/hour worked) into the Taft-Hartley Health & Welfare Trust.
 * **The Hour-Bank Reserve:** Maintaining full family medical, dental, and vision coverage requires approximately 140 credited hours per month. Excess hours accumulate in the worker's personal **Hour Bank** (up to a 6-month reserve).
-* **Portability During Layoffs & Contract Gaps:** If a startup fails, a contract ends, or a worker takes time off, the Hour Bank reserve automatically pays for health insurance seamlessly. Workers never face expensive COBRA payments, disruption of care, or loss of preferred doctors.
+* **Portability During Layoffs & Contract Gaps:** If a startup fails, a contract ends, or a worker takes time off, the Hour Bank reserve automatically pays for health insurance uninterrupted. Workers never face expensive COBRA payments, disruption of care, or loss of preferred doctors.
 
 ### B. The "Two-Check" Retirement System (Pension + 401(k))
 * **Check 1: Multi-Employer Defined Benefit Pension:** Funded 100% by employer hourly contributions (e.g., $6.00/hour worked) into the Taft-Hartley Pension Trust. Accumulates continuously across multiple employers, guaranteeing a defined lifetime monthly benefit upon retirement.

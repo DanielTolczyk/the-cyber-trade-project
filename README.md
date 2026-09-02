@@ -72,6 +72,7 @@ The modern cybersecurity employment model is broken across every tier:
 
 ### Foundational Architecture & Primers
 * [**Skilled Trades for Tech Workers: Foundational Primer**](docs/trade-mechanisms-primer.md): Plain-English explanation of DOL registration, Taft-Hartley trusts, ERISA benefit portability, and insurance warranty economics.
+* [**Systemic Edge Cases & Institutional Defenses**](docs/systemic-edge-cases-and-defense.md): Technical, statutory, and economic failure mode analyses across constitutional police powers, clearance doctrines (*Egan*), signals intelligence (SIGINT) metadata, and NLRA labor law.
 * [**International Adaptation Guide**](docs/international-adaptations.md): Crosswalks and mapping guides for Canadian (Red Seal, STO), UK (IfATE), and European (ENISA) apprenticeship systems.
 * [**10-Year Industry Transition Plan**](governance/transition-plan.md): Phased statutory compact horizon, 24-month portfolio bridge, and National Registry rollout.
 * [**Glossary of Terms & Acronyms**](GLOSSARY.md): Canonical definitions across skilled trade, technical operations, and regulatory frameworks.
@@ -92,14 +93,14 @@ The modern cybersecurity employment model is broken across every tier:
 * [**Code of Ethics, Civil Rights & Conduct**](framework/code-of-ethics-and-conduct.md): Canons of ethics, protected classes, violation classes, mandatory reporting, 72-hour remediation cure period, and disciplinary sanction matrix.
 * [**Technical Refusal & Liability Shield**](framework/technical-refusal-and-liability.md): Exception flags, formal Notice of Safety Non-Concurrence workflow, Master of Record liability transfer, and statutory malpractice liability caps.
 * [**Business & Operational Benefits**](framework/business-and-operational-benefits.md): The enterprise value model (linear benefit costs, zero agency fees, 25% to 35% insurance discounts, and statutory due care).
-* [**National DOL Apprenticeship Standards (29 CFR Part 29)**](framework/dol-apprenticeship-standards.md): Turnkey National Guidelines for Apprenticeship Standards (NGAS), Appendix A 8,000-hour work process schedule, Appendix B 576-hour RTI community college curriculum, and Appendix C affirmative action plans.
+* [**National DOL Apprenticeship Standards (29 CFR Part 29)**](framework/dol-apprenticeship-standards.md): Official National Guidelines for Apprenticeship Standards (NGAS), Appendix A 8,000-hour work process schedule, Appendix B 576-hour RTI community college curriculum, and Appendix C affirmative action plans.
 * [**Refusal & Institutional Templates**](templates/): Standardized procedural forms including Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), Form FORM-003 (Operational Exception Flag), Form FORM-004 (Ethics Incident Report), Form FORM-005 (Targeted OSS Security Fork Exemption), Form FORM-006 (JATC Multi-Employer Trust Agreement), and Form FORM-007 (Employer Participation Agreement).
 
 ### Institutional Governance & Trust Accords
 * [**National Governance Board Structure**](governance/board-structure.md): 11-member board composition, practical challenge exams, and the 18-month JATC curriculum rule.
 * [**Board Bylaws & Democratic Elections**](governance/board-elections-and-bylaws.md): Founding steering committee sunset, secret-ballot elections, staggered 3-year terms, and member recall protocols.
 * [**Guild Formation & Labor Charter**](governance/guild-formation-and-charter.md): Bilateral governance accord, Taft-Hartley JATC trusts, legal defense shields, portable benefits, Tier-I No-Disruption Covenant, and Final-Offer Interest Arbitration.
-* [**Model State Legislation & Interstate Compact (ICPC)**](governance/model-legislation-and-compact.md): Turnkey draft statutory bill language and interstate practice reciprocity compact for state legislative sponsors.
+* [**Model State Legislation & Interstate Compact (ICPC)**](governance/model-legislation-and-compact.md): Draft statutory bill language and interstate practice reciprocity compact for state legislative sponsors.
 * [**Regional Chapters & Local Governance**](governance/regional-chapters-and-locals.md): Three-tier federation, local chapter chartering, COLI wage negotiations, and convention delegate apportionment.
 * [**Dues Structure & Labor Trusts**](governance/dues-and-trust-economics.md): Two-part worker dues model, employer training trust contributions, and pre-tax policy advocacy.
 * [**Operational Field Roles & Stewards**](governance/operational-field-roles.md): Shop Stewards, JATC Training Directors, Board Practical Challenge Examiners, and Dispatch Officers.

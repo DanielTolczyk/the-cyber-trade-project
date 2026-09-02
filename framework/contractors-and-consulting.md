@@ -133,14 +133,14 @@ During major systemic cyber emergencies (e.g., widespread healthcare ransomware 
 
 ## 7. The Trade Contractor Incubator (Small Business & Founder Advantage)
 
-When a Master Practitioner or Journeyman launches an independent cybersecurity consultancy, boutique firm, or MSSP, the trade provides turnkey operational infrastructure to eliminate small-business barriers to entry:
+When a Master Practitioner or Journeyman launches an independent cybersecurity consultancy, boutique firm, or MSSP, the trade provides standardized operational infrastructure to eliminate small-business barriers to entry:
 
 ```
 +─────────────────────────────────────────────────────────────────────────────+
 | THE TRADE CONTRACTOR INCUBATOR ADVANTAGE                                    |
 +─────────────────────────────────────────────────────────────────────────────+
   │
-  ├─► 1. Turnkey Multi-Employer Benefits on Day 1
+  ├─► 1. Standard Multi-Employer Benefits on Day 1
   │      • Small founders do not need to navigate setting up complex, expensive
   │        private healthcare or 401(k) plans for their first employees.
   │      • By executing the JATC Trust agreement, their staff automatically plugs

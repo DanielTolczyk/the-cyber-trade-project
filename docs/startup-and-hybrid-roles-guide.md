@@ -67,7 +67,7 @@ Startups carry inherent macroeconomic volatility, including runway exhaustion, a
 
 ### A. Taft-Hartley Hour-Bank Health Shield
 Under [Dues Structure & Labor Trusts](../governance/dues-and-trust-economics.md), employer contributions ($7.00/hour) fund a multi-employer health trust. Startup employees accumulate excess hours into a personal Hour Bank (up to a 6-month reserve). If a startup dissolves or executes layoffs:
-* Family medical, dental, and vision coverage continues seamlessly from the Hour Bank reserve.
+* Family medical, dental, and vision coverage continues uninterrupted from the Hour Bank reserve.
 * Workers avoid expensive COBRA premiums and retain their doctors while interviewing for their next placement.
 
 ### B. Two-Check Defined Benefit Pension Vesting

@@ -37,11 +37,17 @@ EMOJI_PATTERN = re.compile(
 # Markdown Link Regex: [text](path)
 LINK_PATTERN = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
-# Prohibited AI Slop & Buzzword Pattern
+# Prohibited AI Slop, Marketing Buzzwords & Jargon Pattern
 AI_SLOP_PATTERN = re.compile(
-    r"\b(delve into|delving into|tapestry of|rich tapestry|multifaceted approach|"
+    r"\b("
+    r"delve into|delving into|tapestry of|rich tapestry|multifaceted approach|"
     r"beacon of|testament to|holistic landscape|ever-evolving landscape|"
-    r"game-changer|pivotal role|realm of|foster a culture of|in summary,|in conclusion,)\b",
+    r"game-changer|pivotal role|realm of|foster a culture of|in summary,|in conclusion,|"
+    r"turnkey|seamless|seamlessly|robust|robustly|holistic|"
+    r"streamline|streamlined|synergy|synergies|synergistic|"
+    r"spearhead|spearheading|supercharge|supercharging|"
+    r"cutting-edge|groundbreaking|paradigm shift|silver bullet|panacea"
+    r")\b",
     re.IGNORECASE,
 )
 

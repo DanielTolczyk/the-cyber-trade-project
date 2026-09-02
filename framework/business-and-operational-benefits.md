@@ -72,4 +72,4 @@ The trade framework delivers a viable operational path for SMBs:
 
 1. **Fractional Master of Record (vMoR) Retainers:** SMBs retain certified Fractional Masters of Record through Licensed Trade Contractors to inspect architectures, audit controls, and execute annual regulatory compliance stamps without six-figure executive payroll.
 2. **Access to Enterprise-Grade Cyber Coverage:** Maintaining an accredited Fractional MoR and verified trade controls enables small businesses to secure comprehensive cyber liability coverage previously denied by underwriters.
-3. **Turnkey Boutique Defense Services:** Small businesses can contract directly with specialized Trade Contractor LLCs whose personnel operate under binding trade safety standards.
+3. **Standardized Boutique Defense Services:** Small businesses can contract directly with specialized Trade Contractor LLCs whose personnel operate under binding trade safety standards.

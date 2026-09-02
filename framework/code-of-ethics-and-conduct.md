@@ -1,6 +1,6 @@
 # Code of Ethics, Civil Rights & Professional Conduct
 
-Professional accountability requires that licensed practitioners and candidates possess clear ethical standards, robust civil rights protections, and an enforceable code of conduct. This specification establishes the **Ethical Canons of the Trade**, explicit protections against discrimination and harassment across all protected classes, disciplinary violation categories, the **Mandatory Reporting Affirmative Duty**, the investigative division of authority, and the **Four-Tier Disciplinary Sanction Matrix**.
+Professional accountability requires that licensed practitioners and candidates possess clear ethical standards, enforceable civil rights protections, and an authoritative code of conduct. This specification establishes the **Ethical Canons of the Trade**, explicit protections against discrimination and harassment across all protected classes, disciplinary violation categories, the **Mandatory Reporting Affirmative Duty**, the investigative division of authority, and the **Four-Tier Disciplinary Sanction Matrix**.
 
 ---
 

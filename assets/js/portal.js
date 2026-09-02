@@ -204,6 +204,9 @@
   function createTooltipElement() {
     tooltipEl = document.createElement("div");
     tooltipEl.className = "glossary-tooltip-card";
+    tooltipEl.id = "glossary-tooltip-card";
+    tooltipEl.setAttribute("role", "tooltip");
+    tooltipEl.setAttribute("aria-live", "polite");
     tooltipEl.innerHTML = `
       <div class="tooltip-header">
         <span class="tooltip-title" id="tt-title"></span>
@@ -300,12 +303,25 @@
         span.className = "glossary-term";
         span.textContent = match;
         span.setAttribute("data-term", match);
+        span.tabIndex = 0;
+        span.setAttribute("role", "button");
+        span.setAttribute("aria-describedby", "glossary-tooltip-card");
 
         span.addEventListener("mouseenter", (e) => showTooltip(e.target, match));
         span.addEventListener("mouseleave", hideTooltip);
+        span.addEventListener("focus", (e) => showTooltip(e.target, match));
+        span.addEventListener("blur", hideTooltip);
         span.addEventListener("click", (e) => {
           e.stopPropagation();
           showTooltip(e.target, match);
+        });
+        span.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            showTooltip(e.target, match);
+          } else if (e.key === "Escape") {
+            hideTooltip();
+          }
         });
 
         fragment.appendChild(span);
@@ -487,6 +503,151 @@
     });
   }
 
+  // Secure Client-Side Static In-Memory Search Engine
+  function initGlobalSearch() {
+    const searchBtn = document.getElementById("btn-portal-search");
+    const backdrop = document.getElementById("portal-search-backdrop");
+    const input = document.getElementById("portal-search-input");
+    const closeBtn = document.getElementById("portal-search-close-btn");
+    const resultsContainer = document.getElementById("portal-search-results");
+    if (!backdrop || !input || !resultsContainer) return;
+
+    let searchIndex = null;
+    let selectedIndex = -1;
+    let currentResults = [];
+
+    async function loadSearchIndex() {
+      if (searchIndex) return searchIndex;
+      try {
+        const res = await fetch("/assets/js/search-index.json");
+        searchIndex = res.ok ? await res.json() : [];
+      } catch (err) {
+        searchIndex = [];
+      }
+      return searchIndex;
+    }
+
+    function openSearchModal() {
+      backdrop.style.display = "flex";
+      backdrop.setAttribute("aria-hidden", "false");
+      if (searchBtn) searchBtn.setAttribute("aria-expanded", "true");
+      document.body.style.overflow = "hidden";
+      loadSearchIndex().then(() => renderSearchResults(input.value));
+      setTimeout(() => input.focus(), 50);
+    }
+
+    function closeSearchModal() {
+      backdrop.style.display = "none";
+      backdrop.setAttribute("aria-hidden", "true");
+      if (searchBtn) searchBtn.setAttribute("aria-expanded", "false");
+      document.body.style.overflow = "";
+      input.value = "";
+      selectedIndex = -1;
+      currentResults = [];
+    }
+
+    function renderSearchResults(rawQuery) {
+      while (resultsContainer.firstChild) resultsContainer.removeChild(resultsContainer.firstChild);
+
+      const sanitized = (rawQuery || "").toLowerCase().replace(/[^\w\s\-\.\:\/]/g, "").slice(0, 64).trim();
+      const tokens = sanitized.split(/\s+/).filter(Boolean);
+
+      if (!tokens.length) {
+        currentResults = (searchIndex || []).slice(0, 8);
+      } else {
+        currentResults = (searchIndex || []).filter(item => {
+          const corpus = `${(item.title || "").toLowerCase()} ${(item.category || "").toLowerCase()} ${(item.headings || []).join(" ").toLowerCase()} ${(item.snippet || "").toLowerCase()}`;
+          return tokens.every(t => corpus.includes(t));
+        }).slice(0, 10);
+      }
+
+      if (!currentResults.length) {
+        const noResults = document.createElement("div");
+        noResults.className = "portal-search-no-results";
+        noResults.textContent = `No specifications found matching "${sanitized}".`;
+        resultsContainer.appendChild(noResults);
+        return;
+      }
+
+      selectedIndex = 0;
+      currentResults.forEach((item, idx) => {
+        const link = document.createElement("a");
+        link.className = `portal-search-result-item ${idx === selectedIndex ? "selected" : ""}`;
+        link.href = item.url;
+
+        const headerDiv = document.createElement("div");
+        headerDiv.className = "portal-search-result-header";
+
+        const titleSpan = document.createElement("span");
+        titleSpan.className = "portal-search-result-title";
+        titleSpan.textContent = item.title;
+
+        const catSpan = document.createElement("span");
+        catSpan.className = "portal-search-result-category";
+        catSpan.textContent = item.category;
+
+        headerDiv.appendChild(titleSpan);
+        headerDiv.appendChild(catSpan);
+
+        const snippetP = document.createElement("p");
+        snippetP.className = "portal-search-result-snippet";
+        snippetP.textContent = item.snippet;
+
+        link.appendChild(headerDiv);
+        link.appendChild(snippetP);
+
+        link.addEventListener("mouseenter", () => updateSelectedResult(idx));
+        link.addEventListener("click", () => closeSearchModal());
+        resultsContainer.appendChild(link);
+      });
+    }
+
+    function updateSelectedResult(newIdx) {
+      const items = resultsContainer.querySelectorAll(".portal-search-result-item");
+      if (!items.length) return;
+      selectedIndex = Math.max(0, Math.min(newIdx, items.length - 1));
+      items.forEach((item, idx) => {
+        if (idx === selectedIndex) {
+          item.classList.add("selected");
+          item.scrollIntoView({ block: "nearest" });
+        } else {
+          item.classList.remove("selected");
+        }
+      });
+    }
+
+    if (searchBtn) searchBtn.addEventListener("click", openSearchModal);
+    if (closeBtn) closeBtn.addEventListener("click", closeSearchModal);
+    backdrop.addEventListener("click", (e) => { if (e.target === backdrop) closeSearchModal(); });
+    input.addEventListener("input", (e) => renderSearchResults(e.target.value));
+
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        updateSelectedResult(selectedIndex + 1);
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        updateSelectedResult(selectedIndex - 1);
+      } else if (e.key === "Enter") {
+        e.preventDefault();
+        const items = resultsContainer.querySelectorAll(".portal-search-result-item");
+        if (items[selectedIndex]) items[selectedIndex].click();
+      } else if (e.key === "Escape") {
+        e.preventDefault();
+        closeSearchModal();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        backdrop.style.display === "flex" ? closeSearchModal() : openSearchModal();
+      } else if (e.key === "Escape" && backdrop.style.display === "flex") {
+        closeSearchModal();
+      }
+    });
+  }
+
   function initNavigation() {
     const currentPath = window.location.pathname;
     const navLinks = document.querySelectorAll(".nav-item a");
@@ -507,6 +668,7 @@
       initGlossaryParser();
       initDiagramLightbox();
       initGlossarySearch();
+      initGlobalSearch();
       initNavigation();
       initMobileSidebar();
       initResponsiveTables();
@@ -515,6 +677,7 @@
     initGlossaryParser();
     initDiagramLightbox();
     initGlossarySearch();
+    initGlobalSearch();
     initNavigation();
     initMobileSidebar();
     initResponsiveTables();
