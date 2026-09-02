@@ -356,6 +356,69 @@ def check_rfc_protection_gate() -> list:
     return errors
 
 
+def check_frontend_security_sast() -> list:
+    """Automated SAST Security Gate: Scans all frontend JavaScript and HTML files across the ecosystem for vulnerabilities."""
+    errors = []
+    
+    # Repositories to scan
+    repo_dirs = [REPO_ROOT]
+    workspace_root = REPO_ROOT.parent
+    for sister in ["estimator", "logbook", "clearinghouse", "telemetry"]:
+        sister_dir = workspace_root / sister
+        if sister_dir.exists():
+            repo_dirs.append(sister_dir)
+            
+    # Prohibited dangerous sinks in JavaScript
+    DANGEROUS_PATTERNS = [
+        (re.compile(r"\beval\s*\("), "eval() dynamic execution prohibited"),
+        (re.compile(r"\bnew\s+Function\s*\("), "new Function() code generation prohibited"),
+        (re.compile(r"\bdocument\.write(?:ln)?\s*\("), "document.write() DOM injection prohibited"),
+        (re.compile(r"\bwindow\.execScript\s*\("), "execScript() execution prohibited"),
+    ]
+    
+    for r_dir in repo_dirs:
+        # Scan JavaScript files
+        for js_file in r_dir.rglob("*.js"):
+            if ".git" in js_file.parts or "node_modules" in js_file.parts or "tmp" in js_file.parts or "_site" in js_file.parts:
+                continue
+            try:
+                content = js_file.read_text(encoding="utf-8")
+                rel_path = js_file.relative_to(workspace_root) if workspace_root in js_file.parents else js_file.relative_to(r_dir)
+                for pattern, msg in DANGEROUS_PATTERNS:
+                    if pattern.search(content):
+                        errors.append(f"[Front-End SAST Security Error] {rel_path}: {msg}")
+            except Exception as e:
+                errors.append(f"[Front-End SAST Error] Could not read {js_file}: {e}")
+
+        # Scan HTML files for CSP directives & nosniff meta tags
+        for html_file in r_dir.rglob("*.html"):
+            if ".git" in html_file.parts or "node_modules" in html_file.parts or "tmp" in html_file.parts or "_site" in html_file.parts:
+                continue
+            # Only scan standalone page templates or entry points (index.html, default.html)
+            if html_file.name not in ["index.html", "default.html"]:
+                continue
+            try:
+                content = html_file.read_text(encoding="utf-8")
+                rel_path = html_file.relative_to(workspace_root) if workspace_root in html_file.parents else html_file.relative_to(r_dir)
+                
+                # Check for CSP meta tag
+                if "Content-Security-Policy" not in content:
+                    errors.append(f"[Front-End SAST Security Error] {rel_path}: Missing Content-Security-Policy meta header.")
+                else:
+                    if "base-uri" not in content:
+                        errors.append(f"[Front-End SAST Security Error] {rel_path}: CSP missing 'base-uri' directive.")
+                    if "form-action" not in content:
+                        errors.append(f"[Front-End SAST Security Error] {rel_path}: CSP missing 'form-action' directive.")
+
+                # Check for X-Content-Type-Options: nosniff
+                if "X-Content-Type-Options" not in content or "nosniff" not in content:
+                    errors.append(f"[Front-End SAST Security Error] {rel_path}: Missing 'X-Content-Type-Options: nosniff' header.")
+            except Exception as e:
+                errors.append(f"[Front-End SAST Error] Could not read {html_file}: {e}")
+
+    return errors
+
+
 def main():
     print("=" * 70)
     print(" The Cybersecurity Trade Project - Specification Quality Gate")
@@ -407,6 +470,11 @@ def main():
     naming_errors = check_canonical_entity_naming()
     total_errors.extend(naming_errors)
 
+
+    # Validate Frontend Security SAST Gate across Ecosystem
+    print("[*] Running automated Front-End Security SAST scanner across ecosystem...")
+    sast_errors = check_frontend_security_sast()
+    total_errors.extend(sast_errors)
 
     # Validate Web Portal Frontend Assets & Hover Glossary
     print("[*] Validating web portal frontend assets and interactive hover glossary integrity...")

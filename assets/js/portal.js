@@ -592,6 +592,18 @@
       currentResults = [];
     }
 
+    function sanitizeNavigationUrl(url, base) {
+      if (!url) return "#";
+      const raw = String(url).trim();
+      if (/^(javascript|data|vbscript):/i.test(raw)) {
+        return "#";
+      }
+      if (raw.startsWith("https://") || raw.startsWith("http://")) {
+        return raw;
+      }
+      return (base || "/") + raw.replace(/^\//, "");
+    }
+
     function appendHighlightedText(parent, text, tokens) {
       if (!tokens || !tokens.length || !text) {
         parent.textContent = text || "";
@@ -712,8 +724,7 @@
       currentResults.forEach((item, idx) => {
         const link = document.createElement("a");
         link.className = `portal-search-result-item ${idx === selectedIndex ? "selected" : ""}`;
-        const rawUrl = item.url || "/";
-        link.href = rawUrl.startsWith("http") ? rawUrl : (baseUrl + rawUrl.replace(/^\//, ""));
+        link.href = sanitizeNavigationUrl(item.url, baseUrl);
 
         const headerDiv = document.createElement("div");
         headerDiv.className = "portal-search-result-header";
