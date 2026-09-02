@@ -356,6 +356,178 @@ def check_rfc_protection_gate() -> list:
     return errors
 
 
+def check_glossary_term_parity() -> list:
+    """Verifies that all terms defined in GLOSSARY.md exist in assets/js/portal.js (GLOSSARY_TERMS)."""
+    errors = []
+    glossary_file = REPO_ROOT / "GLOSSARY.md"
+    portal_file = REPO_ROOT / "assets" / "js" / "portal.js"
+
+    if not glossary_file.exists():
+        errors.append("[Glossary Parity Error] GLOSSARY.md is missing.")
+        return errors
+    if not portal_file.exists():
+        errors.append("[Glossary Parity Error] assets/js/portal.js is missing.")
+        return errors
+
+    try:
+        lines = glossary_file.read_text(encoding="utf-8").splitlines()
+        terms = []
+        for line in lines:
+            line_s = line.strip()
+            if line_s.startswith("* **"):
+                raw_key = ""
+                if ":**" in line_s:
+                    raw_key = line_s[4:].split(":**", 1)[0].strip()
+                elif "**:" in line_s:
+                    raw_key = line_s[4:].split("**:", 1)[0].strip()
+                if raw_key:
+                    terms.append(raw_key)
+
+        portal_text = portal_file.read_text(encoding="utf-8")
+        existing_keys = set(re.findall(r'"([^"]+)":\s*\{', portal_text))
+
+        for raw_key in terms:
+            variants = [raw_key]
+            acronym_m = re.match(r"^(.+?)\s*\(([^)]+)\)$", raw_key)
+            if acronym_m:
+                variants.extend([acronym_m.group(1).strip(), acronym_m.group(2).strip()])
+
+            if not any(v in existing_keys for v in variants):
+                errors.append(
+                    f"[Glossary Parity Error] Term '{raw_key}' in GLOSSARY.md is missing from "
+                    f"assets/js/portal.js (GLOSSARY_TERMS). Synchronize tooltip definitions in portal.js."
+                )
+    except Exception as e:
+        errors.append(f"[Glossary Parity Error] Could not validate glossary parity: {e}")
+
+    return errors
+
+
+def compute_search_index() -> list:
+    """Generates the section-level search index over markdown specifications."""
+    index = []
+    category_map = {
+        "pillars": "The 7 Core Pillars",
+        "framework": "Operational Framework",
+        "governance": "Governance & Legal",
+        "docs": "Primers & Guides",
+        "templates": "Procedural Forms",
+    }
+
+    def clean_text(raw_lines):
+        txt = " ".join(raw_lines)
+        txt = re.sub(r"```[\s\S]*?```", " ", txt)
+        txt = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", txt)
+        txt = re.sub(r"<[^>]+>", " ", txt)
+        txt = re.sub(r"[*_`#><|~]", " ", txt)
+        txt = re.sub(r"\s+", " ", txt).strip()
+        return txt
+
+    def slug_for_heading(heading, rel_str):
+        if not heading:
+            return ""
+        faq_m = re.search(r"FAQ\s*(\d+)", heading, re.IGNORECASE)
+        if faq_m and "faq" in rel_str.lower():
+            return f"faq-{faq_m.group(1)}"
+        return re.sub(r"[^\w\- ]+", "", heading.lower()).strip().replace(" ", "-")
+
+    md_files = sorted([
+        p for p in REPO_ROOT.rglob("*.md")
+        if "rfcs" not in p.parts and ".github" not in p.parts and "tmp" not in p.parts and "scripts" not in p.parts and "_site" not in p.parts and ".cache" not in p.parts
+    ])
+
+    for md_path in md_files:
+        rel = md_path.relative_to(REPO_ROOT)
+        dest_rel = rel.with_suffix(".html")
+        if rel.name == "README.md":
+            dest_rel = rel.parent / "index.html"
+
+        page_url = "/" + str(dest_rel).replace("\\", "/")
+        if page_url.endswith("/index.html"):
+            page_url = page_url[:-10] or "/"
+
+        parent_dir = rel.parts[0] if len(rel.parts) > 1 else "root"
+        category = category_map.get(parent_dir, "General Specification")
+
+        md_text = md_path.read_text(encoding="utf-8")
+        lines = md_text.splitlines()
+
+        doc_title = ""
+        for line in lines:
+            line_s = line.strip()
+            if line_s.startswith("# "):
+                doc_title = line_s[2:].strip()
+                break
+            elif line_s.startswith("title: "):
+                doc_title = line_s[7:].strip().strip('"').strip("'")
+
+        if not doc_title:
+            doc_title = rel.stem.replace("-", " ").replace("_", " ").title()
+
+        current_heading = ""
+        current_lines = []
+
+        def add_section(heading, section_lines):
+            content = clean_text(section_lines)
+            if not content and not heading:
+                return
+            slug = slug_for_heading(heading, str(rel))
+            url = f"{page_url}#{slug}" if slug else page_url
+            index.append({
+                "docTitle": doc_title,
+                "heading": heading or doc_title,
+                "url": url,
+                "category": category,
+                "content": content
+            })
+
+        for line in lines:
+            line_s = line.strip()
+            if line_s.startswith("## ") or line_s.startswith("### "):
+                if current_lines or current_heading:
+                    add_section(current_heading, current_lines)
+                    current_lines = []
+                current_heading = re.sub(r"^#+\s*", "", line_s).strip()
+            else:
+                if not line_s.startswith("---"):
+                    current_lines.append(line_s)
+
+        if current_lines or current_heading:
+            add_section(current_heading, current_lines)
+
+    return index
+
+
+def check_search_index_freshness() -> list:
+    """Verifies that assets/js/search-index.json matches the latest markdown specifications on disk."""
+    errors = []
+    index_file = REPO_ROOT / "assets" / "js" / "search-index.json"
+
+    expected_index = compute_search_index()
+
+    if not index_file.exists():
+        errors.append("[Search Index Error] assets/js/search-index.json is missing.")
+        return errors
+
+    try:
+        actual_index = json.loads(index_file.read_text(encoding="utf-8"))
+        if len(actual_index) != len(expected_index):
+            errors.append(
+                f"[Search Index Stale Error] assets/js/search-index.json is stale ({len(actual_index)} indexed sections vs {len(expected_index)} expected). "
+                f"Run 'python3 scripts/build_preview.py' to recompile search index."
+            )
+        else:
+            if json.dumps(actual_index, sort_keys=True) != json.dumps(expected_index, sort_keys=True):
+                errors.append(
+                    f"[Search Index Stale Error] assets/js/search-index.json content does not match current markdown files. "
+                    f"Run 'python3 scripts/build_preview.py' to recompile search index."
+                )
+    except Exception as e:
+        errors.append(f"[Search Index Error] Could not read/parse assets/js/search-index.json: {e}")
+
+    return errors
+
+
 def check_frontend_security_sast() -> list:
     """Automated SAST Security Gate: Scans all frontend JavaScript and HTML files across the ecosystem for vulnerabilities."""
     errors = []
@@ -485,10 +657,21 @@ def main():
     for asset_file in web_asset_files:
         total_errors.extend(check_typography_and_emojis(asset_file))
 
+    # Validate Glossary Term Parity with Portal Hover Tooltips
+    print("[*] Validating GLOSSARY.md parity with portal.js hover tooltips...")
+    glossary_errors = check_glossary_term_parity()
+    total_errors.extend(glossary_errors)
+
+    # Validate Search Index Freshness
+    print("[*] Validating search-index.json freshness against markdown specifications...")
+    search_index_errors = check_search_index_freshness()
+    total_errors.extend(search_index_errors)
+
     # Validate Core Documentation Files Presence
     for core_doc in ["README.md", "GLOSSARY.md", "FAQ.md"]:
         if not (REPO_ROOT / core_doc).exists():
             total_errors.append(f"[Core Doc Error] Missing mandatory documentation file: '{core_doc}'.")
+
 
     print("=" * 70)
     if total_errors:

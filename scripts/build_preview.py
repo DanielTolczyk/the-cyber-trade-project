@@ -303,10 +303,11 @@ def build_preview():
     layout_shell = layout_shell.replace("{{ site.description }}", "Restructuring cybersecurity into a recognized skilled trade.")
     
     # Scan and compile all markdown files
-    md_files = list(REPO_ROOT.glob("**/*.md"))
+    md_files = sorted([
+        p for p in REPO_ROOT.glob("**/*.md")
+        if "rfcs" not in p.parts and ".github" not in p.parts and "tmp" not in p.parts and "scripts" not in p.parts and "_site" not in p.parts and ".cache" not in p.parts
+    ])
     for md_path in md_files:
-        if "rfcs" in md_path.parts or ".github" in md_path.parts or "tmp" in md_path.parts:
-            continue
         rel = md_path.relative_to(REPO_ROOT)
         dest_rel = rel.with_suffix(".html")
         if rel.name == "README.md":
