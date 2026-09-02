@@ -9,191 +9,1217 @@
   "use strict";
 
   const GLOSSARY_TERMS = {
-    "Taft-Hartley": {
-      title: "Taft-Hartley Act (LMRA § 302(c))",
-      category: "Labor Statute",
-      def: "Federal labor statute permitting jointly trusteed, multi-employer training and benefit funds co-governed by equal labor and employer trustees to fund $0 tuition apprenticeships.",
-      citation: "29 U.S.C. § 186(c)"
+    "18-Month Curriculum Notice Rule": {
+      title: "18-Month Curriculum Notice Rule",
+      category: "Labor & Governance",
+      def: "A statutory governance constraint requiring the National Board to provide an 18-month lead time before changing practical examination requirements, preventing curriculum disruption for active JATC apprentice cohorts.",
+      citation: "Trade Framework Glossary"
     },
-    "Taft-Hartley Act": {
-      title: "Taft-Hartley Act (LMRA § 302(c))",
-      category: "Labor Statute",
-      def: "Federal labor statute permitting jointly trusteed, multi-employer training and benefit funds co-governed by equal labor and employer trustees to fund $0 tuition apprenticeships.",
-      citation: "29 U.S.C. § 186(c)"
+    "72-Hour Internal Remediation Rule": {
+      title: "72-Hour Internal Remediation Rule",
+      category: "Labor & Governance",
+      def: "A mandatory corporate cure period requiring a reporting practitioner to log an internal Form FORM-003 Exception Flag and provide a 72-hour internal remediation window before claiming external whistleblower recovery bounties, preventing malicious compliance traps over routine timing anomalies.",
+      citation: "Trade Framework Glossary"
     },
-    "ERISA": {
-      title: "ERISA (§ 403 Fiduciary Shield)",
-      category: "Federal Law",
-      def: "Employee Retirement Income Security Act. Guarantees that pooled health and pension funds are legally insulated from employer bankruptcy, creditors, and corporate lawsuits.",
-      citation: "29 U.S.C. § 1103"
+    "Actuarial Attestation Feed": {
+      title: "Actuarial Attestation Feed",
+      category: "Labor & Governance",
+      def: "A zero-knowledge cryptographic API feed enabling sponsoring employers to securely transmit verified operational labor ratios, active MoR presence, and supervised runtime metrics to cyber liability underwriters without exposing proprietary network architecture, logs, or employee identities.",
+      citation: "Trade Framework Glossary"
     },
-    "JATC": {
-      title: "Joint Apprenticeship & Training Committee",
-      category: "Skilled Trade",
-      def: "Bipartisan trust body representing labor and participating employers that oversees classroom instruction (RTI), cyber ranges, and apprentice logbook verification.",
-      citation: "Pillar VI / 29 CFR Part 29"
-    },
-    "DOL": {
-      title: "U.S. Department of Labor (29 CFR 29)",
-      category: "Regulatory Body",
-      def: "Federal agency governing Registered Apprenticeship Programs, unlocking WIOA workforce grants and employer tax credits on Day 1 without new legislation.",
-      citation: "National Apprenticeship Act"
-    },
-    "Master of Record": {
-      title: "Master of Record (MoR)",
-      category: "Licensure Tier",
-      def: "A licensed Master Practitioner holding legal and statutory sign-off authority for enterprise security baselines and standing to file formal Notices of Safety Non-Concurrence.",
-      citation: "Pillar IV & Pillar V"
-    },
-    "MoR": {
-      title: "Master of Record (MoR)",
-      category: "Licensure Tier",
-      def: "A licensed Master Practitioner holding legal and statutory sign-off authority for enterprise security baselines and standing to file formal Notices of Safety Non-Concurrence.",
-      citation: "Pillar IV & Pillar V"
-    },
-    "Journeyman": {
-      title: "Licensed Journeyman",
-      category: "Licensure Tier",
-      def: "A licensed practitioner who has completed 8,000 verified operational logbook hours, passed the practical challenge examination, and possesses autonomous practice rights.",
-      citation: "Pillar IV / 100% RJPB"
-    },
-    "RJPB": {
-      title: "Regional Journeyman Prevailing Baseline",
-      category: "Labor Economics",
-      def: "The local prevailing hourly wage baseline for Journeymen, upon which apprentice wage steps (50% Tier 1 to 80% Tier 4) are strictly pegged.",
-      citation: "Governance / Wage Scales"
-    },
-    "PLA": {
-      title: "Prior Learning Assessment (PLA)",
-      category: "Grandfathering",
-      def: "Standardized evaluation awarding direct runtime hours and Related Technical Instruction (RTI) credits for documented career experience and accredited coursework.",
-      citation: "Pillar I & Transition Plan"
-    },
-    "WIOA": {
-      title: "Workforce Innovation & Opportunity Act",
-      category: "Workforce Grant",
-      def: "Federal statutory program providing non-debt training subsidies and equipment grants to community colleges and registered apprenticeship sponsors.",
-      citation: "WIOA Title I"
-    },
-    "CUAAC": {
-      title: "Cyber Underwriting & Actuarial Consortium",
-      category: "Insurance",
-      def: "Consortium of primary cyber underwriters establishing standardized 25% to 35% premium warranty discount schedules for compliant skilled trade staffing ratios.",
-      citation: "Pillar VII"
-    },
-    "RTI": {
-      title: "Related Technical Instruction (RTI)",
-      category: "Workforce Training",
-      def: "The mandatory, paid 20% classroom, lab, and simulation instruction (minimum 144 hours/year) completed alongside on-the-job operational runtime.",
-      citation: "Pillar II & 29 CFR Part 29"
+    "AMF (Annual Maintenance Fee)": {
+      title: "Annual Maintenance Fee (AMF)",
+      category: "Labor & Governance",
+      def: "Recurring commercial certification vendor subscription fees charged annually to maintain credential designations, strictly prohibited from trade licensure renewals.",
+      citation: "Pillar IV / Anti-Credentialism"
     },
     "AMF": {
       title: "Annual Maintenance Fee (AMF)",
-      category: "Credentialism",
-      def: "Recurring commercial certification vendor subscription fees charged annually, strictly prohibited from trade licensure renewals ($0 triennial renewal).",
+      category: "Labor & Governance",
+      def: "Recurring commercial certification vendor subscription fees charged annually to maintain credential designations, strictly prohibited from trade licensure renewals.",
       citation: "Pillar IV / Anti-Credentialism"
     },
+    "Annual Maintenance Fee": {
+      title: "Annual Maintenance Fee (AMF)",
+      category: "Labor & Governance",
+      def: "Recurring commercial certification vendor subscription fees charged annually to maintain credential designations, strictly prohibited from trade licensure renewals.",
+      citation: "Pillar IV / Anti-Credentialism"
+    },
+    "Anti-Hostage Logbook Safe Harbor": {
+      title: "Anti-Hostage Logbook Safe Harbor",
+      category: "Labor & Governance",
+      def: "A statutory protection establishing that Universal Logbooks are the personal property of the individual practitioner, legally barring employers from withholding hour sign-offs, demanding non-disparagement waivers, or asserting NDA/trade-secret claims against sanitized logbook exports.",
+      citation: "Trade Framework Glossary"
+    },
+    "Apprentice": {
+      title: "Apprentice",
+      category: "Labor & Governance",
+      def: "An entry-level practitioner engaged in a formal, paid, zero-tuition training program combining on-the-job operational hours (80%) with structured, paid classroom instruction (20%).",
+      citation: "Pillar II & Pillar III"
+    },
+    "Apprentice Advocate Delegate": {
+      title: "Apprentice Advocate Delegate",
+      category: "Labor & Governance",
+      def: "A non-voting advisory delegate elected directly by registered apprentices with statutory standing to attend Board proceedings, report supervisory ratio violations, and represent trainee welfare before the National Board.",
+      citation: "Trade Framework Glossary"
+    },
+    "Basic Membership Dues": {
+      title: "Basic Membership Dues",
+      category: "Labor & Governance",
+      def: "A flat monthly fee ($35/month for Journeymen/Masters, $15/month for Apprentices) maintaining active Guild standing, voting rights, legal defense retainer coverage, and portable disability/death benefit funds.",
+      citation: "Trade Framework Glossary"
+    },
+    "Blind Ombudsperson Institutional Proxy": {
+      title: "Blind Ombudsperson Institutional Proxy",
+      category: "Labor & Governance",
+      def: "A statutory privilege enabling the Guild Ombudsperson to receive confidential disclosures and formally prosecute complaints under institutional standing, permanently sealing the victim's identity from public dockets.",
+      citation: "Trade Framework Glossary"
+    },
+    "Board (National Cybersecurity Trade Board)": {
+      title: "National Cybersecurity Trade Board",
+      category: "Labor & Governance",
+      def: "An independent, multilateral 11-member regulatory body responsible for public safety, competency standards, practical challenge exams, and professional licensing, strictly separated from labor unions and individual employers.",
+      citation: "Trade Framework Glossary"
+    },
+    "Board": {
+      title: "National Cybersecurity Trade Board",
+      category: "Labor & Governance",
+      def: "An independent, multilateral 11-member regulatory body responsible for public safety, competency standards, practical challenge exams, and professional licensing, strictly separated from labor unions and individual employers.",
+      citation: "Trade Framework Glossary"
+    },
+    "National Cybersecurity Trade Board": {
+      title: "National Cybersecurity Trade Board",
+      category: "Labor & Governance",
+      def: "An independent, multilateral 11-member regulatory body responsible for public safety, competency standards, practical challenge exams, and professional licensing, strictly separated from labor unions and individual employers.",
+      citation: "Trade Framework Glossary"
+    },
+    "Board Practical Challenge Examiner": {
+      title: "Board Practical Challenge Examiner",
+      category: "Labor & Governance",
+      def: "A certified Master Practitioner appointed and accredited by the National Board to administer and score objective, air-gapped challenge exams under strict psychometric rubrics and conflict-of-interest rules.",
+      citation: "Trade Framework Glossary"
+    },
     "Career Runtime": {
-      title: "Career Runtime Hours",
-      category: "Trade Telemetry",
-      def: "Total verified hands-on operational hours logged in active defensive, administrative, engineering, or incident triage roles, distinct from passive study.",
+      title: "Career Runtime",
+      category: "Labor & Governance",
+      def: "Total verified hands-on operational hours logged in active defensive, administrative, engineering, or incident triage roles, distinct from passive classroom or theoretical study.",
       citation: "Pillar III & Logbook Standards"
     },
-    "W-2": {
-      title: "W-2 Direct Employment",
-      category: "Labor Classification",
-      def: "Direct salaried or hourly employment with statutory worker protections, mandatory overtime rules, and employer tax withholding, as distinct from 1099 contracts.",
-      citation: "Pillar II"
+    "Candidate Trade Integrity Agreement": {
+      title: "Candidate Trade Integrity Agreement",
+      category: "Labor & Governance",
+      def: "A legally binding ethical code executed by pre-apprentices and practical challenge candidates prohibiting cheating, exam braindump usage, discriminatory harassment, and range sabotage under penalty of clearinghouse debarment.",
+      citation: "Trade Framework Glossary"
     },
-    "SE-APP": {
-      title: "Application Security (SE-APP)",
-      category: "Specialty Track",
-      def: "A Tier 1 discipline specialty endorsement covering secure architecture, automated CI/CD security tooling, software supply-chain defenses, and SBOM lifecycles.",
-      citation: "Specialty Track Specification"
+    "Condition-Bounded Safe Harbor": {
+      title: "Condition-Bounded Safe Harbor",
+      category: "Labor & Governance",
+      def: "The legal indemnification granted under Form FORM-002 that remains valid strictly while enumerated operational assumptions and compensating controls remain active, expiring immediately upon material architectural changes.",
+      citation: "Trade Framework Glossary"
     },
-    "SE-MED": {
-      title: "Medical Device Security (SE-MED)",
-      category: "Specialty Track",
-      def: "A Tier 2 statutory life-safety specialty endorsement (+20% to +25% wage adder) governing embedded firmware (SiMD), SaMD, mobile health apps, and FDA 524B compliance.",
-      citation: "Specialty Track Specification"
+    "Craft Guild (Cybersecurity Craft Guild)": {
+      title: "Cybersecurity Craft Guild",
+      category: "Labor & Governance",
+      def: "A professional association and labor trust focused on workforce training, JATC administration, legal defense, portable benefits, and collective representation, distinct from industrial factory-floor unions.",
+      citation: "Trade Framework Glossary"
     },
-    "Cyber Civil Defense Reserve": {
+    "Craft Guild": {
+      title: "Cybersecurity Craft Guild",
+      category: "Labor & Governance",
+      def: "A professional association and labor trust focused on workforce training, JATC administration, legal defense, portable benefits, and collective representation, distinct from industrial factory-floor unions.",
+      citation: "Trade Framework Glossary"
+    },
+    "Cybersecurity Craft Guild": {
+      title: "Cybersecurity Craft Guild",
+      category: "Labor & Governance",
+      def: "A professional association and labor trust focused on workforce training, JATC administration, legal defense, portable benefits, and collective representation, distinct from industrial factory-floor unions.",
+      citation: "Trade Framework Glossary"
+    },
+    "Credential Evaluation Clearinghouse": {
+      title: "Credential Evaluation Clearinghouse",
+      category: "Labor & Governance",
+      def: "A statutory Board entity that audits commercial and academic certifications against open standards (NIST NICE) to award legitimate trade credits while filtering out low-rigor multiple-choice brain dumps.",
+      citation: "Trade Framework Glossary"
+    },
+    "CUAAC (Cyber Underwriting & Actuarial Advisory Consortium)": {
+      title: "Cyber Underwriting & Actuarial Advisory Consortium (CUAAC)",
+      category: "Labor & Governance",
+      def: "The standing risk capital consortium of primary cyber insurance carriers and global reinsurers responsible for harmonizing policy warranty schedules, validating actuarial telemetry, and designating Board insurance trustees.",
+      citation: "Pillar VII"
+    },
+    "CUAAC": {
+      title: "Cyber Underwriting & Actuarial Advisory Consortium (CUAAC)",
+      category: "Labor & Governance",
+      def: "The standing risk capital consortium of primary cyber insurance carriers and global reinsurers responsible for harmonizing policy warranty schedules, validating actuarial telemetry, and designating Board insurance trustees.",
+      citation: "Pillar VII"
+    },
+    "Cyber Underwriting & Actuarial Advisory Consortium": {
+      title: "Cyber Underwriting & Actuarial Advisory Consortium (CUAAC)",
+      category: "Labor & Governance",
+      def: "The standing risk capital consortium of primary cyber insurance carriers and global reinsurers responsible for harmonizing policy warranty schedules, validating actuarial telemetry, and designating Board insurance trustees.",
+      citation: "Pillar VII"
+    },
+    "Cyber Civil Defense Reserve (CCDR)": {
       title: "Cyber Civil Defense Reserve (CCDR)",
-      category: "Workforce Buffer",
-      def: "A counter-cyclical public workforce mechanism deploying unabsorbed apprentices during economic downturns to protect municipal infrastructure and schools funded by public grants.",
+      category: "Labor & Governance",
+      def: "A counter-cyclical public workforce transition mechanism deploying unabsorbed apprentices and pre-apprentices during macroeconomic downturns to protect under-resourced public critical infrastructure (municipalities, school districts, rural hospitals) funded via state/federal workforce resilience grants (WIOA / CISA).",
       citation: "Governance / Guild Charter"
     },
     "CCDR": {
       title: "Cyber Civil Defense Reserve (CCDR)",
-      category: "Workforce Buffer",
-      def: "A counter-cyclical public workforce mechanism deploying unabsorbed apprentices during economic downturns to protect municipal infrastructure and schools funded by public grants.",
+      category: "Labor & Governance",
+      def: "A counter-cyclical public workforce transition mechanism deploying unabsorbed apprentices and pre-apprentices during macroeconomic downturns to protect under-resourced public critical infrastructure (municipalities, school districts, rural hospitals) funded via state/federal workforce resilience grants (WIOA / CISA).",
+      citation: "Governance / Guild Charter"
+    },
+    "Cyber Civil Defense Reserve": {
+      title: "Cyber Civil Defense Reserve (CCDR)",
+      category: "Labor & Governance",
+      def: "A counter-cyclical public workforce transition mechanism deploying unabsorbed apprentices and pre-apprentices during macroeconomic downturns to protect under-resourced public critical infrastructure (municipalities, school districts, rural hospitals) funded via state/federal workforce resilience grants (WIOA / CISA).",
+      citation: "Governance / Guild Charter"
+    },
+    "Dual-Layer Liability Architecture": {
+      title: "Dual-Layer Liability Architecture",
+      category: "Labor & Governance",
+      def: "The legal framework where enterprise policies absorb corporate breach losses and business interruption, while individual Errors & Omissions (E&O) / malpractice defense protects practitioners during disciplinary inquiries and guarantees safe harbor for good-faith engineering.",
+      citation: "Trade Framework Glossary"
+    },
+    "Emergency Apprentice Transfer Protocol": {
+      title: "Emergency Apprentice Transfer Protocol",
+      category: "Labor & Governance",
+      def: "A mandatory JATC mechanism requiring the immediate reassignment of an apprentice's indenture to a new compliant employer sponsor within 14 calendar days if the apprentice experiences harassment, discrimination, or supervisory retaliation.",
+      citation: "Trade Framework Glossary"
+    },
+    "Fallback Statutory Mandate Bridge": {
+      title: "Fallback Statutory Mandate Bridge",
+      category: "Labor & Governance",
+      def: "An automated regulatory transition mechanism shifting trade enforcement from private cyber insurance underwriting into mandatory federal procurement (FAR/DFARS), state utility commission (PUC) covenants, and CISA grant conditions if private insurance syndicate capacity contracts.",
+      citation: "Pillar VII & Transition Plan"
+    },
+    "Federal Fiduciary Surety Bonding": {
+      title: "Federal Fiduciary Surety Bonding",
+      category: "Labor & Governance",
+      def: "Mandatory commercial bonding (under ERISA Section 412 and LMRDA Section 502) legally required for all officers handling funds to protect multi-employer benefit trusts and member dues from fraud or mismanagement.",
+      citation: "Trade Framework Glossary"
+    },
+    "Final-Offer Interest Arbitration (FOIA)": {
+      title: "Final-Offer Interest Arbitration (FOIA)",
+      category: "Labor & Governance",
+      def: "A compulsory, binding tripartite arbitration protocol for resolving collective bargaining deadlocks at Tier-I Critical Infrastructure facilities within 14 calendar days, selecting the most reasonable total contract offer with zero operational stoppage.",
       citation: "Governance / Guild Charter"
     },
     "FOIA": {
       title: "Final-Offer Interest Arbitration (FOIA)",
-      category: "Labor Dispute",
-      def: "Compulsory, binding tripartite arbitration resolving contract deadlocks at Tier-I Critical Infrastructure facilities within 14 days, with zero strike risk or defensive standdowns.",
+      category: "Labor & Governance",
+      def: "A compulsory, binding tripartite arbitration protocol for resolving collective bargaining deadlocks at Tier-I Critical Infrastructure facilities within 14 calendar days, selecting the most reasonable total contract offer with zero operational stoppage.",
       citation: "Governance / Guild Charter"
     },
     "Final-Offer Interest Arbitration": {
       title: "Final-Offer Interest Arbitration (FOIA)",
-      category: "Labor Dispute",
-      def: "Compulsory, binding tripartite arbitration resolving contract deadlocks at Tier-I Critical Infrastructure facilities within 14 days, with zero strike risk or defensive standdowns.",
+      category: "Labor & Governance",
+      def: "A compulsory, binding tripartite arbitration protocol for resolving collective bargaining deadlocks at Tier-I Critical Infrastructure facilities within 14 calendar days, selecting the most reasonable total contract offer with zero operational stoppage.",
       citation: "Governance / Guild Charter"
     },
+    "Forensic Trauma & Graphic Material Rotational Respite": {
+      title: "Forensic Trauma & Graphic Material Rotational Respite",
+      category: "Labor & Governance",
+      def: "The unconditional right of a practitioner handling forensic investigations of Child Sexual Abuse Material (CSAM), violent extremism, or acute extortion triage to receive temporary rotational transfer to non-trauma domains with zero reduction in base wages or apprentice wage-step progress.",
+      citation: "Trade Framework Glossary"
+    },
+    "Form FORM-004 (Ethics & Conduct Incident Report)": {
+      title: "Ethics & Conduct Incident Report (Form FORM-004)",
+      category: "Labor & Governance",
+      def: "The standardized, verifiable instrument used by trade practitioners and candidates to report discrimination, harassment, logbook fraud, academic dishonesty, or supervisory retaliation.",
+      citation: "Trade Framework Glossary"
+    },
+    "Form FORM-004": {
+      title: "Ethics & Conduct Incident Report (Form FORM-004)",
+      category: "Labor & Governance",
+      def: "The standardized, verifiable instrument used by trade practitioners and candidates to report discrimination, harassment, logbook fraud, academic dishonesty, or supervisory retaliation.",
+      citation: "Trade Framework Glossary"
+    },
+    "Ethics & Conduct Incident Report": {
+      title: "Ethics & Conduct Incident Report (Form FORM-004)",
+      category: "Labor & Governance",
+      def: "The standardized, verifiable instrument used by trade practitioners and candidates to report discrimination, harassment, logbook fraud, academic dishonesty, or supervisory retaliation.",
+      citation: "Trade Framework Glossary"
+    },
+    "Form FORM-005 (Targeted OSS Security Fork Exemption)": {
+      title: "Targeted OSS Security Fork Exemption (Form FORM-005)",
+      category: "Labor & Governance",
+      def: "The standardized procedural instrument executed by a Master of Record certifying an internal security fork and active runtime compensating controls for an unpatched upstream open-source dependency, granting an extended 90-day compliant deployment grace period.",
+      citation: "Trade Framework Glossary"
+    },
+    "Form FORM-005": {
+      title: "Targeted OSS Security Fork Exemption (Form FORM-005)",
+      category: "Labor & Governance",
+      def: "The standardized procedural instrument executed by a Master of Record certifying an internal security fork and active runtime compensating controls for an unpatched upstream open-source dependency, granting an extended 90-day compliant deployment grace period.",
+      citation: "Trade Framework Glossary"
+    },
+    "Targeted OSS Security Fork Exemption": {
+      title: "Targeted OSS Security Fork Exemption (Form FORM-005)",
+      category: "Labor & Governance",
+      def: "The standardized procedural instrument executed by a Master of Record certifying an internal security fork and active runtime compensating controls for an unpatched upstream open-source dependency, granting an extended 90-day compliant deployment grace period.",
+      citation: "Trade Framework Glossary"
+    },
+    "Fractional Master of Record (vMoR)": {
+      title: "Fractional Master of Record (vMoR)",
+      category: "Labor & Governance",
+      def: "An accredited Master Practitioner retained by small-to-medium businesses (SMBs) through a Licensed Trade Contractor to inspect architectures, audit telemetry, and execute statutory compliance filings without requiring full-time in-house executive payroll.",
+      citation: "Trade Framework Glossary"
+    },
+    "vMoR": {
+      title: "Fractional Master of Record (vMoR)",
+      category: "Labor & Governance",
+      def: "An accredited Master Practitioner retained by small-to-medium businesses (SMBs) through a Licensed Trade Contractor to inspect architectures, audit telemetry, and execute statutory compliance filings without requiring full-time in-house executive payroll.",
+      citation: "Trade Framework Glossary"
+    },
+    "Fractional Master of Record": {
+      title: "Fractional Master of Record (vMoR)",
+      category: "Labor & Governance",
+      def: "An accredited Master Practitioner retained by small-to-medium businesses (SMBs) through a Licensed Trade Contractor to inspect architectures, audit telemetry, and execute statutory compliance filings without requiring full-time in-house executive payroll.",
+      citation: "Trade Framework Glossary"
+    },
+    "Ghost-Staffing (Contractor Malpractice)": {
+      title: "Contractor Malpractice (Ghost-Staffing)",
+      category: "Labor & Governance",
+      def: "The fraudulent practice where a contractor or MSSP bids certified trade staffing ratios but fulfills operational shifts with uncredited, unindentured, or unvetted labor, classified as Tier 3 Professional Fraud.",
+      citation: "Trade Framework Glossary"
+    },
+    "Ghost-Staffing": {
+      title: "Contractor Malpractice (Ghost-Staffing)",
+      category: "Labor & Governance",
+      def: "The fraudulent practice where a contractor or MSSP bids certified trade staffing ratios but fulfills operational shifts with uncredited, unindentured, or unvetted labor, classified as Tier 3 Professional Fraud.",
+      citation: "Trade Framework Glossary"
+    },
+    "Contractor Malpractice": {
+      title: "Contractor Malpractice (Ghost-Staffing)",
+      category: "Labor & Governance",
+      def: "The fraudulent practice where a contractor or MSSP bids certified trade staffing ratios but fulfills operational shifts with uncredited, unindentured, or unvetted labor, classified as Tier 3 Professional Fraud.",
+      citation: "Trade Framework Glossary"
+    },
+    "Guild Member Welfare & Civil Rights Committee": {
+      title: "Guild Member Welfare & Civil Rights Committee",
+      category: "Labor & Governance",
+      def: "The standing Guild body composed of the Ombudsperson, Journeymen, and Apprentice Delegates charged with investigating workplace civil rights complaints, mediating grievances, and authorizing emergency transfers.",
+      citation: "Trade Framework Glossary"
+    },
+    "Guild Ombudsperson (Office of the Guild Ombudsperson)": {
+      title: "Office of the Guild Ombudsperson",
+      category: "Labor & Governance",
+      def: "An independently elected constitutional officer of the Craft Guild responsible for protecting member civil rights, adjudicating confidential grievances, exercising Blind Proxy standing, and overseeing the 12-month post-resolution anti-retaliation monitoring docket.",
+      citation: "Trade Framework Glossary"
+    },
+    "Guild Ombudsperson": {
+      title: "Office of the Guild Ombudsperson",
+      category: "Labor & Governance",
+      def: "An independently elected constitutional officer of the Craft Guild responsible for protecting member civil rights, adjudicating confidential grievances, exercising Blind Proxy standing, and overseeing the 12-month post-resolution anti-retaliation monitoring docket.",
+      citation: "Trade Framework Glossary"
+    },
+    "Office of the Guild Ombudsperson": {
+      title: "Office of the Guild Ombudsperson",
+      category: "Labor & Governance",
+      def: "An independently elected constitutional officer of the Craft Guild responsible for protecting member civil rights, adjudicating confidential grievances, exercising Blind Proxy standing, and overseeing the 12-month post-resolution anti-retaliation monitoring docket.",
+      citation: "Trade Framework Glossary"
+    },
     "Hardware-Enforced Cryptographic Pulse": {
-      title: "Hardware Cryptographic Pulse",
-      category: "Telemetry Integrity",
-      def: "Physical FIDO2/WebAuthn capacitive touch user presence requirement contextually bound to privileged actions, defeating synthetic bot telemetry and ghost-worker staffing.",
+      title: "Hardware-Enforced Cryptographic Pulse",
+      category: "Labor & Governance",
+      def: "A physical FIDO2/WebAuthn user presence requirement (capacitive touch) contextually bound to privileged execution events, preventing LLM bots or synthetic scripts from faking passive operational presence in logbook telemetry.",
       citation: "Universal Logbook Schema"
     },
-    "OOB-HMS": {
-      title: "Out-of-Band Hardware Enclave Multi-Sig",
-      category: "Supply Chain",
-      def: "Threshold multi-signature release gate for Tier-I infrastructure held across isolated hardware security keys operated by Master and Journeyman engineers, decoupled from public CAs.",
-      citation: "Velocity, Cloud & Safe Harbor"
+    "Health Hour-Bank Trust": {
+      title: "Health Hour-Bank Trust",
+      category: "Labor & Governance",
+      def: "A multi-employer healthcare trust where employer hourly contributions accumulate in a personal hour-bank reserve (up to 6 months), maintaining full family medical, dental, and vision coverage during layoffs, contract transitions, or leave without COBRA.",
+      citation: "Trade Framework Glossary"
     },
-    "Fallback Statutory Mandate Bridge": {
-      title: "Fallback Statutory Mandate Bridge",
-      category: "Regulatory Safeguard",
-      def: "Automated transition shifting trade enforcement from private cyber insurance underwriting into mandatory federal procurement (FAR/DFARS) and PUC utility covenants if private capacity falls.",
-      citation: "Pillar VII & Transition Plan"
+    "Interim Founding Steering Committee": {
+      title: "Interim Founding Steering Committee",
+      category: "Labor & Governance",
+      def: "The provisional 5-to-7 member organizing body responsible for incorporating non-profit trade entities, establishing initial exam rubrics, and registering DOL apprenticeship standards, governed by a mandatory 24-month sunset clause.",
+      citation: "Trade Framework Glossary"
     },
-    "Strict Blast-Radius Localization Rule": {
-      title: "Strict Blast-Radius Localization Rule",
-      category: "Cloud Governance",
-      def: "Cloud force majeure rule limiting toll-free compliance suspensions strictly to documented CSP sub-regions/services (72-hr max), preventing fraudulent tenant-parking abuse.",
-      citation: "Velocity, Cloud & Safe Harbor"
+    "Interim Protective Order": {
+      title: "Interim Protective Order",
+      category: "Labor & Governance",
+      def: "A mandatory administrative safe-harbor directive issued during active ethics investigations establishing an immediate supervisory firewall, reassignment of evaluation authority, and mutual no-contact enforcement.",
+      citation: "Trade Framework Glossary"
     },
-    "72-Hour Internal Remediation Rule": {
-      title: "72-Hour Internal Remediation Rule",
-      category: "Ethics & Whistleblower",
-      def: "Mandatory corporate cure period requiring a Form FORM-003 filing before external whistleblower bounties attach, preventing malicious compliance traps.",
-      citation: "Code of Ethics & Conduct"
+    "JATC (Joint Apprenticeship and Training Committee)": {
+      title: "Joint Apprenticeship and Training Committee (JATC)",
+      category: "Labor & Governance",
+      def: "A joint labor-management committee operating under Taft-Hartley trust rules that funds training facilities, pays instructors, and administers Related Technical Instruction (RTI).",
+      citation: "Pillar VI / 29 CFR Part 29"
+    },
+    "JATC": {
+      title: "Joint Apprenticeship and Training Committee (JATC)",
+      category: "Labor & Governance",
+      def: "A joint labor-management committee operating under Taft-Hartley trust rules that funds training facilities, pays instructors, and administers Related Technical Instruction (RTI).",
+      citation: "Pillar VI / 29 CFR Part 29"
+    },
+    "Joint Apprenticeship and Training Committee": {
+      title: "Joint Apprenticeship and Training Committee (JATC)",
+      category: "Labor & Governance",
+      def: "A joint labor-management committee operating under Taft-Hartley trust rules that funds training facilities, pays instructors, and administers Related Technical Instruction (RTI).",
+      citation: "Pillar VI / 29 CFR Part 29"
+    },
+    "Journeyman": {
+      title: "Journeyman",
+      category: "Labor & Governance",
+      def: "A fully licensed, independent practitioner who has completed 8,000 verified operational hours and passed a recognized Board practical benchmark exam, granting authority to deploy production changes, sign off on reviews, and supervise apprentices (2:1 ratio).",
+      citation: "Pillar IV / 100% RJPB"
+    },
+    "Licensed Cybersecurity Trade Contractor": {
+      title: "Licensed Cybersecurity Trade Contractor",
+      category: "Labor & Governance",
+      def: "An accredited business entity (LLC, partnership, corporation, MSSP, or consulting firm) that designates a qualifying Master of Record, carries commercial surety bonding and Trade E&O, and is legally authorized to sponsor JATC apprentices and execute statutory safety sign-offs.",
+      citation: "Trade Framework Glossary"
+    },
+    "Local Chapter ("The Local")": {
+      title: "Local Chapter ("The Local")",
+      category: "Labor & Governance",
+      def: "The frontline democratic unit of the Craft Guild chartered within a defined metropolitan or regional jurisdiction (minimum 50 licensed members) responsible for local JATC apprentice halls, regional COLI wage negotiations, and monthly member meetings.",
+      citation: "Trade Framework Glossary"
+    },
+    ""The Local"": {
+      title: "Local Chapter ("The Local")",
+      category: "Labor & Governance",
+      def: "The frontline democratic unit of the Craft Guild chartered within a defined metropolitan or regional jurisdiction (minimum 50 licensed members) responsible for local JATC apprentice halls, regional COLI wage negotiations, and monthly member meetings.",
+      citation: "Trade Framework Glossary"
+    },
+    "Local Chapter": {
+      title: "Local Chapter ("The Local")",
+      category: "Labor & Governance",
+      def: "The frontline democratic unit of the Craft Guild chartered within a defined metropolitan or regional jurisdiction (minimum 50 licensed members) responsible for local JATC apprentice halls, regional COLI wage negotiations, and monthly member meetings.",
+      citation: "Trade Framework Glossary"
+    },
+    "Malpractice & Ethics Review Committee": {
+      title: "Malpractice & Ethics Review Committee",
+      category: "Labor & Governance",
+      def: "The tripartite standing committee of the National Board (Master Practitioner, Employer CISO, Public Legal Advocate) responsible for investigating professional fraud, logbook tampering, and civil rights violations, with authority to suspend or revoke licenses.",
+      citation: "Trade Framework Glossary"
+    },
+    "Mandatory Reporting Affirmative Duty": {
+      title: "Mandatory Reporting Affirmative Duty",
+      category: "Labor & Governance",
+      def: "The binding professional obligation requiring all licensed practitioners and apprentices to report verified Class A, B, or C ethical infractions within 10 business days (or 48 hours for supervisors).",
+      citation: "Trade Framework Glossary"
+    },
+    "Master of Record (MoR)": {
+      title: "Master of Record (MoR)",
+      category: "Labor & Governance",
+      def: "An active operational designation held by a Master Practitioner serving as the legally accountable technical authority for an enterprise, critical system, or Trade Contractor. The MoR possesses statutory sign-off authority and exclusive standing to issue formal Notices of Safety Non-Concurrence.",
+      citation: "Pillar IV & Pillar V"
+    },
+    "MoR": {
+      title: "Master of Record (MoR)",
+      category: "Labor & Governance",
+      def: "An active operational designation held by a Master Practitioner serving as the legally accountable technical authority for an enterprise, critical system, or Trade Contractor. The MoR possesses statutory sign-off authority and exclusive standing to issue formal Notices of Safety Non-Concurrence.",
+      citation: "Pillar IV & Pillar V"
+    },
+    "Master of Record": {
+      title: "Master of Record (MoR)",
+      category: "Labor & Governance",
+      def: "An active operational designation held by a Master Practitioner serving as the legally accountable technical authority for an enterprise, critical system, or Trade Contractor. The MoR possesses statutory sign-off authority and exclusive standing to issue formal Notices of Safety Non-Concurrence.",
+      citation: "Pillar IV & Pillar V"
+    },
+    "Master Practitioner": {
+      title: "Master Practitioner",
+      category: "Labor & Governance",
+      def: "The highest personal engineering license tier in the trade, awarded after 12,000+ verified runtime hours, a clean ethical record, and peer-reviewed defense portfolio evaluation.",
+      citation: "Trade Framework Glossary"
+    },
+    "National Cybersecurity Trade Licensure Compact (NCTLC)": {
+      title: "National Cybersecurity Trade Licensure Compact (NCTLC)",
+      category: "Labor & Governance",
+      def: "An interstate legislative compact modeled after professional engineering and medical licensure boards, ensuring multi-state digital license portability and legal reciprocity across participating state jurisdictions.",
+      citation: "Trade Framework Glossary"
+    },
+    "NCTLC": {
+      title: "National Cybersecurity Trade Licensure Compact (NCTLC)",
+      category: "Labor & Governance",
+      def: "An interstate legislative compact modeled after professional engineering and medical licensure boards, ensuring multi-state digital license portability and legal reciprocity across participating state jurisdictions.",
+      citation: "Trade Framework Glossary"
+    },
+    "National Cybersecurity Trade Licensure Compact": {
+      title: "National Cybersecurity Trade Licensure Compact (NCTLC)",
+      category: "Labor & Governance",
+      def: "An interstate legislative compact modeled after professional engineering and medical licensure boards, ensuring multi-state digital license portability and legal reciprocity across participating state jurisdictions.",
+      citation: "Trade Framework Glossary"
+    },
+    "Notice of Safety Non-Concurrence": {
+      title: "Notice of Safety Non-Concurrence",
+      category: "Labor & Governance",
+      def: "A formal, timestamped legal instrument executed exclusively by a Master of Record when an executive directive or release violates statutory safety baselines. Executing an executive override against this notice transfers civil, regulatory, and financial liability directly to the overriding corporate officers.",
+      citation: "Trade Framework Glossary"
+    },
+    "Operational Exception Flag": {
+      title: "Operational Exception Flag",
+      category: "Labor & Governance",
+      def: "A standardized internal escalation record logged by an Apprentice or Journeyman to document technical debt or baseline violations, triggering mandatory review by the Master of Record without halting production pipelines.",
+      citation: "Trade Framework Glossary"
+    },
+    "Operational Shift Ceiling (14-Hour Rule)": {
+      title: "Operational Shift Ceiling (14-Hour Rule)",
+      category: "Labor & Governance",
+      def: "A mandatory human-safety limit prohibiting practitioners from performing more than 14 consecutive hours of active incident triage or queue monitoring, paired with a mandatory 10-hour uninterrupted recovery rest cycle.",
+      citation: "Trade Framework Glossary"
+    },
+    "14-Hour Rule": {
+      title: "Operational Shift Ceiling (14-Hour Rule)",
+      category: "Labor & Governance",
+      def: "A mandatory human-safety limit prohibiting practitioners from performing more than 14 consecutive hours of active incident triage or queue monitoring, paired with a mandatory 10-hour uninterrupted recovery rest cycle.",
+      citation: "Trade Framework Glossary"
+    },
+    "Operational Shift Ceiling": {
+      title: "Operational Shift Ceiling (14-Hour Rule)",
+      category: "Labor & Governance",
+      def: "A mandatory human-safety limit prohibiting practitioners from performing more than 14 consecutive hours of active incident triage or queue monitoring, paired with a mandatory 10-hour uninterrupted recovery rest cycle.",
+      citation: "Trade Framework Glossary"
+    },
+    "PEC (Participating Employer Council)": {
+      title: "Participating Employer Council (PEC)",
+      category: "Labor & Governance",
+      def: "The multi-employer association representing participating enterprises, MSSPs, and Trade Contractors, structured into Large Enterprise and SMB/Contractor divisions to democratically elect Board management trustees.",
+      citation: "Trade Framework Glossary"
+    },
+    "PEC": {
+      title: "Participating Employer Council (PEC)",
+      category: "Labor & Governance",
+      def: "The multi-employer association representing participating enterprises, MSSPs, and Trade Contractors, structured into Large Enterprise and SMB/Contractor divisions to democratically elect Board management trustees.",
+      citation: "Trade Framework Glossary"
+    },
+    "Participating Employer Council": {
+      title: "Participating Employer Council (PEC)",
+      category: "Labor & Governance",
+      def: "The multi-employer association representing participating enterprises, MSSPs, and Trade Contractors, structured into Large Enterprise and SMB/Contractor divisions to democratically elect Board management trustees.",
+      citation: "Trade Framework Glossary"
+    },
+    "Pre-Apprenticeship": {
+      title: "Pre-Apprenticeship",
+      category: "Labor & Governance",
+      def: "An accredited, public vocational on-ramp (embedded in community colleges and high schools) providing zero-tuition foundational training and practical screening before paid employer dispatch.",
+      citation: "Trade Framework Glossary"
+    },
+    "Proxy Retaliation": {
+      title: "Proxy Retaliation",
+      category: "Labor & Governance",
+      def: "Indirect retaliatory acts committed by colleagues, peers, or sympathizers on behalf of a disciplined individual, including social ostracization, deliberate Pull Request review delays, cold-shouldering, or withholding on-call escalation support.",
+      citation: "Trade Framework Glossary"
+    },
+    "Ranked-Choice Voting (RCV)": {
+      title: "Ranked-Choice Voting (RCV)",
+      category: "Labor & Governance",
+      def: "The instant-runoff voting protocol used for all National Board and Guild democratic elections to ensure winning candidates achieve broad, verified majority consensus (>50%).",
+      citation: "Trade Framework Glossary"
+    },
+    "RCV": {
+      title: "Ranked-Choice Voting (RCV)",
+      category: "Labor & Governance",
+      def: "The instant-runoff voting protocol used for all National Board and Guild democratic elections to ensure winning candidates achieve broad, verified majority consensus (>50%).",
+      citation: "Trade Framework Glossary"
+    },
+    "Ranked-Choice Voting": {
+      title: "Ranked-Choice Voting (RCV)",
+      category: "Labor & Governance",
+      def: "The instant-runoff voting protocol used for all National Board and Guild democratic elections to ensure winning candidates achieve broad, verified majority consensus (>50%).",
+      citation: "Trade Framework Glossary"
+    },
+    "Rebuttable Retaliation Presumption": {
+      title: "Rebuttable Retaliation Presumption",
+      category: "Labor & Governance",
+      def: "An evidentiary legal rule establishing that any adverse employment action taken against a whistleblower or participating witness within 365 days of an ethics case is presumed to be retaliatory unless the employer disproves it with objective technical telemetry.",
+      citation: "Trade Framework Glossary"
+    },
+    "Regional Journeyman Prevailing Benchmark (RJPB)": {
+      title: "Regional Journeyman Prevailing Benchmark (RJPB)",
+      category: "Labor & Governance",
+      def: "The localized hourly compensation standard used as the baseline index for graduated apprentice wage steps, geographic cost-of-living tiers, and specialty hazard differentials.",
+      citation: "Governance / Wage Scales"
+    },
+    "RJPB": {
+      title: "Regional Journeyman Prevailing Benchmark (RJPB)",
+      category: "Labor & Governance",
+      def: "The localized hourly compensation standard used as the baseline index for graduated apprentice wage steps, geographic cost-of-living tiers, and specialty hazard differentials.",
+      citation: "Governance / Wage Scales"
+    },
+    "Regional Journeyman Prevailing Benchmark": {
+      title: "Regional Journeyman Prevailing Benchmark (RJPB)",
+      category: "Labor & Governance",
+      def: "The localized hourly compensation standard used as the baseline index for graduated apprentice wage steps, geographic cost-of-living tiers, and specialty hazard differentials.",
+      citation: "Governance / Wage Scales"
+    },
+    "Risk-Weighted Capacity Cap": {
+      title: "Risk-Weighted Capacity Cap",
+      category: "Labor & Governance",
+      def: "The statutory ceiling limiting Fractional Masters of Record (vMoR) to a maximum of 8 Tier-III commercial SMBs or 3 Tier-II regulated enterprises, and strictly barring fractional coverage of Tier-I Critical Infrastructure.",
+      citation: "Trade Framework Glossary"
+    },
+    "RPL (Recognition of Prior Learning)": {
+      title: "Recognition of Prior Learning (RPL)",
+      category: "Labor & Governance",
+      def: "The formal evaluation mechanism granting trade hour credits (up to 4,000 hours / 50%) for documented prior professional experience in adjacent technical fields (SysAdmin, Network Engineering, DevOps).",
+      citation: "Trade Framework Glossary"
+    },
+    "RPL": {
+      title: "Recognition of Prior Learning (RPL)",
+      category: "Labor & Governance",
+      def: "The formal evaluation mechanism granting trade hour credits (up to 4,000 hours / 50%) for documented prior professional experience in adjacent technical fields (SysAdmin, Network Engineering, DevOps).",
+      citation: "Trade Framework Glossary"
+    },
+    "Recognition of Prior Learning": {
+      title: "Recognition of Prior Learning (RPL)",
+      category: "Labor & Governance",
+      def: "The formal evaluation mechanism granting trade hour credits (up to 4,000 hours / 50%) for documented prior professional experience in adjacent technical fields (SysAdmin, Network Engineering, DevOps).",
+      citation: "Trade Framework Glossary"
+    },
+    "RTI (Related Technical Instruction)": {
+      title: "Related Technical Instruction (RTI)",
+      category: "Labor & Governance",
+      def: "The mandatory, paid 20% classroom, lab, and simulation instruction (minimum 144 hours/year) completed alongside on-the-job training.",
+      citation: "Pillar II & 29 CFR Part 29"
+    },
+    "RTI": {
+      title: "Related Technical Instruction (RTI)",
+      category: "Labor & Governance",
+      def: "The mandatory, paid 20% classroom, lab, and simulation instruction (minimum 144 hours/year) completed alongside on-the-job training.",
+      citation: "Pillar II & 29 CFR Part 29"
+    },
+    "Related Technical Instruction": {
+      title: "Related Technical Instruction (RTI)",
+      category: "Labor & Governance",
+      def: "The mandatory, paid 20% classroom, lab, and simulation instruction (minimum 144 hours/year) completed alongside on-the-job training.",
+      citation: "Pillar II & 29 CFR Part 29"
+    },
+    "Shop Steward (Trade Job Steward)": {
+      title: "Trade Job Steward (Shop Steward)",
+      category: "Labor & Governance",
+      def: "The designated frontline Journeyman representative on an engineering shift or enterprise SOC responsible for monitoring 2:1 supervisory ratios, assisting with logbook entries, and intervening in workplace friction before formal escalation.",
+      citation: "Trade Framework Glossary"
+    },
+    "Shop Steward": {
+      title: "Trade Job Steward (Shop Steward)",
+      category: "Labor & Governance",
+      def: "The designated frontline Journeyman representative on an engineering shift or enterprise SOC responsible for monitoring 2:1 supervisory ratios, assisting with logbook entries, and intervening in workplace friction before formal escalation.",
+      citation: "Trade Framework Glossary"
+    },
+    "Trade Job Steward": {
+      title: "Trade Job Steward (Shop Steward)",
+      category: "Labor & Governance",
+      def: "The designated frontline Journeyman representative on an engineering shift or enterprise SOC responsible for monitoring 2:1 supervisory ratios, assisting with logbook entries, and intervening in workplace friction before formal escalation.",
+      citation: "Trade Framework Glossary"
     },
     "Statutory Malpractice Liability Cap": {
       title: "Statutory Malpractice Liability Cap",
-      category: "Liability Shield",
-      def: "$0 personal civil damages liability cap for non-negligent Masters of Record and Journeymen maintaining verified baseline compliance and clean attestation feeds.",
+      category: "Labor & Governance",
+      def: "A statutory protection establishing a $0 personal civil damages liability cap for non-negligent Masters of Record and Journeymen who maintain verified baseline compliance and clean attestation feeds, with defense costs 100% indemnified through the Guild Malpractice Defense Pool.",
       citation: "Pillar V & Technical Refusal"
     },
+    "Strict Blast-Radius Localization Rule": {
+      title: "Strict Blast-Radius Localization Rule",
+      category: "Labor & Governance",
+      def: "A cloud force majeure boundary limiting toll-free compliance suspensions during upstream Cloud Service Provider (CSP) outages strictly to the documented affected services and sub-regions with a 72-hour maximum ceiling, preventing fraudulent tenant-parking abuse.",
+      citation: "Velocity, Cloud & Safe Harbor"
+    },
+    "Supervisory / Associate Member": {
+      title: "Supervisory / Associate Member",
+      category: "Labor & Governance",
+      def: "A Guild membership status for licensed Journeymen and Masters who transition into corporate management with hiring/firing authority. Preserves portable health/pension trusts and technical training access while enforcing non-voting status on collective bargaining contract ratifications.",
+      citation: "Trade Framework Glossary"
+    },
+    "Supervisory Non-Interference Mandate": {
+      title: "Supervisory Non-Interference Mandate",
+      category: "Labor & Governance",
+      def: "A statutory labor protection classifying any attempt by a supervising Master or corporate manager to coerce, inspect, or condition subordinate votes or logbook hours as a Class-A malpractice offense.",
+      citation: "Trade Framework Glossary"
+    },
+    "Supervisory Ratio": {
+      title: "Supervisory Ratio",
+      category: "Labor & Governance",
+      def: "The legally enforced ratio (maximum 2 Apprentices per 1 Journeyman on human-in-the-loop operational seats) ensuring line-of-sight mentorship and preventing entry-level labor exploitation.",
+      citation: "Trade Framework Glossary"
+    },
+    "Supplemental Unemployment Benefit (SUB) Fund": {
+      title: "Supplemental Unemployment Benefit (SUB) Fund",
+      category: "Labor & Governance",
+      def: "A multi-employer trust fund paying weekly supplemental income on top of state unemployment checks during economic downturns to maintain worker living standards.",
+      citation: "Trade Framework Glossary"
+    },
+    "Taft-Hartley Trust": {
+      title: "Taft-Hartley Trust",
+      category: "Labor & Governance",
+      def: "A multi-employer trust established under Section 302(c) of the Labor Management Relations Act, pooling employer contributions to provide portable health insurance, pensions, and zero-tuition training funds.",
+      citation: "Trade Framework Glossary"
+    },
+    "Talent Clearinghouse Dispatch Officer": {
+      title: "Talent Clearinghouse Dispatch Officer",
+      category: "Labor & Governance",
+      def: "A neutral Guild administrative officer responsible for allocating and dispatching qualified Journeymen and Apprentices from the talent clearinghouse based strictly on verified logbook credentials and endorsements.",
+      citation: "Trade Framework Glossary"
+    },
+    "Third-Party Administrator (TPA)": {
+      title: "Third-Party Administrator (TPA)",
+      category: "Labor & Governance",
+      def: "A bonded, independent professional administrative firm responsible for processing health claims, hour-bank accounting, and pension disbursements for Taft-Hartley trusts, ensuring Guild officers do not handle benefit checkbooks.",
+      citation: "Trade Framework Glossary"
+    },
+    "TPA": {
+      title: "Third-Party Administrator (TPA)",
+      category: "Labor & Governance",
+      def: "A bonded, independent professional administrative firm responsible for processing health claims, hour-bank accounting, and pension disbursements for Taft-Hartley trusts, ensuring Guild officers do not handle benefit checkbooks.",
+      citation: "Trade Framework Glossary"
+    },
+    "Third-Party Administrator": {
+      title: "Third-Party Administrator (TPA)",
+      category: "Labor & Governance",
+      def: "A bonded, independent professional administrative firm responsible for processing health claims, hour-bank accounting, and pension disbursements for Taft-Hartley trusts, ensuring Guild officers do not handle benefit checkbooks.",
+      citation: "Trade Framework Glossary"
+    },
     "Tier-I Critical Infrastructure No-Disruption Covenant": {
-      title: "Tier-I No-Disruption Covenant",
-      category: "Public Safety",
-      def: "Statutory covenant legally binding cybersecurity personnel defending Tier-I infrastructure against labor stoppages or walkouts, routing bargaining deadlocks to FOIA.",
+      title: "Tier-I Critical Infrastructure No-Disruption Covenant",
+      category: "Labor & Governance",
+      def: "An affirmative statutory covenant legally binding cybersecurity personnel defending Tier-I Critical Infrastructure (bulk power grid, nuclear, water, clinical hospital networks) against labor stoppages or walkouts, routing bargaining deadlocks to compulsory Final-Offer Interest Arbitration (FOIA).",
       citation: "Governance / Guild Charter"
     },
-    "FORM-005": {
-      title: "Targeted OSS Exemption (FORM-005)",
-      category: "Procedural Form",
-      def: "Standardized instrument executed by a Master of Record certifying an internal security fork and active compensating controls for an unpatched open-source dependency (90-day grace period).",
-      citation: "Templates / FORM-005"
+    "Trade Contractor Incubator": {
+      title: "Trade Contractor Incubator",
+      category: "Labor & Governance",
+      def: "The economic framework allowing small boutique security firms and independent Masters to access standard multi-employer health/pension trusts, zero-recruiter hiring hall dispatch, and bulk surety bonding.",
+      citation: "Trade Framework Glossary"
     },
-    "OSS Orphan Vulnerability": {
+    "TRAP Prohibition (Training Repayment Agreement Provisions)": {
+      title: "Training Repayment Agreement Provisions (TRAP Prohibition)",
+      category: "Labor & Governance",
+      def: "The statutory rule invalidating all employer-imposed training repayment agreements, liquidated exit damages, and post-apprenticeship non-competes.",
+      citation: "Trade Framework Glossary"
+    },
+    "TRAP Prohibition": {
+      title: "Training Repayment Agreement Provisions (TRAP Prohibition)",
+      category: "Labor & Governance",
+      def: "The statutory rule invalidating all employer-imposed training repayment agreements, liquidated exit damages, and post-apprenticeship non-competes.",
+      citation: "Trade Framework Glossary"
+    },
+    "Training Repayment Agreement Provisions": {
+      title: "Training Repayment Agreement Provisions (TRAP Prohibition)",
+      category: "Labor & Governance",
+      def: "The statutory rule invalidating all employer-imposed training repayment agreements, liquidated exit damages, and post-apprenticeship non-competes.",
+      citation: "Trade Framework Glossary"
+    },
+    "Two-Check Retirement System": {
+      title: "Two-Check Retirement System",
+      category: "Labor & Governance",
+      def: "A retirement architecture combining a guaranteed multi-employer Defined Benefit Pension (funded 100% by employer hourly contributions) with an optional employer-matching 401(k) / Annuity plan.",
+      citation: "Trade Framework Glossary"
+    },
+    "Worker Algorithmic Due Process": {
+      title: "Worker Algorithmic Due Process",
+      category: "Labor & Governance",
+      def: "The binding labor standard prohibiting automated AI termination, bossware surveillance quotas, or algorithmic demotions without independent human supervisory review and transparent technical telemetry audits.",
+      citation: "Trade Framework Glossary"
+    },
+    "Working Dues": {
+      title: "Working Dues",
+      category: "Labor & Governance",
+      def: "A percentage-based contribution (1.5% of gross hourly wages) deducted via payroll check-off strictly while actively employed on shift to fund local chapter operations, contract enforcement, and hiring hall dispatch.",
+      citation: "Trade Framework Glossary"
+    },
+    "W-2 Direct Employment": {
+      title: "W-2 Direct Employment",
+      category: "Labor & Governance",
+      def: "Direct salaried or hourly employment classification with statutory worker protections, mandatory overtime rules, and employer tax withholding, as distinct from 1099 independent contractor arrangements.",
+      citation: "Trade Framework Glossary"
+    },
+    "AppSec (Application Security)": {
+      title: "Application Security (AppSec)",
+      category: "Operational Discipline",
+      def: "Engineering practices, secure design patterns, and automated testing tools that protect software from vulnerabilities across the SDLC.",
+      citation: "Trade Framework Glossary"
+    },
+    "AppSec": {
+      title: "Application Security (AppSec)",
+      category: "Operational Discipline",
+      def: "Engineering practices, secure design patterns, and automated testing tools that protect software from vulnerabilities across the SDLC.",
+      citation: "Trade Framework Glossary"
+    },
+    "Application Security": {
+      title: "Application Security (AppSec)",
+      category: "Operational Discipline",
+      def: "Engineering practices, secure design patterns, and automated testing tools that protect software from vulnerabilities across the SDLC.",
+      citation: "Trade Framework Glossary"
+    },
+    "CI/CD (Continuous Integration / Continuous Deployment)": {
+      title: "Continuous Integration / Continuous Deployment (CI/CD)",
+      category: "Operational Discipline",
+      def: "Automated software delivery pipelines. Under the trade model, automated pipelines and policy-as-code rules are certified by a Master of Record to allow unhindered developer deployment velocity.",
+      citation: "Trade Framework Glossary"
+    },
+    "CI/CD": {
+      title: "Continuous Integration / Continuous Deployment (CI/CD)",
+      category: "Operational Discipline",
+      def: "Automated software delivery pipelines. Under the trade model, automated pipelines and policy-as-code rules are certified by a Master of Record to allow unhindered developer deployment velocity.",
+      citation: "Trade Framework Glossary"
+    },
+    "Continuous Integration / Continuous Deployment": {
+      title: "Continuous Integration / Continuous Deployment (CI/CD)",
+      category: "Operational Discipline",
+      def: "Automated software delivery pipelines. Under the trade model, automated pipelines and policy-as-code rules are certified by a Master of Record to allow unhindered developer deployment velocity.",
+      citation: "Trade Framework Glossary"
+    },
+    "CTI (Cyber Threat Intelligence)": {
+      title: "Cyber Threat Intelligence (CTI)",
+      category: "Operational Discipline",
+      def: "The collection, analysis, and dissemination of structured indicators, adversary motivations, and attack vectors (TTPs).",
+      citation: "Trade Framework Glossary"
+    },
+    "CTI": {
+      title: "Cyber Threat Intelligence (CTI)",
+      category: "Operational Discipline",
+      def: "The collection, analysis, and dissemination of structured indicators, adversary motivations, and attack vectors (TTPs).",
+      citation: "Trade Framework Glossary"
+    },
+    "Cyber Threat Intelligence": {
+      title: "Cyber Threat Intelligence (CTI)",
+      category: "Operational Discipline",
+      def: "The collection, analysis, and dissemination of structured indicators, adversary motivations, and attack vectors (TTPs).",
+      citation: "Trade Framework Glossary"
+    },
+    "DAST (Dynamic Application Security Testing)": {
+      title: "Dynamic Application Security Testing (DAST)",
+      category: "Operational Discipline",
+      def: "Black-box security testing of running applications to discover real-time execution vulnerabilities.",
+      citation: "Trade Framework Glossary"
+    },
+    "DAST": {
+      title: "Dynamic Application Security Testing (DAST)",
+      category: "Operational Discipline",
+      def: "Black-box security testing of running applications to discover real-time execution vulnerabilities.",
+      citation: "Trade Framework Glossary"
+    },
+    "Dynamic Application Security Testing": {
+      title: "Dynamic Application Security Testing (DAST)",
+      category: "Operational Discipline",
+      def: "Black-box security testing of running applications to discover real-time execution vulnerabilities.",
+      citation: "Trade Framework Glossary"
+    },
+    "DFIR (Digital Forensics & Incident Response)": {
+      title: "Digital Forensics & Incident Response (DFIR)",
+      category: "Operational Discipline",
+      def: "Technical containment, root-cause analysis, and forensic evidence preservation during and following an active breach.",
+      citation: "Trade Framework Glossary"
+    },
+    "DFIR": {
+      title: "Digital Forensics & Incident Response (DFIR)",
+      category: "Operational Discipline",
+      def: "Technical containment, root-cause analysis, and forensic evidence preservation during and following an active breach.",
+      citation: "Trade Framework Glossary"
+    },
+    "Digital Forensics & Incident Response": {
+      title: "Digital Forensics & Incident Response (DFIR)",
+      category: "Operational Discipline",
+      def: "Technical containment, root-cause analysis, and forensic evidence preservation during and following an active breach.",
+      citation: "Trade Framework Glossary"
+    },
+    "GRC (Governance, Risk, & Compliance)": {
+      title: "Governance, Risk, & Compliance (GRC)",
+      category: "Operational Discipline",
+      def: "Operational oversight aligning technical controls with legal statutes, regulatory baselines, and risk management frameworks.",
+      citation: "Trade Framework Glossary"
+    },
+    "GRC": {
+      title: "Governance, Risk, & Compliance (GRC)",
+      category: "Operational Discipline",
+      def: "Operational oversight aligning technical controls with legal statutes, regulatory baselines, and risk management frameworks.",
+      citation: "Trade Framework Glossary"
+    },
+    "Governance, Risk, & Compliance": {
+      title: "Governance, Risk, & Compliance (GRC)",
+      category: "Operational Discipline",
+      def: "Operational oversight aligning technical controls with legal statutes, regulatory baselines, and risk management frameworks.",
+      citation: "Trade Framework Glossary"
+    },
+    "IAM / ICAM (Identity, Credential, & Access Management)": {
+      title: "Identity, Credential, & Access Management (IAM / ICAM)",
+      category: "Operational Discipline",
+      def: "Protocols and systems managing identity lifecycle, authentication (SAML, OIDC, FIDO2), and role-based or attribute-based authorization.",
+      citation: "Trade Framework Glossary"
+    },
+    "IAM / ICAM": {
+      title: "Identity, Credential, & Access Management (IAM / ICAM)",
+      category: "Operational Discipline",
+      def: "Protocols and systems managing identity lifecycle, authentication (SAML, OIDC, FIDO2), and role-based or attribute-based authorization.",
+      citation: "Trade Framework Glossary"
+    },
+    "Identity, Credential, & Access Management": {
+      title: "Identity, Credential, & Access Management (IAM / ICAM)",
+      category: "Operational Discipline",
+      def: "Protocols and systems managing identity lifecycle, authentication (SAML, OIDC, FIDO2), and role-based or attribute-based authorization.",
+      citation: "Trade Framework Glossary"
+    },
+    "IoMT (Internet of Medical Things)": {
+      title: "Internet of Medical Things (IoMT)",
+      category: "Operational Discipline",
+      def: "Connected clinical hardware and embedded medical devices operating under life-safety regulatory requirements (e.g., FDA 524B).",
+      citation: "Trade Framework Glossary"
+    },
+    "IoMT": {
+      title: "Internet of Medical Things (IoMT)",
+      category: "Operational Discipline",
+      def: "Connected clinical hardware and embedded medical devices operating under life-safety regulatory requirements (e.g., FDA 524B).",
+      citation: "Trade Framework Glossary"
+    },
+    "Internet of Medical Things": {
+      title: "Internet of Medical Things (IoMT)",
+      category: "Operational Discipline",
+      def: "Connected clinical hardware and embedded medical devices operating under life-safety regulatory requirements (e.g., FDA 524B).",
+      citation: "Trade Framework Glossary"
+    },
+    "MFA / PAM (Multi-Factor Authentication / Privileged Access Management)": {
+      title: "Multi-Factor Authentication / Privileged Access Management (MFA / PAM)",
+      category: "Operational Discipline",
+      def: "Controls enforcing multi-factor identity proofing and credential isolation for administrative access.",
+      citation: "Trade Framework Glossary"
+    },
+    "MFA / PAM": {
+      title: "Multi-Factor Authentication / Privileged Access Management (MFA / PAM)",
+      category: "Operational Discipline",
+      def: "Controls enforcing multi-factor identity proofing and credential isolation for administrative access.",
+      citation: "Trade Framework Glossary"
+    },
+    "Multi-Factor Authentication / Privileged Access Management": {
+      title: "Multi-Factor Authentication / Privileged Access Management (MFA / PAM)",
+      category: "Operational Discipline",
+      def: "Controls enforcing multi-factor identity proofing and credential isolation for administrative access.",
+      citation: "Trade Framework Glossary"
+    },
+    "MSSP (Managed Security Service Provider)": {
+      title: "Managed Security Service Provider (MSSP)",
+      category: "Operational Discipline",
+      def: "An outsourced operational provider delivering SOC monitoring and managed security services under trade contractor standards.",
+      citation: "Trade Framework Glossary"
+    },
+    "MSSP": {
+      title: "Managed Security Service Provider (MSSP)",
+      category: "Operational Discipline",
+      def: "An outsourced operational provider delivering SOC monitoring and managed security services under trade contractor standards.",
+      citation: "Trade Framework Glossary"
+    },
+    "Managed Security Service Provider": {
+      title: "Managed Security Service Provider (MSSP)",
+      category: "Operational Discipline",
+      def: "An outsourced operational provider delivering SOC monitoring and managed security services under trade contractor standards.",
+      citation: "Trade Framework Glossary"
+    },
+    "OT / ICS / SCADA (Operational Technology / Industrial Control Systems)": {
+      title: "Operational Technology / Industrial Control Systems (OT / ICS / SCADA)",
+      category: "Operational Discipline",
+      def: "Specialized computing hardware and telemetry networks that monitor and control physical industrial processes (power grids, water treatment, manufacturing).",
+      citation: "Trade Framework Glossary"
+    },
+    "OT / ICS / SCADA": {
+      title: "Operational Technology / Industrial Control Systems (OT / ICS / SCADA)",
+      category: "Operational Discipline",
+      def: "Specialized computing hardware and telemetry networks that monitor and control physical industrial processes (power grids, water treatment, manufacturing).",
+      citation: "Trade Framework Glossary"
+    },
+    "Operational Technology / Industrial Control Systems": {
+      title: "Operational Technology / Industrial Control Systems (OT / ICS / SCADA)",
+      category: "Operational Discipline",
+      def: "Specialized computing hardware and telemetry networks that monitor and control physical industrial processes (power grids, water treatment, manufacturing).",
+      citation: "Trade Framework Glossary"
+    },
+    "OSS Orphan Vulnerability Protocol": {
       title: "OSS Orphan Vulnerability Protocol",
-      category: "Supply Chain",
-      def: "Protocol allowing teams to create isolated security forks and runtime compensating controls under MoR certification when upstream open-source packages have unpatched zero-days.",
+      category: "Operational Discipline",
+      def: "The trade governance standard allowing engineering teams to create isolated security forks and apply runtime compensating controls under MoR certification (Form FORM-005) when upstream open-source dependencies have unpatched zero-days, preserving deployment velocity and safe harbors for up to 90 days.",
+      citation: "Trade Framework Glossary"
+    },
+    "Out-of-Band Hardware Enclave Multi-Signature (OOB-HMS)": {
+      title: "Out-of-Band Hardware Enclave Multi-Signature (OOB-HMS)",
+      category: "Operational Discipline",
+      def: "A threshold multi-signature deployment gate for Tier-I Critical Infrastructure pipelines held across physically isolated, localized hardware security keys operated by designated Master and Journeyman engineers, decoupled from public PKI trust roots.",
       citation: "Velocity, Cloud & Safe Harbor"
+    },
+    "OOB-HMS": {
+      title: "Out-of-Band Hardware Enclave Multi-Signature (OOB-HMS)",
+      category: "Operational Discipline",
+      def: "A threshold multi-signature deployment gate for Tier-I Critical Infrastructure pipelines held across physically isolated, localized hardware security keys operated by designated Master and Journeyman engineers, decoupled from public PKI trust roots.",
+      citation: "Velocity, Cloud & Safe Harbor"
+    },
+    "Out-of-Band Hardware Enclave Multi-Signature": {
+      title: "Out-of-Band Hardware Enclave Multi-Signature (OOB-HMS)",
+      category: "Operational Discipline",
+      def: "A threshold multi-signature deployment gate for Tier-I Critical Infrastructure pipelines held across physically isolated, localized hardware security keys operated by designated Master and Journeyman engineers, decoupled from public PKI trust roots.",
+      citation: "Velocity, Cloud & Safe Harbor"
+    },
+    "PKI / HSM (Public Key Infrastructure / Hardware Security Module)": {
+      title: "Public Key Infrastructure / Hardware Security Module (PKI / HSM)",
+      category: "Operational Discipline",
+      def: "Cryptographic root authority hierarchies and tamper-resistant physical appliances protecting enterprise encryption keys.",
+      citation: "Trade Framework Glossary"
+    },
+    "PKI / HSM": {
+      title: "Public Key Infrastructure / Hardware Security Module (PKI / HSM)",
+      category: "Operational Discipline",
+      def: "Cryptographic root authority hierarchies and tamper-resistant physical appliances protecting enterprise encryption keys.",
+      citation: "Trade Framework Glossary"
+    },
+    "Public Key Infrastructure / Hardware Security Module": {
+      title: "Public Key Infrastructure / Hardware Security Module (PKI / HSM)",
+      category: "Operational Discipline",
+      def: "Cryptographic root authority hierarchies and tamper-resistant physical appliances protecting enterprise encryption keys.",
+      citation: "Trade Framework Glossary"
+    },
+    "SAST (Static Application Security Testing)": {
+      title: "Static Application Security Testing (SAST)",
+      category: "Operational Discipline",
+      def: "Automated static code analysis inspecting source repositories for security flaws prior to build execution.",
+      citation: "Trade Framework Glossary"
+    },
+    "SAST": {
+      title: "Static Application Security Testing (SAST)",
+      category: "Operational Discipline",
+      def: "Automated static code analysis inspecting source repositories for security flaws prior to build execution.",
+      citation: "Trade Framework Glossary"
+    },
+    "Static Application Security Testing": {
+      title: "Static Application Security Testing (SAST)",
+      category: "Operational Discipline",
+      def: "Automated static code analysis inspecting source repositories for security flaws prior to build execution.",
+      citation: "Trade Framework Glossary"
+    },
+    "SE-APP (Application & Software Product Security)": {
+      title: "Application & Software Product Security (SE-APP)",
+      category: "Operational Discipline",
+      def: "A Tier 1 discipline specialty endorsement covering secure architecture, automated CI/CD security tooling, software supply-chain defenses, and SBOM lifecycles.",
+      citation: "Specialty Track Specification"
+    },
+    "SE-APP": {
+      title: "Application & Software Product Security (SE-APP)",
+      category: "Operational Discipline",
+      def: "A Tier 1 discipline specialty endorsement covering secure architecture, automated CI/CD security tooling, software supply-chain defenses, and SBOM lifecycles.",
+      citation: "Specialty Track Specification"
+    },
+    "Application & Software Product Security": {
+      title: "Application & Software Product Security (SE-APP)",
+      category: "Operational Discipline",
+      def: "A Tier 1 discipline specialty endorsement covering secure architecture, automated CI/CD security tooling, software supply-chain defenses, and SBOM lifecycles.",
+      citation: "Specialty Track Specification"
+    },
+    "SE-MED (Medical Device & Clinical Technology Security)": {
+      title: "Medical Device & Clinical Technology Security (SE-MED)",
+      category: "Operational Discipline",
+      def: "A Tier 2 statutory life-safety specialty endorsement (+20% to +25% wage adder) governing embedded firmware (SiMD), SaMD, mobile health apps, and FDA Section 524B compliance.",
+      citation: "Specialty Track Specification"
+    },
+    "SE-MED": {
+      title: "Medical Device & Clinical Technology Security (SE-MED)",
+      category: "Operational Discipline",
+      def: "A Tier 2 statutory life-safety specialty endorsement (+20% to +25% wage adder) governing embedded firmware (SiMD), SaMD, mobile health apps, and FDA Section 524B compliance.",
+      citation: "Specialty Track Specification"
+    },
+    "Medical Device & Clinical Technology Security": {
+      title: "Medical Device & Clinical Technology Security (SE-MED)",
+      category: "Operational Discipline",
+      def: "A Tier 2 statutory life-safety specialty endorsement (+20% to +25% wage adder) governing embedded firmware (SiMD), SaMD, mobile health apps, and FDA Section 524B compliance.",
+      citation: "Specialty Track Specification"
+    },
+    "SOC (Security Operations Center)": {
+      title: "Security Operations Center (SOC)",
+      category: "Operational Discipline",
+      def: "The centralized operational unit handling 24/7 telemetry monitoring, triage, detection engineering, and incident response.",
+      citation: "Trade Framework Glossary"
+    },
+    "SOC": {
+      title: "Security Operations Center (SOC)",
+      category: "Operational Discipline",
+      def: "The centralized operational unit handling 24/7 telemetry monitoring, triage, detection engineering, and incident response.",
+      citation: "Trade Framework Glossary"
+    },
+    "Security Operations Center": {
+      title: "Security Operations Center (SOC)",
+      category: "Operational Discipline",
+      def: "The centralized operational unit handling 24/7 telemetry monitoring, triage, detection engineering, and incident response.",
+      citation: "Trade Framework Glossary"
+    },
+    "29 CFR Part 30": {
+      title: "29 CFR Part 30",
+      category: "Regulatory Standard",
+      def: "Department of Labor regulations establishing mandatory Equal Employment Opportunity (EEO), affirmative action, and anti-harassment standards for Registered Apprenticeship programs.",
+      citation: "Trade Framework Glossary"
+    },
+    "CISA KEV (Known Exploited Vulnerabilities)": {
+      title: "Known Exploited Vulnerabilities (CISA KEV)",
+      category: "Regulatory Standard",
+      def: "The federal catalog of actively exploited vulnerabilities requiring prioritized remediation under binding operational directives.",
+      citation: "Trade Framework Glossary"
+    },
+    "CISA KEV": {
+      title: "Known Exploited Vulnerabilities (CISA KEV)",
+      category: "Regulatory Standard",
+      def: "The federal catalog of actively exploited vulnerabilities requiring prioritized remediation under binding operational directives.",
+      citation: "Trade Framework Glossary"
+    },
+    "Known Exploited Vulnerabilities": {
+      title: "Known Exploited Vulnerabilities (CISA KEV)",
+      category: "Regulatory Standard",
+      def: "The federal catalog of actively exploited vulnerabilities requiring prioritized remediation under binding operational directives.",
+      citation: "Trade Framework Glossary"
+    },
+    "CISM (Certified Information Security Manager)": {
+      title: "Certified Information Security Manager (CISM)",
+      category: "Regulatory Standard",
+      def: "An ISACA credential evaluating enterprise information security governance and risk management.",
+      citation: "Trade Framework Glossary"
+    },
+    "CISM": {
+      title: "Certified Information Security Manager (CISM)",
+      category: "Regulatory Standard",
+      def: "An ISACA credential evaluating enterprise information security governance and risk management.",
+      citation: "Trade Framework Glossary"
+    },
+    "Certified Information Security Manager": {
+      title: "Certified Information Security Manager (CISM)",
+      category: "Regulatory Standard",
+      def: "An ISACA credential evaluating enterprise information security governance and risk management.",
+      citation: "Trade Framework Glossary"
+    },
+    "CISSP (Certified Information Systems Security Professional)": {
+      title: "Certified Information Systems Security Professional (CISSP)",
+      category: "Regulatory Standard",
+      def: "An ISC2 credential requiring 5 years of verified multi-domain experience, serving as the benchmark standard for Generalist Journeyman portfolio evaluation.",
+      citation: "Trade Framework Glossary"
+    },
+    "CISSP": {
+      title: "Certified Information Systems Security Professional (CISSP)",
+      category: "Regulatory Standard",
+      def: "An ISC2 credential requiring 5 years of verified multi-domain experience, serving as the benchmark standard for Generalist Journeyman portfolio evaluation.",
+      citation: "Trade Framework Glossary"
+    },
+    "Certified Information Systems Security Professional": {
+      title: "Certified Information Systems Security Professional (CISSP)",
+      category: "Regulatory Standard",
+      def: "An ISC2 credential requiring 5 years of verified multi-domain experience, serving as the benchmark standard for Generalist Journeyman portfolio evaluation.",
+      citation: "Trade Framework Glossary"
+    },
+    "CRISC (Certified in Risk and Information Systems Control)": {
+      title: "Certified in Risk and Information Systems Control (CRISC)",
+      category: "Regulatory Standard",
+      def: "An ISACA credential focused on enterprise risk identification, assessment, and control design.",
+      citation: "Trade Framework Glossary"
+    },
+    "CRISC": {
+      title: "Certified in Risk and Information Systems Control (CRISC)",
+      category: "Regulatory Standard",
+      def: "An ISACA credential focused on enterprise risk identification, assessment, and control design.",
+      citation: "Trade Framework Glossary"
+    },
+    "Certified in Risk and Information Systems Control": {
+      title: "Certified in Risk and Information Systems Control (CRISC)",
+      category: "Regulatory Standard",
+      def: "An ISACA credential focused on enterprise risk identification, assessment, and control design.",
+      citation: "Trade Framework Glossary"
+    },
+    "FDA Section 524B": {
+      title: "FDA Section 524B",
+      category: "Regulatory Standard",
+      def: "Statutory requirement mandating cybersecurity design baselines, software bills of materials (SBOMs), and post-market lifecycle management for cyber device submissions.",
+      citation: "Trade Framework Glossary"
+    },
+    "IEC 62443": {
+      title: "IEC 62443",
+      category: "Regulatory Standard",
+      def: "The foundational international consensus standard for cybersecurity across industrial automation and control systems (IACS).",
+      citation: "Trade Framework Glossary"
+    },
+    "NERC-CIP": {
+      title: "NERC-CIP",
+      category: "Regulatory Standard",
+      def: "Mandatory reliability and cybersecurity standards protecting North American bulk electric grid assets.",
+      citation: "Trade Framework Glossary"
+    },
+    "NIST CSF 2.0": {
+      title: "NIST CSF 2.0",
+      category: "Regulatory Standard",
+      def: "The NIST Cybersecurity Framework organizing defensive practices across Govern, Identify, Protect, Detect, Respond, and Recover functions.",
+      citation: "Trade Framework Glossary"
+    },
+    "NIST NICE Framework (NIST SP 800-181)": {
+      title: "NIST NICE Framework (NIST SP 800-181)",
+      category: "Regulatory Standard",
+      def: "The national standard taxonomy defining cybersecurity work roles, knowledge, skills, and tasks.",
+      citation: "Trade Framework Glossary"
+    },
+    "NIST SP 800-181": {
+      title: "NIST NICE Framework (NIST SP 800-181)",
+      category: "Regulatory Standard",
+      def: "The national standard taxonomy defining cybersecurity work roles, knowledge, skills, and tasks.",
+      citation: "Trade Framework Glossary"
+    },
+    "NIST NICE Framework": {
+      title: "NIST NICE Framework (NIST SP 800-181)",
+      category: "Regulatory Standard",
+      def: "The national standard taxonomy defining cybersecurity work roles, knowledge, skills, and tasks.",
+      citation: "Trade Framework Glossary"
+    },
+    "NIST RMF (NIST SP 800-37)": {
+      title: "NIST SP 800-37 (NIST RMF)",
+      category: "Regulatory Standard",
+      def: "The Risk Management Framework guiding the categorization, selection, implementation, assessment, authorization, and monitoring of security controls.",
+      citation: "Trade Framework Glossary"
+    },
+    "NIST RMF": {
+      title: "NIST SP 800-37 (NIST RMF)",
+      category: "Regulatory Standard",
+      def: "The Risk Management Framework guiding the categorization, selection, implementation, assessment, authorization, and monitoring of security controls.",
+      citation: "Trade Framework Glossary"
+    },
+    "NIST SP 800-37": {
+      title: "NIST SP 800-37 (NIST RMF)",
+      category: "Regulatory Standard",
+      def: "The Risk Management Framework guiding the categorization, selection, implementation, assessment, authorization, and monitoring of security controls.",
+      citation: "Trade Framework Glossary"
+    },
+    "OSCP (Offensive Security Certified Professional)": {
+      title: "Offensive Security Certified Professional (OSCP)",
+      category: "Regulatory Standard",
+      def: "A hands-on practical exam evaluating real-time network exploitation and penetration testing execution.",
+      citation: "Trade Framework Glossary"
+    },
+    "OSCP": {
+      title: "Offensive Security Certified Professional (OSCP)",
+      category: "Regulatory Standard",
+      def: "A hands-on practical exam evaluating real-time network exploitation and penetration testing execution.",
+      citation: "Trade Framework Glossary"
+    },
+    "Offensive Security Certified Professional": {
+      title: "Offensive Security Certified Professional (OSCP)",
+      category: "Regulatory Standard",
+      def: "A hands-on practical exam evaluating real-time network exploitation and penetration testing execution.",
+      citation: "Trade Framework Glossary"
+    },
+    "STRIDE / PASTA": {
+      title: "STRIDE / PASTA",
+      category: "Regulatory Standard",
+      def: "Threat modeling frameworks used to categorize vulnerabilities (STRIDE) or align application risks with business objectives (PASTA).",
+      citation: "Trade Framework Glossary"
+    },
+    "WIOA (Workforce Innovation and Opportunity Act)": {
+      title: "Workforce Innovation and Opportunity Act (WIOA)",
+      category: "Regulatory Standard",
+      def: "Federal workforce development statute providing public grant funding for registered apprenticeships and vocational training.",
+      citation: "WIOA Title I"
+    },
+    "WIOA": {
+      title: "Workforce Innovation and Opportunity Act (WIOA)",
+      category: "Regulatory Standard",
+      def: "Federal workforce development statute providing public grant funding for registered apprenticeships and vocational training.",
+      citation: "WIOA Title I"
+    },
+    "Workforce Innovation and Opportunity Act": {
+      title: "Workforce Innovation and Opportunity Act (WIOA)",
+      category: "Regulatory Standard",
+      def: "Federal workforce development statute providing public grant funding for registered apprenticeships and vocational training.",
+      citation: "WIOA Title I"
     }
   };
 

@@ -125,7 +125,7 @@ body {
 }
 
 .portal-brand-title {
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: -0.01em;
 }
@@ -332,6 +332,11 @@ body {
 
 .dropdown-item:hover {
   background-color: #1e293b;
+}
+
+.dropdown-item.active {
+  background-color: rgba(14, 165, 233, 0.12);
+  border-left: 2px solid var(--accent-cyan);
 }
 
 .item-title {
