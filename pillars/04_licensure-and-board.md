@@ -2,7 +2,7 @@
 
 The cybersecurity industry is currently saturated with hundreds of competing commercial credentials. Vendors churn out proprietary multiple-choice tests and extract recurring annual renewal fees, confusing newcomers and employers alike. 
 
-Rather than invalidating the legitimate work practitioners have already completed or endorsing commercial vendor lock-in, the trade model establishes an independent **National Cybersecurity Trade Board and Credential Evaluation Clearinghouse**. The Board systematically evaluates existing credentials against open standards (such as NIST NICE SP 800-181), determining appropriate tier mapping, filtering out low-rigor cash grabs, and honoring rigorous practical credentials.
+Rather than invalidating the legitimate work practitioners have already completed or endorsing commercial vendor lock-in, the trade model establishes an independent **National Cybersecurity Trade Board and Credential Evaluation Clearinghouse**. The Board systematically evaluates existing credentials against open standards (such as NIST NICE SP 800-181), determining appropriate tier mapping, filtering out unproctored multiple-choice exams, and recognizing verified practical credentials.
 
 > **Core Mandate:** Replace fragmented vendor certifications with an independent, legally recognized Journeyman standard anchored to practical competency and open standards.
 
@@ -21,7 +21,7 @@ The National Cybersecurity Trade Board conducts objective, peer-reviewed evaluat
 ## 2. The Journeyman License Milestone
 The defining milestone transitioning a worker from supervised apprentice to independent practitioner is the **Journeyman License**:
 
-* **The Core Benchmark:** Generalist licensure is anchored to comprehensive multi-domain standards, specifically reflecting the rigor of multi-domain benchmarks (such as the CISSP 5-year multi-domain standard) or an equivalent Board-administered practical challenge examination.
+* **The Core Benchmark:** Generalist licensure is anchored to multi-domain operational standards, specifically reflecting the rigor of multi-domain benchmarks (such as the CISSP 5-year multi-domain standard) or an equivalent Board-administered practical challenge examination.
 * **Practical Challenge Pathways:** Self-taught engineers, CTF competitors, and non-traditional candidates can challenge the Journeyman milestone directly through practical, hands-on lab examinations paired with verified operational logs. For complete conversion caps and exam rubrics, see [Apprenticeship Standards & Operational On-Ramps](../framework/apprenticeship-standards.md).
 * **Single Standard of Competence:** Instead of collecting dozens of overlapping commercial badges, the Journeyman license serves as the unified, legally recognized standard of generalist operational competence.
 * **Zero-Fee Competency Maintenance:** Licensure renewal is maintained through verified ongoing operational practice hours or open technical contributions, eliminating recurring vendor annual maintenance fees (AMFs).

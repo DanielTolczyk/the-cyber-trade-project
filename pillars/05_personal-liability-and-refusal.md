@@ -31,7 +31,7 @@ When executive leadership insists on deploying a system over a licensed engineer
 
 ## 4. Statutory Malpractice Cap & Clean Attestation Safe Harbor
 
-To eliminate practitioner liability anxiety and prevent expert brain drain:
+To establish regulatory certainty and protect technical practitioners:
 
 * **$0 Personal Damages Liability Cap:** An active Master of Record or Journeyman maintaining verified baseline compliance and clean attestation feeds holds statutory immunity from personal civil damages.
 * **Guild Malpractice Defense Pool:** Full legal defense representation during board malpractice inquiries is funded directly through the multi-employer trust.

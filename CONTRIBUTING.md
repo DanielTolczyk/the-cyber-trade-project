@@ -7,6 +7,12 @@ title: Contributing & RFCs
 
 Thank you for your interest in contributing to The Cybersecurity Trade Project. This initiative is structured as an open-source, vendor-neutral standard to build an accountable, accessible, and rigorous skilled trade framework for the cybersecurity industry.
 
+> **Scope & Contribution Pathways:**
+> * **Documentation Fixes (`[DOCS]`):** Typo corrections, internal link repairs, and wording clarifications via direct Pull Request.
+> * **Framework Amendments (`[PROPOSAL]`):** Curriculum updates, template forms, or metric clarifications via Issue and Pull Request.
+> * **Architectural & Governance Changes (`[RFC]`):** Major statutory, legal, or economic policy debates via the formal RFC process in `rfcs/`.
+> * **AI Collaboration Standard:** All automated or AI-assisted contributions must adhere strictly to [AGENTS.md](AGENTS.md).
+
 ---
 
 ## 1. Guiding Principles for Contributions
@@ -14,6 +20,7 @@ Thank you for your interest in contributing to The Cybersecurity Trade Project. 
 2. **Accessible Upward Mobility & Anti-Gatekeeping:** Avoid mechanisms that enforce wealth, academic degree inflation, or arbitrary pedigree barriers. Preserve rigor through verified hands-on operational hours, objective lab exams, and competency milestones.
 3. **Vendor Neutrality & Open Standards:** Reference open public frameworks (NIST SP 800-181 NICE, NIST CSF, CIS Controls, ISO/IEC, DOL Registered Apprenticeships) rather than proprietary commercial products or vendor-locked credentials.
 4. **Labor-Enterprise Balance:** Proposals should align the protections and safety of frontline engineering labor with the economic incentives and risk reduction requirements of enterprise employers and insurance underwriters.
+5. **NIST-Grade Precision & Clarity:** Specifications must maintain direct, active syntax and regulatory precision without conversational filler, passive nominalization chains, or arbitrary jargon bloat. All specialized statutory terms must be indexed in [GLOSSARY.md](GLOSSARY.md).
 
 ---
 
@@ -76,11 +83,23 @@ Ensure proposed changes are placed in the appropriate directory:
 * `governance/`: Legal, board, craft guild, and industry transition mechanics.
 * `rfcs/`: Formal Requests for Comments, architectural proposals, and active community debates.
 * `faq.md` & `glossary.md`: Canonical trade definitions, practitioner FAQs, and enterprise implementation guidance.
+* `AGENTS.md`: Guidelines and quality gates for AI-assisted contributions and agent workflows.
 * `README.md`: Master architectural overview and project roadmap.
 
 ---
 
-## 5. Style & Terminology Standards
+## 5. AI & Automated Contributions (AGENTS.md)
+
+Contributors are welcome to use AI assistants (ChatGPT, Claude, Copilot, Cline, etc.) to help format, research, and draft contributions. However, all AI-assisted work must adhere to the policies established in [AGENTS.md](AGENTS.md):
+
+* **Human Accountability:** You are personally responsible for every word in your PR. If you cannot explain and defend a proposal in your own words, do not submit it.
+* **Progressive Disclosure:** Substantive proposals must include a plain-English summary (TL;DR) and an operational practical scenario so human readers can quickly digest the requirements.
+* **Zero AI Clichés & Buzzwords:** AI filler phrases, marketing jargon, and sycophantic greetings are strictly prohibited.
+* **No Unverified Citations:** Never submit AI-generated statutory, legal, or NIST citations without independently verifying their authenticity.
+
+---
+
+## 6. Style & Terminology Standards
 * **Voice:** Professional, direct, authoritative, and policy-grounded. Avoid marketing buzzwords, vague abstractions, and hyperbolic claims.
 * **Canonical Terminology:** Consistently use established trade definitions:
   * **National Cybersecurity Trade Board** (the statutory licensure and standard-setting authority)

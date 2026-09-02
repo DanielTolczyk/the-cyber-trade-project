@@ -1,4 +1,4 @@
-# Pillar II: The Earn-While-You-Learn Pipeline
+# Pillar II: Paid Apprenticeships & Graduated Wage Escalation
 
 Cybersecurity is an applied engineering and operational discipline. It cannot be mastered exclusively through passive classroom lectures or multiple-choice exams. True operational competence requires immersion in live production environments under structured mentorship.
 

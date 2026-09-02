@@ -85,7 +85,7 @@ To support operational defense across traditional infrastructure, cloud control 
 
 ## 4. Automated Actuarial Feed & Underwriter Attestation API
 
-To operationalize Pillar V and Pillar VII without exposing proprietary corporate data or creating manual audit overhead, the schema supports an automated, zero-knowledge **Actuarial Attestation Feed**:
+To implement and automate Pillar V and Pillar VII compliance without exposing proprietary corporate data or creating manual audit overhead, the schema supports an automated, zero-knowledge **Actuarial Attestation Feed**:
 
 ```json
 {

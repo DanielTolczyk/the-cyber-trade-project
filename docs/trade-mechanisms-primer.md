@@ -140,9 +140,9 @@ The trade framework pairs **Master of Record Licensure** with the **Statutory Ri
 ---
 
 ## 7. Next Steps & Detailed Specifications
-* [Pillar I: Standardized Pre-Apprenticeship](../pillars/01_pre-apprenticeship.md)
+* [Pillar I: Standardized Pre-Apprenticeship & Vocational Screening](../pillars/01_pre-apprenticeship.md)
 * [Pillar VI: Craft Guilds, Labor Trusts & Collective Defense](../pillars/06_craft-guilds-and-labor-trusts.md)
-* [Pillar VII: The Insurance-Driven Market Catalyst](../pillars/07_insurance-catalyst.md)
+* [Pillar VII: Cyber Underwriting & Actuarial Risk Stratification](../pillars/07_insurance-catalyst.md)
 * [Dues Structure & Labor Trust Economics](../governance/dues-and-trust-economics.md)
 * [International Adaptation Guide](international-adaptations.md)
 

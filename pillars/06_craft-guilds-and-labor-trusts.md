@@ -24,7 +24,7 @@ The Cybersecurity Guild does not operate as an adversarial factory-floor union. 
 
 ## 3. Portable Multi-Employer Benefits
 * **Taft-Hartley Benefit Trusts:** Pools health insurance, disability coverage, parental leave, and retirement pension contributions across all participating employers.
-* **Full Labor Portability:** Healthcare and retirement funds maintain full portability with the practitioner across enterprise roles, MSSP contracts, startup engagements, or independent fractional work. For exact Hour-Bank health reserve mechanics and Two-Check retirement economics, see [Dues Structure & Labor Trusts](../governance/dues-and-trust-economics.md).
+* **Full Labor Portability:** Healthcare and retirement benefits remain fully portable as practitioners transition across enterprise roles, MSSP contracts, startup engagements, or independent fractional work. For exact Hour-Bank health reserve mechanics and Two-Check retirement economics, see [Dues Structure & Labor Trusts](../governance/dues-and-trust-economics.md).
 
 ---
 

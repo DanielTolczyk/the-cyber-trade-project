@@ -1,4 +1,4 @@
-# Pillar VII: The Insurance-Driven Market Catalyst
+# Pillar VII: Cyber Underwriting & Actuarial Risk Stratification
 
 Systemic transformation in the private enterprise sector cannot rely solely on slow, reactive government legislation. The trade model is accelerated and enforced through the direct economic leverage of cyber-insurance underwriters and capital markets.
 
@@ -13,7 +13,7 @@ Cyber-insurance carriers absorb billions in avoidable breach claims annually cau
 * **Standard / Unrated Tier:** Organizations utilizing unverified, non-standardized labor operate under standard market rates and require third-party control attestations.
 * **High-Risk / Excluded Tier:** Organizations with unmitigated structural vulnerabilities and unverified administration face steep premium surcharges, elevated deductibles, or specific exclusion riders for claims stemming from administrative gross negligence.
 * **SMB & Fractional Safe Harbor:** Small-to-medium businesses utilizing Board-certified Fractional Masters of Record or accredited trade MSSPs qualify directly for Preferred Tier underwriting rates.
-* **Continuous Telemetry vs. Static Annual Questionnaires:** Traditional cyber underwriting suffers from uncalibrated loss volatility because static annual self-attestation surveys fail to reflect operational reality. The trade replaces self-attestations with continuous, privacy-preserving cryptographic telemetry via the **Universal Logbook & Actuarial Attestation Feed**, providing reinsurers with real-time mathematical proof of patch cadence, MFA enforcement, and supervisory ratio compliance.
+* **Continuous Telemetry vs. Static Annual Questionnaires:** Traditional cyber underwriting struggles with volatile loss ratios because annual self-attestation surveys fail to reflect operational reality. The trade replaces self-reported surveys with continuous, privacy-preserving cryptographic telemetry via the **Universal Logbook & Actuarial Attestation Feed**, providing reinsurers with verified proof of patch cadence, MFA enforcement, and supervisory ratio compliance.
 
 ---
 
@@ -28,7 +28,7 @@ Following a catastrophic security incident, ransomware event, or data breach:
 
 ---
 
-## 3. Comprehensive Economic Return on Investment (ROI)
+## 3. Enterprise Economic Return on Investment (ROI)
 Enterprise participation in the trade framework delivers measurable, balance-sheet advantages:
 * **Substantial Insurance Premium Reductions:** Directly lowering the recurring cost of enterprise cyber risk transfer.
 * **Predictable Labor Cost Forecasting:** Replacing erratic salary bidding wars with transparent, milestone-based wage progression scales.

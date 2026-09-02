@@ -46,7 +46,9 @@ AI_SLOP_PATTERN = re.compile(
     r"turnkey|seamless|seamlessly|robust|robustly|holistic|"
     r"streamline|streamlined|synergy|synergies|synergistic|"
     r"spearhead|spearheading|supercharge|supercharging|"
-    r"cutting-edge|groundbreaking|paradigm shift|silver bullet|panacea"
+    r"cutting-edge|groundbreaking|paradigm shift|silver bullet|panacea|"
+    r"the\s+\w+tion\s+of\s+the\s+\w+tion|"
+    r"is\s+designed\s+to|aims\s+to|seeks\s+to"
     r")\b",
     re.IGNORECASE,
 )
@@ -63,13 +65,13 @@ REQUIRED_RFC_SECTIONS = [
 
 # Canonical 7 Pillars (Immutability Gate)
 MANDATORY_PILLARS = {
-    "pillars/01_pre-apprenticeship.md": "# Pillar I: Standardized Pre-Apprenticeship (The Talent Filter)",
-    "pillars/02_earn-while-learning.md": "# Pillar II: The Earn-While-You-Learn Pipeline",
+    "pillars/01_pre-apprenticeship.md": "# Pillar I: Standardized Pre-Apprenticeship & Vocational Screening",
+    "pillars/02_earn-while-learning.md": "# Pillar II: Paid Apprenticeships & Graduated Wage Escalation",
     "pillars/03_rotational-pipeline.md": "# Pillar III: Progressive Rotations & Enforced Ratios",
     "pillars/04_licensure-and-board.md": "# Pillar IV: Professional Licensure & The Journeyman Standard",
     "pillars/05_personal-liability-and-refusal.md": "# Pillar V: Personal Liability & The Right of Technical Refusal",
     "pillars/06_craft-guilds-and-labor-trusts.md": "# Pillar VI: Craft Guilds, Labor Trusts & Collective Defense",
-    "pillars/07_insurance-catalyst.md": "# Pillar VII: The Insurance-Driven Market Catalyst",
+    "pillars/07_insurance-catalyst.md": "# Pillar VII: Cyber Underwriting & Actuarial Risk Stratification",
 }
 
 
@@ -357,7 +359,7 @@ def check_rfc_protection_gate() -> list:
 
 
 def check_glossary_term_parity() -> list:
-    """Verifies that all terms defined in GLOSSARY.md exist in assets/js/portal.js (GLOSSARY_TERMS)."""
+    """Verifies that all terms defined in GLOSSARY.md exist in assets/js/portal.js (GLOSSARY_TERMS) and key acronyms are covered."""
     errors = []
     glossary_file = REPO_ROOT / "GLOSSARY.md"
     portal_file = REPO_ROOT / "assets" / "js" / "portal.js"
@@ -370,7 +372,8 @@ def check_glossary_term_parity() -> list:
         return errors
 
     try:
-        lines = glossary_file.read_text(encoding="utf-8").splitlines()
+        glossary_raw = glossary_file.read_text(encoding="utf-8")
+        lines = glossary_raw.splitlines()
         terms = []
         for line in lines:
             line_s = line.strip()
@@ -397,6 +400,12 @@ def check_glossary_term_parity() -> list:
                     f"[Glossary Parity Error] Term '{raw_key}' in GLOSSARY.md is missing from "
                     f"assets/js/portal.js (GLOSSARY_TERMS). Synchronize tooltip definitions in portal.js."
                 )
+
+        # Verify key mandatory trade acronyms exist in GLOSSARY.md
+        mandatory_acronyms = ["NCTB", "CCG", "PEC", "CUAAC", "RJPB", "MoR", "vMoR", "JATC", "NSNC", "EORA", "OEF", "CCDR", "RTI"]
+        for acr in mandatory_acronyms:
+            if not re.search(r"\b" + re.escape(acr) + r"\b", glossary_raw):
+                errors.append(f"[Glossary Coverage Error] Mandatory trade acronym '{acr}' is missing from GLOSSARY.md.")
     except Exception as e:
         errors.append(f"[Glossary Parity Error] Could not validate glossary parity: {e}")
 

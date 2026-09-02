@@ -1,4 +1,4 @@
-# Pillar I: Standardized Pre-Apprenticeship (The Talent Filter)
+# Pillar I: Standardized Pre-Apprenticeship & Vocational Screening
 
 The entry-level cybersecurity pipeline is broken: organizations take unquantifiable risks on candidates with non-standardized backgrounds, while newcomers are exploited by high-cost, predatory bootcamps. The trade model resolves this through an institutionalized, standardized, non-debt **Pre-Apprenticeship Filter**.
 
@@ -22,7 +22,7 @@ Before a candidate is eligible for dispatch or direct hiring into the paid appre
 1. **Computer Networking:** IPv4/IPv6 subnetting, OSI model troubleshooting, TCP/IP state mechanics, DNS architecture, routing fundamentals, and live packet inspection (Wireshark/tcpdump).
 2. **Operating Systems & Systems Administration:** Linux CLI navigation and shell scripting, Windows administrative internals, file system permissions, user/group management, and daemon/service management.
 3. **Scripting & Operational Automation:** Core scripting in Python and Bash/PowerShell for log parsing, regex filtering, API interactions, and basic task automation.
-4. **Foundational Defensive Principles:** Practical operationalization of the CIA triad, cryptographic fundamentals (symmetric/asymmetric encryption, hashing, PKI basics), attack vectors, and principle of least privilege.
+4. **Foundational Defensive Principles:** Applying CIA triad principles in live systems, cryptographic fundamentals (symmetric/asymmetric encryption, hashing, PKI basics), attack vector identification, and principle of least privilege enforcement.
 
 ---
 

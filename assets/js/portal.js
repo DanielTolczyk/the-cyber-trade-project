@@ -93,6 +93,18 @@
       def: "An independent, multilateral 11-member regulatory body responsible for public safety, competency standards, practical challenge exams, and professional licensing, strictly separated from labor unions and individual employers.",
       citation: "Trade Framework Glossary"
     },
+    "NCTB (National Cybersecurity Trade Board)": {
+      title: "National Cybersecurity Trade Board (NCTB)",
+      category: "Labor & Governance",
+      def: "The independent, vendor-neutral standard-setting and regulatory licensure authority for the cybersecurity trade.",
+      citation: "Trade Framework Glossary"
+    },
+    "NCTB": {
+      title: "National Cybersecurity Trade Board (NCTB)",
+      category: "Labor & Governance",
+      def: "The independent, vendor-neutral standard-setting and regulatory licensure authority for the cybersecurity trade.",
+      citation: "Trade Framework Glossary"
+    },
     "Board Practical Challenge Examiner": {
       title: "Board Practical Challenge Examiner",
       category: "Labor & Governance",
@@ -115,6 +127,18 @@
       title: "Condition-Bounded Safe Harbor",
       category: "Labor & Governance",
       def: "The legal indemnification granted under Form FORM-002 that remains valid strictly while enumerated operational assumptions and compensating controls remain active, expiring immediately upon material architectural changes.",
+      citation: "Trade Framework Glossary"
+    },
+    "CCG (Cybersecurity Craft Guild)": {
+      title: "Cybersecurity Craft Guild (CCG)",
+      category: "Labor & Governance",
+      def: "The national workforce representation body and labor trust administering JATC training funds, collective legal defense, and portable multi-employer benefits for trade practitioners.",
+      citation: "Trade Framework Glossary"
+    },
+    "CCG": {
+      title: "Cybersecurity Craft Guild (CCG)",
+      category: "Labor & Governance",
+      def: "The national workforce representation body and labor trust administering JATC training funds, collective legal defense, and portable multi-employer benefits for trade practitioners.",
       citation: "Trade Framework Glossary"
     },
     "Craft Guild (Cybersecurity Craft Guild)": {
@@ -187,6 +211,18 @@
       title: "Emergency Apprentice Transfer Protocol",
       category: "Labor & Governance",
       def: "A mandatory JATC mechanism requiring the immediate reassignment of an apprentice's indenture to a new compliant employer sponsor within 14 calendar days if the apprentice experiences harassment, discrimination, or supervisory retaliation.",
+      citation: "Trade Framework Glossary"
+    },
+    "EORA (Executive Override & Risk Acceptance)": {
+      title: "Executive Override & Risk Acceptance (EORA)",
+      category: "Labor & Governance",
+      def: "Form FORM-002 executed by a corporate officer to overrule a Master of Record's technical refusal, assuming full statutory, civil, and regulatory liability for the deployment.",
+      citation: "Trade Framework Glossary"
+    },
+    "EORA": {
+      title: "Executive Override & Risk Acceptance (EORA)",
+      category: "Labor & Governance",
+      def: "Form FORM-002 executed by a corporate officer to overrule a Master of Record's technical refusal, assuming full statutory, civil, and regulatory liability for the deployment.",
       citation: "Trade Framework Glossary"
     },
     "Fallback Statutory Mandate Bridge": {
@@ -453,10 +489,46 @@
       def: "A formal, timestamped legal instrument executed exclusively by a Master of Record when an executive directive or release violates statutory safety baselines. Executing an executive override against this notice transfers civil, regulatory, and financial liability directly to the overriding corporate officers.",
       citation: "Trade Framework Glossary"
     },
+    "Notice of Safety Non-Concurrence (NSNC)": {
+      title: "Notice of Safety Non-Concurrence (NSNC)",
+      category: "Labor & Governance",
+      def: "The formal statutory refusal instrument (Form FORM-001) executed exclusively by a Master of Record to document and halt critical baseline safety violations.",
+      citation: "Trade Framework Glossary"
+    },
+    "NSNC (Notice of Safety Non-Concurrence)": {
+      title: "Notice of Safety Non-Concurrence (NSNC)",
+      category: "Labor & Governance",
+      def: "The formal statutory refusal instrument (Form FORM-001) executed exclusively by a Master of Record to document and halt critical baseline safety violations.",
+      citation: "Trade Framework Glossary"
+    },
+    "NSNC": {
+      title: "Notice of Safety Non-Concurrence (NSNC)",
+      category: "Labor & Governance",
+      def: "The formal statutory refusal instrument (Form FORM-001) executed exclusively by a Master of Record to document and halt critical baseline safety violations.",
+      citation: "Trade Framework Glossary"
+    },
     "Operational Exception Flag": {
       title: "Operational Exception Flag",
       category: "Labor & Governance",
       def: "A standardized internal escalation record logged by an Apprentice or Journeyman to document technical debt or baseline violations, triggering mandatory review by the Master of Record without halting production pipelines.",
+      citation: "Trade Framework Glossary"
+    },
+    "Operational Exception Flag (OEF)": {
+      title: "Operational Exception Flag (OEF)",
+      category: "Labor & Governance",
+      def: "The frontline internal engineering dissent instrument (Form FORM-003) used to log technical debt and deviations within sprint ticketing.",
+      citation: "Trade Framework Glossary"
+    },
+    "OEF (Operational Exception Flag)": {
+      title: "Operational Exception Flag (OEF)",
+      category: "Labor & Governance",
+      def: "The frontline internal engineering dissent instrument (Form FORM-003) used to log technical debt and deviations within sprint ticketing.",
+      citation: "Trade Framework Glossary"
+    },
+    "OEF": {
+      title: "Operational Exception Flag (OEF)",
+      category: "Labor & Governance",
+      def: "The frontline internal engineering dissent instrument (Form FORM-003) used to log technical debt and deviations within sprint ticketing.",
       citation: "Trade Framework Glossary"
     },
     "Operational Shift Ceiling (14-Hour Rule)": {
@@ -1490,21 +1562,31 @@
     const sidebar = document.getElementById("portal-sidebar");
     const backdrop = document.getElementById("portal-sidebar-backdrop");
 
-    const openSidebar = () => {
+    if (!toggleBtn && !sidebar) return;
+
+    const openSidebar = (e) => {
+      if (e) e.preventDefault();
       if (sidebar) sidebar.classList.add("open");
       if (backdrop) backdrop.classList.add("active");
       document.body.style.overflow = "hidden";
     };
 
-    const closeSidebar = () => {
+    const closeSidebar = (e) => {
+      if (e) e.preventDefault();
       if (sidebar) sidebar.classList.remove("open");
       if (backdrop) backdrop.classList.remove("active");
       document.body.style.overflow = "";
     };
 
-    if (toggleBtn) toggleBtn.addEventListener("click", openSidebar);
-    if (closeBtn) closeBtn.addEventListener("click", closeSidebar);
-    if (backdrop) backdrop.addEventListener("click", closeSidebar);
+    if (toggleBtn) {
+      toggleBtn.addEventListener("click", openSidebar);
+    }
+    if (closeBtn) {
+      closeBtn.addEventListener("click", closeSidebar);
+    }
+    if (backdrop) {
+      backdrop.addEventListener("click", closeSidebar);
+    }
 
     // Auto-close when clicking any link in mobile drawer
     const sidebarLinks = sidebar ? sidebar.querySelectorAll("a") : [];
@@ -1571,8 +1653,9 @@
         return;
       }
 
-      const platform = (navigator.userAgentData?.platform || navigator.platform || navigator.userAgent || "").toLowerCase();
-      const isMac = /mac|iphone|ipad|ipod/.test(platform);
+      const navData = navigator.userAgentData;
+      const platform = (navData && navData.platform) || navigator.platform || navigator.userAgent || "";
+      const isMac = /mac|iphone|ipad|ipod/i.test(String(platform));
       const shortcutText = isMac ? "⌘K" : "Ctrl+K";
       kbd.textContent = shortcutText;
 
@@ -1599,7 +1682,8 @@
     // Pre-fetch search index in background immediately for instant readiness
     loadSearchIndex();
 
-    function openSearchModal() {
+    function openSearchModal(e) {
+      if (e) e.preventDefault();
       backdrop.style.display = "flex";
       backdrop.setAttribute("aria-hidden", "false");
       if (searchBtn) searchBtn.setAttribute("aria-expanded", "true");
@@ -1608,7 +1692,8 @@
       setTimeout(() => input.focus(), 50);
     }
 
-    function closeSearchModal() {
+    function closeSearchModal(e) {
+      if (e) e.preventDefault();
       backdrop.style.display = "none";
       backdrop.setAttribute("aria-hidden", "true");
       if (searchBtn) searchBtn.setAttribute("aria-expanded", "false");
@@ -1853,24 +1938,23 @@
     });
   }
 
+  function bootstrap() {
+    // 1. Core UI Navigation & Search (High Priority - Must Never Fail)
+    try { initMobileSidebar(); } catch (e) { console.warn("Mobile sidebar init:", e); }
+    try { initGlobalSearch(); } catch (e) { console.warn("Global search init:", e); }
+    try { initNavigation(); } catch (e) { console.warn("Navigation init:", e); }
+
+    // 2. Content Enhancers & Deferred Parsers
+    try { initResponsiveTables(); } catch (e) { console.warn("Responsive tables init:", e); }
+    try { initDiagramLightbox(); } catch (e) { console.warn("Diagram lightbox init:", e); }
+    try { initGlossarySearch(); } catch (e) { console.warn("Glossary search init:", e); }
+    try { initGlossaryParser(); } catch (e) { console.warn("Glossary parser init:", e); }
+  }
+
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", () => {
-      initGlossaryParser();
-      initDiagramLightbox();
-      initGlossarySearch();
-      initGlobalSearch();
-      initNavigation();
-      initMobileSidebar();
-      initResponsiveTables();
-    });
+    document.addEventListener("DOMContentLoaded", bootstrap);
   } else {
-    initGlossaryParser();
-    initDiagramLightbox();
-    initGlossarySearch();
-    initGlobalSearch();
-    initNavigation();
-    initMobileSidebar();
-    initResponsiveTables();
+    bootstrap();
   }
 })();
 
