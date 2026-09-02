@@ -73,7 +73,7 @@ Ethical infractions and misconduct are categorized into four distinct classes:
 Cybersecurity is an operational discipline grounded in verifiable integrity. A culture of silence or peer intimidation is incompatible with public safety and system defense.
 
 ### A. Universal Affirmative Duty
-* Every registered Apprentice, Licensed Journeyman, and Master Practitioner who possesses direct, verifiable knowledge of a Class A, Class B, or Class C violation is required to file an [Ethics & Conduct Incident Report (Form FORM-004)](../templates/FORM-004_ethics-and-conduct-incident-report.md) within ten (10) business days of discovery.
+* Every registered Apprentice, Licensed Journeyman, and Master Practitioner who possesses direct, verifiable knowledge of a Class A, Class B, or Class C violation shall file an [Ethics & Conduct Incident Report (Form FORM-004)](../templates/FORM-004_ethics-and-conduct-incident-report.md) within ten (10) business days of discovery.
 * **Supervisory Heightened Standard:** Journeymen, Masters of Record, and JATC Instructors who observe harassment, discrimination, or logbook fraud among personnel under their direct supervision must submit Form FORM-004 within 48 hours.
 * **Willful Concealment Sanction:** Active concealment, destruction of telemetry evidence, or conspiracy to hide verified violations constitutes a secondary ethical infraction subject to formal Board censure.
 

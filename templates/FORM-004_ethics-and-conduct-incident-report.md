@@ -26,7 +26,7 @@ Select the primary violation tier and category:
   * [ ] Direct Retaliation for FORM-001 / FORM-003 / FORM-004 Filing
   * [ ] Proxy Retaliation / Peer Social Ostracization / Code Review & On-Call Sabotage
   * [ ] Deanonymization Attempt / Retaliatory Interrogation of Colleagues
-  * [ ] Immigration Status / Visa Sponsorship Leverage or Threats
+  * [ ] Immigration Status / Visa Sponsorship Coercion or Retaliation
   * [ ] Corporate or Industry Blacklisting
   * [ ] Demotion, Shift Penalization, or Unwarranted Negative Evaluation
 * [ ] **Class D: Supervisory Abuse & Ratio Exploitation**

@@ -10,13 +10,13 @@ This FAQ addresses common operational, educational, and legal questions regardin
 ## Section 1: Foundational Principles & Workforce Model
 
 ### 1. Does this replace a four-year computer science degree?
-No. Degrees remain valuable for theoretical research, but operational defense is an applied engineering trade. The framework provides verified hands-on competency without arbitrary degree gatekeeping. For details, see [Pillar I: Standardized Pre-Apprenticeship](pillars/01_pre-apprenticeship.md).
+No. Degrees remain valuable for theoretical research, but operational defense is an applied engineering trade. The framework provides verified hands-on competency without arbitrary degree gatekeeping. For details, see [Pillar I: Standardized Pre-Apprenticeship & Vocational Screening](pillars/01_pre-apprenticeship.md).
 
 ### 2. How are existing experienced professionals grandfathered in?
 Active practitioners transition via a 24-to-36-month transition window across three non-exclusive on-ramps: Track A (Career Runtime & Peer Portfolio Review for zero-certification veterans; 8,000+ hrs for Journeyman, 16,000+ hrs + Oral Board for Master), Track B (Benchmark RTI Fast-Track for active or lapsed cert holders with zero AMF penalties), or Track C (4-hour Practical Range Challenge Exam). For full grandfathering rubrics, see the [10-Year Industry Transition Plan](governance/transition-plan.md) and [Licensure Standards & Progression](framework/licensure-and-progression.md).
 
 ### 3. Does this invalidate my existing certifications?
-No. The Board Credential Evaluation Clearinghouse audits established certs against NIST NICE to award direct Related Technical Instruction (RTI) and milestone credit. For evaluation criteria, see [Pillar IV: Professional Licensure](pillars/04_licensure-and-board.md).
+No. The Board Credential Evaluation Clearinghouse audits established certs against NIST NICE to award direct Related Technical Instruction (RTI) and milestone credit. For evaluation criteria, see [Pillar IV: Professional Licensure & The Journeyman Standard](pillars/04_licensure-and-board.md).
 
 ### 4. Will I be personally sued if my company gets breached?
 No. Enterprise cyber liability absorbs financial breach losses, and practitioners hold statutory safe harbor for good-faith engineering. Personal E&O applies strictly to gross negligence or intentional sabotage. For liability rules, see [Pillar V: Personal Liability & The Right of Technical Refusal](pillars/05_personal-liability-and-refusal.md).
@@ -147,7 +147,7 @@ Whistleblower recovery bounties are legally barred unless the reporting practiti
 
 
 ### 35. How does the trade survive if cyber insurance underwriters pull out of the market?
-If private cyber insurance syndicates restrict capacity due to systemic AI ransomware losses, the framework automatically activates the pre-drafted Fallback Statutory Mandate Bridge. Trade standards transition into mandatory federal procurement requirements (FAR/DFARS), state Public Utility Commission (PUC) operating covenants, and CISA infrastructure grant conditions, permanently decoupling the trade's survival from speculative private insurance capital. For statutory bridge mechanics, see the [10-Year Industry Transition Plan](governance/transition-plan.md) and [Pillar VII: The Insurance-Driven Market Catalyst](pillars/07_insurance-catalyst.md).
+If private cyber insurance syndicates restrict capacity due to systemic AI ransomware losses, the framework automatically activates the pre-drafted Fallback Statutory Mandate Bridge. Trade standards transition into mandatory federal procurement requirements (FAR/DFARS), state Public Utility Commission (PUC) operating covenants, and CISA infrastructure grant conditions, permanently decoupling the trade's survival from speculative private insurance capital. For statutory bridge mechanics, see the [10-Year Industry Transition Plan](governance/transition-plan.md) and [Pillar VII: Cyber Underwriting & Actuarial Risk Stratification](pillars/07_insurance-catalyst.md).
 
 
 
@@ -200,5 +200,14 @@ The initial launch (Phase 0/1) utilizes federal and state workforce innovation g
 
 ### 45. What prevents predatory employers from treating apprentices as cheap, rotating labor and firing them before they reach Journeyman wage scales?
 Sponsoring employers cannot lock apprentices in repetitive low-tier triage. The framework enforces strict domain-hour caps (e.g., maximum 2,000 hours in SOC alert triage across an 8,000-hour apprenticeship; additional triage hours do not count toward graduation). Furthermore, the JATC audits employer completion and graduation rates; firms that systematically churn apprentices face debarment from the Participating Employer Council (PEC) and forfeiture of preferred cyber insurance discounts. Finally, all verified hours belong to the worker's personal cryptographic logbook, meaning any displaced apprentice immediately enters the JATC Hiring Hall dispatch book at their earned wage step (e.g., Tier 3 / 70% RJPB) with zero lost career progress. For apprentice protections, see [Systemic Edge Cases & Institutional Defenses](docs/systemic-edge-cases-and-defense.md) and [Pillar III: Progressive Rotations & Enforced Ratios](pillars/03_rotational-pipeline.md).
+
+
+
+### 46. How does the framework accommodate international practitioners and engineers on H-1B, TN, or other work visas?
+The framework separates immigration status (governed by federal law) from professional engineering competence (governed by the National Board). Foreign-trained engineers and work-authorized visa holders (H-1B, TN, O-1, L-1, E-3, Permanent Residents) have direct access to trade licensure:
+1. **Direct Lateral Challenge Pathways:** Experienced international practitioners with 8,000+ verified operational hours do not repeat entry-level apprenticeships. They qualify directly for Journeyman Licensure via Track A (Peer Portfolio Review) or Track C (4-Hour Practical Challenge Exam).
+2. **Prevailing Wage (RJPB) Anti-Exploitation Floor:** Under 20 CFR § 655.731, participating employers sponsoring H-1B or specialty occupation visa workers must compensate licensed practitioners at or above 100% of the Regional Journeyman Prevailing Benchmark (RJPB), eliminating predatory wage suppression and body-shop undercutting.
+3. **Immigration Sponsorship Anti-Coercion Shields:** Under the Code of Ethics and INA Section 274B, threatening to revoke, delay, or withhold visa sponsorship as leverage against a technical safety refusal (Form FORM-001) or grievance is classified as a Class C Major Ethical Violation. Affected workers receive confidential representation through the Guild Ombudsperson under the Blind Whistleblower Proxy.
+4. **Cleared Defense Boundary:** Non-citizen restrictions apply strictly where federal statutory mandates (e.g., NISPOM / DoD 5220.22-M, ITAR) legally require U.S. citizenship for classified defense systems. Commercial, healthcare, enterprise, financial, and cloud environments remain fully accessible to all authorized international practitioners. For transition rules, see [10-Year Industry Transition Plan](governance/transition-plan.md) and [Code of Ethics, Civil Rights & Conduct](framework/code-of-ethics-and-conduct.md).
 
 

@@ -126,6 +126,16 @@ To ensure immediate operational continuity without stranding existing senior pro
 | **Legacy Master Transition** | Open during Years 0 - 3 | 8+ years operational defense (16,000+ verified hrs) | 3 sanitized engineering artifacts, 3 peer reference audits, and 45-minute Oral Board Defense. |
 | **Post-Transition Standard** | Year 4 onwards | Standard 8,000 / 12,000 hr trade tracks | Universal Logbook telemetry + Mandatory Practical Challenge Examination. |
 
+### C. International Practitioner Portability, Foreign Credential Evaluation & Visa Equity
+
+The Cybersecurity Trade Project separates immigration status from technical engineering competence. Foreign-trained engineers, international practitioners, and work-authorized visa holders (H-1B, TN, O-1, L-1, E-3, and Permanent Residents) possess full access to trade licensure:
+
+1. **Foreign Operational Experience Verification:** Operational runtime logged with international employers, foreign government entities, or multinational corporations is fully credited toward Track A (8,000+ hrs) or Track C challenge eligibility. International tax documents, foreign employer letters, or verified client engagements satisfy documentation requirements.
+2. **International Credential & Degree Articulation:** Technical degrees from accredited international universities and global cybersecurity certifications (e.g., CREST, ISO/IEC 27001 Lead Implementer, OffSec) are evaluated by the Board Credential Evaluation Clearinghouse for direct Prior Learning Assessment (PLA) and Related Technical Instruction (RTI) credits.
+3. **Prevailing Wage (RJPB) Anti-Exploitation Floor:** Under 20 CFR § 655.731, participating employers sponsoring H-1B or specialty occupation visa holders must compensate licensed practitioners at or above 100% of the Regional Journeyman Prevailing Benchmark (RJPB). This eliminates predatory wage suppression, prevents abusive third-party contracting margins, and guarantees visa workers full market compensation.
+4. **Immigration Sponsorship Anti-Coercion Protections:** Under the trade Code of Ethics and Section 274B of the Immigration and Nationality Act (INA), threatening to revoke, delay, or withhold visa sponsorship or legal status as leverage against a technical safety refusal (Form FORM-001) or grievance is classified as a **Class C Major Ethical Violation**. Sponsoring employers engaging in immigration retaliation face immediate loss of preferred insurance discount tiers, mandatory JATC arbitration, and formal reporting to federal labor authorities. Affected workers receive confidential representation through the Guild Ombudsperson under the Blind Whistleblower Proxy.
+5. **Classified Defense Scope Carveout:** In accordance with federal statutory mandates (e.g., NISPOM / DoD 5220.22-M, ITAR), positions requiring U.S. government security clearances remain restricted to U.S. citizens pursuant to federal law. All commercial, enterprise, financial, healthcare, cloud, and SaaS operational seats remain fully open to legally authorized international practitioners.
+
 ---
 
 ## 4. Post-Transition Pipeline & Sunsetting (Year 4 Onwards)
