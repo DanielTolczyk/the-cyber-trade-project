@@ -92,12 +92,14 @@ The modern cybersecurity employment model is broken across every tier:
 * [**Code of Ethics, Civil Rights & Conduct**](framework/code-of-ethics-and-conduct.md): Canons of ethics, protected classes, violation classes, mandatory reporting, 72-hour remediation cure period, and disciplinary sanction matrix.
 * [**Technical Refusal & Liability Shield**](framework/technical-refusal-and-liability.md): Exception flags, formal Notice of Safety Non-Concurrence workflow, Master of Record liability transfer, and statutory malpractice liability caps.
 * [**Business & Operational Benefits**](framework/business-and-operational-benefits.md): The enterprise value model (linear benefit costs, zero agency fees, 25% to 35% insurance discounts, and statutory due care).
-* [**Refusal & Incident Reporting Templates**](templates/): Standardized forms for Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), Form FORM-003 (Operational Exception Flag), Form FORM-004 (Ethics & Conduct Incident Report), and Form FORM-005 (Targeted OSS Security Fork Exemption).
+* [**National DOL Apprenticeship Standards (29 CFR Part 29)**](framework/dol-apprenticeship-standards.md): Turnkey National Guidelines for Apprenticeship Standards (NGAS), Appendix A 8,000-hour work process schedule, Appendix B 576-hour RTI community college curriculum, and Appendix C affirmative action plans.
+* [**Refusal & Institutional Templates**](templates/): Standardized procedural forms including Form FORM-001 (Notice of Safety Non-Concurrence), Form FORM-002 (Executive Override & Risk Acceptance), Form FORM-003 (Operational Exception Flag), Form FORM-004 (Ethics Incident Report), Form FORM-005 (Targeted OSS Security Fork Exemption), Form FORM-006 (JATC Multi-Employer Trust Agreement), and Form FORM-007 (Employer Participation Agreement).
 
 ### Institutional Governance & Trust Accords
 * [**National Governance Board Structure**](governance/board-structure.md): 11-member board composition, practical challenge exams, and the 18-month JATC curriculum rule.
 * [**Board Bylaws & Democratic Elections**](governance/board-elections-and-bylaws.md): Founding steering committee sunset, secret-ballot elections, staggered 3-year terms, and member recall protocols.
 * [**Guild Formation & Labor Charter**](governance/guild-formation-and-charter.md): Bilateral governance accord, Taft-Hartley JATC trusts, legal defense shields, portable benefits, Tier-I No-Disruption Covenant, and Final-Offer Interest Arbitration.
+* [**Model State Legislation & Interstate Compact (ICPC)**](governance/model-legislation-and-compact.md): Turnkey draft statutory bill language and interstate practice reciprocity compact for state legislative sponsors.
 * [**Regional Chapters & Local Governance**](governance/regional-chapters-and-locals.md): Three-tier federation, local chapter chartering, COLI wage negotiations, and convention delegate apportionment.
 * [**Dues Structure & Labor Trusts**](governance/dues-and-trust-economics.md): Two-part worker dues model, employer training trust contributions, and pre-tax policy advocacy.
 * [**Operational Field Roles & Stewards**](governance/operational-field-roles.md): Shop Stewards, JATC Training Directors, Board Practical Challenge Examiners, and Dispatch Officers.
@@ -107,6 +109,8 @@ The modern cybersecurity employment model is broken across every tier:
 ### Ecosystem Tooling
 * [**Cybersecurity Trade Tier & Grandfathering Estimator**](https://the-cyber-trade-project.github.io/estimator/): An open-source, privacy-first client-side web application and mathematical engine enabling practitioners to estimate their provisional trade placement, PLA hour credits, and milestone path ([Repository](https://github.com/the-cyber-trade-project/estimator)).
 * [**Universal Digital Logbook & Competency Ledger**](https://the-cyber-trade-project.github.io/logbook/): A mobile-first, privacy-preserving Progressive Web Application (PWA) and cryptographic verification engine for logging operational runtime, SCIF shift transcriptions, Merkle hash chaining, and supervisor attestation ([Repository](https://github.com/the-cyber-trade-project/logbook)).
+* [**Cybersecurity Trade Clearinghouse**](https://the-cyber-trade-project.github.io/clearinghouse/): Central ingestion, Merkle hash traversal, practitioner registry, and interactive FIFO Dispatch Simulator ([Repository](https://github.com/the-cyber-trade-project/clearinghouse)).
+* [**Insurance Telemetry Gateway**](https://the-cyber-trade-project.github.io/telemetry/): Zero-knowledge supervisory ratio attestation, Master of Record verification feed, and CUAAC actuarial warranty scoring engine ([Repository](https://github.com/the-cyber-trade-project/telemetry)).
 
 ---
 
