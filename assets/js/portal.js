@@ -516,6 +516,24 @@
     let selectedIndex = -1;
     let currentResults = [];
 
+    function getSiteBaseUrl() {
+      const scriptEl = document.querySelector('script[src*="portal.js"]');
+      if (scriptEl) {
+        const src = scriptEl.getAttribute("src") || "";
+        const idx = src.indexOf("/assets/js/portal.js");
+        if (idx !== -1) {
+          const base = src.substring(0, idx);
+          return base.endsWith("/") ? base : (base ? base + "/" : "/");
+        }
+      }
+      if (typeof window !== "undefined" && window.location.pathname.startsWith("/framework")) {
+        return "/framework/";
+      }
+      return "/";
+    }
+
+    const baseUrl = getSiteBaseUrl();
+
     // Device & OS Shortcut Detection
     function detectShortcutLabel() {
       const isTouch = window.matchMedia("(pointer: coarse)").matches || ("ontouchstart" in window);
@@ -541,15 +559,19 @@
     window.addEventListener("resize", detectShortcutLabel);
 
     async function loadSearchIndex() {
-      if (searchIndex) return searchIndex;
+      if (searchIndex && searchIndex.length) return searchIndex;
       try {
-        const res = await fetch("/assets/js/search-index.json");
+        const fetchUrl = `${baseUrl}assets/js/search-index.json`;
+        const res = await fetch(fetchUrl);
         searchIndex = res.ok ? await res.json() : [];
       } catch (err) {
         searchIndex = [];
       }
       return searchIndex;
     }
+
+    // Pre-fetch search index in background immediately for instant readiness
+    loadSearchIndex();
 
     function openSearchModal() {
       backdrop.style.display = "flex";
@@ -690,7 +712,8 @@
       currentResults.forEach((item, idx) => {
         const link = document.createElement("a");
         link.className = `portal-search-result-item ${idx === selectedIndex ? "selected" : ""}`;
-        link.href = item.url;
+        const rawUrl = item.url || "/";
+        link.href = rawUrl.startsWith("http") ? rawUrl : (baseUrl + rawUrl.replace(/^\//, ""));
 
         const headerDiv = document.createElement("div");
         headerDiv.className = "portal-search-result-header";
