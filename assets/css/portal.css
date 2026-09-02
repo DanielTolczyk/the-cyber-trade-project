@@ -205,6 +205,10 @@ body {
     max-width: 100% !important;
   }
 
+  .portal-search-btn .search-btn-kbd {
+    display: none;
+  }
+
   .tool-link {
     width: 100%;
     font-size: 0.75rem;
@@ -1165,6 +1169,12 @@ details.nav-subgroup summary.nav-subgroup-title:hover {
   padding: 0.1rem 0.35rem;
   border-radius: 3px;
   line-height: 1;
+}
+
+@media (pointer: coarse) {
+  .search-btn-kbd {
+    display: none;
+  }
 }
 
 /* Search Modal Backdrop & Dialog */

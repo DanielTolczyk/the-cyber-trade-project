@@ -516,6 +516,30 @@
     let selectedIndex = -1;
     let currentResults = [];
 
+    // Device & OS Shortcut Detection
+    function detectShortcutLabel() {
+      const isTouch = window.matchMedia("(pointer: coarse)").matches || ("ontouchstart" in window);
+      const kbd = document.querySelector(".search-btn-kbd");
+      if (!kbd) return;
+
+      if (isTouch || window.innerWidth <= 768) {
+        kbd.style.display = "none";
+        return;
+      }
+
+      const platform = (navigator.userAgentData?.platform || navigator.platform || navigator.userAgent || "").toLowerCase();
+      const isMac = /mac|iphone|ipad|ipod/.test(platform);
+      const shortcutText = isMac ? "⌘K" : "Ctrl+K";
+      kbd.textContent = shortcutText;
+
+      if (searchBtn) {
+        searchBtn.setAttribute("aria-label", `Search Framework (${shortcutText})`);
+      }
+    }
+
+    detectShortcutLabel();
+    window.addEventListener("resize", detectShortcutLabel);
+
     async function loadSearchIndex() {
       if (searchIndex) return searchIndex;
       try {
