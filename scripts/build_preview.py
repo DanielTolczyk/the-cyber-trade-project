@@ -7,10 +7,87 @@ Builds a static HTML preview in _site/ mirroring GitHub Pages Jekyll layout.
 import os
 import re
 import shutil
+import json
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DIR = REPO_ROOT / "_site"
+
+
+def generate_search_index(md_files):
+    """Generates a secure, pre-compiled JSON search index of all specifications."""
+    index = []
+    category_map = {
+        "pillars": "The 7 Core Pillars",
+        "framework": "Operational Framework",
+        "governance": "Governance & Legal",
+        "docs": "Primers & Guides",
+        "templates": "Procedural Forms",
+    }
+    
+    for md_path in md_files:
+        if "rfcs" in md_path.parts or ".github" in md_path.parts or "tmp" in md_path.parts or "scripts" in md_path.parts:
+            continue
+        rel = md_path.relative_to(REPO_ROOT)
+        dest_rel = rel.with_suffix(".html")
+        if rel.name == "README.md":
+            dest_rel = rel.parent / "index.html"
+            
+        url = "/" + str(dest_rel).replace("\\", "/")
+        if url.endswith("/index.html"):
+            url = url[:-10] or "/"
+            
+        parent_dir = rel.parts[0] if len(rel.parts) > 1 else "root"
+        category = category_map.get(parent_dir, "General Specification")
+        
+        md_text = md_path.read_text(encoding="utf-8")
+        lines = md_text.splitlines()
+        
+        # Extract title
+        title = ""
+        for line in lines:
+            line_s = line.strip()
+            if line_s.startswith("# "):
+                title = line_s[2:].strip()
+                break
+            elif line_s.startswith("title: "):
+                title = line_s[7:].strip().strip('"').strip("'")
+                
+        if not title:
+            title = rel.stem.replace("-", " ").replace("_", " ").title()
+            
+        # Extract headings
+        headings = []
+        for line in lines:
+            line_s = line.strip()
+            if line_s.startswith("## ") or line_s.startswith("### "):
+                h_text = re.sub(r"^#+\s*", "", line_s).strip()
+                headings.append(h_text)
+                
+        # Extract content snippet
+        clean_lines = []
+        for line in lines:
+            line_s = line.strip()
+            if not line_s.startswith("#") and not line_s.startswith("---") and not line_s.startswith("```"):
+                clean_lines.append(re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", line_s))
+                
+        snippet = " ".join(clean_lines)[:350]
+        
+        index.append({
+            "title": title,
+            "url": url,
+            "category": category,
+            "headings": headings[:15],
+            "snippet": snippet
+        })
+        
+    index_path = REPO_ROOT / "assets" / "js" / "search-index.json"
+    index_path.parent.mkdir(parents=True, exist_ok=True)
+    index_path.write_text(json.dumps(index, indent=2), encoding="utf-8")
+    
+    site_index = SITE_DIR / "assets" / "js" / "search-index.json"
+    site_index.parent.mkdir(parents=True, exist_ok=True)
+    site_index.write_text(json.dumps(index, indent=2), encoding="utf-8")
 
 
 def parse_tables(lines: list) -> list:
@@ -209,6 +286,7 @@ def build_preview():
         page_html = layout_shell.replace("{{ content }}", body_html)
         dest_path.write_text(page_html, encoding="utf-8")
         
+    generate_search_index(md_files)
     print(f"[+] Local preview site generated at: {SITE_DIR}")
     print("[*] To view preview, run: python3 -m http.server 8000 --directory _site")
 

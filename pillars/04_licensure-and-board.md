@@ -13,7 +13,7 @@ The National Cybersecurity Trade Board conducts objective, peer-reviewed evaluat
 
 * **Objective Evaluation Criteria:** Certifications are evaluated based on hands-on lab rigor, psychometric validity, identity-verified proctoring, and alignment with open competencies, not vendor market share.
 * **Tier Placement Authority:** The Board determines whether a credential qualifies for Pre-Apprenticeship, Operational Rotational credit, or Specialty Endorsements.
-* **Weeding Out Brain Dumps:** Multiple-choice exams that lack practical execution or robust integrity controls are excluded from trade milestone credits.
+* **Weeding Out Brain Dumps:** Multiple-choice exams that lack practical execution or verified proctoring controls are excluded from trade milestone credits.
 * **Preserving Worker Investment:** Qualified practitioners holding Board-accredited credentials receive proportional credit toward Related Technical Instruction (RTI) classroom hours and logbook milestones.
 
 ---

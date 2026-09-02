@@ -1,0 +1,1019 @@
+[
+  {
+    "title": "Glossary of Terms & Acronyms",
+    "url": "/GLOSSARY.html",
+    "category": "General Specification",
+    "headings": [
+      "1. Skilled Trade, Labor & Governance Terms",
+      "2. Cybersecurity Operational Disciplines",
+      "3. Standards, Certifications & Regulatory Frameworks"
+    ],
+    "snippet": "layout: default title: Glossary & Taxonomy   This glossary defines key skilled trade, cybersecurity operational, and regulatory terminology used across the framework to ensure shared clarity among engineers, IT leaders, educators, underwriters, and policy makers.    * **18-Month Curriculum Notice Rule:** A statutory governance constraint requiring "
+  },
+  {
+    "title": "The Cybersecurity Trade Project",
+    "url": "/",
+    "category": "General Specification",
+    "headings": [
+      "The Core Thesis",
+      "The Model at a Glance",
+      "Fast-Start: How to Engage in 5 Minutes",
+      "Strategic Roadmap & 10-Year Phased Horizon",
+      "The Systemic Problem",
+      "The Seven Core Pillars",
+      "Operational Frameworks & Governance",
+      "Foundational Architecture & Primers",
+      "Operational Framework Specifications",
+      "Institutional Governance & Trust Accords",
+      "Ecosystem Tooling",
+      "Priority Areas for Community Contribution",
+      "How to Get Involved",
+      "License"
+    ],
+    "snippet": " > An open-source, vendor-neutral framework to restructure cybersecurity into a recognized skilled trade through paid apprenticeships, standardized wage floors, progressive rotations, professional licensure, guild protections, and underwriter-driven accountability.   Cybersecurity is an applied engineering and operational trade, not an academic abs"
+  },
+  {
+    "title": "Contributing to The Cybersecurity Trade Project",
+    "url": "/CONTRIBUTING.html",
+    "category": "General Specification",
+    "headings": [
+      "1. Guiding Principles for Contributions",
+      "2. How to Propose Changes",
+      "Ideation & Open Discussion",
+      "Documentation Fixes & Clarifications",
+      "Structural Framework Proposals & Amendments",
+      "3. The Request for Comments (RFC) Process",
+      "When is an RFC Required? (The Decision Matrix)",
+      "RFC Submission Lifecycle",
+      "4. Directory & File Architecture",
+      "5. Style & Terminology Standards",
+      "6. Release Cadence & Versioning Strategy"
+    ],
+    "snippet": "layout: default title: Contributing & RFCs   Thank you for your interest in contributing to The Cybersecurity Trade Project. This initiative is structured as an open-source, vendor-neutral standard to build an accountable, accessible, and rigorous skilled trade framework for the cybersecurity industry.   1. **Practicality Over Pedantry:** Proposals"
+  },
+  {
+    "title": "Frequently Asked Questions (FAQ)",
+    "url": "/FAQ.html",
+    "category": "General Specification",
+    "headings": [
+      "Section 1: Foundational Principles & Workforce Model",
+      "1. Does this replace a four-year computer science degree?",
+      "2. How are existing experienced professionals grandfathered in?",
+      "3. Does this invalidate my existing certifications?",
+      "4. Will I be personally sued if my company gets breached?",
+      "5. How does this prevent small businesses (SMBs) from being priced out?",
+      "Section 2: Technical Velocity, Cloud & Systemic Infrastructure",
+      "6. Will this slow down agile development and modern CI/CD pipelines?",
+      "7. How does liability work with cloud providers (AWS, Azure, GCP)?",
+      "8. How are remote, interstate, and offshore teams handled?",
+      "Section 3: Educational On-Ramps & Professional Scope",
+      "9. What about self-taught engineers, bootcamp grads, and college transfers?",
+      "10. Will this restrict open-source development or vulnerability research?",
+      "11. Is the Craft Guild just a traditional union?",
+      "12. Can I work as a 1099 contractor or launch my own consulting business?"
+    ],
+    "snippet": "layout: default title: Frequently Asked Questions   This FAQ addresses common operational, educational, and legal questions regarding The Cybersecurity Trade Project. For deep-dive analyses of constitutional police powers, Supreme Court clearance doctrines (*Department of the Navy v. Egan*), signals intelligence (SIGINT) metadata defense, and NLRA "
+  },
+  {
+    "title": "Form FORM-001: Notice of Safety Non-Concurrence",
+    "url": "/templates/FORM-001_notice-of-safety-non-concurrence.html",
+    "category": "Procedural Forms",
+    "headings": [
+      "1. System Identification & Deployment Context",
+      "2. Technical Findings & Justification for Refusal",
+      "3. Threat Posture & Failure Mode Analysis",
+      "4. Formal Notice & Evidentiary Attestation"
+    ],
+    "snippet": " **Notice Identifier:** `NSNC-[YYYYMMDD]-[SYSTEM_CODE]` **Master of Record (MoR) License ID:** `[LICENSE_ID]` **Enterprise / Regulated Entity:** `[ENTITY_NAME]` **Filing Date & Timestamp (UTC):** `[ISO_8601_TIMESTAMP]` **Jurisdiction / Sector Tier:** Tier I (Critical Infrastructure) / Tier II (Regulated Enterprise) / Tier III (Commercial IT)   * **"
+  },
+  {
+    "title": "Form FORM-004: Ethics & Conduct Incident Report",
+    "url": "/templates/FORM-004_ethics-and-conduct-incident-report.html",
+    "category": "Procedural Forms",
+    "headings": [
+      "1. Primary Classification of Violation",
+      "2. Involved Parties & Operational Setting",
+      "3. Factual Narrative & Technical Telemetry",
+      "Associated Technical Evidence & Artifact Hashes",
+      "4. Requested Remedial Action & Safe Harbor Measures",
+      "5. Affirmation of Truth & Good-Faith Filing"
+    ],
+    "snippet": " **Incident Identifier:** `ETH-[YYYYMMDD]-[SECTOR_CODE]-[SEQUENCE]` **Filing Date & Timestamp (UTC):** `[ISO_8601_TIMESTAMP]` **Reporting Party Status:** `[Pre-Apprentice Candidate / Registered Apprentice / Licensed Journeyman / Master Practitioner / Employer Supervisor / Third-Party Public / Guild Ombudsperson]` **Reporting Modality:** `[Confident"
+  },
+  {
+    "title": "Form FORM-003: Operational Exception Flag",
+    "url": "/templates/FORM-003_operational-exception-flag.html",
+    "category": "Procedural Forms",
+    "headings": [
+      "1. System Identification & Deployment Context",
+      "2. Technical Findings & Observed Deviation",
+      "3. Operational Impact & Risk Assessment",
+      "4. Supervisory Review & Disposition"
+    ],
+    "snippet": " **Flag Identifier:** `OEF-[YYYYMMDD]-[SYSTEM_CODE]` **Logging Practitioner:** `[NAME, TIER (Apprentice / Journeyman), LICENSE_ID]` **Supervising Reviewer:** `[NAME, TITLE, LICENSE_ID]` **Enterprise / Organization:** `[ENTITY_NAME]` **Logging Timestamp (UTC):** `[ISO_8601_TIMESTAMP]` **Associated Ticket / Change Request:** `[e.g., CR-894102-SEC / J"
+  },
+  {
+    "title": "Form FORM-002: Executive Override & Risk Acceptance",
+    "url": "/templates/FORM-002_executive-override-risk-acceptance.html",
+    "category": "Procedural Forms",
+    "headings": [
+      "1. Statutory Acknowledgment of Refusal",
+      "2. Executive Justification & Business Rationale",
+      "3. Enumerated Operational Conditions & Compensating Controls",
+      "4. Condition-Bounded Invalidation & Liability Transfer",
+      "5. Formal Executive Sign-Off"
+    ],
+    "snippet": " **Override Identifier:** `EORA-[YYYYMMDD]-[SYSTEM_CODE]` **Associated Non-Concurrence Filing:** `[INSERT FORM-001 ID & HASH]` **Executing Corporate Officer:** `[NAME, TITLE, CORPORATE ENTITY]` **Execution Timestamp (UTC):** `[ISO_8601_TIMESTAMP]` **Time-to-Live (TTL) Expiration:** `[YYYY-MM-DD] (Maximum 90 days)`   I hereby acknowledge receipt and"
+  },
+  {
+    "title": "Form FORM-005: Targeted OSS Security Fork Exemption & Compensating Control Attestation",
+    "url": "/templates/FORM-005_targeted-oss-security-fork-exemption.html",
+    "category": "Procedural Forms",
+    "headings": [
+      "1. Vulnerable Open-Source Dependency Identification",
+      "2. Internal Security Fork & Isolation Parameters",
+      "3. Verified Runtime Compensating Controls",
+      "4. Master of Record Attestation & Grace Period Execution"
+    ],
+    "snippet": " **Exemption Identifier:** `OSS-EX-[YYYYMMDD]-[SYSTEM_CODE]` **Master of Record (MoR) License ID:** `[LICENSE_ID]` **Enterprise / Regulated Entity:** `[ENTITY_NAME]` **Filing Date & Timestamp (UTC):** `[ISO_8601_TIMESTAMP]` **Exemption Expiration Date (Max 90 Days):** `[YYYY-MM-DD]` **Upstream Vulnerability (CVE ID):** `[e.g., CVE-2026-XXXXX / GHSA"
+  },
+  {
+    "title": "Form FORM-007: Sponsoring Employer Participation Agreement",
+    "url": "/templates/FORM-007_employer-participation-agreement.html",
+    "category": "Procedural Forms",
+    "headings": [
+      "1. Employer Covenants & Apprenticeship Sponsorship",
+      "2. Training Trust Remittance & Educational Release",
+      "3. Insurance Warranty & Actuarial Safe Harbor",
+      "4. Execution & Authorization"
+    ],
+    "snippet": " **Agreement Identifier:** `EPA-[YYYY]-[PEC_EMPLOYER_ID]` **Employer / Sponsoring Enterprise:** `[ENTITY_NAME]` **PEC Registration Identifier:** `[PEC-EMP-YYYY-XXXX]` **Local Chapter Affiliation:** Cybersecurity Craft Guild Local `[LOCAL_NUMBER]` (District `[DISTRICT_NUMBER]`) **Designated Joint Apprenticeship Committee:** `[REGIONAL_JATC_NAME]` **"
+  },
+  {
+    "title": "Form FORM-006: Multi-Employer Joint Apprenticeship & Training Trust Agreement",
+    "url": "/templates/FORM-006_jatc-trust-agreement.html",
+    "category": "Procedural Forms",
+    "headings": [
+      "1. Establishment and Purpose of the Trust Fund",
+      "2. Board of Trustees Composition & Parity Governance",
+      "3. Employer Contributions & Auditing",
+      "4. Execution & Sponsoring Signatures"
+    ],
+    "snippet": " **Instrument:** Model Agreement and Declaration of Trust **Statutory Authority:** Labor Management Relations Act (Taft-Hartley Act) Section 302(c)(5)-(6) (29 U.S.C. Section 186(c)) & ERISA (29 U.S.C. Section 1002(1)) **Trust Entity:** `[REGIONAL_DISTRICT_NAME]` Cybersecurity Joint Apprenticeship & Training Trust Fund **Jurisdiction:** Regional Loc"
+  },
+  {
+    "title": "Pillar I: Standardized Pre-Apprenticeship (The Talent Filter)",
+    "url": "/pillars/01_pre-apprenticeship.html",
+    "category": "The 7 Core Pillars",
+    "headings": [
+      "1. Public Vocational Integration & Zero-Debt Funding",
+      "2. Standardized Prerequisite Competencies",
+      "3. The Hands-On Exit Exam & Articulation Credit"
+    ],
+    "snippet": " The entry-level cybersecurity pipeline is broken: organizations take unquantifiable risks on candidates with non-standardized backgrounds, while newcomers are exploited by high-cost, predatory bootcamps. The trade model resolves this through an institutionalized, standardized, non-debt **Pre-Apprenticeship Filter**.  > **Core Mandate:** Replace pr"
+  },
+  {
+    "title": "Pillar VI: Craft Guilds, Labor Trusts & Collective Defense",
+    "url": "/pillars/06_craft-guilds-and-labor-trusts.html",
+    "category": "The 7 Core Pillars",
+    "headings": [
+      "1. Craft Guild vs. Industrial Union Model",
+      "2. Collective Legal Defense & Anti-Retaliation Shield",
+      "3. Portable Multi-Employer Benefits",
+      "4. Working Conditions & Operational Burnout Mitigation"
+    ],
+    "snippet": " Individual accountability and the legal right of refusal cannot survive in a vacuum where isolated engineers face corporate legal teams alone. The trade framework establishes the **Cybersecurity Craft Guild** as the institutional engine for collective legal defense, multi-employer training funds, and portable benefits.  > **Core Mandate:** Establi"
+  },
+  {
+    "title": "Pillar II: The Earn-While-You-Learn Pipeline",
+    "url": "/pillars/02_earn-while-learning.html",
+    "category": "The 7 Core Pillars",
+    "headings": [
+      "1. Zero-Tuition, Day-One Direct Employment",
+      "2. Related Technical Instruction (RTI) & Paid Education",
+      "3. Predictable Economic Progression & Retention"
+    ],
+    "snippet": " Cybersecurity is an applied engineering and operational discipline. It cannot be mastered exclusively through passive classroom lectures or multiple-choice exams. True operational competence requires immersion in live production environments under structured mentorship.  > **Core Mandate:** Employ apprentices as direct W-2 workers from Day 1 with "
+  },
+  {
+    "title": "Pillar IV: Professional Licensure & The Journeyman Standard",
+    "url": "/pillars/04_licensure-and-board.html",
+    "category": "The 7 Core Pillars",
+    "headings": [
+      "1. The Board Credential Evaluation Clearinghouse",
+      "2. The Journeyman License Milestone",
+      "3. The Master of Record (Master Practitioner)",
+      "4. The Professional Self-Regulating Board"
+    ],
+    "snippet": " The cybersecurity industry is currently saturated with hundreds of competing commercial credentials. Vendors churn out proprietary multiple-choice tests and extract recurring annual renewal fees, confusing newcomers and employers alike.  Rather than invalidating the legitimate work practitioners have already completed or endorsing commercial vendo"
+  },
+  {
+    "title": "Pillar V: Personal Liability & The Right of Technical Refusal",
+    "url": "/pillars/05_personal-liability-and-refusal.html",
+    "category": "The 7 Core Pillars",
+    "headings": [
+      "1. The Dual-Layer Insurance Architecture",
+      "2. The Statutory Right of Technical Refusal",
+      "3. Formal Liability Transfer (Notice of Safety Non-Concurrence)",
+      "4. Statutory Malpractice Cap & Clean Attestation Safe Harbor"
+    ],
+    "snippet": " Security practitioners frequently operate in high-pressure environments where executive leadership may demand the deployment of insecure systems to meet arbitrary release deadlines, leaving engineers without statutory leverage. The trade framework establishes an accountable dual-layer liability model paired with an enforceable Right of Technical R"
+  },
+  {
+    "title": "Pillar VII: The Insurance-Driven Market Catalyst",
+    "url": "/pillars/07_insurance-catalyst.html",
+    "category": "The 7 Core Pillars",
+    "headings": [
+      "1. Underwriting Risk Stratification & Rate Schedules",
+      "2. Claim Adjudication & Prima Facie Due Care",
+      "3. Comprehensive Economic Return on Investment (ROI)",
+      "4. The Fallback Statutory Mandate Bridge"
+    ],
+    "snippet": " Systemic transformation in the private enterprise sector cannot rely solely on slow, reactive government legislation. The trade model is accelerated and enforced through the direct economic leverage of cyber-insurance underwriters and capital markets.  > **Core Mandate:** Align market incentives through cyber insurance underwriters, offering subst"
+  },
+  {
+    "title": "Pillar III: Progressive Rotations & Enforced Ratios",
+    "url": "/pillars/03_rotational-pipeline.html",
+    "category": "The 7 Core Pillars",
+    "headings": [
+      "1. Mandatory Cross-Domain Rotations (8,000-Hour Standard)",
+      "2. Consortium Rotations & Multi-Employer Flexibility",
+      "3. Legally Enforced Supervisory Ratios"
+    ],
+    "snippet": " A primary failure mode of modern enterprise security is trapping junior analysts in narrow, monotonous silos (such as Tier 1 alert triage for multiple years). This causes rapid operational burnout, high turnover, and starves the industry of versatile, well-rounded senior talent.  > **Core Mandate:** Break the multi-year SOC alert silo through a ma"
+  },
+  {
+    "title": "Startup Generalists & Hybrid Engineering Guide",
+    "url": "/docs/startup-and-hybrid-roles-guide.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "Operational Runtime Ledger, Multi-Craft Accords & Fractional Governance",
+      "1. The Multi-Craft Reality & Inter-Guild Jurisdiction",
+      "A. Task-Based Competency Accounting vs. Job Titles",
+      "B. DevSecOps & AppSec Domain Allocation Matrix",
+      "2. Startup Generalists & Solo Practitioner Protocols",
+      "A. Accelerated Multi-Domain Exposure",
+      "B. The Fractional Master of Record (vMoR) Retainer Model",
+      "C. Third-Party Attestation & Modality B Git Signing",
+      "3. Labor Protections & Benefit Portability for High-Turnover Environments",
+      "A. Taft-Hartley Hour-Bank Health Shield",
+      "B. Two-Check Defined Benefit Pension Vesting",
+      "C. JATC Dispatch Clearinghouse Re-Employment",
+      "4. Summary of Operational Roles"
+    ],
+    "snippet": "layout: default title: Startup Generalists & Hybrid Engineering Guide permalink: /docs/startup-and-hybrid-roles-guide.html    This specification establishes operational standards, runtime hour allocation matrices, and supervisory attestation pathways for cybersecurity practitioners working in hybrid disciplines (such as DevSecOps, Platform Security"
+  },
+  {
+    "title": "International Adaptation Guide: Canada & Global Apprenticeship Systems",
+    "url": "/docs/international-adaptations.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "1. The Separation of Technical Baselines vs. Sovereign Legal Accords",
+      "2. Canadian Trade & Apprenticeship Crosswalk",
+      "A. Statutory & Regulatory Governance Crosswalk",
+      "B. Educational Delivery: Colleges of Applied Arts & Technology (CAATs)",
+      "3. United Kingdom & European Union Crosswalk",
+      "A. United Kingdom",
+      "B. European Union",
+      "4. How to Fork or Adapt the Open-Source Framework",
+      "5. Related Specifications & Core Primers"
+    ],
+    "snippet": " The Cybersecurity Trade Project establishes an open-source, vendor-neutral framework to restructure digital defense into an accredited skilled trade. While the baseline legal and trust specifications reference United States labor statutes (such as 29 CFR Part 29, Taft-Hartley Section 302(c), and ERISA), the operational and architectural principles"
+  },
+  {
+    "title": "Systemic Edge Cases & Institutional Defenses",
+    "url": "/docs/systemic-edge-cases-and-defense.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "1. Executive Summary & Scope of Institutional Stress Testing",
+      "Domain 1: Cryptographic Integrity, CI/CD & Verification Limits",
+      "1.1 Semantic Correctness vs. SLSA Level 4 Provenance",
+      "1.2 Off-Hours Emergency MTTR & Dual-Key Break-Glass Bypass",
+      "1.3 Epistemic Equivalence of Compensating Controls & Rice's Theorem",
+      "1.4 Hardware Key Custody, Incapacitation & Multi-Point Taint Analysis",
+      "1.5 Systemic Monoculture & Multi-Engine Pipeline Diversity",
+      "1.6 The Building Code Invariant: Pipeline Governance vs. Feature Commits",
+      "Domain 2: Privacy, Telemetry & Cryptographic Market Security",
+      "2.1 Metadata Traffic Flow & Signals Intelligence (SIGINT) Defense",
+      "2.2 Salted Zero-Knowledge Pedersen Commitments & MNPI Market Firewalls",
+      "2.3 Civil Discovery (FRCP Rule 34) & Proving Corporate Due Care",
+      "Domain 3: Labor Law, Classification & Dispute Jurisdiction",
+      "3.1 NLRA Section 2(11) Supervisory Classification & Technical Direction",
+      "3.2 FLSA Wage-and-Hour Classification & Standby On-Call Stipends"
+    ],
+    "snippet": "layout: default title: Systemic Edge Cases & Institutional Defenses   This specification establishes the authoritative technical, statutory, and economic failure mode analysis for The Cybersecurity Trade Project. It organizes the high-order institutional friction points, constitutional doctrines, intelligence constraints, and administrative edge ca"
+  },
+  {
+    "title": "Skilled Trades for Tech Workers: Foundational Legal, Economic & Labor Primer",
+    "url": "/docs/trade-mechanisms-primer.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "1. The Day-1 Statutory Advantage: DOL Registered Apprenticeships",
+      "Key Differences from Traditional Tech Training:",
+      "2. The Training Trust Engine: Taft-Hartley Section 302(c)",
+      "How JATC Multi-Employer Training Trusts Work:",
+      "3. Portable Benefits & ERISA Fiduciary Insulation",
+      "Key Mechanisms:",
+      "4. The Economic Lever: Cyber Insurance Risk Warranties",
+      "The Commercial Reality:",
+      "How the Trade Solves This:",
+      "5. Professional Licensure & The Right of Technical Refusal",
+      "6. Summary Comparison: Tech Employment Models",
+      "7. Next Steps & Detailed Specifications"
+    ],
+    "snippet": " The Cybersecurity Trade Project reorganizes digital defense from an ad-hoc corporate cost center into an accredited skilled trade. For software engineers, systems administrators, and tech professionals unfamiliar with labor law and vocational policy, the terminology (DOL, JATC, Taft-Hartley, ERISA) can feel like a legal abstraction.  This primer e"
+  },
+  {
+    "title": "Guild Formation, Labor Trusts & Structural Governance",
+    "url": "/governance/guild-formation-and-charter.html",
+    "category": "Governance & Legal",
+    "headings": [
+      "1. Separation of Powers: Board vs. Guild",
+      "2. Bilateral Joint Governance Accord",
+      "3. Phased Roadmap for Guild Formation",
+      "Phase 1: The Voluntary Professional Association",
+      "Phase 2: Multi-Employer Training Trusts (JATC Formation)",
+      "Phase 3: Formal Collective Bargaining Units & Regional Locals",
+      "4. Core Governance Pillars of the Guild",
+      "5. Democratic Governance, Officer Elections & Anti-Corruption Guardrails",
+      "6. Supervisory & Management Membership Status",
+      "A. The Separation: Personal Licensure vs. Guild Bargaining Status",
+      "B. Preserved Member Benefits",
+      "C. The Conflict-of-Interest Firewall",
+      "D. Return to the Tools & Re-Activation of Full Voting Rights",
+      "7. Guild Membership Intake & Onboarding Protocols",
+      "8. Guild Civil Rights, Member Welfare & Equal Opportunity Charter"
+    ],
+    "snippet": " This document establishes the roadmap for chartering the Cybersecurity Craft Guild, outlining its institutional separation from the Regulatory Board, its multi-employer training trusts (JATCs), and its member defense infrastructure.  > **Foundational Principle:** The National Cybersecurity Trade Board licenses the practitioner and enforces public "
+  },
+  {
+    "title": "Model State Cybersecurity Trade Licensing Act & Interstate Practice Compact",
+    "url": "/governance/model-legislation-and-compact.html",
+    "category": "Governance & Legal",
+    "headings": [
+      "1. Model State Cybersecurity Trade Licensing Act (Model Bill Text)",
+      "Section 1. Title and Definitions",
+      "Section 2. State Cybersecurity Trade Licensing Board",
+      "Section 3. Statutory Right of Technical Refusal & Employer Protections",
+      "2. Interstate Cybersecurity Practice Compact (ICPC)",
+      "Article I. Purpose and State Sovereignty",
+      "Article II. Compact Privilege to Practice",
+      "Article III. National Clearinghouse Coordination"
+    ],
+    "snippet": " This statutory model provides draft legislative text for state legislative drafting offices, executive sponsors, and policy stakeholders seeking to establish professional licensure, public safety accountability, and interstate reciprocity for cybersecurity practitioners.    **An Act** to establish the State Cybersecurity Trade Licensing Board, cod"
+  },
+  {
+    "title": "Regional Chapters, District Councils & Federation Architecture",
+    "url": "/governance/regional-chapters-and-locals.html",
+    "category": "Governance & Legal",
+    "headings": [
+      "1. The Three-Tier Federation Model",
+      "2. Chartering a Local Chapter (\"The Local\")",
+      "3. Geographic Regional District Hubs & Local Chapters",
+      "A. Non-Contiguous States & Island Territories Standard",
+      "4. Local Autonomy & Regional Authority",
+      "A. Local Cost-of-Living (COLI) Adjustments",
+      "B. Local JATC Community College Partnerships",
+      "C. Monthly Member Meetings",
+      "5. National Convention Delegate Apportionment"
+    ],
+    "snippet": " To ensure the trade remains worker-centric and responsive to local economic conditions, the **Cybersecurity Craft Guild** operates as a decentralized, federated association composed of **Local Chapters (\"The Locals\")**, **District Councils**, and the **National Delegate Convention**.    +\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"
+  },
+  {
+    "title": "Operational Field Roles & Governance Authority",
+    "url": "/governance/operational-field-roles.html",
+    "category": "Governance & Legal",
+    "headings": [
+      "1. The Frontline Trade Job Steward (\"Shop Steward\")",
+      "2. The JATC Regional Training Director",
+      "3. The Board Practical Challenge Examiner",
+      "4. The Talent Clearinghouse Dispatch Officer",
+      "5. Related Governance Specifications & Charters"
+    ],
+    "snippet": " To ensure coordinated alignment between shop-floor engineering reality, classroom instruction, and regulatory standards, the trade establishes clearly defined responsibilities for operational field officers across enterprise shifts, JATC training centers, and Guild halls.  +\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"
+  },
+  {
+    "title": "National Cybersecurity Trade Board: Charter & Governance Structure",
+    "url": "/governance/board-structure.html",
+    "category": "Governance & Legal",
+    "headings": [
+      "1. Statutory Scope & Authority",
+      "2. Eleven-Member Balanced Board Composition (Tripartite 4 - 4 - 3 Model)",
+      "A. Distinct Representation Mandates & Focus Areas",
+      "3. Statutory Powers of the Advisory Delegates",
+      "4. Bilateral Governance & The JATC Accord",
+      "5. Parliamentary Authority & Sunshine Open Meetings Rules",
+      "6. Standing Committees & Ethics Review Architecture"
+    ],
+    "snippet": " The **National Cybersecurity Trade Board** serves as the independent, vendor-neutral standard-setting and regulatory licensure authority for the cybersecurity trade.    The Trade Board functions analogous to state boards of professional engineers, medical licensing bodies, and electrical regulatory commissions:  1. **Licensure & Registry:** Issues"
+  },
+  {
+    "title": "Board Bylaws, Democratic Elections & Removal Protocols",
+    "url": "/governance/board-elections-and-bylaws.html",
+    "category": "Governance & Legal",
+    "headings": [
+      "1. The Interim Founding Steering Committee (Phase 0 Startup)",
+      "2. Eleven-Member Board Composition & Seat Allocation",
+      "3. Democratic Election Procedures & Anti-Coercion Safeguards",
+      "A. Voter Eligibility & Direct Tier Representation",
+      "B. Anti-Coercion, Supervisory Non-Interference & Safe Harbor Protections",
+      "C. Staggered Terms & Term Limits",
+      "D. Ranked-Choice Voting (Instant-Runoff) Protocol",
+      "E. Independent Election Administration & Observer Safeguards",
+      "4. Conflict of Interest & Commercial Independence",
+      "5. Member Recall, Disciplinary Suspension & Expulsion",
+      "A. Member-Initiated Recall Petitions",
+      "B. Removal for Cause & Malpractice",
+      "6. Vacancy Succession",
+      "7. Parliamentary Authority & Open Meetings Transparency",
+      "8. Statutory Fiduciary Oath to Public Safety"
+    ],
+    "snippet": " This specification establishes the constitutional bylaws, democratic electoral procedures, term limits, and member recall protocols for the **National Cybersecurity Trade Board (NCTB)**.    To bootstrap the trade framework, incorporate the initial non-profit legal entities, and register the National Guidelines for Apprenticeship Standards (NGAS) w"
+  },
+  {
+    "title": "Dues Structure, Taft-Hartley Trusts & Labor Economics",
+    "url": "/governance/dues-and-trust-economics.html",
+    "category": "Governance & Legal",
+    "headings": [
+      "1. The Two-Part Worker Dues Structure",
+      "2. Employer Training Trust Contributions (Taft-Hartley JATC)",
+      "3. Multi-Employer Portable Benefit Trusts (Health, Pension & SUB)",
+      "A. The \"Hour-Bank\" Health & Welfare Trust",
+      "B. The \"Two-Check\" Retirement System (Pension + 401(k))",
+      "C. Supplemental Unemployment Benefit (SUB) Fund",
+      "4. Fiduciary Governance & Anti-Corruption Controls",
+      "5. Allocation of Guild Operating Funds",
+      "6. Tax Policy & Pre-Tax Advocacy Architecture",
+      "A. State-Level Income Tax Deductibility",
+      "B. Federal Policy Advocacy: The \"Trade Pre-Tax Account\""
+    ],
+    "snippet": " This specification establishes the economic model of the **Cybersecurity Craft Guild**, defining the two-part membership dues structure, employer training trust contributions, benefit fund allocations, and state/federal tax policy alignments.    To ensure trade participation is accessible and workers are never burdened during career transitions, l"
+  },
+  {
+    "title": "10-Year Industry Transition Roadmap & Statutory Compact Horizon",
+    "url": "/governance/transition-plan.html",
+    "category": "Governance & Legal",
+    "headings": [
+      "1. Phased 10-Year Strategic Horizons",
+      "2. Phase Breakdown & Milestones",
+      "Phase 1: Voluntary Market Adoption & Institutional Chartering (Years 0 - 2)",
+      "Phase 2: Critical Infrastructure & Procurement Standards (Years 3 - 5)",
+      "Phase 3: Statutory Interstate Compacts & Safe Harbor (Years 5 - 10)",
+      "3. Grandfathering & Legacy Transition Windows",
+      "A. The Three Legacy Transition Tracks",
+      "B. Grandfathering Transition Summary Table",
+      "4. Post-Transition Pipeline & Sunsetting (Year 4 Onwards)",
+      "A. Permanent Sunset of Provisional Grandfathering Tracks",
+      "B. Permanent Post-Transition Pathways"
+    ],
+    "snippet": " To transform cybersecurity from an unregulated corporate cost center into a federally recognized skilled trade, the industry requires a realistic, phased transition strategy.  Recognizing that statutory licensing compacts (analogous to the Interstate Medical Licensure Compact or NCEES Professional Engineering standard) require sustained multi-stat"
+  },
+  {
+    "title": "Participating Employer Council (PEC): Charter & Governance",
+    "url": "/governance/participating-employer-council.html",
+    "category": "Governance & Legal",
+    "headings": [
+      "1. Institutional Mandate & Purpose",
+      "2. Two-Division Membership Structure (Protecting Small Business)",
+      "3. Democratic Election of Management Board Trustees",
+      "4. Fiduciary Independence & Anti-Parochial Guardrails",
+      "5. Participation Standards & Multi-Employer Portability"
+    ],
+    "snippet": " This specification establishes the charter, operational divisions, democratic voting procedures, and fiduciary responsibilities of the **Participating Employer Council (PEC)**.    The **Participating Employer Council (PEC)** serves as the official multi-employer association representing businesses, enterprises, Managed Security Service Providers ("
+  },
+  {
+    "title": "Cyber Underwriting & Actuarial Advisory Consortium (CUAAC)",
+    "url": "/governance/underwriter-and-actuarial-consortium.html",
+    "category": "Governance & Legal",
+    "headings": [
+      "1. Institutional Mandate & Purpose",
+      "2. Selection of Insurer Board Trustees (Underwriting & Actuarial Balance)",
+      "3. Standardized Underwriting Warranty & Premium Credit Model",
+      "4. Zero-Knowledge Actuarial Telemetry Standards",
+      "5. Antitrust Firewalls & Fiduciary Safeguards"
+    ],
+    "snippet": " This specification establishes the charter, actuarial standards, trustee selection protocols, and antitrust firewalls for the **Cyber Underwriting & Actuarial Advisory Consortium (CUAAC)**.    The **Cyber Underwriting & Actuarial Advisory Consortium (CUAAC)** serves as the independent standing body representing primary cyber insurance carriers, ex"
+  },
+  {
+    "title": "Universal Logbook Standards & Competency Ledger",
+    "url": "/framework/logbook-standards.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Four Recognized Supervisor Attestation Modalities",
+      "2. Logbook Entry Schema",
+      "3. Operational Workflow & Batch Approvals",
+      "C. Cross-Ledger Artifact Collision & Deduplication Invariant",
+      "4. Intake & Accreditation Workflow",
+      "5. Data Privacy, Zero-Knowledge Schema & Worker Ownership",
+      "6. Integrity, Auditing & Anti-Hostage Dispute Protections",
+      "7. Client-Side Cryptographic Vault Architecture & At-Rest Encryption",
+      "8. Dual-Recipient Hybrid Envelope Submission Model"
+    ],
+    "snippet": " The Universal Digital Logbook provides an immutable, verifiable record of a practitioner's hands-on operational experience, eliminating resume inflation, subjective hiring screens, and the need for redundant technical interviews.    To accommodate varied enterprise environments, classified enclaves, and offline physical sites, the framework recogn"
+  },
+  {
+    "title": "Standards, Regulatory Baselines & Compliance Architecture",
+    "url": "/framework/standards-and-compliance.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. The Technical Governance Hierarchy",
+      "2. Workforce Alignment: NIST NICE Taxonomy",
+      "3. Technical Baselines: Enterprise Discretion",
+      "4. Professional Attestation & Eliminating \"Paper Compliance\"",
+      "5. AI Tooling & Practical Examination Integrity Standards",
+      "D. Real-Time Clearinghouse Disciplinary Propagation & PKI-CRL",
+      "6. Worker Algorithmic Defense & Anti-Automated Termination Standards",
+      "A. Strict Prohibition of Algorithmic Termination & Adverse Actions",
+      "B. Prohibition of Invasive Bossware & Superficial Productivity Telemetry",
+      "C. The Worker Right to Algorithmic Transparency & Audit"
+    ],
+    "snippet": " The Cybersecurity Trade Project does not invent proprietary security controls or dictate business operations. Instead, it adopts the proven consensus standard model of the skilled trades: aligning workforce training with open industry standards and transforming checkbox compliance into verifiable engineering attestations.    1. **Regulatory Statut"
+  },
+  {
+    "title": "Independent Consulting, Contracting & The Licensed Trade Contractor Model",
+    "url": "/framework/contractors-and-consulting.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. The Employment Classification Matrix",
+      "2. Apprentice Labor Protections & 1099 Prohibition",
+      "3. Establishing a Licensed Cybersecurity Trade Contractor (LLC / Consulting Firm)",
+      "Mandatory Entity Prerequisites",
+      "4. Subcontracting & The Fractional Master of Record (vMoR for SMBs)",
+      "5. Capacity Ratios, Risk-Weighted Caps & Anti-Ghost-Staffing",
+      "A. Risk-Weighted Fractional MoR Capacity Caps",
+      "B. Anti-Ghost-Staffing Protocol & Telemetry Verification",
+      "C. Cross-Border Regulatory Attachment & Anti-Arbitrage Telemetry",
+      "6. National Incident Surge & Emergency Mutual Aid Compact",
+      "7. The Trade Contractor Incubator (Small Business & Founder Advantage)"
+    ],
+    "snippet": " To support agile enterprise staffing, enable professional autonomy, and establish a viable commercial ecosystem for small-to-medium businesses (SMBs), the trade framework separates **individual professional licensure** from **corporate employment classification**.  This standard defines the rules governing 1099/W-2 contractors, independent consult"
+  },
+  {
+    "title": "Code of Ethics, Civil Rights & Professional Conduct",
+    "url": "/framework/code-of-ethics-and-conduct.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Ethical Canons of the Trade",
+      "2. Protected Classes & Anti-Discrimination Mandate",
+      "3. Disciplinary Violation Classifications",
+      "Class A: Discrimination, Harassment & Hate Speech",
+      "Class B: Operational Integrity & Telemetry Falsification",
+      "Class C: Retaliation, Whistleblower Suppression & Deanonymization",
+      "Class D: Supervisory Abuse, Ratio Exploitation & Algorithmic Coercion",
+      "4. Mandatory Reporting Affirmative Duty, Blind Proxy & Witness Protection",
+      "A. Universal Affirmative Duty",
+      "B. Blind Whistleblower Proxy Protocols (The Ombudsperson Institutional Shield)",
+      "C. Universal Participant & Witness Safe Harbor",
+      "D. The 72-Hour Internal Remediation Rule & Bounty Pre-Requisites",
+      "5. Investigative Structure & Division of Authority",
+      "A. Mandatory Interim Protective Orders (Active Investigation Safe Harbor)",
+      "6. Four-Tier Disciplinary Sanction Matrix"
+    ],
+    "snippet": " Professional accountability requires that licensed practitioners and candidates possess clear ethical standards, enforceable civil rights protections, and an authoritative code of conduct. This specification establishes the **Ethical Canons of the Trade**, explicit protections against discrimination and harassment across all protected classes, dis"
+  },
+  {
+    "title": "Apprenticeship Standards & Operational On-Ramps",
+    "url": "/framework/apprenticeship-standards.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Core 8,000-Hour Rotational Distribution",
+      "2. Related Technical Instruction (RTI) Requirements",
+      "3. Merit-Based Practical Challenge Pathways (Credit-by-Examination)",
+      "A. Direct Practical Examination",
+      "B. Prior Learning Assessment (PLA) Framework",
+      "4. Supervisory Ratio Alignment",
+      "5. Standardized Logbook & Portfolio Verification",
+      "6. Apprentice Grievance, Wage Protection & Logbook Dispute Protocol",
+      "7. Federal Statutory Compliance Alignment (DOL 29 CFR Part 29 & Part 30)",
+      "8. Exam Failure Remediation & Supervisor Departure Protections",
+      "A. Practical Examination Remediation Protocol",
+      "B. Supervisor Departure & 14-Day Reassignment Safe Harbor",
+      "9. Pre-Apprentice Candidate Integrity & Intake Debarment",
+      "A. Candidate Violation Categories & Intake Sanctions",
+      "B. Due Process for Candidates"
+    ],
+    "snippet": " To maintain high technical standards, protect apprentices from unpaid exploitation, and honor practical, non-traditional talent, this standard defines the rules governing on-the-job training (OJT), Related Technical Instruction (RTI), and Prior Learning Assessment (PLA) challenge pathways.    To graduate as a Licensed Journeyman, an apprentice mus"
+  },
+  {
+    "title": "Supervisory Ratios & Operational Headcount Standards",
+    "url": "/framework/supervisory-ratios.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Standard Supervisory Ratio Table",
+      "2. Consulting Firm & Trade Contractor Capacity Limits",
+      "3. Operational Boundaries & Velocity Exclusions",
+      "4. Supervision Integrity & Enforcement Rules",
+      "5. Operational Fatigue Mitigation, Shift Ceilings & Mandatory Rest Cycles",
+      "6. Dynamic Market Tapering & Counter-Cyclical Absorption"
+    ],
+    "snippet": " Supervisory ratios ensure quality mentorship, system stability, operational safety, and sustainable workload distribution across enterprise teams, security operations centers (SOCs), managed service providers (MSSPs), and independent consulting practices.    | Environment / Work Role | Max Ratio (Apprentice : Journeyman) | Minimum Master Practitio"
+  },
+  {
+    "title": "Engineering Velocity, Cloud Architecture & Safe Harbor",
+    "url": "/framework/velocity-and-cloud.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. CI/CD & Engineering Velocity Standards",
+      "2. Cloud & SaaS Shared Responsibility Scope",
+      "3. Safe Harbor & Shadow IT Protections"
+    ],
+    "snippet": " This document establishes operational mechanics ensuring the trade framework integrates directly into modern continuous integration and deployment (CI/CD), multi-cloud environments, decentralized business units, and self-taught engineering talent.   To preserve high release frequency, the trade model strictly avoids per-commit manual engineering b"
+  },
+  {
+    "title": "Technical Refusal, Non-Concurrence & The Master of Record Liability Shield",
+    "url": "/framework/technical-refusal-and-liability.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. The Statutory Right of Technical Refusal",
+      "2. Escalation Hierarchy: Exception Flags vs. Formal Non-Concurrence",
+      "Tier 1: Operational Exception Flag (Apprentice & Journeyman Level)",
+      "Tier 2: Notice of Safety Non-Concurrence (Master of Record Exclusivity)",
+      "3. The Liability Transfer Mechanism",
+      "4. Tiered Applicability: Critical Infrastructure vs. Commercial Enterprise",
+      "5. Whistleblower Protections & Legal Defense Shield",
+      "6. Statutory Malpractice Cap, Clean Attestation Safe Harbor & Defense Pool"
+    ],
+    "snippet": " Professional accountability requires that licensed practitioners possess both the ethical obligation and the legal protection to uphold system integrity. This standard establishes the **Right of Technical Refusal**, the execution parameters for a **Notice of Safety Non-Concurrence**, and the liability transfer mechanics that protect frontline engi"
+  },
+  {
+    "title": "Executive Leadership & The CISO Role",
+    "url": "/framework/executive-and-ciso.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Executive Management vs. Technical Authority",
+      "The CISO / VP of Security (Executive Tier)",
+      "The Master Practitioner (\"Master of Record\")",
+      "2. Operational Models & Enterprise Flexibility",
+      "3. Override Mechanics & Liability Boundaries",
+      "4. Governance Benefits for the Enterprise"
+    ],
+    "snippet": " A foundational principle of the trade framework is the formal separation between **Executive Enterprise Leadership** and **Statutory Technical Authority**.    * **Primary Mandate:** Business alignment, organizational strategy, capital allocation, corporate risk appetite, executive governance, and board reporting. * **Licensure Requirement:** **Not"
+  },
+  {
+    "title": "Business & Operational Benefits: The Enterprise Value Model",
+    "url": "/framework/business-and-operational-benefits.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. The Seven Core Enterprise Advantages",
+      "2. Comparative Cost & Operational Analysis",
+      "3. The Small-to-Medium Enterprise (SMB) Value Model"
+    ],
+    "snippet": " The Cybersecurity Trade Project aligns labor protections with corporate balance-sheet realities. By replacing fragmented hiring, administrative benefits overhead, and unchecked cyber liability with standardized trade infrastructure, participating enterprises achieve measurable operational efficiency, cost predictability, and risk reduction.    +\u2500\u2500"
+  },
+  {
+    "title": "Specialty Endorsements & Domain Architecture",
+    "url": "/framework/specialty-endorsements.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. The Three-Layer Specialty Architecture",
+      "2. Endorsement Classification: Discipline Tracking vs. Statutory Adders",
+      "3. Master Specialty Endorsements Ledger",
+      "3. Core Generalist Foundation (Mandatory Prerequisite)",
+      "4. Specialized Trade Branches (Tier 3 through Master)",
+      "Branch A: Digital Forensics & Incident Response (SE-DFIR)",
+      "Branch B: Cyber Risk Management, Threat Modeling & Governance (GRC)",
+      "Branch C: Offensive Security & Adversary Emulation (SE-OFF)",
+      "Branch D: Cloud Security & Infrastructure Architecture (SE-CLD)",
+      "Branch E: Application & Software Product Security (SE-APP)",
+      "Branch F: Medical Device & Clinical Technology Security (SE-MED)",
+      "Branch G: Industrial Control Systems (SE-ICS / SCADA / OT)",
+      "Branch H: Identity, Credential & Access Management (SE-ICAM)",
+      "Branch I: Cryptographic Infrastructure & PKI (SE-PKI)",
+      "Branch J: AI & Machine Learning Security Assurance (SE-AIML)"
+    ],
+    "snippet": " Cybersecurity is not a monolith. Following the completion of foundational generalist rotations (Years 1-2), practitioners pursue specific technical endorsements that validate deep architectural, operational, and regulatory expertise.  > **Note on Credentials:** Any commercial certifications mentioned under domain tracks are **strictly non-binding "
+  },
+  {
+    "title": "Universal Logbook Schema & Telemetry Verification Standard",
+    "url": "/framework/logbook-schema.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Dual-Layer Verification Architecture",
+      "2. Canonical JSON Logbook Entry Schema",
+      "3. Approved Telemetry & Artifact Verification Types",
+      "4. Automated Actuarial Feed & Underwriter Attestation API",
+      "5. Privacy, NDAs, and Data Sanitization Guardrails",
+      "6. Encrypted Vault Envelope Schema (`.ctp-vault`)",
+      "7. Passive Operational Entropy & Anti-Gaming Telemetry Protocol"
+    ],
+    "snippet": " To prevent subjective rubber-stamping, eliminate administrative friction, and ensure verifiable proof of hands-on competence, the trade utilizes a standardized, machine-auditable **Universal Logbook Schema**.    Unlike traditional physical crafts where work is visually inspected on a job site, virtualized cybersecurity operations require a dual-la"
+  },
+  {
+    "title": "Standardized Wage Scales & Compensation Floors",
+    "url": "/framework/wage-scales.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Regional Benchmark & Graduated Wage Steps",
+      "2. High-Risk Specialty Endorsement Differentials",
+      "3. Master Practitioner vs. Designated Master of Record (MoR)",
+      "4. Cost-of-Living Indexing (COLI) & Geographic MSA Zones",
+      "A. Remote Work & Anti-Wage-Arbitrage Rule",
+      "5. Operational Hazard Differentials & On-Call Surge Pay"
+    ],
+    "snippet": " To eradicate the exploitation of entry-level practitioners, eliminate predatory unpaid internships, and establish transparent career progression, the trade enforces a standardized, milestone-based compensation framework.    Apprentice compensation is tied directly to the **Regional Journeyman Prevailing Benchmark (RJPB)**. As an apprentice accumul"
+  },
+  {
+    "title": "National Guidelines for Apprenticeship Standards (29 CFR Part 29 & Part 30)",
+    "url": "/framework/dol-apprenticeship-standards.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Statutory Registration & Program Standards",
+      "2. Progressive Wage Step Schedule",
+      "Appendix A: 8,000-Hour Work Process Schedule",
+      "Domain 1: Perimeter, Cloud & Network Defense (1,500 Hours)",
+      "Domain 2: Detection Engineering, SOC Operations & Incident Triage (2,000 Hours)",
+      "Domain 3: Identity, Credential & Access Management / IAM (1,500 Hours)",
+      "Domain 4: Vulnerability Assessment & Attack Surface Management (1,500 Hours)",
+      "Domain 5: Defensive Governance, Risk, Compliance & Audit / GRC (1,500 Hours)",
+      "Appendix B: Related Technical Instruction (RTI) Curriculum (576 Hours)",
+      "Appendix C: Equal Employment Opportunity & Affirmative Action (29 CFR Part 30)"
+    ],
+    "snippet": " **Program Title:** National Cybersecurity Apprenticeship Program **Sponsor:** National Cybersecurity Trade Board (NCTB) & Joint Apprenticeship and Training Committees (JATCs) **DOL Occupational Title:** Cybersecurity Trade Practitioner / Journeyman Defender **O*NET-SOC Code:** 15-1212.00 (Information Security Analysts) / NIST NICE SP 800-181 **Pro"
+  },
+  {
+    "title": "Licensure Standards, Progression Milestones & Tier Elevation",
+    "url": "/framework/licensure-and-progression.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Overview of the Licensure Hierarchy",
+      "2. Apprentice Progression Tiers (Years 1 through 4)",
+      "3. The Journeyman Licensure Standard",
+      "Journeyman Operational Authority",
+      "Legacy Transition & Prior Learning Equivalence",
+      "4. Master Practitioner Elevation",
+      "Legacy Master Transition Window (8+ Years / 16,000+ Hours)",
+      "5. Certified Trade Instructor (CTI) Endorsement",
+      "A. Core Purpose & Career Transition Safety Valve",
+      "B. Curriculum Requirements (144 Hours)",
+      "C. Operational Privileges",
+      "6. Designated Master of Record (MoR) Assignment",
+      "7. License Maintenance, Triennial Renewal & AMF Prohibition"
+    ],
+    "snippet": " This specification defines the normative operational requirements governing career progression, milestone evaluations, and professional licensure across all tiers of the cybersecurity trade.    The trade enforces a unified, transparent progression model based on verified runtime hours, Related Technical Instruction (RTI), objective practical exami"
+  },
+  {
+    "title": "Specialty Track Specification: Cryptographic Infrastructure & PKI (`SE-PKI`)",
+    "url": "/framework/specialty-tracks/cryptographic-pki.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Scope, Open Standards & NIST NICE Mapping",
+      "A. Mandatory NIST NICE Framework Alignment (NIST SP 800-181)",
+      "B. Authoritative Cryptographic Standards & Algorithm Baselines",
+      "2. The 2,000-Hour Specialized OJT Runtime Breakdown",
+      "Domain 1: Multi-Tier CA Hierarchy & Root Isolation (500 Hours)",
+      "Domain 2: HSM Deployment & Formal Key Ceremonies (500 Hours)",
+      "Domain 3: Automated Certificate Management & MTLS (500 Hours)",
+      "Domain 4: Post-Quantum Cryptography (PQC) & Cryptographic Agility (500 Hours)",
+      "3. Master of Record (MoR) Authority for Cryptography & PKI",
+      "4. Strict Cross-Crediting & Articulation Boundaries",
+      "5. Related Specifications & Architecture"
+    ],
+    "snippet": " +\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500+ | ENDORSEMENT SPECIFICATION: SE-PKI                                           | | Discipline: Cryptographic Infrastructure & PKI                              | | Target Tier: Post-Journeyman Specialty Endorsement (2,000 OJT Hours)        | | Classification: Tier 1 Disc"
+  },
+  {
+    "title": "Specialty Track Specification: Medical Device & Clinical Technology Security (`SE-MED`)",
+    "url": "/framework/specialty-tracks/medical-devices.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Scope, Regulatory Frameworks & NIST NICE Mapping",
+      "A. Mandatory NIST NICE Framework Alignment (NIST SP 800-181)",
+      "B. Sector-Specific Consensus Standards & Regulatory Baselines",
+      "2. Medical Device Security Risk Architecture",
+      "A. Safety Risk & Harm Integration",
+      "B. Product Threat Modeling across Architectural Profiles",
+      "C. Non-Product Software & R&D Tooling Assessment",
+      "3. Secure Design & Engineering Controls",
+      "4. Post-Market Surveillance & Vulnerability Management",
+      "5. Rotational Runtime Ledger (2,000 Post-Licensure Hours)",
+      "6. Statutory Sign-Off Authority",
+      "7. Relationship to Application & Software Product Security (`SE-APP`) & Cross-Crediting"
+    ],
+    "snippet": " +\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500+ | ENDORSEMENT SPECIFICATION: SE-MED                                           | | Discipline: Medical Device & Clinical Technology Security                   | | Target Tier: Post-Journeyman Specialty Endorsement (2,000 OJT Hours)        | | Wage Adder:  +20% to +25% a"
+  },
+  {
+    "title": "Specialty Track Specification: Cloud Security & Infrastructure (`SE-CLD`)",
+    "url": "/framework/specialty-tracks/cloud-security.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Scope, Open Standards & NIST NICE Mapping",
+      "A. Mandatory NIST NICE Framework Alignment (NIST SP 800-181)",
+      "B. Authoritative Cloud Security Baselines & Architectures",
+      "2. The 2,000-Hour Specialized OJT Runtime Breakdown",
+      "Domain 1: Multi-Cloud Identity, IAM Federation & CIEM (500 Hours)",
+      "Domain 2: Container, Kubernetes & Microservice Security (500 Hours)",
+      "Domain 3: Infrastructure-as-Code (IaC) & Policy-as-Code (500 Hours)",
+      "Domain 4: Cloud Workload Protection (CWPP/CSPM) & Egress (500 Hours)",
+      "3. Master of Record (MoR) Authority for Cloud Security",
+      "4. Strict Cross-Crediting & Articulation Boundaries",
+      "5. Related Specifications & Architecture"
+    ],
+    "snippet": " +\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500+ | ENDORSEMENT SPECIFICATION: SE-CLD                                           | | Discipline: Cloud Security & Infrastructure Architecture                     | | Target Tier: Post-Journeyman Specialty Endorsement (2,000 OJT Hours)        | | Classification: Tier 2 Arc"
+  },
+  {
+    "title": "Specialty Track Specification: Application & Software Product Security (`SE-APP`)",
+    "url": "/framework/specialty-tracks/application-security.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Scope, Open Standards & NIST NICE Mapping",
+      "A. Mandatory NIST NICE Framework Alignment (NIST SP 800-181)",
+      "B. Open Technical Baselines & Engineering Standards",
+      "2. The 2,000-Hour Specialized OJT Runtime Breakdown",
+      "Domain 1: Secure Architecture, Design Review & Component Threat Modeling (500 Hours)",
+      "Domain 2: Static, Dynamic & Interactive Security Testing in Automated CI/CD (500 Hours)",
+      "Domain 3: Software Supply Chain Security, Dependency Auditing & SBOM Lifecycle (500 Hours)",
+      "Domain 4: Product Vulnerability Remediation, Bug Bounty Triage & Coordinated Disclosure / PSIRT (500 Hours)",
+      "3. Related Technical Instruction (RTI) Curriculum (288 Hours)",
+      "4. Master of Record (MoR) Authority for Application Security",
+      "5. Cross-Crediting & Articulation with Other Endorsements",
+      "6. Related Specifications & Architecture"
+    ],
+    "snippet": " +\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500+ | ENDORSEMENT SPECIFICATION: SE-APP                                           | | Discipline: Application & Software Product Security                         | | Target Tier: Post-Journeyman Specialty Endorsement (2,000 OJT Hours)        | | Classification: Tier 1 Disc"
+  },
+  {
+    "title": "Specialty Track Specification: Identity, Credential & Access Management (`SE-ICAM`)",
+    "url": "/framework/specialty-tracks/identity-access-management.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Scope, Open Standards & NIST NICE Mapping",
+      "A. Mandatory NIST NICE Framework Alignment (NIST SP 800-181)",
+      "B. Authoritative Identity, Federation & Access Standards",
+      "2. The 2,000-Hour Specialized OJT Runtime Breakdown",
+      "Domain 1: Enterprise Federation, SSO & Directory Synchronization (500 Hours)",
+      "Domain 2: Privileged Access Management (PAM) & Ephemeral Credentials (500 Hours)",
+      "Domain 3: Phishing-Resistant MFA & Passwordless Infrastructure (500 Hours)",
+      "Domain 4: Identity Governance, Lifecycle & Entitlements (500 Hours)",
+      "3. Master of Record (MoR) Authority for Identity & Access Management",
+      "4. Strict Cross-Crediting & Articulation Boundaries",
+      "5. Related Specifications & Architecture"
+    ],
+    "snippet": " +\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500+ | ENDORSEMENT SPECIFICATION: SE-ICAM                                          | | Discipline: Identity, Credential & Access Management                        | | Target Tier: Post-Journeyman Specialty Endorsement (2,000 OJT Hours)        | | Classification: Tier 1 Disc"
+  },
+  {
+    "title": "Specialty Track Specification: Offensive Security & Adversary Emulation (`SE-OFF`)",
+    "url": "/framework/specialty-tracks/offensive-security.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Scope, Open Standards & NIST NICE Mapping",
+      "A. Mandatory NIST NICE Framework Alignment (NIST SP 800-181)",
+      "B. Authoritative Testing Methodologies & Adversary Emulation Frameworks",
+      "2. The 2,000-Hour Specialized OJT Runtime Breakdown",
+      "Domain 1: External Surface & Network Penetration Testing (500 Hours)",
+      "Domain 2: Application, API & Microservice Exploitation (500 Hours)",
+      "Domain 3: Internal Lateral Movement, AD & EDR Evasion (500 Hours)",
+      "Domain 4: Purple Teaming, Detection Engineering & RoE Governance (500 Hours)",
+      "3. Master of Record (MoR) Authority for Offensive Security",
+      "4. Strict Cross-Crediting & Articulation Boundaries",
+      "5. Related Specifications & Architecture"
+    ],
+    "snippet": " +\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500+ | ENDORSEMENT SPECIFICATION: SE-OFF                                           | | Discipline: Offensive Security & Adversary Emulation                        | | Target Tier: Post-Journeyman Specialty Endorsement (2,000 OJT Hours)        | | Classification: Tier 2 High"
+  },
+  {
+    "title": "Specialty Track Specification: Digital Forensics & Incident Response (`SE-DFIR`)",
+    "url": "/framework/specialty-tracks/digital-forensics-incident-response.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Scope, Open Standards & NIST NICE Mapping",
+      "A. Mandatory NIST NICE Framework Alignment (NIST SP 800-181)",
+      "B. Authoritative Forensic Standards & Legal Baselines",
+      "2. The 2,000-Hour Specialized OJT Runtime Breakdown",
+      "Domain 1: Evidentiary Triage & Chain of Custody (500 Hours)",
+      "Domain 2: Disk, Memory & Cloud Artifact Reconstruction (500 Hours)",
+      "Domain 3: Incident Containment & Lateral Movement Tracing (600 Hours)",
+      "Domain 4: Statutory Breach Attestations & Proof of Loss (400 Hours)",
+      "3. Master of Record (MoR) Authority for DFIR",
+      "4. Strict Cross-Crediting & Articulation Boundaries",
+      "5. Related Specifications & Architecture"
+    ],
+    "snippet": " +\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500+ | ENDORSEMENT SPECIFICATION: SE-DFIR                                          | | Discipline: Digital Forensics & Incident Response                           | | Target Tier: Post-Journeyman Specialty Endorsement (2,000 OJT Hours)        | | Classification: Tier 2 Stat"
+  },
+  {
+    "title": "Specialty Track Specification: AI & Machine Learning Security Assurance (`SE-AIML`)",
+    "url": "/framework/specialty-tracks/ai-machine-learning.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Scope, Open Standards & NIST NICE Mapping",
+      "A. Mandatory NIST NICE Framework Alignment (NIST SP 800-181)",
+      "B. Authoritative AI Governance & Machine Learning Security Baselines",
+      "2. The 2,000-Hour Specialized OJT Runtime Breakdown",
+      "Domain 1: AI/ML Threat Modeling & ATLAS Surface Mapping (500 Hours)",
+      "Domain 2: Adversarial Robustness & Prompt Injection Defense (500 Hours)",
+      "Domain 3: ML Pipeline Security, Model Provenance & Weights Integrity (500 Hours)",
+      "Domain 4: Model Privacy, Inversion Defense & Guardrails (500 Hours)",
+      "3. Master of Record (MoR) Authority for AI Security Assurance",
+      "4. Strict Cross-Crediting & Articulation Boundaries",
+      "5. Related Specifications & Architecture"
+    ],
+    "snippet": " +\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500+ | ENDORSEMENT SPECIFICATION: SE-AIML                                          | | Discipline: AI & Machine Learning Security Assurance                        | | Target Tier: Post-Journeyman Specialty Endorsement (2,000 OJT Hours)        | | Classification: Tier 2 Emer"
+  },
+  {
+    "title": "Specialty Track Specification: Industrial Control Systems & Operational Technology Security (`SE-ICS`)",
+    "url": "/framework/specialty-tracks/industrial-control-systems.html",
+    "category": "Operational Framework",
+    "headings": [
+      "1. Scope, Regulatory Baselines & NIST NICE Mapping",
+      "A. Mandatory NIST NICE Framework Alignment (NIST SP 800-181)",
+      "B. Authoritative Industrial & Critical Infrastructure Standards",
+      "2. The 2,000-Hour Specialized OJT Runtime Breakdown",
+      "Domain 1: Purdue Segmentation, Zone & Conduit Engineering (600 Hours)",
+      "Domain 2: Industrial Protocols & Boundary Hardening (500 Hours)",
+      "Domain 3: Safety Instrumented Systems (SIS), Physical Process & Fail-Safe Engineering (500 Hours)",
+      "Domain 4: Plant Outage Operations, Commissioning & FAT/SAT (400 Hours)",
+      "3. Strict Operational Ratios & On-Shift Safety Controls",
+      "4. Master of Record (MoR) Authority for Industrial Control Systems",
+      "5. Strict Cross-Crediting & Articulation Boundaries",
+      "6. Related Specifications & Architecture"
+    ],
+    "snippet": " +\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500+ | ENDORSEMENT SPECIFICATION: SE-ICS                                           | | Discipline: Industrial Control Systems & Operational Technology Security    | | Target Tier: Post-Journeyman Specialty Endorsement (2,000 OJT Hours)        | | Classification: Tier 2 Stat"
+  },
+  {
+    "title": "The Cybersecurity Trade Project - Release Notes v1.9.1",
+    "url": "/docs/releases/v1.9.1.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "Executive Summary",
+      "Key Architectural & Governance Ratifications",
+      "Ecosystem Version Parity & Synchronized Tools"
+    ],
+    "snippet": " **Release Title:** Mandatory Mentorship Runtime Standard & Certified Trade Instructor Credential **Release Date:** September 1, 2026 **SemVer Classification:** Patch Release (Normative Licensure & Pedagogical Expansion) **Distribution Repositories:** `framework`, `estimator`, `logbook`, `clearinghouse` under `the-cyber-trade-project`    Release **"
+  },
+  {
+    "title": "The Cybersecurity Trade Project - Release Notes v1.8.3",
+    "url": "/docs/releases/v1.8.3.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "Executive Summary",
+      "Key Architectural & Governance Ratifications",
+      "Ecosystem Version Parity & Synchronized Tools"
+    ],
+    "snippet": " **Release Title:** Expand Geographic Districts and Add Island Territory Protections **Release Date:** September 1, 2026 **SemVer Classification:** Patch Release (Normative Governance & Specification Refinement) **Distribution Repositories:** `framework`, `estimator`, `logbook`, `clearinghouse` under `the-cyber-trade-project`    Release **v1.8.3** "
+  },
+  {
+    "title": "V1.8.1",
+    "url": "/docs/releases/v1.8.1.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "What's New in v1.8.1",
+      "1. Ecosystem Frontend Security Hardening",
+      "2. Hybrid Multi-Craft Roles & Startup Generalist Specifications",
+      "3. Automated Release Engine & Quality Gate Overhaul",
+      "4. Portal Architecture & Pillar Core Mandates"
+    ],
+    "snippet": " * **Client-Side Logbook PIN Security:** Eliminated plaintext PIN storage in LocalStorage (`logbook`). The vault now dynamically authenticates user PINs in volatile memory via PBKDF2 (100,000 rounds SHA-256) and authenticated AES-256-GCM verification, preventing local inspection and shared-terminal key extraction. * **DOM XSS Sanitization:** Implem"
+  },
+  {
+    "title": "V1.8.0",
+    "url": "/docs/releases/v1.8.0.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "What's New in v1.8.0",
+      "1. Essential Services Labor Accord & Systemic Resilience",
+      "2. Open Source Supply Chain Integrity & Upstream Security Accords",
+      "3. Operational Edge Cases & Practical Exam Remediation",
+      "4. Interactive Portal & Documentation Architecture"
+    ],
+    "snippet": " * **Critical Infrastructure Strike Prohibition & Binding Arbitration:** Formalized Section 12 in `governance/guild-formation-and-charter.md` establishing statutory no-strike pacts for Tier 1 life-safety, healthcare, energy grid, and national security environments, backed by mandatory binding interest arbitration to resolve labor disputes without o"
+  },
+  {
+    "title": "The Cybersecurity Trade Project - Release Notes v1.9.0",
+    "url": "/docs/releases/v1.9.0.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "Executive Summary",
+      "Key Architectural & Specification Ratifications",
+      "Ecosystem Version Parity & Synchronized Tools"
+    ],
+    "snippet": " **Release Title:** Complete Ratification of All 9 Specialty Endorsement Track Standards **Release Date:** September 1, 2026 **SemVer Classification:** Minor Release (Normative Specification & Architectural Milestone Expansion) **Distribution Repositories:** `framework`, `estimator`, `logbook`, `clearinghouse` under `the-cyber-trade-project`    Rel"
+  },
+  {
+    "title": "The Cybersecurity Trade Project - Release Notes v1.9.3",
+    "url": "/docs/releases/v1.9.3.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "Executive Summary",
+      "Key Architectural & Governance Ratifications"
+    ],
+    "snippet": " **Release Title:** Systemic Edge Cases, Diction Hygiene & Client-Side Search Engine **Release Date:** September 2, 2026 **SemVer Classification:** Patch Release (Institutional Governance & Tooling Expansion) **Distribution Repositories:** `framework`, `estimator`, `logbook`, `clearinghouse`, `telemetry` under `the-cyber-trade-project`    Release *"
+  },
+  {
+    "title": "The Cybersecurity Trade Project - Release Notes v1.9.2",
+    "url": "/docs/releases/v1.9.2.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "Executive Summary",
+      "Key Architectural & Governance Ratifications",
+      "Ecosystem Version Parity & Synchronized Tools"
+    ],
+    "snippet": " **Release Title:** National DOL Apprenticeship Standards, JATC Trust Agreements & Model Legislation **Release Date:** September 1, 2026 **SemVer Classification:** Patch Release (Institutional Governance & Legal Instruments) **Distribution Repositories:** `framework`, `estimator`, `logbook`, `clearinghouse`, `telemetry` under `the-cyber-trade-proje"
+  },
+  {
+    "title": "The Cybersecurity Trade Project - Release Notes v1.8.2",
+    "url": "/docs/releases/v1.8.2.html",
+    "category": "Primers & Guides",
+    "headings": [
+      "Executive Summary",
+      "Key Architectural & Governance Ratifications",
+      "Ecosystem Version Parity & Synchronized Tools"
+    ],
+    "snippet": " **Release Title:** Regional Hubs, FIFO Dispatch & Clearinghouse Invariants **Release Date:** September 1, 2026 **SemVer Classification:** Patch Release (Normative Specification & Governance Expansion) **Distribution Repositories:** `framework`, `estimator`, `logbook`, `clearinghouse` under `the-cyber-trade-project`    Release **v1.8.2** establishe"
+  }
+]

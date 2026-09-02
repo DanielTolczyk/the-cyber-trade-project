@@ -12,7 +12,7 @@ Modeled after established skilled trade employer associations (such as the Natio
 
 1. **Bilateral Training Trust Administration:** Co-manages the Joint Apprenticeship and Training Committee (JATC) trusts with the Craft Guild under Section 302(c) of the Taft-Hartley Act, remitting hourly training trust contributions ($1.00/hr) to fund community college labs and tuition-free instruction.
 2. **Standardized Master Service Agreements:** Negotiates baseline Master Agreements governing wage floors, on-shift supervisory ratios (2:1), and on-call standby standards, establishing a fair, transparent commercial baseline.
-3. **Turnkey Workforce Pipeline:** Sources pre-vetted Journeymen and registered Apprentices directly through the JATC Talent Clearinghouse, eliminating third-party staffing agency fees.
+3. **Direct Hiring Hall Pipeline:** Sources pre-vetted Journeymen and registered Apprentices directly through the JATC Talent Clearinghouse, eliminating third-party staffing agency fees.
 4. **Management Representation on the National Board:** Democratically elects the two management trustees seated on the National Cybersecurity Trade Board (NCTB).
 
 ---
@@ -55,7 +55,7 @@ Every employer in good standing (having executed a JATC Trust Agreement and acti
 
 ## 4. Fiduciary Independence & Anti-Parochial Guardrails
 
-Management trustees represent the holistic health of the defensive ecosystem, not the private commercial interests of their individual employer:
+Management trustees represent the systemic stability of the defensive ecosystem, not the private commercial interests of their individual employer:
 
 * **Statutory Public Safety Fiduciary Oath:** Prior to seating, management trustees execute a binding legal oath placing public safety, system integrity, and objective technical standards above corporate commercial profits.
 * **Mandatory Conflict Recusal:** A management trustee must formally recuse themselves from any Board compliance review, grievance appeal, or disciplinary inquiry involving their specific corporate employer or active commercial partner.

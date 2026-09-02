@@ -4,6 +4,11 @@
       <span class="portal-brand-title">{{ site.title }}</span>
     </a>
     <div class="portal-header-tools">
+      <button type="button" class="tool-link portal-search-btn" id="btn-portal-search" aria-label="Search specifications (Ctrl+K)">
+        <span class="search-btn-icon" aria-hidden="true">🔍</span>
+        <span class="search-btn-text">Search specs...</span>
+        <kbd class="search-btn-kbd">⌘K</kbd>
+      </button>
       <div class="dropdown">
         <button class="tool-link dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
           <span>Trade Project Router</span>
@@ -47,4 +52,23 @@
     </button>
   </div>
 </header>
+
+<!-- Secure Static In-Memory Search Modal Dialog -->
+<div class="portal-search-backdrop" id="portal-search-backdrop" style="display:none;" aria-hidden="true">
+  <div class="portal-search-dialog" role="dialog" aria-modal="true" aria-label="Search Specifications">
+    <div class="portal-search-box">
+      <span class="portal-search-box-icon" aria-hidden="true">🔍</span>
+      <input type="text" id="portal-search-input" class="portal-search-input" placeholder="Search specifications, edge cases, forms... (Esc to close)" maxlength="64" autocomplete="off" spellcheck="false">
+      <button type="button" id="portal-search-close-btn" class="portal-search-close-btn" aria-label="Close search">✕</button>
+    </div>
+    <div class="portal-search-results" id="portal-search-results" role="listbox">
+      <!-- In-memory DOM constructed results -->
+    </div>
+    <div class="portal-search-footer">
+      <span><kbd>↑</kbd> <kbd>↓</kbd> Navigate</span>
+      <span><kbd>↵</kbd> Select</span>
+      <span><kbd>Esc</kbd> Close</span>
+    </div>
+  </div>
+</div>
 

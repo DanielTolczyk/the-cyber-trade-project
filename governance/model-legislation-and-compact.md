@@ -1,6 +1,6 @@
 # Model State Cybersecurity Trade Licensing Act & Interstate Practice Compact
 
-This statutory model provides turnkey legislative language for state legislative drafting offices, executive sponsors, and policy stakeholders seeking to establish professional licensure, public safety accountability, and interstate reciprocity for cybersecurity practitioners.
+This statutory model provides draft legislative text for state legislative drafting offices, executive sponsors, and policy stakeholders seeking to establish professional licensure, public safety accountability, and interstate reciprocity for cybersecurity practitioners.
 
 ---
 

@@ -126,7 +126,7 @@ To protect frontline workers from supervisory capture and ensure fair labor repr
 
 
 ### D. Return to the Tools & Re-Activation of Full Voting Rights
-In technology and engineering, practitioners frequently move between technical leadership and frontline engineering roles. The trade seamlessly accommodates this transition:
+In technology and engineering, practitioners frequently move between technical leadership and frontline engineering roles. The trade directly accommodates this transition:
 * **Immediate Re-Activation:** When a manager, director, or CISO steps down from a supervisory role and returns to a frontline engineering position (no longer possessing hiring, firing, or disciplinary authority), their **Active Working Member Card** is immediately re-activated upon written notice to their Local Chapter.
 * **Full Democratic Rights Restored:** Full voting rights on collective bargaining agreements, local chapter elections, and grievance participation are restored in full without waiting periods, penalties, or re-initiation fees.
 
@@ -192,7 +192,7 @@ The **Office of the Guild Ombudsperson** functions as the independent constituti
 
 ## 10. Operational Field Roles & Governance Authority
 
-To ensure seamless coordination between shop-floor engineering reality, classroom instruction, and regulatory standards, the trade establishes clearly defined responsibilities for operational field officers across enterprise shifts, JATC training centers, and Guild halls.
+To ensure coordinated alignment between shop-floor engineering reality, classroom instruction, and regulatory standards, the trade establishes clearly defined responsibilities for operational field officers across enterprise shifts, JATC training centers, and Guild halls.
 
 For the complete specification of operational duties, supervisory ratio enforcement powers, and conflict-of-interest firewalls governing Shop Stewards, JATC Regional Training Directors, Board Practical Challenge Examiners, and Talent Clearinghouse Dispatch Officers, see:
 * [**Operational Field Roles & Governance Authority**](operational-field-roles.md)
@@ -201,7 +201,7 @@ For the complete specification of operational duties, supervisory ratio enforcem
 
 ## 11. Inter-Trade Solidarity & Federation Accord
 
-To prevent craft isolation and foster horizontal collaboration with adjacent technical disciplines, the Cybersecurity Craft Guild maintains structured inter-trade relationships modeled after the Building and Construction Trades Council (BCTC). 
+To prevent craft isolation and coordinate horizontal collaboration with adjacent technical disciplines, the Cybersecurity Craft Guild maintains structured inter-trade relationships modeled after the Building and Construction Trades Council (BCTC). 
 
 > **Non-Prescriptive Federation Model:** The taxonomy below represents an illustrative conceptual architecture of how digital disciplines could coordinate. The Cybersecurity Trade Project does not dictate how software engineers, IT specialists, or adjacent fields organize, govern, or structure their own unions or associations. Each craft maintains sovereign autonomy to determine its internal standards, training pipelines, and collective representation.
 
