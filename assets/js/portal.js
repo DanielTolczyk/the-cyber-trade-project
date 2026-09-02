@@ -666,7 +666,12 @@
       });
 
       if (!rawTokens.length) {
-        currentResults = (searchIndex || []).slice(0, 8);
+        currentResults = [];
+        const emptyState = document.createElement("div");
+        emptyState.className = "portal-search-empty-state";
+        emptyState.textContent = "Type a keyword to search specifications, statutory defenses, and operational standards...";
+        resultsContainer.appendChild(emptyState);
+        return;
       } else {
         const scored = [];
         (searchIndex || []).forEach(item => {
