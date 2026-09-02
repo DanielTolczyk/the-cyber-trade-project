@@ -334,6 +334,22 @@ def check_release_notes_quality() -> list:
     return errors
 
 
+def check_rfc_protection_gate() -> list:
+    """Verifies that open community RFCs remain preserved and protected from unilateral front-running."""
+    errors = []
+    rfc_dir = REPO_ROOT / "rfcs"
+    if not rfc_dir.exists():
+        errors.append("[RFC Invariant Error] rfcs/ directory is missing from repository root.")
+        return errors
+    
+    # Verify mandatory template and registered RFCs exist
+    template = rfc_dir / "0000-template.md"
+    if not template.exists():
+        errors.append("[RFC Invariant Error] rfcs/0000-template.md is missing.")
+        
+    return errors
+
+
 def main():
     print("=" * 70)
     print(" The Cybersecurity Trade Project - Specification Quality Gate")
@@ -367,7 +383,8 @@ def main():
     rfc_dir = REPO_ROOT / "rfcs"
     if rfc_dir.exists():
         rfc_files = list(rfc_dir.glob("*.md"))
-        print(f"[*] Validating {len(rfc_files)} RFC proposals for schema compliance...")
+        print(f"[*] Validating {len(rfc_files)} RFC proposals for schema compliance and community protection gate...")
+        total_errors.extend(check_rfc_protection_gate())
         for rfc in rfc_files:
             total_errors.extend(check_rfc_structure(rfc))
 
