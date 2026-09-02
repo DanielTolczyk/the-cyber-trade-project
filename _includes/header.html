@@ -1,48 +1,52 @@
 <header class="portal-header">
   <div class="portal-header-inner">
-    <a href="{{ site.baseurl }}/" class="portal-brand">
-      <span class="portal-brand-title">{{ site.title }}</span>
-    </a>
-    <div class="portal-header-tools">
-      <button type="button" class="tool-link portal-search-btn" id="btn-portal-search" aria-label="Search specifications (Ctrl+K)">
+    <div class="portal-header-top">
+      <a href="{{ site.baseurl }}/" class="portal-brand">
+        <span class="portal-brand-title">{{ site.title }}</span>
+      </a>
+      <div class="portal-header-tools">
+        <div class="dropdown">
+          <button class="tool-link dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
+            <span>Trade Project Router</span>
+            <span class="dropdown-arrow">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="{{ site.baseurl }}/" class="dropdown-item">
+              <span class="item-title">Documentation Portal</span>
+              <span class="item-desc">Explore framework &amp; governance</span>
+            </a>
+            <a href="https://the-cyber-trade-project.github.io/estimator/" class="dropdown-item">
+              <span class="item-title">Career Estimator</span>
+              <span class="item-desc">Calculate trade tier &amp; PLA hours</span>
+            </a>
+            <a href="https://the-cyber-trade-project.github.io/logbook/" class="dropdown-item">
+              <span class="item-title">Digital Logbook</span>
+              <span class="item-desc">Cryptographic runtime attestation PWA</span>
+            </a>
+            <a href="https://the-cyber-trade-project.github.io/clearinghouse/" class="dropdown-item">
+              <span class="item-title">Trade Clearinghouse</span>
+              <span class="item-desc">Central ingestion &amp; credential registry</span>
+            </a>
+            <a href="https://the-cyber-trade-project.github.io/telemetry/" class="dropdown-item">
+              <span class="item-title">Telemetry Gateway</span>
+              <span class="item-desc">Zero-knowledge underwriter ratio attestation</span>
+            </a>
+          </div>
+        </div>
+        <a href="https://github.com/the-cyber-trade-project/framework/discussions" target="_blank" rel="noopener noreferrer" class="tool-link">
+          <span>Discussions</span>
+        </a>
+        <a href="https://github.com/the-cyber-trade-project/framework" target="_blank" rel="noopener noreferrer" class="tool-link">
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+    <div class="portal-header-bottom">
+      <button type="button" class="tool-link portal-search-btn" id="btn-portal-search" aria-label="Search Framework (Ctrl+K)">
         <span class="search-btn-icon" aria-hidden="true">🔍</span>
-        <span class="search-btn-text">Search specs...</span>
+        <span class="search-btn-text">Search Framework...</span>
         <kbd class="search-btn-kbd">⌘K</kbd>
       </button>
-      <div class="dropdown">
-        <button class="tool-link dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
-          <span>Trade Project Router</span>
-          <span class="dropdown-arrow">▾</span>
-        </button>
-        <div class="dropdown-menu">
-          <a href="{{ site.baseurl }}/" class="dropdown-item">
-            <span class="item-title">Documentation Portal</span>
-            <span class="item-desc">Explore framework &amp; governance</span>
-          </a>
-          <a href="https://the-cyber-trade-project.github.io/estimator/" class="dropdown-item">
-            <span class="item-title">Career Estimator</span>
-            <span class="item-desc">Calculate trade tier &amp; PLA hours</span>
-          </a>
-          <a href="https://the-cyber-trade-project.github.io/logbook/" class="dropdown-item">
-            <span class="item-title">Digital Logbook</span>
-            <span class="item-desc">Cryptographic runtime attestation PWA</span>
-          </a>
-          <a href="https://the-cyber-trade-project.github.io/clearinghouse/" class="dropdown-item">
-            <span class="item-title">Trade Clearinghouse</span>
-            <span class="item-desc">Central ingestion &amp; credential registry</span>
-          </a>
-          <a href="https://the-cyber-trade-project.github.io/telemetry/" class="dropdown-item">
-            <span class="item-title">Telemetry Gateway</span>
-            <span class="item-desc">Zero-knowledge underwriter ratio attestation</span>
-          </a>
-        </div>
-      </div>
-      <a href="https://github.com/the-cyber-trade-project/framework/discussions" target="_blank" rel="noopener noreferrer" class="tool-link">
-        <span>Discussions</span>
-      </a>
-      <a href="https://github.com/the-cyber-trade-project/framework" target="_blank" rel="noopener noreferrer" class="tool-link">
-        <span>GitHub</span>
-      </a>
     </div>
   </div>
   <div class="portal-mobile-nav-bar">
@@ -55,10 +59,10 @@
 
 <!-- Secure Static In-Memory Search Modal Dialog -->
 <div class="portal-search-backdrop" id="portal-search-backdrop" style="display:none;" aria-hidden="true">
-  <div class="portal-search-dialog" role="dialog" aria-modal="true" aria-label="Search Specifications">
+  <div class="portal-search-dialog" role="dialog" aria-modal="true" aria-label="Search Framework">
     <div class="portal-search-box">
       <span class="portal-search-box-icon" aria-hidden="true">🔍</span>
-      <input type="text" id="portal-search-input" class="portal-search-input" placeholder="Search specifications, edge cases, forms... (Esc to close)" maxlength="64" autocomplete="off" spellcheck="false">
+      <input type="text" id="portal-search-input" class="portal-search-input" placeholder="Search framework (e.g., labor, wages, hours, Taft-Hartley, MoR)... (Esc to close)" maxlength="64" autocomplete="off" spellcheck="false">
       <button type="button" id="portal-search-close-btn" class="portal-search-close-btn" aria-label="Close search">✕</button>
     </div>
     <div class="portal-search-results" id="portal-search-results" role="listbox">

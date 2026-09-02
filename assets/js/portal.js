@@ -546,25 +546,118 @@
       currentResults = [];
     }
 
+    function appendHighlightedText(parent, text, tokens) {
+      if (!tokens || !tokens.length || !text) {
+        parent.textContent = text || "";
+        return;
+      }
+      const escaped = tokens.filter(t => t.length > 1).map(t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+      if (!escaped.length) {
+        parent.textContent = text;
+        return;
+      }
+      const regex = new RegExp(`(${escaped.join("|")})`, "gi");
+      let lastIdx = 0;
+      text.replace(regex, (match, p1, offset) => {
+        if (offset > lastIdx) {
+          parent.appendChild(document.createTextNode(text.substring(lastIdx, offset)));
+        }
+        const mark = document.createElement("mark");
+        mark.className = "search-highlight";
+        mark.textContent = match;
+        parent.appendChild(mark);
+        lastIdx = offset + match.length;
+      });
+      if (lastIdx < text.length) {
+        parent.appendChild(document.createTextNode(text.substring(lastIdx)));
+      }
+    }
+
+    function getContextSnippet(content, tokens, maxLen = 180) {
+      if (!content) return "";
+      if (!tokens.length) return content.slice(0, maxLen) + (content.length > maxLen ? "..." : "");
+      const lower = content.toLowerCase();
+      let firstMatch = -1;
+      for (const t of tokens) {
+        const idx = lower.indexOf(t);
+        if (idx !== -1 && (firstMatch === -1 || idx < firstMatch)) firstMatch = idx;
+      }
+      if (firstMatch === -1) return content.slice(0, maxLen) + (content.length > maxLen ? "..." : "");
+      const start = Math.max(0, firstMatch - 45);
+      const end = Math.min(content.length, start + maxLen);
+      let snip = content.substring(start, end).trim();
+      if (start > 0) snip = "..." + snip;
+      if (end < content.length) snip = snip + "...";
+      return snip;
+    }
+
     function renderSearchResults(rawQuery) {
       while (resultsContainer.firstChild) resultsContainer.removeChild(resultsContainer.firstChild);
 
       const sanitized = (rawQuery || "").toLowerCase().replace(/[^\w\s\-\.\:\/]/g, "").slice(0, 64).trim();
-      const tokens = sanitized.split(/\s+/).filter(Boolean);
+      const rawTokens = sanitized.split(/\s+/).filter(Boolean);
+      
+      const tokens = [];
+      rawTokens.forEach(t => {
+        tokens.push(t);
+        if (t.endsWith("ies") && t.length > 4) tokens.push(t.slice(0, -3) + "y");
+        else if (t.endsWith("es") && t.length > 4) tokens.push(t.slice(0, -2));
+        else if (t.endsWith("s") && t.length > 3) tokens.push(t.slice(0, -1));
+        if (t.endsWith("ing") && t.length > 5) tokens.push(t.slice(0, -3));
+        if (t.endsWith("ed") && t.length > 4) tokens.push(t.slice(0, -2));
+      });
 
-      if (!tokens.length) {
+      if (!rawTokens.length) {
         currentResults = (searchIndex || []).slice(0, 8);
       } else {
-        currentResults = (searchIndex || []).filter(item => {
-          const corpus = `${(item.title || "").toLowerCase()} ${(item.category || "").toLowerCase()} ${(item.headings || []).join(" ").toLowerCase()} ${(item.snippet || "").toLowerCase()}`;
-          return tokens.every(t => corpus.includes(t));
-        }).slice(0, 10);
+        const scored = [];
+        (searchIndex || []).forEach(item => {
+          const docTitle = (item.docTitle || item.title || "").toLowerCase();
+          const heading = (item.heading || "").toLowerCase();
+          const cat = (item.category || "").toLowerCase();
+          const content = (item.content || item.snippet || "").toLowerCase();
+
+          let score = 0;
+          let matchedTokensCount = 0;
+
+          if (heading.includes(sanitized)) score += 150;
+          else if (docTitle.includes(sanitized)) score += 120;
+          else if (content.includes(sanitized)) score += 60;
+
+          rawTokens.forEach(t => {
+            let tokenHit = false;
+            if (heading.includes(t)) { score += 70; tokenHit = true; }
+            if (docTitle.includes(t)) { score += 40; tokenHit = true; }
+            if (cat.includes(t)) { score += 25; tokenHit = true; }
+            
+            let contentHits = 0;
+            let pos = content.indexOf(t);
+            while (pos !== -1 && contentHits < 6) {
+              contentHits++;
+              score += 15;
+              pos = content.indexOf(t, pos + t.length);
+            }
+            if (contentHits > 0) tokenHit = true;
+            if (tokenHit) matchedTokensCount++;
+          });
+
+          if (rawTokens.length > 1 && matchedTokensCount === rawTokens.length) {
+            score += 50;
+          }
+
+          if (score > 0) {
+            scored.push({ item, score });
+          }
+        });
+
+        scored.sort((a, b) => b.score - a.score);
+        currentResults = scored.slice(0, 15).map(s => s.item);
       }
 
       if (!currentResults.length) {
         const noResults = document.createElement("div");
         noResults.className = "portal-search-no-results";
-        noResults.textContent = `No specifications found matching "${sanitized}".`;
+        noResults.textContent = `No framework specifications found matching "${sanitized}".`;
         resultsContainer.appendChild(noResults);
         return;
       }
@@ -580,7 +673,7 @@
 
         const titleSpan = document.createElement("span");
         titleSpan.className = "portal-search-result-title";
-        titleSpan.textContent = item.title;
+        appendHighlightedText(titleSpan, item.docTitle || item.title, rawTokens);
 
         const catSpan = document.createElement("span");
         catSpan.className = "portal-search-result-category";
@@ -588,12 +681,20 @@
 
         headerDiv.appendChild(titleSpan);
         headerDiv.appendChild(catSpan);
+        link.appendChild(headerDiv);
+
+        if (item.heading && item.heading !== (item.docTitle || item.title)) {
+          const sectionDiv = document.createElement("div");
+          sectionDiv.className = "portal-search-result-section";
+          sectionDiv.appendChild(document.createTextNode("§ "));
+          appendHighlightedText(sectionDiv, item.heading, rawTokens);
+          link.appendChild(sectionDiv);
+        }
 
         const snippetP = document.createElement("p");
         snippetP.className = "portal-search-result-snippet";
-        snippetP.textContent = item.snippet;
-
-        link.appendChild(headerDiv);
+        const snippetText = getContextSnippet(item.content || item.snippet || "", rawTokens);
+        appendHighlightedText(snippetP, snippetText, rawTokens);
         link.appendChild(snippetP);
 
         link.addEventListener("mouseenter", () => updateSelectedResult(idx));
