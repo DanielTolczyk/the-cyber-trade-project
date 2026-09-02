@@ -15,7 +15,7 @@ SITE_DIR = REPO_ROOT / "_site"
 
 
 def generate_search_index(md_files):
-    """Generates a secure, pre-compiled JSON search index of all specifications."""
+    """Generates a comprehensive, section-level pre-compiled JSON search index of all specifications."""
     index = []
     category_map = {
         "pillars": "The 7 Core Pillars",
@@ -25,17 +25,34 @@ def generate_search_index(md_files):
         "templates": "Procedural Forms",
     }
     
+    def clean_text(raw_lines):
+        txt = " ".join(raw_lines)
+        txt = re.sub(r"```[\s\S]*?```", " ", txt)
+        txt = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", txt)
+        txt = re.sub(r"<[^>]+>", " ", txt)
+        txt = re.sub(r"[*_`#><|~]", " ", txt)
+        txt = re.sub(r"\s+", " ", txt).strip()
+        return txt
+
+    def slug_for_heading(heading, rel_str):
+        if not heading:
+            return ""
+        faq_m = re.search(r"FAQ\s*(\d+)", heading, re.IGNORECASE)
+        if faq_m and "faq" in rel_str.lower():
+            return f"faq-{faq_m.group(1)}"
+        return re.sub(r"[^\w\- ]+", "", heading.lower()).strip().replace(" ", "-")
+
     for md_path in md_files:
-        if "rfcs" in md_path.parts or ".github" in md_path.parts or "tmp" in md_path.parts or "scripts" in md_path.parts:
+        if "rfcs" in md_path.parts or ".github" in md_path.parts or "tmp" in md_path.parts or "scripts" in md_path.parts or "_site" in md_path.parts:
             continue
         rel = md_path.relative_to(REPO_ROOT)
         dest_rel = rel.with_suffix(".html")
         if rel.name == "README.md":
             dest_rel = rel.parent / "index.html"
             
-        url = "/" + str(dest_rel).replace("\\", "/")
-        if url.endswith("/index.html"):
-            url = url[:-10] or "/"
+        page_url = "/" + str(dest_rel).replace("\\", "/")
+        if page_url.endswith("/index.html"):
+            page_url = page_url[:-10] or "/"
             
         parent_dir = rel.parts[0] if len(rel.parts) > 1 else "root"
         category = category_map.get(parent_dir, "General Specification")
@@ -44,42 +61,48 @@ def generate_search_index(md_files):
         lines = md_text.splitlines()
         
         # Extract title
-        title = ""
+        doc_title = ""
         for line in lines:
             line_s = line.strip()
             if line_s.startswith("# "):
-                title = line_s[2:].strip()
+                doc_title = line_s[2:].strip()
                 break
             elif line_s.startswith("title: "):
-                title = line_s[7:].strip().strip('"').strip("'")
+                doc_title = line_s[7:].strip().strip('"').strip("'")
                 
-        if not title:
-            title = rel.stem.replace("-", " ").replace("_", " ").title()
-            
-        # Extract headings
-        headings = []
+        if not doc_title:
+            doc_title = rel.stem.replace("-", " ").replace("_", " ").title()
+
+        current_heading = ""
+        current_lines = []
+
+        def add_section(heading, section_lines):
+            content = clean_text(section_lines)
+            if not content and not heading:
+                return
+            slug = slug_for_heading(heading, str(rel))
+            url = f"{page_url}#{slug}" if slug else page_url
+            index.append({
+                "docTitle": doc_title,
+                "heading": heading or doc_title,
+                "url": url,
+                "category": category,
+                "content": content
+            })
+
         for line in lines:
             line_s = line.strip()
             if line_s.startswith("## ") or line_s.startswith("### "):
-                h_text = re.sub(r"^#+\s*", "", line_s).strip()
-                headings.append(h_text)
-                
-        # Extract content snippet
-        clean_lines = []
-        for line in lines:
-            line_s = line.strip()
-            if not line_s.startswith("#") and not line_s.startswith("---") and not line_s.startswith("```"):
-                clean_lines.append(re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", line_s))
-                
-        snippet = " ".join(clean_lines)[:350]
-        
-        index.append({
-            "title": title,
-            "url": url,
-            "category": category,
-            "headings": headings[:15],
-            "snippet": snippet
-        })
+                if current_lines or current_heading:
+                    add_section(current_heading, current_lines)
+                    current_lines = []
+                current_heading = re.sub(r"^#+\s*", "", line_s).strip()
+            else:
+                if not line_s.startswith("---"):
+                    current_lines.append(line_s)
+
+        if current_lines or current_heading:
+            add_section(current_heading, current_lines)
         
     index_path = REPO_ROOT / "assets" / "js" / "search-index.json"
     index_path.parent.mkdir(parents=True, exist_ok=True)
@@ -140,9 +163,21 @@ def md_to_html(md_text: str) -> str:
     # 2. Inline code
     html = re.sub(r"`([^`]+)`", r"<code>\1</code>", html)
     
-    # 3. Headings
-    html = re.sub(r"^### (.*?)$", r"<h3>\1</h3>", html, flags=re.MULTILINE)
-    html = re.sub(r"^## (.*?)$", r"<h2>\1</h2>", html, flags=re.MULTILINE)
+    # 3. Headings with anchor IDs
+    def make_h3(m):
+        h_text = m.group(1).strip()
+        faq_m = re.search(r"FAQ\s*(\d+)", h_text, re.IGNORECASE)
+        slug = f"faq-{faq_m.group(1)}" if faq_m else re.sub(r"[^\w\- ]+", "", h_text.lower()).strip().replace(" ", "-")
+        return f'<h3 id="{slug}">{h_text}</h3>'
+
+    def make_h2(m):
+        h_text = m.group(1).strip()
+        faq_m = re.search(r"FAQ\s*(\d+)", h_text, re.IGNORECASE)
+        slug = f"faq-{faq_m.group(1)}" if faq_m else re.sub(r"[^\w\- ]+", "", h_text.lower()).strip().replace(" ", "-")
+        return f'<h2 id="{slug}">{h_text}</h2>'
+
+    html = re.sub(r"^### (.*?)$", make_h3, html, flags=re.MULTILINE)
+    html = re.sub(r"^## (.*?)$", make_h2, html, flags=re.MULTILINE)
     html = re.sub(r"^# (.*?)$", r"<h1>\1</h1>", html, flags=re.MULTILINE)
     
     # 4. Blockquotes
