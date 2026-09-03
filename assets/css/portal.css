@@ -516,11 +516,11 @@ body {
 
 .nav-group-summary {
   font-family: var(--font-mono);
-  font-size: 0.74rem;
+  font-size: 0.68rem;
   font-weight: 700;
-  color: var(--text-secondary);
+  color: var(--accent-cyan);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   padding: 0.4rem 0.5rem;
   cursor: pointer;
   list-style: none;
@@ -540,7 +540,7 @@ body {
 .nav-group-summary::after {
   content: "▾";
   font-size: 0.75rem;
-  color: var(--text-secondary);
+  color: var(--text-muted);
   transition: transform 0.15s ease, color 0.15s ease;
 }
 
@@ -554,7 +554,7 @@ details:not([open]) .nav-group-summary::after {
 }
 
 .nav-group-summary:hover {
-  color: var(--accent-cyan);
+  color: #ffffff;
   background-color: rgba(14, 165, 233, 0.08);
   border-color: rgba(14, 165, 233, 0.25);
 }
