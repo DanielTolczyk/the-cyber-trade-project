@@ -67,6 +67,11 @@ Management trustees represent the systemic stability of the defensive ecosystem,
 
 To maintain accredited standing within the Participating Employer Council:
 
-1. **Timely Trust Remittance:** Employers remit required hourly JATC training contributions ($1.00/hr) and Health/Pension trust contributions by the 15th calendar day of each month.
+1. **Timely Trust Remittance:** Employers remit required hourly trust contributions by the 15th calendar day of each month:
+   * JATC Training Trust: **$1.00 per hour worked**
+   * Health & Welfare Trust: **$7.00 per hour worked**
+   * Paid Family & Medical Leave (PFML) & Disability Sub-Trust: **$0.75 per hour worked**
+   * Defined Benefit Pension Trust: **$6.00 per hour worked**
 2. **Supervisory Ratio Compliance:** Maintain verifiable 2:1 on-shift operational ratios for human-in-the-loop seats, verifiable via automated logbook telemetry.
-3. **Ethical Non-Interference:** Strict adherence to Ethical Canon 5, prohibiting supervisory coercion, voter intimidation, or retaliation against workers exercising the Right of Technical Refusal.
+3. **Leave Standards & Multi-Employer FMLA Equivalency:** Honor the jurisdictional boundary between employer-retained incidental leaves and Guild trust benefits under [Leave and Benefit Standards](../framework/leave-and-benefit-standards.md), guaranteeing job restoration rights upon return from qualified PFML leaves and recognizing National Cybersecurity Trade Board (NCTB) Pause-and-Resume logbook protections.
+4. **Ethical Non-Interference:** Strict adherence to Ethical Canon 5, prohibiting supervisory coercion, voter intimidation, or retaliation against workers exercising the Right of Technical Refusal.

@@ -19,7 +19,20 @@ The framework accommodates four primary practitioner engagement models while mai
 
 ---
 
-## 2. Apprentice Labor Protections & 1099 Prohibition
+## 2. Benefit Portability & Leave Parity for 1099 Contractors
+
+Independent contractors (1099) and solo trade practitioners do not receive direct employer-paid sick leave or PTO. To eliminate this structural disparity, the framework establishes four parity mechanisms:
+
+1. **Loaded Wage Multiplier (1.35x - 1.45x):** Signatory clients contracting 1099 Journeymen or Masters must contract at or above the Loaded Trade Rate. This rate incorporates self-employment tax parity and a built-in 10% to 12% benefit premium dedicated to self-funded casual time off and incidental sick days.
+2. **Vacation & Sick Trust Sub-Accounts (The Hourly Stamp):** Signatory clients may elect to remit a standard $3.50 per hour Vacation and Sick contribution into the contractor's individual Guild trust sub-account, distributed automatically quarterly or drawn down during absences.
+3. **Equal Access to Catastrophic & Family Trusts:** 1099 contractors who log 1,000 verified operational hours across signatory contracts within 12 months qualify for the full 12-week Paid Parental Leave and 26-week Short-Term Disability benefit under the Taft-Hartley PFML Trust ($0.75 per hour contribution), with health insurance maintained via their personal Hour-Bank.
+4. **Clearinghouse Employer-of-Record (EOR) Bridge:** Independent practitioners seeking full W-2 administrative treatment may execute contract delivery through the Guild JATC or Clearinghouse Hiring Hall, which functions as the statutory W-2 employer of record.
+
+For complete leave governance and jurisdictional boundaries, see [Leave and Benefit Standards](leave-and-benefit-standards.md).
+
+---
+
+## 3. Apprentice Labor Protections & 1099 Prohibition
 
 To prevent the exploitation of early-career talent and comply with legal wage and labor standards:
 
@@ -28,7 +41,7 @@ To prevent the exploitation of early-career talent and comply with legal wage an
 
 ---
 
-## 3. Establishing a Licensed Cybersecurity Trade Contractor (LLC / Consulting Firm)
+## 4. Establishing a Licensed Cybersecurity Trade Contractor (LLC / Consulting Firm)
 
 A Journeyman or Master Practitioner who chooses to start an independent consulting practice, MSSP, or managed defense consultancy operates under the **Trade Contractor Framework** (analogous to licensed electrical or general contracting firms):
 
@@ -63,7 +76,7 @@ To achieve accredited status and issue certified compliance sign-offs, a consult
 
 ---
 
-## 4. Subcontracting & The Fractional Master of Record (vMoR for SMBs)
+## 5. Subcontracting & The Fractional Master of Record (vMoR for SMBs)
 
 Small and medium-sized businesses often lack the capital to employ a full-time, in-house Master Practitioner. The Trade Contractor model enables **Fractional Master of Record (vMoR)** services to bridge the defense gap:
 
@@ -73,7 +86,7 @@ Small and medium-sized businesses often lack the capital to employ a full-time, 
 
 ---
 
-## 5. Capacity Ratios, Risk-Weighted Caps & Anti-Ghost-Staffing
+## 6. Capacity Ratios, Risk-Weighted Caps & Anti-Ghost-Staffing
 
 To prevent consulting firms, MSSPs, and contractors from overextending senior staff or diluting supervisory standards across client accounts, the trade enforces strict **Contractor Capacity Caps** and **Anti-Ghost-Staffing Standards**:
 
@@ -103,7 +116,7 @@ Enterprises operating digital systems that process data subject to domestic juri
 
 ---
 
-## 6. National Incident Surge & Emergency Mutual Aid Compact
+## 7. National Incident Surge & Emergency Mutual Aid Compact
 
 During major systemic cyber emergencies (e.g., widespread healthcare ransomware campaigns, regional power grid disruption, or critical telecommunications collapse), the trade activates the **Trade Mutual Aid Compact**:
 
@@ -131,7 +144,7 @@ During major systemic cyber emergencies (e.g., widespread healthcare ransomware 
 
 ---
 
-## 7. The Trade Contractor Incubator (Small Business & Founder Advantage)
+## 8. The Trade Contractor Incubator (Small Business & Founder Advantage)
 
 When a Master Practitioner or Journeyman launches an independent cybersecurity consultancy, boutique firm, or MSSP, the trade provides standardized operational infrastructure to eliminate small-business barriers to entry:
 

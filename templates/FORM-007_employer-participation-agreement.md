@@ -24,11 +24,16 @@ The Sponsoring Employer hereby agrees to sponsor registered apprenticeship seats
 
 ---
 
-## 2. Training Trust Remittance & Educational Release
+## 2. Benefit Trust Remittances & Educational Release
 
-1. **Hourly Trust Remittance:** Sponsoring Employer agrees to remit the mandatory JATC Training Trust contribution of `$[HOURLY_RATE]` per compensable trade hour directly to the JATC Trust Fund established under Form FORM-006.
+1. **Hourly Trust Remittances:** Sponsoring Employer agrees to remit mandatory hourly trust contributions per compensable trade hour directly to the independent, ERISA-shielded trust funds by the 15th calendar day of each month:
+   * JATC Training Trust: **$1.00 per hour worked**
+   * Health & Welfare Trust: **$7.00 per hour worked**
+   * Paid Family & Medical Leave (PFML) & Disability Sub-Trust: **$0.75 per hour worked**
+   * Defined Benefit Pension Trust: **$6.00 per hour worked**
 2. **Paid Educational Release:** Employer shall release registered apprentices with pay for mandatory 144 hours per year of Related Technical Instruction (RTI) classroom and range lab training.
 3. **Digital Logbook Compliance:** Sponsoring Employer agrees to verify and digitally sign apprentice runtime hours quarterly using the Universal Digital Logbook standard under recognized Modality A, B, C, or D protocols.
+4. **Leave Standards & Multi-Employer FMLA Equivalency:** Sponsoring Employer covenants to honor the jurisdictional demarcation under the Leave and Benefit Standards: fund incidental short-term sick leave, recognize NCTB Pause-and-Resume logbook protections, and guarantee job restoration rights upon return from qualified PFML leaves.
 
 ---
 

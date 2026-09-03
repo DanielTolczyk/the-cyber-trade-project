@@ -54,6 +54,7 @@ In the skilled trades, healthcare and retirement belong permanently to the worke
          │
          ├──► $1.00/hr ──► JATC TRAINING TRUST (60% Community College Labs / 40% RTI)
          ├──► $7.00/hr ──► HEALTH & WELFARE TRUST (Hour-Bank Reserve: 6-Mo Coverage)
+         ├──► $0.75/hr ──► PAID FAMILY & MEDICAL LEAVE (PFML) & DISABILITY TRUST
          └──► $6.00/hr ──► DEFINED BENEFIT PENSION (5-Year Unified Vesting Clock)
                                        │
                                        ▼ (ERISA Section 403 Fiduciary Shield)
@@ -62,17 +63,25 @@ In the skilled trades, healthcare and retirement belong permanently to the worke
 ```
 
 ### A. The "Hour-Bank" Health & Welfare Trust
-* **Employer Hourly Contribution:** Participating employers contribute a mandatory fixed hourly rate (e.g., $7.00/hour worked) into the Taft-Hartley Health & Welfare Trust.
+* **Employer Hourly Contribution:** Participating employers contribute a mandatory fixed hourly rate of **$7.00 per compensable labor hour worked by all practitioners (Registered Apprentices, Licensed Journeymen, and Masters)** into the Taft-Hartley Health & Welfare Trust.
 * **The Hour-Bank Reserve:** Maintaining full family medical, dental, and vision coverage requires approximately 140 credited hours per month. Excess hours accumulate in the worker's personal **Hour Bank** (up to a 6-month reserve).
 * **Portability During Layoffs & Contract Gaps:** If a startup fails, a contract ends, or a worker takes time off, the Hour Bank reserve automatically pays for health insurance uninterrupted. Workers never face expensive COBRA payments, disruption of care, or loss of preferred doctors.
 
 ### B. The "Two-Check" Retirement System (Pension + 401(k))
-* **Check 1: Multi-Employer Defined Benefit Pension:** Funded 100% by employer hourly contributions (e.g., $6.00/hour worked) into the Taft-Hartley Pension Trust. Accumulates continuously across multiple employers, guaranteeing a defined lifetime monthly benefit upon retirement.
+* **Check 1: Multi-Employer Defined Benefit Pension:** Funded 100% by employer hourly contributions of **$6.00 per billable labor hour worked by Journeymen and Masters** into the Taft-Hartley Pension Trust. Accumulates continuously across multiple employers, guaranteeing a defined lifetime monthly benefit upon retirement.
 * **Unified 5-Year Multi-Employer Vesting Clock:** Under federal ERISA standards for Taft-Hartley trusts, all operational hours worked for any participating PEC employer accumulate toward a single, unified 5-year vesting clock (minimum 1,000 hours/year). Once a practitioner logs 5,000 total verified hours across any combination of employers, they are **100% permanently vested** in their lifetime pension.
 * **Check 2: Optional Employer-Matching 401(k) / Annuity:** Employers may offer corporate 401(k) matching plans alongside the pension. Trade pension participation does not restrict an employer from providing a matching 401(k) plan.
 
 ### C. Supplemental Unemployment Benefit (SUB) Fund
 * Funded via multi-employer trust contributions, paying weekly supplemental income on top of state unemployment checks during economic downturns, helping laid-off practitioners maintain financial stability until dispatched to a new role.
+
+### D. Paid Family & Medical Leave (PFML) & Disability Sub-Trust
+* **Employer Hourly Contribution:** Participating employers contribute a mandatory fixed hourly rate of **$0.75 per compensable labor hour worked by all practitioners (Apprentices, Journeymen, and Masters)** into the Taft-Hartley PFML & Disability Sub-Trust.
+* **Unified 1,000-Hour Qualification Threshold:** To overcome single-employer tenure barriers enforced by federal FMLA, any practitioner who logs 1,000 verified operational hours across any combination of participating employers within the preceding 12 months qualifies for trust leave benefits.
+* **Paid Parental Leave Floor:** Provides 12 weeks of paid wage replacement calculated at 70% of the practitioner's active baseline wage step (capped at 70% RJPB) for birth, adoption, or foster placement, disbursed by an independent Third-Party Administrator (TPA).
+* **Short-Term Disability (STD) & DFIR Trauma Recovery:** Provides up to 26 weeks of wage replacement calculated at 70% of active baseline wage step (capped at 70% RJPB) following a 7-day waiting period for medically certified non-occupational illnesses, surgeries, or physician-certified incident response trauma recovery.
+* **State Statutory Integration (Wrap-Around Model):** In jurisdictions with statutory Paid Family and Medical Leave programs (e.g., California, New York, Washington, Massachusetts, New Jersey, Colorado, Oregon), the Guild Trust operates as a secondary wrap-around insurer, topping up state disbursements to guarantee the 70% baseline trade standard.
+* **1099 & Solo Contractor Inclusion:** Independent consultants and solo trade contractors remit the $0.75/hour contribution directly or via loaded client contracts, securing identical access to the 12-week parental and 26-week disability wage replacement pool without client dependency. For detailed jurisdictional lines and leave administration, see [Leave and Benefit Standards](../framework/leave-and-benefit-standards.md).
 
 ---
 

@@ -8,7 +8,7 @@ The Cybersecurity Trade Project aligns labor protections with corporate balance-
 
 ```
 +─────────────────────────────────────────────────────────────────────────────+
-| THE SEVEN ENTERPRISE VALUE PILLARS                                          |
+| THE SEVEN CORE ENTERPRISE ADVANTAGES                                        |
 +─────────────────────────────────────────────────────────────────────────────+
   │
   ├─► 1. Predictable Linear Benefit Costs & Zero Plan Fiduciary Liability
