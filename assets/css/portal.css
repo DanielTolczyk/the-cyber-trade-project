@@ -597,19 +597,6 @@ details.nav-subgroup summary.nav-subgroup-title:hover {
   transition: all 0.1s ease;
 }
 
-.nav-tree-item a {
-  padding-left: 1rem;
-  position: relative;
-  font-size: 0.78rem;
-}
-
-.nav-tree-item a::before {
-  content: "└";
-  position: absolute;
-  left: 0.25rem;
-  color: var(--text-muted);
-}
-
 
 /* Main Article Content */
 .portal-main {
