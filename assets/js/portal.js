@@ -1557,45 +1557,46 @@
   }
 
   function initMobileSidebar() {
-    const toggleBtn = document.getElementById("btn-toggle-sidebar");
-    const closeBtn = document.getElementById("btn-close-sidebar");
     const sidebar = document.getElementById("portal-sidebar");
     const backdrop = document.getElementById("portal-sidebar-backdrop");
 
-    if (!toggleBtn && !sidebar) return;
-
     const openSidebar = (e) => {
       if (e) e.preventDefault();
-      if (sidebar) sidebar.classList.add("open");
-      if (backdrop) backdrop.classList.add("active");
+      const currentSidebar = sidebar || document.getElementById("portal-sidebar");
+      const currentBackdrop = backdrop || document.getElementById("portal-sidebar-backdrop");
+      if (currentSidebar) currentSidebar.classList.add("open");
+      if (currentBackdrop) currentBackdrop.classList.add("active");
       document.body.style.overflow = "hidden";
     };
 
     const closeSidebar = (e) => {
       if (e) e.preventDefault();
-      if (sidebar) sidebar.classList.remove("open");
-      if (backdrop) backdrop.classList.remove("active");
+      const currentSidebar = sidebar || document.getElementById("portal-sidebar");
+      const currentBackdrop = backdrop || document.getElementById("portal-sidebar-backdrop");
+      if (currentSidebar) currentSidebar.classList.remove("open");
+      if (currentBackdrop) currentBackdrop.classList.remove("active");
       document.body.style.overflow = "";
     };
 
-    if (toggleBtn) {
-      toggleBtn.addEventListener("click", openSidebar);
-    }
-    if (closeBtn) {
-      closeBtn.addEventListener("click", closeSidebar);
-    }
-    if (backdrop) {
-      backdrop.addEventListener("click", closeSidebar);
-    }
-
-    // Auto-close when clicking any link in mobile drawer
-    const sidebarLinks = sidebar ? sidebar.querySelectorAll("a") : [];
-    sidebarLinks.forEach(link => {
-      link.addEventListener("click", () => {
-        if (window.innerWidth <= 900) {
-          closeSidebar();
-        }
-      });
+    // Global document event delegation ensures clicks are captured reliably on touch and desktop
+    document.addEventListener("click", (e) => {
+      const toggle = e.target.closest("#btn-toggle-sidebar, .mobile-nav-trigger");
+      if (toggle) {
+        openSidebar(e);
+        return;
+      }
+      const close = e.target.closest("#btn-close-sidebar, .sidebar-close-btn");
+      if (close) {
+        closeSidebar(e);
+        return;
+      }
+      if (e.target === backdrop || (e.target.id === "portal-sidebar-backdrop")) {
+        closeSidebar(e);
+        return;
+      }
+      if (window.innerWidth <= 900 && e.target.closest("#portal-sidebar a")) {
+        closeSidebar(e);
+      }
     });
   }
 
@@ -1685,6 +1686,7 @@
     function openSearchModal(e) {
       if (e) e.preventDefault();
       backdrop.style.display = "flex";
+      backdrop.classList.add("active");
       backdrop.setAttribute("aria-hidden", "false");
       if (searchBtn) searchBtn.setAttribute("aria-expanded", "true");
       document.body.style.overflow = "hidden";
@@ -1695,6 +1697,7 @@
     function closeSearchModal(e) {
       if (e) e.preventDefault();
       backdrop.style.display = "none";
+      backdrop.classList.remove("active");
       backdrop.setAttribute("aria-hidden", "true");
       if (searchBtn) searchBtn.setAttribute("aria-expanded", "false");
       document.body.style.overflow = "";
@@ -1895,6 +1898,23 @@
     if (closeBtn) closeBtn.addEventListener("click", closeSearchModal);
     backdrop.addEventListener("click", (e) => { if (e.target === backdrop) closeSearchModal(); });
     input.addEventListener("input", (e) => renderSearchResults(e.target.value));
+
+    // Global document event delegation for search trigger buttons
+    document.addEventListener("click", (e) => {
+      const searchTrigger = e.target.closest("#btn-portal-search, .portal-search-btn");
+      if (searchTrigger) {
+        openSearchModal(e);
+        return;
+      }
+      const closeTrigger = e.target.closest("#portal-search-close-btn");
+      if (closeTrigger) {
+        closeSearchModal(e);
+        return;
+      }
+      if (e.target === backdrop) {
+        closeSearchModal(e);
+      }
+    });
 
     input.addEventListener("keydown", (e) => {
       if (e.key === "ArrowDown") {

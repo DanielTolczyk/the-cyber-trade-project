@@ -1195,6 +1195,10 @@ details.nav-subgroup summary.nav-subgroup-title:hover {
   justify-content: center;
 }
 
+.portal-search-backdrop.active {
+  display: flex !important;
+}
+
 .portal-search-dialog {
   background-color: #0d1322;
   border: 1px solid #38bdf8;
