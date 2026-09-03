@@ -1759,12 +1759,25 @@
         parent.textContent = text || "";
         return;
       }
-      const escaped = tokens.filter(t => t.length > 1).map(t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-      if (!escaped.length) {
+      // For short tokens (<= 3 chars, e.g. "ai", "ml", "mor"), only highlight on word boundaries
+      // For longer tokens, allow word-start boundaries
+      const regexParts = [];
+      tokens.forEach(t => {
+        if (!t || t.length < 2) return;
+        const esc = t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        if (t.length <= 3) {
+          regexParts.push(`\\b${esc}\\b`);
+        } else {
+          regexParts.push(`\\b${esc}`);
+        }
+      });
+
+      if (!regexParts.length) {
         parent.textContent = text;
         return;
       }
-      const regex = new RegExp(`(${escaped.join("|")})`, "gi");
+
+      const regex = new RegExp(`(${regexParts.join("|")})`, "gi");
       let lastIdx = 0;
       text.replace(regex, (match, p1, offset) => {
         if (offset > lastIdx) {
@@ -1784,12 +1797,28 @@
     function getContextSnippet(content, tokens, maxLen = 180) {
       if (!content) return "";
       if (!tokens.length) return content.slice(0, maxLen) + (content.length > maxLen ? "..." : "");
-      const lower = content.toLowerCase();
       let firstMatch = -1;
+
+      // Look for boundary-aware match first
       for (const t of tokens) {
-        const idx = lower.indexOf(t);
-        if (idx !== -1 && (firstMatch === -1 || idx < firstMatch)) firstMatch = idx;
+        if (!t) continue;
+        const esc = t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        const pattern = t.length <= 3 ? new RegExp(`\\b${esc}\\b`, "i") : new RegExp(`\\b${esc}`, "i");
+        const m = pattern.exec(content);
+        if (m && (firstMatch === -1 || m.index < firstMatch)) {
+          firstMatch = m.index;
+        }
       }
+
+      // Fallback to substring if no boundary match found
+      if (firstMatch === -1) {
+        const lower = content.toLowerCase();
+        for (const t of tokens) {
+          const idx = lower.indexOf(t);
+          if (idx !== -1 && (firstMatch === -1 || idx < firstMatch)) firstMatch = idx;
+        }
+      }
+
       if (firstMatch === -1) return content.slice(0, maxLen) + (content.length > maxLen ? "..." : "");
       const start = Math.max(0, firstMatch - 45);
       const end = Math.min(content.length, start + maxLen);
@@ -1799,21 +1828,94 @@
       return snip;
     }
 
+    function scoreTextWithToken(text, token) {
+      if (!text || !token) return 0;
+      const esc = token.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      // Exact whole-word matches carry highest authority
+      const exactRe = new RegExp(`\\b${esc}\\b`, "gi");
+      const exactMatches = (text.match(exactRe) || []).length;
+      if (exactMatches > 0) {
+        return exactMatches * 120;
+      }
+      // Prefix match (word starts with token)
+      const prefixRe = new RegExp(`\\b${esc}`, "gi");
+      const prefixMatches = (text.match(prefixRe) || []).length;
+      if (prefixMatches > 0) {
+        return prefixMatches * 60;
+      }
+      // Substring match: Only permitted for tokens >= 4 chars, heavily downweighted
+      if (token.length >= 4 && text.indexOf(token) !== -1) {
+        return 10;
+      }
+      return 0;
+    }
+
+    function groupAndScoreResults(rawTokens, sanitized) {
+      const docGroups = {};
+
+      (searchIndex || []).forEach(item => {
+        const docTitle = (item.docTitle || item.title || "").toLowerCase();
+        const heading = (item.heading || "").toLowerCase();
+        const cat = (item.category || "").toLowerCase();
+        const content = (item.content || item.snippet || "").toLowerCase();
+
+        let sectionScore = 0;
+        let matchedTokensCount = 0;
+
+        rawTokens.forEach(t => {
+          let tScore = 0;
+          tScore += scoreTextWithToken(heading, t) * 1.5;
+          tScore += scoreTextWithToken(docTitle, t) * 1.2;
+          tScore += scoreTextWithToken(cat, t) * 0.4;
+
+          const cScore = scoreTextWithToken(content, t);
+          tScore += Math.min(cScore, 180) * 0.4;
+
+          if (tScore > 0) {
+            matchedTokensCount++;
+            sectionScore += tScore;
+          }
+        });
+
+        // Boost sections that match all query tokens
+        if (rawTokens.length > 1 && matchedTokensCount === rawTokens.length) {
+          sectionScore += 80;
+        }
+
+        if (sectionScore > 0) {
+          const rawUrl = item.url || "";
+          const pageUrl = rawUrl.split("#")[0];
+          const groupKey = pageUrl || (item.docTitle || item.title);
+
+          if (!docGroups[groupKey]) {
+            docGroups[groupKey] = {
+              docTitle: item.docTitle || item.title,
+              category: item.category || "General Specification",
+              pageUrl: pageUrl,
+              maxScore: 0,
+              sections: []
+            };
+          }
+
+          docGroups[groupKey].sections.push({
+            item: item,
+            score: sectionScore
+          });
+
+          if (sectionScore > docGroups[groupKey].maxScore) {
+            docGroups[groupKey].maxScore = sectionScore;
+          }
+        }
+      });
+
+      return Object.values(docGroups).sort((a, b) => b.maxScore - a.maxScore).slice(0, 10);
+    }
+
     function renderSearchResults(rawQuery) {
       while (resultsContainer.firstChild) resultsContainer.removeChild(resultsContainer.firstChild);
 
       const sanitized = (rawQuery || "").toLowerCase().replace(/[^\w\s\-\.\:\/]/g, "").slice(0, 64).trim();
       const rawTokens = sanitized.split(/\s+/).filter(Boolean);
-      
-      const tokens = [];
-      rawTokens.forEach(t => {
-        tokens.push(t);
-        if (t.endsWith("ies") && t.length > 4) tokens.push(t.slice(0, -3) + "y");
-        else if (t.endsWith("es") && t.length > 4) tokens.push(t.slice(0, -2));
-        else if (t.endsWith("s") && t.length > 3) tokens.push(t.slice(0, -1));
-        if (t.endsWith("ing") && t.length > 5) tokens.push(t.slice(0, -3));
-        if (t.endsWith("ed") && t.length > 4) tokens.push(t.slice(0, -2));
-      });
 
       if (!rawTokens.length) {
         currentResults = [];
@@ -1822,52 +1924,13 @@
         emptyState.textContent = "Type a keyword to search specifications, statutory defenses, and operational standards...";
         resultsContainer.appendChild(emptyState);
         return;
-      } else {
-        const scored = [];
-        (searchIndex || []).forEach(item => {
-          const docTitle = (item.docTitle || item.title || "").toLowerCase();
-          const heading = (item.heading || "").toLowerCase();
-          const cat = (item.category || "").toLowerCase();
-          const content = (item.content || item.snippet || "").toLowerCase();
-
-          let score = 0;
-          let matchedTokensCount = 0;
-
-          if (heading.includes(sanitized)) score += 150;
-          else if (docTitle.includes(sanitized)) score += 120;
-          else if (content.includes(sanitized)) score += 60;
-
-          rawTokens.forEach(t => {
-            let tokenHit = false;
-            if (heading.includes(t)) { score += 70; tokenHit = true; }
-            if (docTitle.includes(t)) { score += 40; tokenHit = true; }
-            if (cat.includes(t)) { score += 25; tokenHit = true; }
-            
-            let contentHits = 0;
-            let pos = content.indexOf(t);
-            while (pos !== -1 && contentHits < 6) {
-              contentHits++;
-              score += 15;
-              pos = content.indexOf(t, pos + t.length);
-            }
-            if (contentHits > 0) tokenHit = true;
-            if (tokenHit) matchedTokensCount++;
-          });
-
-          if (rawTokens.length > 1 && matchedTokensCount === rawTokens.length) {
-            score += 50;
-          }
-
-          if (score > 0) {
-            scored.push({ item, score });
-          }
-        });
-
-        scored.sort((a, b) => b.score - a.score);
-        currentResults = scored.slice(0, 15).map(s => s.item);
       }
 
-      if (!currentResults.length) {
+      const topDocs = groupAndScoreResults(rawTokens, sanitized);
+
+      currentResults = [];
+
+      if (!topDocs.length) {
         const noResults = document.createElement("div");
         noResults.className = "portal-search-no-results";
         noResults.textContent = `No framework specifications found matching "${sanitized}".`;
@@ -1876,43 +1939,91 @@
       }
 
       selectedIndex = 0;
-      currentResults.forEach((item, idx) => {
-        const link = document.createElement("a");
-        link.className = `portal-search-result-item ${idx === selectedIndex ? "selected" : ""}`;
-        link.href = sanitizeNavigationUrl(item.url, baseUrl);
+
+      topDocs.forEach((docGroup, idx) => {
+        docGroup.sections.sort((a, b) => b.score - a.score);
+        const primarySection = docGroup.sections[0].item;
+        currentResults.push(primarySection);
+
+        const card = document.createElement("div");
+        card.className = `portal-search-result-item ${idx === selectedIndex ? "selected" : ""}`;
+        card.setAttribute("role", "option");
+        card.setAttribute("tabindex", "-1");
 
         const headerDiv = document.createElement("div");
         headerDiv.className = "portal-search-result-header";
 
-        const titleSpan = document.createElement("span");
-        titleSpan.className = "portal-search-result-title";
-        appendHighlightedText(titleSpan, item.docTitle || item.title, rawTokens);
+        const titleLink = document.createElement("a");
+        titleLink.className = "portal-search-result-title";
+        titleLink.href = sanitizeNavigationUrl(primarySection.url, baseUrl);
+        appendHighlightedText(titleLink, docGroup.docTitle, rawTokens);
 
         const catSpan = document.createElement("span");
         catSpan.className = "portal-search-result-category";
-        catSpan.textContent = item.category;
+        catSpan.textContent = docGroup.category;
 
-        headerDiv.appendChild(titleSpan);
+        headerDiv.appendChild(titleLink);
         headerDiv.appendChild(catSpan);
-        link.appendChild(headerDiv);
+        card.appendChild(headerDiv);
 
-        if (item.heading && item.heading !== (item.docTitle || item.title)) {
+        if (primarySection.heading && primarySection.heading !== docGroup.docTitle) {
           const sectionDiv = document.createElement("div");
           sectionDiv.className = "portal-search-result-section";
-          sectionDiv.appendChild(document.createTextNode("§ "));
-          appendHighlightedText(sectionDiv, item.heading, rawTokens);
-          link.appendChild(sectionDiv);
+          const secLink = document.createElement("a");
+          secLink.href = sanitizeNavigationUrl(primarySection.url, baseUrl);
+          secLink.style.color = "inherit";
+          secLink.style.textDecoration = "none";
+          secLink.appendChild(document.createTextNode("§ "));
+          appendHighlightedText(secLink, primarySection.heading, rawTokens);
+          sectionDiv.appendChild(secLink);
+          card.appendChild(sectionDiv);
         }
 
         const snippetP = document.createElement("p");
         snippetP.className = "portal-search-result-snippet";
-        const snippetText = getContextSnippet(item.content || item.snippet || "", rawTokens);
+        const snippetText = getContextSnippet(primarySection.content || primarySection.snippet || "", rawTokens);
         appendHighlightedText(snippetP, snippetText, rawTokens);
-        link.appendChild(snippetP);
+        card.appendChild(snippetP);
 
-        link.addEventListener("mouseenter", () => updateSelectedResult(idx));
-        link.addEventListener("click", () => closeSearchModal());
-        resultsContainer.appendChild(link);
+        const otherSections = docGroup.sections.slice(1).filter(s => s.item.heading !== primarySection.heading);
+        if (otherSections.length > 0) {
+          const chipsContainer = document.createElement("div");
+          chipsContainer.className = "portal-search-result-sections-group";
+
+          const chipsLabel = document.createElement("span");
+          chipsLabel.className = "portal-search-sections-label";
+          chipsLabel.textContent = "Also in:";
+          chipsContainer.appendChild(chipsLabel);
+
+          const displayedSections = otherSections.slice(0, 3);
+          displayedSections.forEach(s => {
+            const chip = document.createElement("a");
+            chip.className = "portal-search-section-chip";
+            chip.href = sanitizeNavigationUrl(s.item.url, baseUrl);
+            chip.textContent = `§ ${s.item.heading}`;
+            chip.title = s.item.heading;
+            chip.addEventListener("click", () => closeSearchModal());
+            chipsContainer.appendChild(chip);
+          });
+
+          if (otherSections.length > 3) {
+            const moreSpan = document.createElement("span");
+            moreSpan.className = "portal-search-section-chip-more";
+            moreSpan.textContent = `+${otherSections.length - 3} more`;
+            chipsContainer.appendChild(moreSpan);
+          }
+
+          card.appendChild(chipsContainer);
+        }
+
+        card.addEventListener("click", (e) => {
+          if (e.target.closest(".portal-search-section-chip")) return;
+          closeSearchModal();
+          window.location.href = sanitizeNavigationUrl(primarySection.url, baseUrl);
+        });
+
+        card.addEventListener("mouseenter", () => updateSelectedResult(idx));
+        resultsContainer.appendChild(card);
       });
     }
 
