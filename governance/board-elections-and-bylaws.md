@@ -19,7 +19,7 @@ To bootstrap the trade framework, incorporate the initial non-profit legal entit
 
 The permanent Board maintains a strict **Tripartite 11-Member Voting Quorum (4 - 4 - 3)** paired with two permanent non-voting advisory delegates designed to prevent regulatory capture:
 
-| Stakeholder Pillar | Seat Category & Quorum | Electing / Appointing Body | Term Length |
+| Stakeholder Constituency | Seat Category & Quorum | Electing / Appointing Body | Term Length |
 | :--- | :--- | :--- | :--- |
 | **Workforce & Practice (4 Seats)** | **Active Master Practitioners (2 Seats)** | Democratic vote of the licensed Master Practitioner body | 3 Years (Staggered) |
 | | **Active Licensed Journeyman (1 Seat)** | Democratic vote of the active Licensed Journeyman body | 3 Years (Staggered) |

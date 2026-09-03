@@ -8,7 +8,7 @@ This specification establishes the charter, actuarial standards, trustee selecti
 
 The **Cyber Underwriting & Actuarial Advisory Consortium (CUAAC)** is the independent standing body representing primary cyber insurance carriers, excess and surplus (E&S) lines underwriters, managing general agents (MGAs), and global reinsurance syndicates.
 
-Operating as the **Risk Capital & Catalyst Pillar** of the trade ecosystem:
+Operating as the **Risk Capital & Catalyst Arm** of the trade ecosystem:
 
 1. **Actuarial Risk Stratification:** Analyzes loss data and claim trends to quantify the empirical loss-reduction impact of certified trade labor, verified supervisory ratios (2:1), and active Master of Record (MoR) oversight.
 2. **Standardized Policy Warranty Schedules:** Harmonizes open, vendor-neutral underwriting warranty criteria granting **25% to 35% Preferred Risk premium credits** to participating enterprises.

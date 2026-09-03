@@ -35,7 +35,7 @@ Recognizing that statutory licensing compacts (analogous to the Interstate Medic
 ## 2. Phase Breakdown & Milestones
 
 ### Phase 1: Voluntary Market Adoption & Institutional Chartering (Years 0 - 2)
-* **Four-Pillar Institutional Chartering:** Simultaneous 501(c)(6) non-profit incorporation of the National Cybersecurity Trade Board (NCTB), the Cybersecurity Craft Guild (CCG), the Participating Employer Council (PEC), and the Cyber Underwriting & Actuarial Advisory Consortium (CUAAC).
+* **Four-Entity Institutional Chartering:** Simultaneous 501(c)(6) non-profit incorporation of the National Cybersecurity Trade Board (NCTB), the Cybersecurity Craft Guild (CCG), the Participating Employer Council (PEC), and the Cyber Underwriting & Actuarial Advisory Consortium (CUAAC).
 * **Federal DOL Apprenticeship Registration:** Formally registering the National Guidelines for Apprenticeship Standards (NGAS) with the U.S. Department of Labor under 29 CFR Part 29 and Part 30.
 * **JATC Pilot Cohorts:** Launching DOL-registered apprenticeship cohorts in 3 to 5 regional industrial and technology hubs in partnership with public community colleges and PEC employer sponsors.
 * **Actuarial Risk Incentive Program:** Implementing CUAAC standardized underwriting warranty schedules, granting 25% to 35% Preferred Risk premium credits for organizations maintaining compliant Journeyman-to-Apprentice ratios (2:1).

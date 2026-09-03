@@ -501,6 +501,12 @@
       def: "The highest personal engineering license tier in the trade, awarded after 12,000+ verified runtime hours, a clean ethical record, and peer-reviewed defense portfolio evaluation.",
       citation: "Trade Framework Glossary"
     },
+    "Multi-Employer FMLA Equivalency Standard": {
+      title: "Multi-Employer FMLA Equivalency Standard",
+      category: "Labor & Governance",
+      def: "A mandatory labor protection binding all Participating Employer Council (PEC) employers to guarantee job restoration rights (up to 12 weeks for parental leave; up to 26 weeks for medical leave) regardless of firm headcount, backed by priority dispatch hall re-entry through the Guild Talent Clearinghouse.",
+      citation: "Trade Framework Glossary"
+    },
     "National Cybersecurity Trade Licensure Compact (NCTLC)": {
       title: "National Cybersecurity Trade Licensure Compact (NCTLC)",
       category: "Labor & Governance",
@@ -601,6 +607,18 @@
       title: "Participating Employer Council (PEC)",
       category: "Labor & Governance",
       def: "The multi-employer association representing participating enterprises, MSSPs, and Trade Contractors, structured into Large Enterprise and SMB/Contractor divisions to democratically elect Board management trustees.",
+      citation: "Trade Framework Glossary"
+    },
+    "Paid Family & Medical Leave (PFML) Sub-Trust": {
+      title: "Paid Family & Medical Leave (PFML) Sub-Trust",
+      category: "Labor & Governance",
+      def: "An ERISA-shielded multi-employer trust fund (funded via $0.75/hour worked) providing 12 weeks of paid parental leave and up to 26 weeks of short-term disability / DFIR trauma recovery wage replacement, accessible across all participating employers after 1,000 verified operational hours.",
+      citation: "Trade Framework Glossary"
+    },
+    "Pause-and-Resume Standard": {
+      title: "Pause-and-Resume Standard",
+      category: "Labor & Governance",
+      def: "A statutory apprentice protection guaranteeing that all logged hours, ticket hashes, and rotational competencies remain frozen without penalty during medical or parental leave, protecting immediate re-entry into active rotations.",
       citation: "Trade Framework Glossary"
     },
     "Pre-Apprenticeship": {
@@ -817,6 +835,12 @@
       title: "Two-Check Retirement System",
       category: "Labor & Governance",
       def: "A retirement architecture combining a guaranteed multi-employer Defined Benefit Pension (funded 100% by employer hourly contributions) with an optional employer-matching 401(k) / Annuity plan.",
+      citation: "Trade Framework Glossary"
+    },
+    "Vacation and Sick Trust Sub-Account": {
+      title: "Vacation and Sick Trust Sub-Account",
+      category: "Labor & Governance",
+      def: "An individual multi-employer trust account for 1099 independent contractors funded via client hourly remittances ($3.50/hour) providing quarterly distributions or self-directed paid time off during personal leave.",
       citation: "Trade Framework Glossary"
     },
     "Worker Algorithmic Due Process": {

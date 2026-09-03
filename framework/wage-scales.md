@@ -75,3 +75,20 @@ Frontline defensive operations require round-the-clock uptime and intense cognit
   * **The 14-Hour Shift Ceiling:** All operations must halt at 14 consecutive hours, initiating a mandatory 10-hour uninterrupted recovery rest cycle.
   * **Ledger Credit:** All active, ticket-verified triage hours performed during incident dispatch count toward the Domain 2 operational runtime ledger.
 * **Apprentice On-Call & Graveyard Protection:** Registered Apprentices are legally barred from primary solo on-call pager coverage or unsupervised overnight shifts. Apprentice on-call experience is limited strictly to secondary shadowing alongside a compensated Journeyman.
+
+---
+
+## 6. Total Compensation & Multi-Employer Fringe Benefit Package
+
+In the skilled trade model, the negotiated wage is divided into the **Taxable Base Hourly Wage** and the **Mandatory Fringe Benefit Remittance**. Employers remit fringe benefit packages directly into independent, ERISA-shielded multi-employer trusts:
+
+| Compensation Component | Hourly Remittance | Statutory Fund & Administrative Fiduciary | Coverage Scope & Beneficiary Rules |
+| :--- | :--- | :--- | :--- |
+| **Taxable Base Hourly Wage** | **100% of Step Scale** | Direct Employer Payroll Check | Tier 1 (50%), Tier 2 (60%), Tier 3 (70%), Tier 4 (80%), Journeyman (100% RJPB). |
+| **JATC Training Trust** | **$1.00 / hr worked** | Taft-Hartley § 302(c) JATC Trust | Remitted on Journeyman/Master billable hours; funds public labs, simulation ranges, and instructor salaries. |
+| **Health & Welfare Trust** | **$7.00 / hr worked** | Taft-Hartley § 302(c) / ERISA § 403 | Remitted on all compensable hours (Apprentice, Journeyman, Master); funds 6-month Hour-Bank family medical/dental/vision. |
+| **PFML & Disability Sub-Trust** | **$0.75 / hr worked** | Taft-Hartley § 302(c) / ERISA § 403 | Remitted on all compensable hours; funds 12-wk paid parental leave, 26-wk short-term disability, and DFIR trauma recovery. |
+| **Defined Benefit Pension Trust** | **$6.00 / hr worked** | Taft-Hartley § 302(c) / ERISA § 403 | Remitted on Journeyman/Master hours; guarantees lifetime defined monthly retirement benefit (5-yr vesting). |
+| **Total Mandatory Fringe Package** | **$14.75 / hr worked** | Independent 501(c)(9) Joint Trusts | Standardized across all signatory employers; eliminates small-business benefit overhead and tenure cliffs. |
+
+For complete leave administration, 1,000-hour multi-employer qualification thresholds, and 1099 loaded rate formulas, see [Leave and Benefit Standards](leave-and-benefit-standards.md) and [Dues Structure & Labor Economics](../governance/dues-and-trust-economics.md).

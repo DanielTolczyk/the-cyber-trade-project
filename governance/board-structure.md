@@ -24,16 +24,16 @@ To ensure no single special interest, commercial vendor, or corporate lobby capt
 | THE TRIPARTITE ELEVEN-MEMBER BOARD (4 - 4 - 3 BALANCE)                      |
 +─────────────────────────────────────────────────────────────────────────────+
   │
-  ├─► PILLAR 1: WORKFORCE & PRACTITIONERS (4 Voting Seats : 36.4%)
+  ├─► CONSTITUENCY 1: WORKFORCE & PRACTITIONERS (4 Voting Seats : 36.4%)
   │   • 2 Seats: Active Master Practitioners (Elected by Masters)
   │   • 1 Seat:  Active Licensed Journeyman (Elected by Journeymen)
   │   • 1 Seat:  Craft Guild Worker Representative (Elected by Guild)
   │
-  ├─► PILLAR 2: BUSINESS, EMPLOYERS & RISK CAPITAL (4 Voting Seats : 36.4%)
+  ├─► CONSTITUENCY 2: BUSINESS, EMPLOYERS & RISK CAPITAL (4 Voting Seats : 36.4%)
   │   • 2 Seats: Enterprise & Critical Infrastructure CISOs (Employer Appointees)
   │   • 2 Seats: Cyber Insurance Underwriters & Actuaries (Carrier Appointees)
   │
-  └─► PILLAR 3: INDEPENDENT PUBLIC INTEREST & EDUCATION (3 Voting Seats : 27.2%)
+  └─► CONSTITUENCY 3: INDEPENDENT PUBLIC INTEREST & EDUCATION (3 Voting Seats : 27.2%)
       • 1 Seat:  Public Safety & Consumer Protection Legal Advocate
       • 1 Seat:  Public Vocational Educator / Community College Dean
       • 1 Seat:  Independent Training & Curriculum Specialist (JATC Trustee)

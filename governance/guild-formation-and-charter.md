@@ -53,7 +53,7 @@ To prevent structural gridlock between regulatory standard-setting and instructi
 
 ---
 
-## 4. Core Governance Pillars of the Guild
+## 4. Core Operational Arms of the Guild
 
 * **The Joint Apprenticeship & Training Committee (JATC):** Administers Related Technical Instruction (RTI) curricula, operates high-fidelity range simulation facilities, and dispatches vetted apprentices to employer sponsors.
 * **The Legal Defense Shield:** Fully capitalized via member dues and trust contributions. Automatically provides immediate legal counsel and indemnification to any licensed member facing corporate retaliation after filing a formal **Notice of Safety Non-Concurrence**, and represents practitioners during Board malpractice inquiries.
