@@ -18,6 +18,9 @@ import re
 import sys
 import json
 from pathlib import Path
+import shutil
+import subprocess
+
 
 # Repository root directory
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -557,6 +560,16 @@ def check_frontend_security_sast() -> list:
         (re.compile(r"\bwindow\.execScript\s*\("), "execScript() execution prohibited"),
     ]
     
+    # Locate Node runtime for syntax AST validation
+    node_bin = shutil.which("node")
+    if not node_bin:
+        vscode_server = Path(os.path.expanduser("~/.vscode-server"))
+        if vscode_server.exists():
+            for candidate in vscode_server.glob("**/node"):
+                if candidate.is_file() and os.access(candidate, os.X_OK):
+                    node_bin = str(candidate)
+                    break
+
     for r_dir in repo_dirs:
         # Scan JavaScript files
         for js_file in r_dir.rglob("*.js"):
@@ -568,6 +581,25 @@ def check_frontend_security_sast() -> list:
                 for pattern, msg in DANGEROUS_PATTERNS:
                     if pattern.search(content):
                         errors.append(f"[Front-End SAST Security Error] {rel_path}: {msg}")
+
+                # Validate JavaScript syntax with Node.js parser
+                if node_bin:
+                    proc = subprocess.run([node_bin, "-c", str(js_file)], capture_output=True, text=True)
+                    if proc.returncode != 0:
+                        raw_err = (proc.stderr or proc.stdout).strip().splitlines()
+                        err_line = raw_err[0] if raw_err else "SyntaxError detected"
+                        errors.append(f"[Front-End SAST Syntax Error] {rel_path}: {err_line}")
+                else:
+                    # Fallback lexical check for unbalanced braces, brackets, or parentheses
+                    brace_delta = content.count("{") - content.count("}")
+                    bracket_delta = content.count("[") - content.count("]")
+                    paren_delta = content.count("(") - content.count(")")
+                    if brace_delta != 0 or bracket_delta != 0 or paren_delta != 0:
+                        errors.append(
+                            f"[Front-End SAST Syntax Warning] {rel_path}: Unbalanced structural delimiters "
+                            f"(braces: {brace_delta}, brackets: {bracket_delta}, parens: {paren_delta}). "
+                            f"Install Node.js for authoritative AST compilation."
+                        )
             except Exception as e:
                 errors.append(f"[Front-End SAST Error] Could not read {js_file}: {e}")
 
