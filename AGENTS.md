@@ -5,7 +5,7 @@ title: AI Collaboration & Standards Drafting Policy
 
 # AI Collaboration & Standards Drafting Policy (AGENTS.md)
 
-The Cybersecurity Trade Project utilizes automated tools, large language models (LLMs), and automated continuous integration suites to assist in drafting, schema synchronization, and specification validation.
+The Cybersecurity Trade Project uses automated tools, large language models (LLMs), and automated continuous integration suites to assist in drafting, schema synchronization, and specification validation.
 
 This document establishes the canonical standards for AI-assisted contributions, ensuring all specifications maintain the technical precision, statutory rigor, and structural clarity expected of an authoritative public standard.
 

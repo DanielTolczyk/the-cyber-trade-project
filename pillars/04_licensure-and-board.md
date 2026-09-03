@@ -23,7 +23,7 @@ The defining milestone transitioning a worker from supervised apprentice to inde
 
 * **The Core Benchmark:** Generalist licensure is anchored to multi-domain operational standards, specifically reflecting the rigor of multi-domain benchmarks (such as the CISSP 5-year multi-domain standard) or an equivalent Board-administered practical challenge examination.
 * **Practical Challenge Pathways:** Self-taught engineers, CTF competitors, and non-traditional candidates can challenge the Journeyman milestone directly through practical, hands-on lab examinations paired with verified operational logs. For complete conversion caps and exam rubrics, see [Apprenticeship Standards & Operational On-Ramps](../framework/apprenticeship-standards.md).
-* **Single Standard of Competence:** Instead of collecting dozens of overlapping commercial badges, the Journeyman license serves as the unified, legally recognized standard of generalist operational competence.
+* **Single Standard of Competence:** Instead of collecting dozens of overlapping commercial badges, the Journeyman license establishes the unified, legally recognized standard of generalist operational competence.
 * **Zero-Fee Competency Maintenance:** Licensure renewal is maintained through verified ongoing operational practice hours or open technical contributions, eliminating recurring vendor annual maintenance fees (AMFs).
 
 ---

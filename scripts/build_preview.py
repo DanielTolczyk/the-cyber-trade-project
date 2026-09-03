@@ -23,6 +23,7 @@ def generate_search_index(md_files):
         "governance": "Governance & Legal",
         "docs": "Primers & Guides",
         "templates": "Procedural Forms",
+        "releases": "Release Notes",
     }
     
     def clean_text(raw_lines):

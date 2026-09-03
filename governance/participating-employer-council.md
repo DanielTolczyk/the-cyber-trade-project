@@ -6,7 +6,7 @@ This specification establishes the charter, operational divisions, democratic vo
 
 ## 1. Institutional Mandate & Purpose
 
-The **Participating Employer Council (PEC)** serves as the official multi-employer association representing businesses, enterprises, Managed Security Service Providers (MSSPs), and Licensed Trade Contractors that employ trade labor and sponsor registered apprentices.
+The **Participating Employer Council (PEC)** is the official multi-employer association representing businesses, enterprises, Managed Security Service Providers (MSSPs), and Licensed Trade Contractors that employ trade labor and sponsor registered apprentices.
 
 Modeled after established skilled trade employer associations (such as the National Electrical Contractors Association / NECA):
 

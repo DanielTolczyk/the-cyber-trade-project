@@ -297,6 +297,42 @@
       def: "The standardized procedural instrument executed by a Master of Record certifying an internal security fork and active runtime compensating controls for an unpatched upstream open-source dependency, granting an extended 90-day compliant deployment grace period.",
       citation: "Trade Framework Glossary"
     },
+    "Form FORM-006 (Multi-Employer Joint Apprenticeship & Training Trust Agreement)": {
+      title: "JATC Trust Agreement (Form FORM-006)",
+      category: "Labor & Governance",
+      def: "The model legal instrument under Taft-Hartley Section 302(c) and ERISA creating bipartite parity governance between the Craft Guild and Participating Employer Council to fund tuition-free apprenticeship instruction.",
+      citation: "Trade Framework Glossary"
+    },
+    "Form FORM-006": {
+      title: "JATC Trust Agreement (Form FORM-006)",
+      category: "Labor & Governance",
+      def: "The model legal instrument under Taft-Hartley Section 302(c) and ERISA creating bipartite parity governance between the Craft Guild and Participating Employer Council to fund tuition-free apprenticeship instruction.",
+      citation: "Trade Framework Glossary"
+    },
+    "Form FORM-007 (Sponsoring Employer Participation Agreement)": {
+      title: "Employer Participation Agreement (Form FORM-007)",
+      category: "Labor & Governance",
+      def: "The standard binding contract executed by Participating Employer Council members committing to mandatory 2:1 on-shift supervisory ratios, hourly training trust remittances, and the 4-tier wage step schedule.",
+      citation: "Trade Framework Glossary"
+    },
+    "Form FORM-007": {
+      title: "Employer Participation Agreement (Form FORM-007)",
+      category: "Labor & Governance",
+      def: "The standard binding contract executed by Participating Employer Council members committing to mandatory 2:1 on-shift supervisory ratios, hourly training trust remittances, and the 4-tier wage step schedule.",
+      citation: "Trade Framework Glossary"
+    },
+    "Form FORM-008 (Autonomous AI System Deployment & Tool Execution Clearance)": {
+      title: "AI Agent Clearance (Form FORM-008)",
+      category: "Labor & Governance",
+      def: "The standardized procedural instrument executed by an active Master of Record certifying that an enterprise autonomous AI system, agentic tool permissions, semantic guardrails, and fail-safe kill switches satisfy NIST AI RMF baselines.",
+      citation: "Trade Framework Glossary"
+    },
+    "Form FORM-008": {
+      title: "AI Agent Clearance (Form FORM-008)",
+      category: "Labor & Governance",
+      def: "The standardized procedural instrument executed by an active Master of Record certifying that an enterprise autonomous AI system, agentic tool permissions, semantic guardrails, and fail-safe kill switches satisfy NIST AI RMF baselines.",
+      citation: "Trade Framework Glossary"
+    },
     "Fractional Master of Record (vMoR)": {
       title: "Fractional Master of Record (vMoR)",
       category: "Labor & Governance",

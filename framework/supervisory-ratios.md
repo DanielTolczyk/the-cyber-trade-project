@@ -12,7 +12,7 @@ Supervisory ratios ensure quality mentorship, system stability, operational safe
 | **IAM & Privileged Access Management** | **2 : 1** | 1 Master per 6 Operational Staff | Manual credential provisioning & role creation |
 | **Penetration Testing & Red Teaming** | **2 : 1** | 1 Master per 6 Engineers | Active customer engagement scope |
 | **AppSec & DevSecOps Engineering** | **3 : 1** | 1 Master per 10 Engineers | Threat modeling & code review workflows |
-| **AI / ML Security Assurance (`SE-AIML`)** | **2 : 1** | 1 Master per 6 Engineers | Adversarial red-teaming, data pipeline audits & guardrail verification |
+| **AI / ML Security Assurance** | **2 : 1** | 1 Master per 6 Engineers | Adversarial red-teaming, data pipeline audits & guardrail verification |
 | **Safety-Critical / IoMT / Medical Systems** | **1 : 1** (strict direct oversight) | 1 Master of Record mandatory | Pre-market testing & clinical network access |
 | **Industrial Control / OT / SCADA** | **1 : 1** (strict direct oversight) | 1 Master of Record mandatory | Live operational technology & safety networks |
 | **MSSP / Managed Multi-Tenant Operations** | **2 : 1** (per client tenant tier) | Mandatory licensed oversight on all active shifts | Multi-tenant monitoring & customer triage |
@@ -33,6 +33,11 @@ To prevent boutique consultancies, MSSPs, and contractors from overextending sen
 
 * **Human-in-the-Loop Scope Only:** Supervisory headcount ratios apply **strictly to direct, human-in-the-loop operational workflows** (e.g., manual ticket triage, live penetration testing, production IAM provisioning, manual firewall rule changes).
 * **Automated CI/CD Exemption:** Automated pipelines, static security scanners, automated vulnerability remediation, and continuous delivery systems operate without staffing ratio constraints once their baseline security policies are stamped by a Master of Record.
+* **Autonomous AI Agents & Operational Tooling Invariant (Zero Personhood):** Autonomous AI agents, automated triage scripts, and LLM-driven copilot systems are classified strictly as operational software equipment. They possess zero legal personhood and cannot replace human practitioners. Autonomous AI systems:
+  1. **Cannot Substitute for Human Supervisors:** An autonomous AI agent or automated script cannot serve as a supervising Journeyman or Master Practitioner.
+  2. **Cannot Alter Supervisory Ratios:** Deploying autonomous AI defense agents does not loosen or expand the mandatory 2:1 on-shift supervisory ratio for human apprentices.
+  3. **Cannot Count Toward Headcount or Labor Quotas:** Automated tools are enterprise equipment, not labor. Prohibiting AI tooling from fulfilling ratio calculations or apprentice seats protects apprentice developmental safety and defends human labor standards against corporate attempts to replace frontline practitioners with unvetted automation.
+  4. **Cannot Displace Apprentice Seats:** Participating employers are strictly prohibited from replacing registered apprentice positions or reducing JATC training trust quotas by substituting autonomous AI agents for human learners.
 
 ---
 
@@ -67,5 +72,5 @@ To prevent entry-level labor exploitation and avoid creating an unhirable surplu
 * **The Counter-Cyclical Cyber Civil Defense Reserve (CCDR):** Rather than freezing training pipelines and locking out pre-apprentices during recessions, unabsorbed apprentices and candidates rotate into the **Cyber Civil Defense Reserve (CCDR)**. Trainees are dispatched to defend under-resourced public critical infrastructure (school districts, rural hospitals, municipal water utilities) funded through state/federal workforce resilience grants (e.g., WIOA Title I, CISA state resilience grants). This maintains training continuity, preserves the apprentice wage floor, and prevents post-recession talent vacuums.
 * **Public Market Attrition Clawback & Retention Mandate:** To prevent municipal and public entities from exploiting the CCDR as a permanent source of free, subsidized labor to avoid budgeting for full Journeyman salaries:
   * **Supervisory Staffing Prerequisite:** Any public entity hosting CCDR apprentices must maintain at least one permanent, locally funded supervising Journeyman or retain a designated Trade Contractor.
-  * **Mandatory Cohort Conversion Covenant:** A public entity utilizing CCDR apprentice cohorts must agree to convert at least one completing apprentice into a permanent, locally budgeted Journeyman position per 24-month cycle, or face a **36-month exclusion** from subsequent CCDR trainee allocations.
+  * **Mandatory Cohort Conversion Covenant:** A public entity deploying CCDR apprentice cohorts must agree to convert at least one completing apprentice into a permanent, locally budgeted Journeyman position per 24-month cycle, or face a **36-month exclusion** from subsequent CCDR trainee allocations.
 

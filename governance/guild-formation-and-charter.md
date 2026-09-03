@@ -178,7 +178,7 @@ The **Office of the Guild Ombudsperson** functions as the independent constituti
 * **Institutional Independence:** The Ombudsperson operates under an independent budget line funded directly by member basic dues, with strict operational separation from collective bargaining teams and employer councils.
 
 ### B. Statutory Powers & Investigative Mandate
-1. **Direct Confidential Intake:** Serves as the primary intake conduit for [Form FORM-004](../templates/FORM-004_ethics-and-conduct-incident-report.md) submissions filed by apprentices, practitioners, or pre-apprentices.
+1. **Direct Confidential Intake:** Functions as the primary intake conduit for [Form FORM-004](../templates/FORM-004_ethics-and-conduct-incident-report.md) submissions filed by apprentices, practitioners, or pre-apprentices.
 2. **Institutional Blind Proxy Standing:** Holds legal and constitutional standing to author, sign, and prosecute formal complaints before the National Board Malpractice Committee in the Ombudsperson's official capacity, shielding the victim's identity.
 3. **Emergency Interim Protective Orders:** Holds statutory authority to issue binding administrative orders imposing immediate supervisory firewalls, mutual no-contact directives, and non-prejudicial remote reassignments during active investigations.
 4. **Mandatory Post-Resolution Auditing:** Oversees the 12-month post-investigation anti-retaliation monitoring docket, auditing workplace telemetry and PR review turnaround times quarterly.

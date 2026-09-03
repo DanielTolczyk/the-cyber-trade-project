@@ -44,7 +44,7 @@ These differentials reflect heightened technical complexity, regulatory scrutiny
 To maintain clarity between personal credentials and legal accountability:
 
 * **Master Practitioner (Individual License Tier):** Represents the highest personal engineering credential in the trade, achieved after 12,000+ verified runtime hours, a clean ethical record, and peer-reviewed defense portfolio evaluation.
-* **Master of Record (Active Statutory Assignment):** The formal operational designation held by a Master Practitioner who serves as the designated technical authority for an enterprise, product line, or critical system. The Master of Record carries statutory sign-off responsibility and is compensated with a statutory responsibility premium to offset heightened personal liability and E&O exposures.
+* **Master of Record (Active Statutory Assignment):** The formal operational designation held by a Master Practitioner designated as the technical authority for an enterprise, product line, or critical system. The Master of Record carries statutory sign-off responsibility and is compensated with a statutory responsibility premium to offset heightened personal liability and E&O exposures.
 
 ---
 
@@ -57,7 +57,7 @@ Because individual states contain both high-cost metropolitan centers and lower-
 * **Zone 3: Non-Metropolitan & Rural Baseline (Tier C COLI):** Mandatory national statutory baseline floor (**$62.00 / hr RJPB**) below which no registered sponsoring employer in the United States may pay.
 
 ### A. Remote Work & Anti-Wage-Arbitrage Rule
-To prevent participating employers from utilizing distributed remote work to undercut localized prevailing wage standards, remote operational shifts are compensated at the **higher of**:
+To prevent participating employers from using distributed remote work to undercut localized prevailing wage standards, remote operational shifts are compensated at the **higher of**:
 1. The Sponsoring Employer's Headquarters Local Chapter RJPB rate, OR
 2. The Practitioner's Home Residence Local Chapter RJPB rate.
 

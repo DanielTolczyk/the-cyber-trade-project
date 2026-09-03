@@ -17,13 +17,23 @@ Artificial Intelligence (AI) and Machine Learning (ML) systems introduce novel v
 
 The `SE-AIML` specialty governs the security engineering, threat modeling, red teaming, training pipeline isolation, and model safety verification required to safely deploy artificial intelligence into enterprise and critical infrastructure environments.
 
-### A. Mandatory NIST NICE Framework Alignment (NIST SP 800-181)
+### A. Scope & Applicability Invariant
+* **In-Scope Workloads (`SE-AIML` Domain):**
+  * Enterprise AI products, custom machine learning models, fine-tuned weights, and Retrieval-Augmented Generation (RAG) vector stores.
+  * Autonomous agentic workflows with live production execution boundaries, external API tool-calling, or privileged operational capabilities.
+  * Adversarial robustness assessments, red teaming against MITRE ATLAS matrices, and formal Model Safety Card certifications (Form FORM-008).
+* **Out-of-Scope Productivity Tools (Classical Engineering Governance):**
+  * Developer copilots and coding assistants (e.g., GitHub Copilot, Cursor) are classified as developer productivity tooling. They remain governed by standard peer code review, git branch protections, and CI/CD SAST scanners rather than `SE-AIML` staffing requirements.
+  * General enterprise SaaS AI interfaces (e.g., commercial web chat tools) are governed under Domain 5 enterprise acceptable use policy and Data Loss Prevention (DLP) controls.
+  * Autonomous CI/CD scanners and static analyzers operate under the Section 3 Velocity Exclusions of the Supervisory Ratios standard.
+
+### B. Mandatory NIST NICE Framework Alignment (NIST SP 800-181)
 Practitioners in this track demonstrate verified competencies mapped directly to federal work roles:
 * **Primary Work Role 1: Software Developer / ML Engineer (`SP-DEV-001`):** Implementing safe inference pipelines, model sandboxing, memory-safe runtime execution, and input token validation.
 * **Primary Work Role 2: Threat Warning Analyst / Adversarial ML Specialist (`AN-TWA-001`):** Threat modeling adversarial machine learning attacks, model evasion techniques, and prompt injection vectors.
 * **Primary Work Role 3: Security Control Assessor (`SP-SRP-001`):** Evaluating AI model provenance, model card integrity, privacy preservation, and compliance with AI governance frameworks.
 
-### B. Authoritative AI Governance & Machine Learning Security Baselines
+### C. Authoritative AI Governance & Machine Learning Security Baselines
 1. **NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0 / NIST AI 100-1):** Governing AI system trustworthiness, validity, safety, security, and resilience.
 2. **OWASP Top 10 for Large Language Model Applications (LLM Top 10):** Mitigating prompt injection, insecure output handling, training data poisoning, and model denial of service.
 3. **MITRE ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems):** Structuring adversarial ML tactics, techniques, and case studies.
@@ -50,7 +60,7 @@ To earn the `SE-AIML` Endorsement, a Licensed Journeyman must complete 2,000 ver
 
 ### Domain 1: AI/ML Threat Modeling & ATLAS Surface Mapping (500 Hours)
 * Mapping complete AI architectural flows: training data ingest, feature extraction, embedding databases, foundation model inference, and Retrieval-Augmented Generation (RAG) vector stores.
-* Conducting adversarial threat assessments utilizing the MITRE ATLAS matrix to identify evasion, inversion, extraction, and poisoning attack vectors.
+* Conducting adversarial threat assessments using the MITRE ATLAS matrix to identify evasion, inversion, extraction, and poisoning attack vectors.
 * Authoring AI Model Risk Assessments and documentation aligning with NIST AI RMF governance profiles.
 
 ### Domain 2: Adversarial Robustness & Prompt Injection Defense (500 Hours)
@@ -72,11 +82,13 @@ To earn the `SE-AIML` Endorsement, a Licensed Journeyman must complete 2,000 ver
 
 ## 3. Master of Record (MoR) Authority for AI Security Assurance
 
-A Master Practitioner holding the `SE-AIML` Endorsement possesses statutory sign-off authority for:
+A Master Practitioner serving in an active Master of Record (MoR) assignment possesses statutory sign-off authority for enterprise AI deployments. Practitioners who additionally hold the `SE-AIML` Endorsement hold verified domain expertise and qualify for specialized Tier 2 wage adders (+15% to +20%).
 
-1. **Enterprise AI Model Deployment Certification:** Formally certifying that an AI/ML model, RAG pipeline, or autonomous agent workflow meets NIST AI RMF standards prior to production enterprise exposure.
+Sign-off and refusal authorities include:
+
+1. **Enterprise AI Model Deployment Certification:** Formally certifying that an AI/ML model, RAG pipeline, or autonomous agent workflow meets NIST AI RMF standards prior to production enterprise exposure using [Form FORM-008: Autonomous AI System Deployment & Tool Execution Clearance](../../templates/FORM-008_ai-agent-safety-clearance.md).
 2. **AI Model Safety Card Stamping:** Signing off on Model Cards, data provenance records, and algorithmic risk assessments for statutory filings and insurer review.
-3. **Agentic Tool Execution Authorization:** Authorizing live production API integration and tool-calling capabilities for autonomous AI agents.
+3. **Agentic Tool Execution Authorization:** Authorizing live production API integration and tool-calling capabilities for autonomous AI agents under bounded least-privilege policies. When an enterprise MoR does not personally hold the `SE-AIML` endorsement, clearance may be executed following verified technical review by an accredited AI security specialist.
 4. **Notice of Safety Non-Concurrence Standing:** Authority to issue a formal [Notice of Safety Non-Concurrence (Form FORM-001)](../../templates/FORM-001_notice-of-safety-non-concurrence.md) if non-deterministic autonomous AI systems are connected directly to life-safety, financial execution, or critical infrastructure systems without human-in-the-loop safeguards.
 
 ---
