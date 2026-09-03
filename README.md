@@ -7,7 +7,7 @@
 ## The Core Thesis
 Cybersecurity is an applied engineering and operational trade, not an academic abstraction. Critical digital infrastructure, connected medical devices, industrial grids, and cloud data backbones carry the same societal risk as civil bridges, municipal water systems, and electrical grids.
 
-To eliminate the artificial entry-level talent shortage, eradicate predatory training bootcamps, and restore engineering accountability, cybersecurity must adopt the proven architecture of the skilled trades: **institutional pre-apprenticeships, paid earn-while-you-learn pipelines, progressive domain rotations, personal professional licensure, craft guild protections, and insurance-underwritten standards.**
+To eliminate the artificial entry-level talent shortage, eradicate predatory training bootcamps, and restore engineering accountability, cybersecurity must adopt the proven architecture of the skilled trades: **institutional pre-apprenticeships, paid apprenticeship pipelines with graduated wage escalation, progressive domain rotations, personal professional licensure, craft guild protections, and insurance-underwritten standards.**
 
 > **Foundational Principle:** The National Cybersecurity Trade Board licenses the practitioner and protects public safety; the Craft Guild trains, protects, and represents the workforce.
 
