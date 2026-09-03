@@ -411,20 +411,20 @@
       def: "An accredited business entity (LLC, partnership, corporation, MSSP, or consulting firm) that designates a qualifying Master of Record, carries commercial surety bonding and Trade E&O, and is legally authorized to sponsor JATC apprentices and execute statutory safety sign-offs.",
       citation: "Trade Framework Glossary"
     },
-    "Local Chapter ("The Local")": {
-      title: "Local Chapter ("The Local")",
+    "Local Chapter (\"The Local\")": {
+      title: "Local Chapter (\"The Local\")",
       category: "Labor & Governance",
       def: "The frontline democratic unit of the Craft Guild chartered within a defined metropolitan or regional jurisdiction (minimum 50 licensed members) responsible for local JATC apprentice halls, regional COLI wage negotiations, and monthly member meetings.",
       citation: "Trade Framework Glossary"
     },
-    ""The Local"": {
-      title: "Local Chapter ("The Local")",
+    "The Local": {
+      title: "Local Chapter (\"The Local\")",
       category: "Labor & Governance",
       def: "The frontline democratic unit of the Craft Guild chartered within a defined metropolitan or regional jurisdiction (minimum 50 licensed members) responsible for local JATC apprentice halls, regional COLI wage negotiations, and monthly member meetings.",
       citation: "Trade Framework Glossary"
     },
     "Local Chapter": {
-      title: "Local Chapter ("The Local")",
+      title: "Local Chapter (\"The Local\")",
       category: "Labor & Governance",
       def: "The frontline democratic unit of the Craft Guild chartered within a defined metropolitan or regional jurisdiction (minimum 50 licensed members) responsible for local JATC apprentice halls, regional COLI wage negotiations, and monthly member meetings.",
       citation: "Trade Framework Glossary"
