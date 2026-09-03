@@ -33,6 +33,9 @@
             </a>
           </div>
         </div>
+        <a href="{{ site.baseurl }}/CONTRIBUTING.html" class="tool-link tool-link-contribute">
+          <span>Contributing &amp; RFCs</span>
+        </a>
         <a href="https://github.com/the-cyber-trade-project/framework/discussions" target="_blank" rel="noopener noreferrer" class="tool-link">
           <span>Discussions</span>
         </a>
@@ -41,19 +44,18 @@
         </a>
       </div>
     </div>
-    <div class="portal-header-bottom">
-      <button type="button" class="tool-link portal-search-btn" id="btn-portal-search" aria-label="Search Framework (Ctrl+K)">
-        <span class="search-btn-icon" aria-hidden="true">🔍</span>
-        <span class="search-btn-text">Search Framework...</span>
-        <kbd class="search-btn-kbd">Ctrl+K</kbd>
-      </button>
-    </div>
   </div>
   <div class="portal-mobile-nav-bar">
-    <button class="mobile-nav-trigger" id="btn-toggle-sidebar" aria-label="Browse framework navigation">
-      <span class="mobile-nav-label"><span class="menu-icon-bars">☰</span> Framework Navigation</span>
-      <span class="mobile-nav-arrow">▾</span>
-    </button>
+    <div class="mobile-actions-split">
+      <button class="mobile-nav-trigger" id="btn-toggle-sidebar" aria-label="Browse framework navigation">
+        <span class="mobile-nav-label"><span class="menu-icon-bars">☰</span> Framework Navigation</span>
+        <span class="mobile-nav-arrow">▾</span>
+      </button>
+      <button type="button" class="tool-link mobile-search-trigger portal-search-btn" id="btn-portal-search-mobile" aria-label="Search Framework">
+        <span class="search-btn-icon" aria-hidden="true">🔍</span>
+        <span class="search-btn-text">Search...</span>
+      </button>
+    </div>
   </div>
 </header>
 
