@@ -49,7 +49,7 @@ To earn the `SE-ICAM` Endorsement, a Licensed Journeyman must complete 2,000 ver
 ```
 
 ### Domain 1: Enterprise Federation, SSO & Directory Synchronization (500 Hours)
-* Engineering cross-domain identity federation architectures utilizing SAML 2.0, OpenID Connect, and OAuth 2.0 with strict claim mappings and token signing verification.
+* Engineering cross-domain identity federation architectures with SAML 2.0, OpenID Connect, and OAuth 2.0 with strict claim mappings and token signing verification.
 * Implementing automated cross-tenant user provisioning and deprovisioning via SCIM (System for Cross-domain Identity Management) connectors.
 * Hardening Active Directory, Microsoft Entra ID, Okta, and open-source identity providers against token replay, golden ticket, and pass-the-hash attacks.
 

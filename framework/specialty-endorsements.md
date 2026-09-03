@@ -64,16 +64,17 @@ To maintain economic equilibrium and provide the Craft Guild Clearinghouse with 
 
 ---
 
-## 3. Core Generalist Foundation (Mandatory Prerequisite)
-Before pursuing specialty endorsements, all apprentices must log validated operational hours across four foundational disciplines (Years 1-2):
-1. **Network Defense & Protocols:** Packet inspection, stateful firewalling, DNS/routing security, traffic analysis.
-2. **Identity & Access Management (IAM):** Directory services, PAM, OAuth/SAML, principle of least privilege, MFA architecture.
-3. **Endpoint & Systems Hardening:** Linux/Windows internals, OS baselines, configuration management, vulnerability patching.
-4. **Security Operations & Triage:** Incident classification, log correlation, alert triage, baseline threat detection.
+## 4. Core Generalist Foundation (Mandatory Prerequisite)
+Before pursuing post-licensure specialty endorsements, all apprentices must complete 8,000 verified operational hours across the five mandatory core domains (Years 1-4):
+1. **Domain 1: Perimeter, Cloud & Network Defense (1,500 Hours):** Packet inspection, stateful firewalling, DNS/routing security, cloud network segmentation, and traffic analysis.
+2. **Domain 2: Detection Engineering & Incident Triage / SOC (2,000 Hours):** Incident classification, log correlation, alert triage, SIEM rule development, and baseline threat detection.
+3. **Domain 3: Identity, Credential & Access Management / IAM (1,500 Hours):** Directory services, PAM, OAuth/SAML federation, principle of least privilege, and MFA architecture.
+4. **Domain 4: Vulnerability & Attack Surface Management (1,500 Hours):** Attack surface mapping, automated vulnerability scanning, patch orchestration, and configuration auditing.
+5. **Domain 5: Defensive Governance, Risk & Audit / GRC (1,500 Hours):** Security control auditing (NIST SP 800-53, ISO 27001), vendor risk evaluations, compliance testing, and log audit attestations.
 
 ---
 
-## 4. Specialized Trade Branches (Tier 3 through Master)
+## 5. Specialized Trade Branches (Tier 4 Elective & Post-Journeyman)
 
 ### Branch A: Digital Forensics & Incident Response (SE-DFIR)
 * **Core Focus:** Live incident containment, volatile memory forensics, disk imaging, chain-of-custody evidence preservation, threat actor eradication, malware analysis, statutory breach scoping, and insurer proof-of-loss documentation.
@@ -81,54 +82,49 @@ Before pursuing specialty endorsements, all apprentices must log validated opera
 * **Sign-off Authority:** Legal chain of custody digital stamping, formal breach containment attestation for cyber insurers, statutory regulatory breach notification root-cause sign-off.
 * **Detailed Standard:** [Specialty Track Specification: SE-DFIR Digital Forensics & Incident Response](specialty-tracks/digital-forensics-incident-response.md).
 
-### Branch B: Cyber Risk Management, Threat Modeling & Governance (GRC)
-* **Core Focus:** Architectural threat modeling (STRIDE, PASTA), risk quantification (Open FAIR), security requirements authoring, NIST RMF, and ISO 27001 program governance.
-* **Illustrative Examples / Equivalencies:** CRISC, Open FAIR, CISM.
-* **Sign-off Authority:** Formal enterprise risk acceptances, statutory compliance readiness filings, and third-party vendor risk certifications.
-
-### Branch C: Offensive Security & Adversary Emulation (SE-OFF)
+### Branch B: Offensive Security & Adversary Emulation (SE-OFF)
 * **Core Focus:** External and internal penetration testing, red teaming, exploit analysis, social engineering defense testing, and MITRE ATT&CK adversary emulation.
 * **Illustrative Examples / Equivalencies:** OSCP, OSEP, GXPN, CREST (or Board Practical Challenge Exam).
 * **Sign-off Authority:** Penetration test certification, external attack surface resilience sign-off, Rules of Engagement safety authorization.
 * **Detailed Standard:** [Specialty Track Specification: SE-OFF Offensive Security & Adversary Emulation](specialty-tracks/offensive-security.md).
 
-### Branch D: Cloud Security & Infrastructure Architecture (SE-CLD)
+### Branch C: Cloud Security & Infrastructure Architecture (SE-CLD)
 * **Core Focus:** Multi-cloud security architecture (AWS/Azure/GCP), container and Kubernetes security, Infrastructure-as-Code (IaC) policy guardrails, CIEM/CSPM, and cloud workload protection.
 * **Illustrative Examples / Equivalencies:** CCSP, AWS/Azure Advanced Security Specializations.
 * **Sign-off Authority:** Cloud baseline architecture certification, automated deployment policy-guardrail sign-off.
 * **Detailed Standard:** [Specialty Track Specification: SE-CLD Cloud Security & Infrastructure](specialty-tracks/cloud-security.md).
 
-### Branch E: Application & Software Product Security (SE-APP)
+### Branch D: Application & Software Product Security (SE-APP)
 * **Core Focus:** Secure SDLC integration, component-level threat modeling, SAST/DAST/SCA tooling, API security, Software Bill of Materials (SBOM) lifecycle (CycloneDX/SPDX), non-product R&D tooling qualification, and PSIRT coordinated vulnerability management.
 * **Illustrative Examples / Equivalencies:** CASE, CSSLP, specialized product and application security engineering credentials.
 * **Sign-off Authority:** Production software and product security release clearance, SBOM compliance verification.
 * **Detailed Standard:** [Specialty Track Specification: SE-APP Application & Software Product Security](specialty-tracks/application-security.md).
 
-### Branch F: Medical Device & Clinical Technology Security (SE-MED)
+### Branch E: Medical Device & Clinical Technology Security (SE-MED)
 * **Core Focus:** Embedded device firmware (SiMD), Software as a Medical Device (SaMD), companion mobile health apps, FDA Section 524B premarket compliance, AAMI TIR57 / ISO 14971 clinical safety risk integration, and SBOM lifecycle management.
 * **Illustrative Examples / Equivalencies:** Biomedical engineering cybersecurity specializations, medical device security credentials (or Board Practical Challenge Exam).
 * **Sign-off Authority:** Premarket FDA Section 524B cybersecurity readiness sign-off, clinical safety deployment clearance.
 * **Detailed Standard:** [Specialty Track Specification: SE-MED Medical Device Security](specialty-tracks/medical-devices.md).
 
-### Branch G: Industrial Control Systems (SE-ICS / SCADA / OT)
+### Branch F: Industrial Control Systems (SE-ICS / SCADA / OT)
 * **Core Focus:** Purdue Model network segmentation (IDMZ Level 3.5), industrial protocols (Modbus, DNP3, CIP, OPC UA, PROFINET), Safety Instrumented Systems (SIS / IEC 61511), physical process protection, ISA/IEC 62443, and NERC-CIP compliance.
 * **Illustrative Examples / Equivalencies:** GICSP, GRID, GCIP.
 * **Sign-off Authority:** Critical infrastructure plant cyber-safety commissioning stamp, IDMZ conduit certification, outage maintenance safe-harbor clearance.
 * **Detailed Standard:** [Specialty Track Specification: SE-ICS Industrial Control Systems & OT Security](specialty-tracks/industrial-control-systems.md).
 
-### Branch H: Identity, Credential & Access Management (SE-ICAM)
+### Branch G: Identity, Credential & Access Management (SE-ICAM)
 * **Core Focus:** Enterprise Zero Trust architectures, cross-domain federation (SAML/OIDC), Privileged Access Management (PAM), secrets management lifecycle, and directory consolidation.
 * **Illustrative Examples / Equivalencies:** CIAM, enterprise identity engineering credentials.
 * **Sign-off Authority:** Enterprise federation sign-off, emergency root credential rotation attestation.
 * **Detailed Standard:** [Specialty Track Specification: SE-ICAM Identity, Credential & Access Management](specialty-tracks/identity-access-management.md).
 
-### Branch I: Cryptographic Infrastructure & PKI (SE-PKI)
+### Branch H: Cryptographic Infrastructure & PKI (SE-PKI)
 * **Core Focus:** Hardware Security Module (HSM) deployment, enterprise PKI lifecycle, root CA isolation, key management ceremonies, and Post-Quantum Cryptography (PQC) migration.
 * **Illustrative Examples / Equivalencies:** Board-approved cryptography and PKI engineering credentials.
 * **Sign-off Authority:** Root CA key ceremony execution and witness sign-off, enterprise cryptographic standard migration sign-off.
 * **Detailed Standard:** [Specialty Track Specification: SE-PKI Cryptographic Infrastructure & PKI](specialty-tracks/cryptographic-pki.md).
 
-### Branch J: AI & Machine Learning Security Assurance (SE-AIML)
+### Branch I: AI & Machine Learning Security Assurance (SE-AIML)
 * **Core Focus:** Adversarial machine learning threat modeling, prompt injection defense, MLOps pipeline provenance, foundation model weight signing, and NIST AI RMF governance.
 * **Illustrative Examples / Equivalencies:** Board-approved AI/ML security credentials.
 * **Sign-off Authority:** Enterprise AI model deployment security certification, AI Model Safety Card sign-off.
@@ -136,7 +132,7 @@ Before pursuing specialty endorsements, all apprentices must log validated opera
 
 ---
 
-## 5. Master Cross-Crediting & Articulation Matrix
+## 6. Master Cross-Crediting & Articulation Matrix
 
 To prevent dilution of tradecraft standards, cross-crediting between specialty endorsements is strictly regulated and asymmetrical. Where overlap exists in underlying engineering foundations, the Board permits credit towards the 2,000-hour post-licensure requirement up to strict maximum caps:
 

@@ -330,7 +330,7 @@ def check_canonical_entity_naming() -> list:
 
 def check_release_notes_quality() -> list:
     errors = []
-    rel_dir = REPO_ROOT / "docs" / "releases"
+    rel_dir = REPO_ROOT / "releases"
     if not rel_dir.exists():
         return errors
     for rf in rel_dir.glob("*.md"):
@@ -424,6 +424,7 @@ def compute_search_index() -> list:
         "governance": "Governance & Legal",
         "docs": "Primers & Guides",
         "templates": "Procedural Forms",
+        "releases": "Release Notes",
     }
 
     def clean_text(raw_lines):
@@ -652,7 +653,7 @@ def main():
         total_errors.extend(check_markdown_links(md_file))
 
     # Validate Release Notes Quality
-    print("[*] Validating curated release notes quality in docs/releases/...")
+    print("[*] Validating curated release notes quality in releases/...")
     release_errors = check_release_notes_quality()
     total_errors.extend(release_errors)
 

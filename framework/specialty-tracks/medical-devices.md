@@ -43,7 +43,7 @@ Practitioners must execute security risk engineering focused on device reliabili
 * **Profile 1: Embedded Hardware & Firmware (SiMD):** Microcontrollers, on-chip peripherals, physical interfaces, and local wireless links (BLE, Wi-Fi, NFC, proprietary RF).
 * **Profile 2: Software as a Medical Device (SaMD) & Clinical AI:** Standalone diagnostic software, clinical decision support (CDS) algorithms, AI/ML imaging pipelines, and web-based diagnostic platforms.
 * **Profile 3: Connected Clinical Ecosystems & Mobile Health:** Patient mobile applications (iOS/Android), clinical docking portals, bedside programmer units, and cloud telemetry backbones.
-* Threat modeling execution utilizes structured frameworks (AAMI TIR57, STRIDE) mapped directly to design controls.
+* Threat modeling execution follows structured frameworks (AAMI TIR57, STRIDE) mapped directly to design controls.
 
 ### C. Non-Product Software & R&D Tooling Assessment
 * Evaluating non-product software and automated tooling used in manufacturing, calibration, automated testing, and R&D pipelines to ensure tool qualification and prevent supply chain contamination.
@@ -66,7 +66,7 @@ Practitioners must design, audit, and verify defensive controls across the devic
 ## 4. Post-Market Surveillance & Vulnerability Management
 
 * **Coordinated Vulnerability Disclosure (CVD):** Managing external security researcher reporting channels, coordinated disclosure timelines, and regulatory reporting thresholds.
-* **Clinical Vulnerability Scoring:** Utilizing Stakeholder-Specific Vulnerability Categorization (SSVC) and CVSS scoring adapted for patient safety to prioritize vulnerability remediation.
+* **Clinical Vulnerability Scoring:** Applying Stakeholder-Specific Vulnerability Categorization (SSVC) and CVSS scoring adapted for patient safety to prioritize vulnerability remediation.
 * **Patch Verification & Regression Safety Testing:** Ensuring cybersecurity hotfixes, security updates, and firmware patches undergo complete clinical safety and regression testing prior to field distribution.
 
 ---
@@ -74,6 +74,18 @@ Practitioners must design, audit, and verify defensive controls across the devic
 ## 5. Rotational Runtime Ledger (2,000 Post-Licensure Hours)
 
 To achieve the `SE-MED` endorsement, a Licensed Journeyman or Master Practitioner must log a minimum of **2,000 verified operational runtime hours** under the line-of-sight supervision of an active `SE-MED` Master Practitioner across four specialized domains:
+
+```
++─────────────────────────────────────────────────────────────────────────────+
+|               SE-MED: 2,000-HOUR SPECIALTY RUNTIME DISTRIBUTION             |
++─────────────────────────────────────────────────────────────────────────────+
+  ├─► Domain 1: Threat Modeling, Safety Risk & Architecture     ──► 600 Hours
+  ├─► Domain 2: System Security Implementation (SiMD/SaMD/App)   ──► 500 Hours
+  ├─► Domain 3: SBOM Lifecycle, Non-Product Software & Triage   ──► 500 Hours
+  └─► Domain 4: Premarket Regulatory Packaging & Audits         ──► 400 Hours
++─────────────────────────────────────────────────────────────────────────────+
+```
+
 
 | Specialty Domain | Minimum Runtime | Core Focus & Operational Activities |
 | :--- | :--- | :--- |

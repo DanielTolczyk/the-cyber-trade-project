@@ -1,6 +1,6 @@
 # Universal Logbook Schema & Telemetry Verification Standard
 
-To prevent subjective rubber-stamping, eliminate administrative friction, and ensure verifiable proof of hands-on competence, the trade utilizes a standardized, machine-auditable **Universal Logbook Schema**.
+To prevent subjective rubber-stamping, eliminate administrative friction, and ensure verifiable proof of hands-on competence, the trade specifies a standardized, machine-auditable **Universal Logbook Schema**.
 
 ---
 

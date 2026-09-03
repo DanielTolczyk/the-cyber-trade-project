@@ -30,7 +30,7 @@ Discrimination, disparate treatment, or harassment based on any of the following
 * **Veteran & Active Military Status:** USERRA and VEVRAA protections guaranteeing re-entry into active apprentice rotations, credit for military cyber operational experience, and protection of benefit hour-banks during deployment.
 * **Age (40 and Older):** Prohibition against age-based career barriers under ADEA, supporting mid-career transitioners into trade apprenticeships.
 * **Pregnancy, Childbirth & Related Conditions:** Comprehensive protections under PWFA and Title VII for pregnancy-related accommodations, lactation access, parental leave, and pause-and-resume logbook protections without loss of standing.
-* **Genetic Information:** Absolute prohibition under GINA against collecting or utilizing genetic data or family medical histories in benefit trusts or pre-employment evaluations.
+* **Genetic Information:** Absolute prohibition under GINA against collecting or using genetic data or family medical histories in benefit trusts or pre-employment evaluations.
 * **Citizenship & Immigration Status:** Protection for all legally authorized workers under INA Section 274B, with explicit exemptions strictly restricted to roles where federal statutory security clearances (ITAR/FedRAMP/Cleared Defense) mandate specific citizenship.
 * **Natural Hair & Cultural Expression:** Adherence to CROWN Act standards prohibiting discriminatory grooming or presentation policies.
 * **Concerted Labor Activity:** Absolute protection under the National Labor Relations Act (NLRA) for participating in Guild governance, reporting grievances, or organizing trade labor.
@@ -63,7 +63,7 @@ Ethical infractions and misconduct are categorized into four distinct classes:
 ### Class D: Supervisory Abuse, Ratio Exploitation & Algorithmic Coercion
 * Assigning apprentices to non-defensive tasks (e.g., personal errands, uncompensated clerical labor) unrelated to accredited trade domains.
 * Violating the mandatory 2:1 on-shift operational supervisory ratio, abandoning trainees on solo unmonitored shifts during high-risk production incidents or graveyard rotations.
-* Utilizing automated AI scoring algorithms, bossware telemetry, or surveillance quotas to terminate, discipline, or demote practitioners without human supervisory review.
+* Deploying automated AI scoring algorithms, bossware telemetry, or surveillance quotas to terminate, discipline, or demote practitioners without human supervisory review.
 * Dereliction of the affirmative mandatory reporting duty upon witnessing verified Class A, B, or C violations.
 
 ---

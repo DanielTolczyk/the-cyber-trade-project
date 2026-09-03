@@ -10,7 +10,7 @@ This primer explains the statutory, economic, and operational machinery that mak
 
 Many reform initiatives fail because they require passing new comprehensive legislation through Congress or state legislatures, a process taking 5 to 10 years with unpredictable political risk.
 
-The Cybersecurity Trade Project utilizes existing federal statutory authority established under the **National Apprenticeship Act of 1937 (Fitzgerald Act, 29 U.S.C. 50)** and federal regulations (**29 CFR Part 29 and Part 30**).
+The Cybersecurity Trade Project operates under existing federal statutory authority established under the **National Apprenticeship Act of 1937 (Fitzgerald Act, 29 U.S.C. 50)** and federal regulations (**29 CFR Part 29 and Part 30**).
 
 ```
 +─────────────────────────────────────────────────────────────────────────────+

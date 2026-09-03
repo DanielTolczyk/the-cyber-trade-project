@@ -6,7 +6,7 @@ This specification establishes the charter, actuarial standards, trustee selecti
 
 ## 1. Institutional Mandate & Purpose
 
-The **Cyber Underwriting & Actuarial Advisory Consortium (CUAAC)** serves as the independent standing body representing primary cyber insurance carriers, excess and surplus (E&S) lines underwriters, managing general agents (MGAs), and global reinsurance syndicates.
+The **Cyber Underwriting & Actuarial Advisory Consortium (CUAAC)** is the independent standing body representing primary cyber insurance carriers, excess and surplus (E&S) lines underwriters, managing general agents (MGAs), and global reinsurance syndicates.
 
 Operating as the **Risk Capital & Catalyst Pillar** of the trade ecosystem:
 

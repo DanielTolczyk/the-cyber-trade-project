@@ -62,7 +62,7 @@ These institutions already possess dedicated server infrastructure, hands-on lab
 
 ### A. United Kingdom
 * **Apprenticeship Standards & IfATE:** In the UK, apprenticeship curricula are defined by the **Institute for Apprenticeships and Technical Education (IfATE)**. The 5 rotational domains map directly into Level 4 (Cyber Security Technologist) and Level 6 (Cyber Security Technical Professional Integrated Degree) standards.
-* **Funding Mechanism:** Funded through the **UK Apprenticeship Levy**, where employers with a pay bill over 3 million GBP utilize ring-fenced digital apprenticeship accounts to fund 100% of training costs.
+* **Funding Mechanism:** Funded through the **UK Apprenticeship Levy**, where employers with a pay bill over 3 million GBP draw from ring-fenced digital apprenticeship accounts to fund 100% of training costs.
 * **Chartered Professional Body:** Licensure and Journeyman registration align with the **UK Cyber Security Council (UKCSC)** chartered standard framework.
 
 ### B. European Union

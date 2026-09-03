@@ -24,7 +24,7 @@ The framework accommodates four primary practitioner engagement models while mai
 To prevent the exploitation of early-career talent and comply with legal wage and labor standards:
 
 * **Strict 1099 Prohibition:** Registered Apprentices **cannot** be classified as 1099 independent contractors. Because apprentices legally operate in a structured training capacity requiring direct oversight and supervisory gating, independent contractor status constitutes misclassification.
-* **The Multi-Employer JATC Clearinghouse:** If a client enterprise or boutique consulting firm requires flexible, project-based apprentice labor without adding permanent headcount to their internal payroll, they contract with the **Guild JATC Hiring Hall / Multi-Employer Training Trust**. The JATC acts as the statutory W-2 employer of record, administering wages, benefits, and classroom instruction, while dispatching apprentices to host employers.
+* **The Multi-Employer JATC Clearinghouse:** If a client enterprise or boutique consulting firm requires flexible, project-based apprentice labor without adding permanent headcount to their internal payroll, they contract with the **Guild JATC Hiring Hall / Multi-Employer Training Trust**. The JATC functions as the statutory W-2 employer of record, administering wages, benefits, and classroom instruction, while dispatching apprentices to host employers.
 
 ---
 
@@ -90,7 +90,7 @@ To eliminate "mass rubber-stamping" and ensure adequate technical diligence, str
 ### B. Anti-Ghost-Staffing Protocol & Telemetry Verification
 To eliminate predatory contractor arbitrage where firms bid licensed trade labor but staff operational shifts with unvetted, unindentured, or uncredited offshore labor:
 * **Cryptographic Shift Attestation:** Every billable operational shift transmitted through the Actuarial Attestation Feed must map active operator sessions directly to valid Board License IDs or registered JATC apprentice indenture numbers.
-* **Ghost-Staffing Malpractice:** Billing an enterprise client for certified Journeyman-supervised labor while utilizing uncredited, unvetted, or unsupervised personnel constitutes **Tier 3 Professional Fraud**.
+* **Ghost-Staffing Malpractice:** Billing an enterprise client for certified Journeyman-supervised labor while assigning uncredited, unvetted, or unsupervised personnel constitutes **Tier 3 Professional Fraud**.
 * **Sanctions:** Finding of ghost-staffing results in immediate 24-month practicing license suspension for the supervising Master/Journeyman, forfeiture of client warranty discounts, and formal debarment of the Trade Contractor from the Participating Employer Council.
 
 ### C. Cross-Border Regulatory Attachment & Anti-Arbitrage Telemetry

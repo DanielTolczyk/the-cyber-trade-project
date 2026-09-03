@@ -33,9 +33,9 @@ The trade guarantees that licensed Journeymen and Masters are trained to build, 
 ## 4. Professional Attestation & Eliminating "Paper Compliance"
 Regulatory filings and third-party risk attestations carry legal consequence. Under the trade framework:
 * **Technical Attestation:** Control validations, third-party questionnaires, and compliance readiness reports require review and verification by an internal or retained fractional Journeyman or Master of Record.
-* **Underwriter Verification:** Cyber insurance underwriters utilize these signed attestations to calculate risk weighting and premium discounts.
+* **Underwriter Verification:** Cyber insurance underwriters use these signed attestations to calculate risk weighting and premium discounts.
 * **Integrity & Independence:** Signing off on known falsified controls or concealing unmitigated critical vulnerabilities constitutes professional malpractice, subjecting the individual to Board investigation, license suspension, and loss of practice rights.
-* **SMB Safe Harbor:** Small-to-medium enterprises without full-time security staff may utilize certified third-party trade contractors or fractional Masters of Record to inspect systems and issue annual baseline compliance stamps.
+* **SMB Safe Harbor:** Small-to-medium enterprises without full-time security staff may engage certified third-party trade contractors or fractional Masters of Record to inspect systems and issue annual baseline compliance stamps.
 
 
 ---
@@ -44,7 +44,7 @@ Regulatory filings and third-party risk attestations carry legal consequence. Un
 
 To embrace technological velocity while guaranteeing genuine engineering competency:
 
-* **The "Power Tool" Operational Standard:** Artificial intelligence coding assistants, LLM-driven log summarizers, and automated security copilots are recognized as modern engineering power tools (analogous to an electrician's hydraulic bender or a machinist's CNC lathe). Practitioners and apprentices are fully permitted to utilize AI tooling in daily production to accelerate defense and automation.
+* **The "Power Tool" Operational Standard:** Artificial intelligence coding assistants, LLM-driven log summarizers, and automated security copilots are recognized as modern engineering power tools (analogous to an electrician's hydraulic bender or a machinist's CNC lathe). Practitioners and apprentices are fully permitted to use AI tooling in daily production to accelerate defense and automation.
 * **The Air-Gapped Licensure Benchmark:** To ensure practitioners possess foundational problem-solving capabilities rather than superficial prompt generation, all **Board Practical Challenge Examinations** are conducted in strictly proctored, air-gapped cyber range environments. Candidates must demonstrate raw CLI navigation, script authoring, packet analysis, and manual threat containment without external internet access or generative AI assistance.
 
 ### D. Real-Time Clearinghouse Disciplinary Propagation & PKI-CRL
@@ -63,10 +63,10 @@ To protect cybersecurity practitioners from black-box automated evaluation, dehu
 * **Mandatory Human Supervisory Review:** Any adverse employment action or negative performance rating requires independent investigation, factual substantiation, and written personal attestation by a qualified human supervisor (Licensed Journeyman or Master of Record).
 
 ### B. Prohibition of Invasive Bossware & Superficial Productivity Telemetry
-* **Banned Metric Practices:** Participating employers are strictly prohibited from utilizing continuous webcam tracking, eye-gaze tracking, audio listening daemons, biometric sentiment scoring, or keystroke-count quotas as performance standards.
+* **Banned Metric Practices:** Participating employers are strictly prohibited from deploying continuous webcam tracking, eye-gaze tracking, audio listening daemons, biometric sentiment scoring, or keystroke-count quotas as performance standards.
 * **Trade Competency Standard:** Engineering performance in cybersecurity is evaluated strictly through objective NIST NICE task execution, verified ticket resolution quality, system hardening milestones, and Universal Logbook domain competencies.
 
 ### C. The Worker Right to Algorithmic Transparency & Audit
 * **Transparency Entitlement:** Practitioners have the statutory right to request and inspect all automated telemetry, activity logs, scoring algorithms, and AI evaluation metrics maintained by their employer.
-* **Grievance Standing:** If an employer utilizes uncalibrated, inaccurate, or biased algorithmic scoring to penalize a practitioner, the affected worker or the Guild Ombudsperson holds standing to file an immediate grievance under [Form FORM-004](../templates/FORM-004_ethics-and-conduct-incident-report.md) to strike the evaluation and demand supervisory audit.
+* **Grievance Standing:** If an employer applies uncalibrated, inaccurate, or biased algorithmic scoring to penalize a practitioner, the affected worker or the Guild Ombudsperson holds standing to file an immediate grievance under [Form FORM-004](../templates/FORM-004_ethics-and-conduct-incident-report.md) to strike the evaluation and demand supervisory audit.
 

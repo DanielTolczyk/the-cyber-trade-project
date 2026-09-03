@@ -1,6 +1,6 @@
 # National Cybersecurity Trade Board: Charter & Governance Structure
 
-The **National Cybersecurity Trade Board** serves as the independent, vendor-neutral standard-setting and regulatory licensure authority for the cybersecurity trade. 
+The **National Cybersecurity Trade Board** is the independent, vendor-neutral standard-setting and regulatory licensure authority for the cybersecurity trade. 
 
 ---
 

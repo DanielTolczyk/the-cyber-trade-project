@@ -109,7 +109,7 @@ To ensure trainees are protected from predatory employer practices, wage theft, 
 
 ## 7. Federal Statutory Compliance Alignment (DOL 29 CFR Part 29 & Part 30)
 
-To guarantee that participating employers, community colleges, and apprentices unlock federal and state registered apprenticeship benefits on Day 1, this standard satisfies all statutory criteria:
+To guarantee that participating employers, community colleges, and apprentices qualify for federal and state registered apprenticeship benefits on Day 1, this standard satisfies all statutory criteria:
 
 | Federal Statutory Requirement (29 CFR Part 29 / 30) | Cybersecurity Trade Project Standard | Statutory Compliance Status |
 | :--- | :--- | :--- |

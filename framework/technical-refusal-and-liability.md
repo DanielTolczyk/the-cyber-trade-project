@@ -37,7 +37,7 @@ To prevent operational deadlocks in agile deployment pipelines while maintaining
 
 ### Tier 1: Operational Exception Flag (Apprentice & Journeyman Level)
 * Any practicing Journeyman or Apprentice may log an [Operational Exception Flag (Form FORM-003)](../templates/FORM-003_operational-exception-flag.md) within internal ticketing systems when software or infrastructure deployments violate trade baselines.
-* This flag serves as an internal dissent record and initiates mandatory review by the designated Master of Record. It does not halt business operations or pipeline execution.
+* This flag establishes an internal dissent record and initiates mandatory review by the designated Master of Record. It does not halt business operations or pipeline execution.
 
 ### Tier 2: Notice of Safety Non-Concurrence (Master of Record Exclusivity)
 * A formal [Notice of Safety Non-Concurrence (Form FORM-001)](../templates/FORM-001_notice-of-safety-non-concurrence.md) may be authored and filed **exclusively by a designated Master of Record (MoR)**.
@@ -68,7 +68,22 @@ The enforcement thresholds for Technical Refusal reflect operational risk contex
 
 ---
 
-## 5. Whistleblower Protections & Legal Defense Shield
+## 5. Automated Tool Liability & Equipment Containment Standards
+
+### A. Zero Legal Personhood: Automated Tools Classified as Operational Equipment
+In alignment with trade safety principles across heavy industry, automated software tools, machine learning pipelines, and autonomous agents hold **zero legal personhood, independent agency, or statutory standing**.
+* Automated agents and tool-calling scripts are classified strictly as **enterprise operational equipment** executed on enterprise infrastructure using enterprise access credentials.
+* An enterprise cannot cite model non-determinism, unpredictable autonomous execution, or unexpected prompt behavior to avoid liability for damages caused to third parties or critical infrastructure.
+
+### B. Absolute Enterprise & Supervisory Accountability
+* **Direct Enterprise Responsibility:** The enterprise operating an automated tool bears 100% legal, regulatory, and financial liability for all network actions, API queries, data alterations, system compromises, or third-party disruptions originating from its credentials or compute infrastructure.
+* **Equipment Malpractice Analogy:** Operating an unmonitored automated agent that executes unauthorized network connections or damages external systems is legally equivalent to operating industrial machinery without safety guards or control tethers.
+* **Master of Record Deployment Boundary (Form FORM-008):** Prior to connecting autonomous tools with external network execution permissions or production database write privileges, the enterprise must obtain a signed [Form FORM-008 (AI Agent Safety Clearance)](../templates/FORM-008_ai-agent-safety-clearance.md). Operating uninspected automated tools outside sandboxed containment invalidates cyber insurance due-care protections for any external damages.
+* **Executive Override on Uncontained Tooling:** If corporate executives override a Master of Record's refusal to clear uncontained automated tooling, all resulting statutory, civil, and regulatory liability transfers exclusively to the overriding officers under [Form FORM-002](../templates/FORM-002_executive-override-risk-acceptance.md).
+
+---
+
+## 6. Whistleblower Protections & Legal Defense Shield
 
 Any licensed practitioner who invokes an Exception Flag or a Master of Record who issues a Notice of Safety Non-Concurrence receives comprehensive protection under trade bylaws:
 
@@ -79,7 +94,7 @@ Any licensed practitioner who invokes an Exception Flag or a Master of Record wh
 
 ---
 
-## 6. Statutory Malpractice Cap, Clean Attestation Safe Harbor & Defense Pool
+## 7. Statutory Malpractice Cap, Clean Attestation Safe Harbor & Defense Pool
 
 To prevent expert brain drain and ensure elite practitioners are not dissuaded from accepting designated Master of Record responsibilities:
 

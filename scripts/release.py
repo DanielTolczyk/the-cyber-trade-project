@@ -127,17 +127,17 @@ def handle_open_prs(include_pr_ids=None, dry_run=False) -> list:
 
 
 def generate_notes(version: str, title: str, prev_tag: str) -> str:
-    """Reads curated release notes from docs/releases/<version>.md."""
+    """Reads curated release notes from releases/<version>.md."""
     v_clean = version if version.startswith("v") else f"v{version}"
-    rel_notes_file = REPO_ROOT / "docs" / "releases" / f"{v_clean}.md"
+    rel_notes_file = REPO_ROOT / "releases" / f"{v_clean}.md"
     if not rel_notes_file.exists():
-        rel_notes_file = REPO_ROOT / "docs" / "releases" / f"{v_clean.lstrip('v')}.md"
+        rel_notes_file = REPO_ROOT / "releases" / f"{v_clean.lstrip('v')}.md"
     
     if rel_notes_file.exists():
         content = rel_notes_file.read_text(encoding="utf-8").strip()
     else:
         raise FileNotFoundError(
-            f"Mandatory release notes file missing: 'docs/releases/{v_clean}.md'. "
+            f"Mandatory release notes file missing: 'releases/{v_clean}.md'. "
             f"Please author comprehensive, structured release notes before publishing."
         )
 

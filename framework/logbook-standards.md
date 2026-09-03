@@ -34,6 +34,7 @@ To prevent administrative overhead in fast-paced enterprise environments:
 To prevent fraudulent double-counting and ledger duplication across apprentices or shifts:
 * **Unique Artifact Mapping:** An individual immutable artifact reference (`git_commit_hash`, `change_ticket_id`, `incident_record_id`) may only be claimed for one operational shift per solo operator.
 * **Pairing & Co-Authoring Metadata:** When multiple apprentices collaborate on a major release or incident response event, entries must explicitly record joint pairing metadata and distinct task role allocations.
+* **Human Task Execution Invariant:** While apprentices may use AI development assistants, static analysis copilot tools, and automated testing scripts during their work, all logged runtime hours must reflect authentic human engineering cognition, verification, and problem resolution. Entries generated wholly by synthetic bots or unattended automated agents cannot be submitted for apprentice runtime credit.
 
 ---
 
@@ -50,7 +51,7 @@ To ensure logbooks remain auditable without exposing enterprise proprietary secr
 
 * **Statutory Worker Property:** The Universal Logbook is legally recognized as the personal property of the individual practitioner (analogous to an airline pilot's flight ledger or a master electrician's work book). It is permanently portable across employers, contract gigs, and career breaks.
 * **Zero-Knowledge Architecture:** The logbook records *what* engineering competency was exercised (NICE work role ID) and for *how long* (verified duration), paired with a sanitized ticket hash or change request ID. It strictly omits customer proprietary data, internal IP addresses, source code, payload artifacts, or business details.
-* **Export Safe Harbor:** Because the logbook utilizes zero-knowledge schema hashes, exporting or maintaining a personal logbook export does not violate standard corporate NDAs or intellectual property covenants.
+* **Export Safe Harbor:** Because the logbook generates zero-knowledge schema hashes, exporting or maintaining a personal logbook export does not violate standard corporate NDAs or intellectual property covenants.
 
 ---
 

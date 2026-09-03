@@ -54,6 +54,6 @@ The Interstate Cybersecurity Practice Compact is an interstate agreement among p
 2. **Surge Deployment Authorization:** During state-declared digital emergencies or critical infrastructure incidents, DFIR surge teams holding Compact Privileges may deploy immediately across party state boundaries under expedited crisis mutual aid agreements.
 
 ### Article III. National Clearinghouse Coordination
-1. **Shared Trust Directory:** Member states shall utilize the National Cybersecurity Trade Board (NCTB) Clearinghouse as the shared national data repository for license standing, disciplinary actions, and active Master of Record designations.
+1. **Shared Trust Directory:** Member states shall use the National Cybersecurity Trade Board (NCTB) Clearinghouse as the shared national data repository for license standing, disciplinary actions, and active Master of Record designations.
 2. **Immediate Disciplinary Telemetry:** Any suspension or revocation of a license in one member state shall immediately propagate across all party states within twenty-four (24) hours.
 
