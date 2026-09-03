@@ -20,5 +20,10 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Run Specification & Quality Gate Linter
         run: python3 scripts/validate-specifications.py

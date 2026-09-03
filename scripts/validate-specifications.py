@@ -589,6 +589,17 @@ def check_frontend_security_sast() -> list:
                         raw_err = (proc.stderr or proc.stdout).strip().splitlines()
                         err_line = raw_err[0] if raw_err else "SyntaxError detected"
                         errors.append(f"[Front-End SAST Syntax Error] {rel_path}: {err_line}")
+                else:
+                    # Fallback lexical check for unbalanced braces, brackets, or parentheses
+                    brace_delta = content.count("{") - content.count("}")
+                    bracket_delta = content.count("[") - content.count("]")
+                    paren_delta = content.count("(") - content.count(")")
+                    if brace_delta != 0 or bracket_delta != 0 or paren_delta != 0:
+                        errors.append(
+                            f"[Front-End SAST Syntax Warning] {rel_path}: Unbalanced structural delimiters "
+                            f"(braces: {brace_delta}, brackets: {bracket_delta}, parens: {paren_delta}). "
+                            f"Install Node.js for authoritative AST compilation."
+                        )
             except Exception as e:
                 errors.append(f"[Front-End SAST Error] Could not read {js_file}: {e}")
 
