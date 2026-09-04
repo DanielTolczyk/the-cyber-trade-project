@@ -548,7 +548,7 @@ def check_frontend_security_sast() -> list:
     # Repositories to scan
     repo_dirs = [REPO_ROOT]
     workspace_root = REPO_ROOT.parent
-    for sister in ["estimator", "logbook", "clearinghouse", "telemetry"]:
+    for sister in ["estimator", "logbook", "clearinghouse", "telemetry", "guild-hall"]:
         sister_dir = workspace_root / sister
         if sister_dir.exists():
             repo_dirs.append(sister_dir)
