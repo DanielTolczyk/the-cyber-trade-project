@@ -70,10 +70,12 @@ In the skilled trades, healthcare and retirement belong permanently to the worke
 ### B. The "Two-Check" Retirement System (Pension + 401(k))
 * **Check 1: Multi-Employer Defined Benefit Pension:** Funded 100% by employer hourly contributions of **$6.00 per billable labor hour worked by Journeymen and Masters** into the Taft-Hartley Pension Trust. Accumulates continuously across multiple employers, guaranteeing a defined lifetime monthly benefit upon retirement.
 * **Unified 5-Year Multi-Employer Vesting Clock:** Under federal ERISA standards for Taft-Hartley trusts, all operational hours worked for any participating PEC employer accumulate toward a single, unified 5-year vesting clock (minimum 1,000 hours/year). Once a practitioner logs 5,000 total verified hours across any combination of employers, they are **100% permanently vested** in their lifetime pension.
+* **Fiduciary Plan Document & Actuarial Calibration Boundary:** Specific benefit accrual formulas, hurdle rates, Normal Retirement Age (NRA, age 65), Early Retirement Age (ERA, age 55 with 10 credited service years), and Qualified Joint and Survivor Annuity (QJSA) conversion factors are not hardcoded into trade collective bargaining agreements. These actuarial parameters are formally established, maintained, and triennially adjusted by the 50/50 Bipartisan Board of Trustees in the authoritative *Taft-Hartley Pension Trust Agreement and Summary Plan Description (SPD)* under the statutory certification of an independent Enrolled Actuary (EA). Hardcoding static dollar accruals into trade governance is strictly prohibited to preserve the $0 Unfunded Vested Benefit (UVB) invariant of the Variable Annuity Pension Plan (VAPP).
 * **Check 2: Optional Employer-Matching 401(k) / Annuity:** Employers may offer corporate 401(k) matching plans alongside the pension. Trade pension participation does not restrict an employer from providing a matching 401(k) plan.
 
 ### C. Supplemental Unemployment Benefit (SUB) Fund
-* Funded via multi-employer trust contributions, paying weekly supplemental income on top of state unemployment checks during economic downturns, helping laid-off practitioners maintain financial stability until dispatched to a new role.
+* **Fiduciary Architecture & Administration:** The Supplemental Unemployment Benefit (SUB) Fund operates as an auxiliary stabilization sub-trust under the Taft-Hartley Health & Welfare fiduciary pool (ERISA Section 403). It pays weekly supplemental income on top of state unemployment compensation during economic downturns, involuntary layoffs, or employer insolvency, helping practitioners maintain financial stability until dispatched to a new role.
+* **Trustee Rulemaking Authority:** Specific weekly benefit replacement caps (coordinated with state unemployment maximums), eligibility qualification periods, and duration limits are established, calibrated, and maintained by the 50/50 Bipartisan Board of Trustees pursuant to applicable collective bargaining agreements and federal Department of Labor multi-employer trust guidelines.
 
 ### D. Paid Family & Medical Leave (PFML) & Disability Sub-Trust
 * **Employer Hourly Contribution:** Participating employers contribute a mandatory fixed hourly rate of **$0.75 per compensable labor hour worked by all practitioners (Apprentices, Journeymen, and Masters)** into the Taft-Hartley PFML & Disability Sub-Trust.
@@ -109,6 +111,8 @@ Revenues collected via Basic and Working Dues are allocated across dedicated, au
 | **Talent Clearinghouse & Surge Dispatch** | **20%** | Operating the direct labor dispatch hall, logbook verification interfaces, and emergency DFIR surge coordination. |
 | **Portable Benefits Administration** | **10%** | Administering multi-employer healthcare, disability, parental leave, and portable retirement accounts. |
 | **Emergency Strike & Hardship Reserve** | **10%** | Financial relief for members during prolonged employer lockouts or disaster disruptions. |
+
+* **Reserve Governance & Disbursement Controls:** Disbursements from the Emergency Strike & Hardship Reserve are strictly governed by National Guild Executive Council bylaws. Weekly strike or lockout stipends require a two-thirds (2/3) supermajority authorization of the Executive Council, while emergency disaster hardship grants are administered by the Member Relief Committee and subject to monthly review and reconciliation by the elected rank-and-file Local Chapter Audit Committees.
 
 ---
 
