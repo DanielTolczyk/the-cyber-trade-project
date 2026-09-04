@@ -52,6 +52,7 @@ The Interstate Cybersecurity Practice Compact is an interstate agreement among p
 ### Article II. Compact Privilege to Practice
 1. **Mutual Recognition:** A practitioner holding an active, unencumbered license in a home member state shall be granted Compact Privilege to Practice in any remote or party state without paying additional licensing fees or taking state-specific exams.
 2. **Surge Deployment Authorization:** During state-declared digital emergencies or critical infrastructure incidents, DFIR surge teams holding Compact Privileges may deploy immediately across party state boundaries under expedited crisis mutual aid agreements.
+3. **International Mutual Recognition Boundary:** Compact Privileges established under this Article apply exclusively among recognized party states of the United States. Cross-border professional reciprocity with international partner frameworks (such as the Canadian Red Seal, UK Cyber Scheme, or Australian Cyber Security Accreditation) is formally negotiated, evaluated, and ratified by the National Cybersecurity Trade Board (NCTB) through bilateral mutual recognition accords and does not automatically confer domestic Compact privileges without NCTB Clearinghouse credential verification.
 
 ### Article III. National Clearinghouse Coordination
 1. **Shared Trust Directory:** Member states shall use the National Cybersecurity Trade Board (NCTB) Clearinghouse as the shared national data repository for license standing, disciplinary actions, and active Master of Record designations.
