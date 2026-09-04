@@ -46,6 +46,13 @@ Contributions must reflect the drafting rigor of a NIST Special Publication or D
   Specialized statutory, labor, or insurance terms must be formally indexed in [GLOSSARY.md](GLOSSARY.md) to enable interactive hover discovery for newcomers without diluting normative text.
 * **Zero AI Slop & Sycophancy:**
   Prohibit conversational filler, marketing hyperbole, rhetorical questions, and corporate clichés. State requirements directly, authoritatively, and neutrally.
+* **The Real-World Precedent Mapping Mandate (Zero Synthetic Neologisms):**
+  We adapt proven, real-world trade mechanisms; we do not invent speculative governance jargon, corporate consulting abstractions, or pseudo-academic neologisms. Every labor, training, referral, and governance mechanism must map 1:1 to an established statutory or trade precedent:
+  * *Statutory Apprenticeship Baselines:* Title 29 CFR Parts 29 and 30 (U.S. Department of Labor Registered Apprenticeship Programs). Standard terminology: *Pre-Apprentice*, *Registered Apprentice*, *Specialty Candidate*, *Licensed Journeyman*, *Master Practitioner*, *Master of Record*. Prohibit corporate or synthetic neologisms (never "practitioner tiers", "standing profiles", or "competency personas").
+  * *Multi-Employer Trust Administration:* Taft-Hartley / LMRA Section 302(c) and ERISA multi-employer trusts. Standard terminology: *Joint Apprenticeship and Training Committee (JATC)*, *Related Technical Instruction (RTI)*, *Modular Continuing Education*, *Hour-Bank Trust*. Prohibit consulting frameworks (never "Horizons", "skill streams", or "upskilling journeys").
+  * *Hiring Hall & Referral Dispatch:* Standard trade dispatch rules (IBEW/NECA, UA). Standard terminology: *Out-of-Work Register*, *First-In, First-Out (FIFO) Seniority*, *Dispatch Book 1 (Resident Local)*, *Book 2 (Traveler)*, *Bilateral Referral Slip*, *Supervised Specialty Dispatch*. Prohibit synthetic routing jargon (never invented pseudo-academic credentials or bilateral mesh abstractions).
+  * *Labor Economics & Telemetry:* Department of Labor and Bureau of Labor Statistics (BLS) standards. Standard terminology: *Structural Deficit*, *Transient Demand Spike (Normalized)*, *Balanced Supply*, *Persistent Labor Shortage Index (PLSI)*. Prohibit consulting hype terms (never synthetic fad narratives, speculative dampening models, or corporate speed buzzwords).
+
 
 ---
 

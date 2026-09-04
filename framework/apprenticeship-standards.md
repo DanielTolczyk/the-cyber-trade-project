@@ -199,5 +199,46 @@ To protect practitioner mental health and eliminate career penalties for occupat
 * **Confidential Support Access:** The multi-employer Taft-Hartley Health Trust funds specialized, confidential psychological counseling tailored specifically to forensic digital trauma and high-stress incident containment.
 * **Secondary Review Protections:** In CSAM investigations, direct media inspection must be minimized through automated cryptographic hashing (e.g., PhotoDNA matching) and strict operational exposure limits (maximum 2 hours of continuous review).
 
+---
+
+## 13. Two-Tier Curriculum Governance & Labor Shortage Allocation Safeguards
+
+To prevent syllabus whipsawing and uphold the statutory 18-Month Curriculum Notice Rule, the JATC maintains strict structural separation between modular continuing education and the foundational registered apprenticeship pipeline:
+
+### A. Modular Journeyman & Dispatched Trainee Continuing Education
+* **Short-Term Tactical Skill Improvement:** The regional JATC delivers elective 16-to-40-hour modular laboratory sessions targeting emerging vendor platforms, defensive tooling updates, or preparation for post-Journeyman Specialty Endorsements.
+* **Zero Baseline Disruption:** Modular continuing education courses are open to active Licensed Journeymen, Masters, and unassigned apprentices awaiting hiring hall dispatch. Participation carries zero disruption to mandatory 8,000-hour core rotational baselines or supervisory ratios.
+
+### B. Core Apprenticeship Curriculum Allocation Desk (Persistent Labor Shortage Index)
+* **Empirical Telemetry (PLSI):** The Talent Clearinghouse and JATC track trailing quarterly labor supply deficits across all specialty tracks using the Persistent Labor Shortage Index (PLSI).
+* **The Sustained Deficit Rule:** Formal reallocation or expansion of Related Technical Instruction (RTI) or rotational domain hours within the registered apprenticeship standard requires a sustained PLSI >= 20% across at least three (3) consecutive trailing quarters.
+* **Transient Demand Dampening:** Short-term market surges, vendor marketing cycles, or localized hiring bubbles (e.g., transient AI/ML prompt testing spikes) that decay within one or two quarters are classified as transient demand spikes. These surges are absorbed strictly through modular continuing education electives rather than destabilizing the multi-year foundational apprenticeship standards.
+
+### C. Mathematical Specification of the Persistent Labor Shortage Index (PLSI)
+The Persistent Labor Shortage Index (PLSI) is computed empirically on the final day of each calendar quarter by the JATC Talent Clearinghouse for each active specialty endorsement track:
+
+$$\text{PLSI} = \left(\frac{R_{\ge 30}}{P_{\text{spec}}}\right) \times 100$$
+
+Where:
+* $R_{\ge 30}$ is the total number of verified Participating Employer Council (PEC) labor requisitions requiring that specialty endorsement that have remained unfilled on the Out-of-Work Register for 30 or more calendar days.
+* $P_{\text{spec}}$ is the total active qualified practitioner pool registered within the Clearinghouse holding that specialty endorsement or holding supervised candidate dispatch eligibility in that discipline.
+
+#### Statutory Threshold Actions
+1. **Structural Deficit ($\text{PLSI} \ge 20\%$ for $\ge 3$ Consecutive Quarters):**
+   * Formally certified as a persistent labor shortage.
+   * Authorizes the JATC to initiate formal curriculum reviews to expand Related Technical Instruction (RTI) lab capacities, subsidize specialized hardware ranges, or petition the National Board to increase elective rotation allowances under the 18-Month Curriculum Notice Rule.
+   * Authorizes immediate expedited traveler dispatch (Book 2 and Book 3 cross-jurisdictional referrals) to relieve regional shortages.
+2. **Transient Demand Spike ($\text{PLSI} \ge 20\%$ for $< 3$ Consecutive Quarters):**
+   * Classified as cyclical or frictional labor market variance.
+   * Absorbed strictly through 16-to-40-hour modular continuing education courses and supervised trainee dispatch.
+   * Prohibited from altering the universal 8,000-hour core rotational baselines.
+3. **Balanced Supply ($\text{PLSI} < 20\%$):**
+   * Standard labor market equilibrium. Routine maintenance of apprenticeship cohorts and elective allocations.
+
+### D. Supervised Specialty Trainee Dispatch Prerequisite
+* **Non-Conferral of Licensure:** Completion of a 16-to-40-hour modular continuing education course awards verified Continuing Education Units (CEUs) and unlocks **Supervised Specialty Trainee** status on the hiring hall dispatch register. Under no circumstances does a modular classroom or lab course confer a full Specialty Endorsement (`SE-XXXX`).
+* **Supervised Specialty Referral:** An employer submitting a requisition for an endorsement experiencing a structural deficit may hire a Journeyman designated as a Supervised Specialty Trainee, provided the host facility maintains an active, designated Master of Record holding that specific endorsement.
+* **Operational Hour Accrual:** All shifts logged by the trainee under that Master's direct supervision clock verified specialty runtime hours in the Universal Logbook toward the 2,000 on-the-job operational hours required for full post-licensure endorsement conferral.
+
 
 

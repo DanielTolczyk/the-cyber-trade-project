@@ -621,6 +621,25 @@
       def: "A statutory apprentice protection guaranteeing that all logged hours, ticket hashes, and rotational competencies remain frozen without penalty during medical or parental leave, protecting immediate re-entry into active rotations.",
       citation: "Trade Framework Glossary"
     },
+    "Persistent Labor Shortage Index (PLSI)": {
+      title: "Persistent Labor Shortage Index (PLSI)",
+      category: "Labor & Governance",
+      def: "An empirical trailing 4-quarter ratio tracking unmet specialty labor demand against active available supply in the Guild Hiring Hall, used to distinguish structural talent deficits from transient demand spikes.",
+      citation: "Trade Framework Glossary"
+    },
+    "PLSI": {
+      title: "Persistent Labor Shortage Index (PLSI)",
+      category: "Labor & Governance",
+      def: "An empirical trailing 4-quarter ratio tracking unmet specialty labor demand against active available supply in the Guild Hiring Hall, used to distinguish structural talent deficits from transient demand spikes.",
+      citation: "Trade Framework Glossary"
+    },
+    "Persistent Labor Shortage Index": {
+      title: "Persistent Labor Shortage Index (PLSI)",
+      category: "Labor & Governance",
+      def: "An empirical trailing 4-quarter ratio tracking unmet specialty labor demand against active available supply in the Guild Hiring Hall, used to distinguish structural talent deficits from transient demand spikes.",
+      citation: "Trade Framework Glossary"
+    },
+
     "Pre-Apprenticeship": {
       title: "Pre-Apprenticeship",
       category: "Labor & Governance",
@@ -771,6 +790,13 @@
       def: "A multi-employer trust fund paying weekly supplemental income on top of state unemployment checks during economic downturns to maintain worker living standards.",
       citation: "Trade Framework Glossary"
     },
+    "Sustained Deficit Rule": {
+      title: "Sustained Deficit Rule",
+      category: "Labor & Governance",
+      def: "A statutory JATC governance requirement specifying that a specialty domain must sustain a Persistent Labor Shortage Index (PLSI) of >= 20% across at least three (3) consecutive trailing quarters before initiating formal reallocation of the 8,000-hour core apprenticeship curriculum.",
+      citation: "Trade Framework Glossary"
+    },
+
     "Taft-Hartley Trust": {
       title: "Taft-Hartley Trust",
       category: "Labor & Governance",
@@ -831,6 +857,13 @@
       def: "The statutory rule invalidating all employer-imposed training repayment agreements, liquidated exit damages, and post-apprenticeship non-competes.",
       citation: "Trade Framework Glossary"
     },
+    "Transient Demand Spike": {
+      title: "Transient Demand Spike",
+      category: "Labor & Governance",
+      def: "A short-term surge in employer labor demand driven by emergent vendor tooling or adoption cycles that normalizes within 1 to 2 quarters, resolved via modular continuing education rather than altering foundational apprenticeship standards.",
+      citation: "Trade Framework Glossary"
+    },
+
     "Two-Check Retirement System": {
       title: "Two-Check Retirement System",
       category: "Labor & Governance",

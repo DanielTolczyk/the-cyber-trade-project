@@ -176,3 +176,22 @@ To prevent dilution of tradecraft standards, cross-crediting between specialty e
 ## 8. Endorsement Stacking & Continuing Maintenance
 * **Multiple Endorsements:** Practitioners may earn and maintain multiple endorsements across their career by completing required specialized hours or practical exams.
 * **Unified Competency Maintenance:** Endorsements do not require separate recurring commercial renewal fees. All endorsements are maintained concurrently through validated professional practice hours and Board-approved continuing technical development.
+
+---
+
+## 9. Specialty Deficit Telemetry & Supervised Trainee Dispatch
+
+To ensure workforce agility when emerging technical domains face critical labor deficits without compromising rigorous 2,000-hour post-licensure standards:
+
+### 9.1 Persistent Labor Shortage Index (PLSI) Integration
+The Talent Clearinghouse and JATC track specialty demand using the empirical **Persistent Labor Shortage Index (PLSI)**:
+
+$$\text{PLSI} = \left(\frac{\text{Unfilled Employer Requisitions } (\ge 30\text{ days})}{\text{Total Active Qualified Specialty Pool}}\right) \times 100$$
+
+Under the **Sustained Deficit Rule**, formal curriculum expansions in core registered apprenticeship standards require sustained $\text{PLSI} \ge 20\%$ across at least three (3) consecutive trailing quarters, upholding the statutory 18-Month Curriculum Notice Rule.
+
+### 9.2 Modular Continuing Education & Supervised Trainee Dispatch
+1. **Prerequisite Qualification:** When an endorsement track exhibits a sustained labor shortage, the regional JATC administers funded 16-to-40-hour modular laboratory intensives for licensed Journeymen.
+2. **Supervised Specialty Trainee Standing:** Successful lab completion awards Continuing Education Units (CEUs) and unlocks **Supervised Specialty Trainee** referral standing on the Guild Out-of-Work Register. Modular coursework **never awards independent Specialty Endorsements (`SE-XXXX`)**.
+3. **Bilateral Referral Under a Sponsoring Master:** Sponsoring employers with active requisitions for deficit endorsements may engage Supervised Specialty Trainees, provided all operational shifts occur under the line-of-sight supervision of an active Master of Record holding that endorsement.
+4. **Hour Accrual Toward Full Licensure:** Shifts logged under the designated Master accrue verified specialty hours in the Universal Logbook, counting toward the mandatory 2,000 post-licensure operational hours required for full endorsement conferral.
