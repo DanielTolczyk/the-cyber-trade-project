@@ -38,6 +38,7 @@ All trade logbook tooling and enterprise tracking interfaces must conform to the
     "hours_logged": 4.5,
     "core_domain": "D2_DETECTION_SOC",
     "sub_domain": "CI_CD_PIPELINE_HARDENING",
+    "specialty_endorsement_code": "SE-AIML",
     "environment_type": "Enterprise_Production"
   },
   "competency_milestone": {

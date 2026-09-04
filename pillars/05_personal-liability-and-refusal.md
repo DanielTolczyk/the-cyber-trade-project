@@ -27,6 +27,14 @@ When executive leadership insists on deploying a system over a licensed engineer
 3. **Statutory Liability Shift:** If executive leadership overrules the refusal via a written [Executive Override & Risk Acceptance Form (Form FORM-002)](../templates/FORM-002_executive-override-risk-acceptance.md), operational, regulatory, and financial liability transfers entirely from the engineer to the overruling corporate officer.
 4. **Condition-Bounded Safe Harbor:** The engineer is legally indemnified under the Trade Liability Shield, and insurers/regulators are provided clear, auditable evidence of intentional corporate risk assumption.
 
+### 3.1 Supervisory Ratio Violations & Mandatory Liability Transfer
+Operating defensive operations outside statutory supervisory limits compromises technical diligence, degrades alert vigilance, and induces dangerous cognitive fatigue.
+
+* **Unlawful Operational Directive:** Compelling practitioners to operate in breach of statutory supervisory headcount ratios (`supervisory-ratios.md`), including mandating solo-apprentice operational shifts or exceeding apprentice-to-journeyman ratio caps, constitutes an unlawful unsafe operational order.
+* **Refusal & Non-Concurrence Mandate:** A designated Master of Record has an affirmative professional duty to issue a [Notice of Safety Non-Concurrence (Form FORM-001)](../templates/FORM-001_notice-of-safety-non-concurrence.md) upon any corporate directive requiring frontline defensive operations out of ratio.
+* **Total Executive Liability Assumption:** If corporate management compels out-of-ratio operations by executing an [Executive Override & Risk Acceptance Form (Form FORM-002)](../templates/FORM-002_executive-override-risk-acceptance.md), 100% of civil, regulatory, and malpractice liabilities arising from breaches, undetected intrusions, data losses, or operational failures during the non-compliant operational period transfer exclusively to the overriding executive officers.
+* **Frontline Malpractice Safe Harbor:** Supervising Journeymen and registered Apprentices compelled to execute duties under an active Form FORM-002 ratio override retain unconditional statutory malpractice immunity under the Trade Liability Shield.
+
 ---
 
 ## 4. Statutory Malpractice Cap & Clean Attestation Safe Harbor
