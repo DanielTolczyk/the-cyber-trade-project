@@ -40,7 +40,7 @@ EMOJI_PATTERN = re.compile(
 # Markdown Link Regex: [text](path)
 LINK_PATTERN = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
-# Prohibited AI Slop, Marketing Buzzwords & Jargon Pattern
+# Prohibited AI Slop, Marketing Buzzwords, Consulting Frameworks & Synthetic Jargon Pattern
 AI_SLOP_PATTERN = re.compile(
     r"\b("
     r"delve into|delving into|tapestry of|rich tapestry|multifaceted approach|"
@@ -50,6 +50,9 @@ AI_SLOP_PATTERN = re.compile(
     r"streamline|streamlined|synergy|synergies|synergistic|"
     r"spearhead|spearheading|supercharge|supercharging|"
     r"cutting-edge|groundbreaking|paradigm shift|silver bullet|panacea|"
+    r"horizon\s+[123]|three\s+horizons|"
+    r"articulation\s+standing|standing\s+profile|"
+    r"fad\s+decay|surge\s+dampening|pipeline\s+velocity|upskilling\s+journey|"
     r"the\s+\w+tion\s+of\s+the\s+\w+tion|"
     r"is\s+designed\s+to|aims\s+to|seeks\s+to"
     r")\b",
