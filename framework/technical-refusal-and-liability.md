@@ -54,6 +54,15 @@ A Notice of Safety Non-Concurrence does not seize executive authority; rather, i
 3. **Statutory Shield:** Once the override is executed, the Master of Record, Journeymen, and Apprentices are fully shielded from professional malpractice, license revocation, and personal liability in the event of a catastrophic failure or regulatory inquiry. Full accountability transfers to the overriding officers.
 4. **Condition-Bounded Invalidation:** An override remains valid strictly while the temporary compensating controls and operational assumptions specified in Form FORM-002 remain active. Any material change in architecture, compensating control failure, or emerging exploit immediately invalidates the override, returning the deployment to an unapproved state.
 
+### 3.1 Mandatory Non-Concurrence for Supervisory Ratio Breaches
+
+Directives mandating operations that breach statutory supervisory ratios or solo-shift bans (`supervisory-ratios.md`) constitute explicit grounds for technical refusal:
+
+1. **Frontline Exception Flag:** If frontline practitioners are assigned to out-of-ratio shifts or solo emergency pager duties, they immediately log an [Operational Exception Flag (Form FORM-003)](../templates/FORM-003_operational-exception-flag.md).
+2. **Master of Record Refusal:** If executive management fails to remediate shift staffing within the mandatory 72-hour cure period, the Master of Record files a formal [Notice of Safety Non-Concurrence (Form FORM-001)](../templates/FORM-001_notice-of-safety-non-concurrence.md).
+3. **Executive Liability Assumption:** Corporate management may only compel out-of-ratio operations by executing [Form FORM-002](../templates/FORM-002_executive-override-risk-acceptance.md). This transfers 100% of statutory malpractice liability, regulatory penalties, and civil damages resulting from missed security alerts or compromised defenses during the out-of-ratio operational shifts directly to the overriding executive officers.
+4. **Apprentice & Journeyman Immunity:** Frontline practitioners forced to operate under an executed Form FORM-002 ratio override remain fully indemnified under the Trade Liability Shield.
+
 ---
 
 ## 4. Tiered Applicability: Critical Infrastructure vs. Commercial Enterprise

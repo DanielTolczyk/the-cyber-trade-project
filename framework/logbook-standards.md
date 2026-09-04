@@ -20,6 +20,7 @@ Every operational entry submitted by an apprentice includes:
 * **Timestamp & Duration:** Verified hours dedicated to the specific operational task.
 * **NICE Framework Work Role Alignment:** Direct mapping to standardized NIST NICE specialty areas (e.g., PR-CDO-001, OM-NET-001, PR-INF-001).
 * **Technical Domain Classification:** Core rotational domain (Perimeter/Cloud, SOC/Triage, IAM, Vulnerability Management, or Defensive GRC).
+* **Specialty Endorsement Tag (Optional - Tier 4 Elective / Post-Journeyman):** Canonical endorsement code (`SE-XXXX`) when runtime is performed under an approved Tier 4 Specialty Elective Petition or post-licensure endorsement track.
 * **Anonymized Artifact Reference:** Internal ticket ID, change request hash, or lab module completion code that verifies completed work without exposing sensitive data.
 * **Supervisor Attestation:** Cryptographic digital signature or physical stamp/signature with the active license number of the supervising Journeyman or Master Practitioner.
 

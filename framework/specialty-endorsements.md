@@ -132,7 +132,30 @@ Before pursuing post-licensure specialty endorsements, all apprentices must comp
 
 ---
 
-## 6. Master Cross-Crediting & Articulation Matrix
+## 6. Tier 4 Elective Specialty Approval, Substitution & Tracking Workflow
+
+To operationalize the 1,000-hour elective focus option during Apprentice Tier 4 (hours 6,001 to 8,000), the trade enforces a standardized approval and telemetry pipeline:
+
+### 6.1 JATC Elective Petition & Vetting Process
+1. **Apprentice Eligibility:** An apprentice in good standing who has accumulated at least 6,000 operational hours across the core domains with zero active disciplinary flags may file a **Tier 4 Specialty Elective Petition** via the Universal Logbook.
+2. **MoR Facility & Mentor Attestation:** The sponsoring employer's designated Master of Record must certify that:
+   * The host facility maintains active, production-grade infrastructure aligned with the requested specialty track (e.g., live PERA Level 2/3 systems for `SE-ICS`, medical device clinical pipelines for `SE-MED`, or model evaluation registries for `SE-AIML`).
+   * The apprentice will be directly supervised by a licensed Journeyman holding the relevant specialty endorsement or possessing verified equivalent competence under the mandatory supervisory ratio table.
+3. **JATC Training Director Concurrence:** The regional Joint Apprenticeship and Training Committee reviews the petition against the apprentice's academic progress in Related Technical Instruction (RTI). Upon JATC concurrence, the petition status updates to `APPROVED` on the Clearinghouse ledger.
+
+### 6.2 Logbook Metadata Tagging & Cryptographic Ledger Tracking
+* **Specialty Trade Tagging:** Once approved, all runtime hours logged within the specialized rotation must include the canonical `specialty_endorsement_code` (e.g., `"SE-ICS"`) within the logbook entry payload alongside the standard generalist domain code.
+* **Domain Substitution Accounting:** The logbook ledger dynamically enforces substitution caps (maximum 500 hours deducted from Domain 2, maximum 250 hours deducted from Domains 1, 3, 4, or 5), ensuring the apprentice preserves the non-negotiable 1,000-hour generalist floor in every core domain.
+* **Actuarial & Clearinghouse Telemetry:** The Universal Clearinghouse tallies verified specialty hours separately from generalist totals.
+
+### 6.3 Post-Licensure Articulation & 50% Credit Acceleration
+* Upon successfully passing the National Board Practical Challenge Examination, the apprentice earns full Licensed Journeyman standing.
+* The 1,000 verified Tier 4 specialty hours immediately apply as an accelerated **50% advance credit** against the 2,000-hour post-licensure requirement for that specific Specialty Endorsement.
+* The newly licensed Journeyman requires only 1,000 additional specialized operational hours (or passing the track-specific Board Practical Challenge Exam) to achieve full Specialty Endorsement conferral.
+
+---
+
+## 7. Master Cross-Crediting & Articulation Matrix
 
 To prevent dilution of tradecraft standards, cross-crediting between specialty endorsements is strictly regulated and asymmetrical. Where overlap exists in underlying engineering foundations, the Board permits credit towards the 2,000-hour post-licensure requirement up to strict maximum caps:
 
@@ -150,6 +173,6 @@ To prevent dilution of tradecraft standards, cross-crediting between specialty e
 
 ---
 
-## 6. Endorsement Stacking & Continuing Maintenance
+## 8. Endorsement Stacking & Continuing Maintenance
 * **Multiple Endorsements:** Practitioners may earn and maintain multiple endorsements across their career by completing required specialized hours or practical exams.
 * **Unified Competency Maintenance:** Endorsements do not require separate recurring commercial renewal fees. All endorsements are maintained concurrently through validated professional practice hours and Board-approved continuing technical development.

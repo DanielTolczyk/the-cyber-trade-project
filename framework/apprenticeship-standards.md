@@ -20,6 +20,18 @@ Hours must be balanced across core operational disciplines:
 
 > **Rotational Flexibility & Specialty Tracks:** Up to 1,000 hours may be allocated as elective focus hours in an approved Specialty Track (such as Industrial Control Systems [ICS/SCADA], Medical Technology [MedTech], Digital Forensics [DFIR], Offensive Security, or AI/ML Assurance) during Apprentice Tier 4. These specialty tracks inherit the environment-specific staffing density rules defined in the trade headcount standards.
 
+### 1.1 Tier 4 Elective Specialty Hour Substitution & Minimum Generalist Floors
+To preserve the 8,000-hour generalist core while granting specialized career articulation, Tier 4 apprentices (6,001 to 8,000 runtime hours) may substitute up to 1,000 elective hours into an accredited Specialty Track subject to strict generalist baseline floors:
+
+* **Strict Minimum Domain Floors:** Under no circumstances may an apprentice graduate with fewer than **1,000 verified operational hours in any individual core domain**.
+* **Hour Substitution Caps by Domain:** The 1,000 elective hours must be carved out from core domains that have exceeded their minimum operational requirements:
+  * **Domain 2 (Detection / SOC):** Maximum 500 hours substituted (leaving a mandatory 1,500-hour floor).
+  * **Domains 1, 3, 4, and 5:** Maximum 250 hours substituted per domain (leaving a mandatory 1,250-hour floor in each).
+* **Bipartite Approval Petition:** Elective substitution requires submitting a formal **Tier 4 Specialty Elective Petition** in the Universal Logbook, requiring dual cryptographic approval by:
+  1. **Sponsoring Master of Record (MoR):** Attesting that the enterprise operational environment provides authentic, hands-on production exposure and qualified Journeyman supervision in the requested specialty branch.
+  2. **Regional JATC Training Director:** Confirming that the apprentice has completed all prerequisite RTI coursework, maintains satisfactory progression across all 5 generalist domains, and holds clean ethical standing.
+* **Clearinghouse Telemetry & Articulation:** Hours logged under an approved petition are tagged with the specific Specialty Endorsement code (`SE-XXXX`). Upon passing the Journeyman practical challenge examination, these 1,000 verified hours transfer directly as a **50% advance credit** toward the 2,000-hour post-licensure requirement for that Specialty Endorsement.
+
 ---
 
 ## 2. Related Technical Instruction (RTI) Requirements
