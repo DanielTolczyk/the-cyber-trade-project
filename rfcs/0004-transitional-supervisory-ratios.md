@@ -5,7 +5,7 @@
 * **Related Specifications:** `framework/supervisory-ratios.md`, `framework/apprenticeship-standards.md`, `governance/transition-plan.md`, `pillars/03_rotational-pipeline.md`, `governance/craft-guild-charter.md`
 * **Created:** 2026-09-05
 * **Updated:** 2026-09-05
-* **Discussion Thread:** [Pending GitHub Discussion Link]
+* **Discussion Thread:** [GitHub Discussion #85](https://github.com/the-cyber-trade-project/framework/discussions/85)
 
 ---
 
